@@ -1,24 +1,36 @@
-const { test, config, startMidi, initLooper } = require('./initialize/initSequencer);
+const { getUserConfig, armMidi, armSequencer } = require('./initialize/initSequencer');
 
 module.exports = {
-    /* If request for midi access fails:
-    ** log error messaage
-    */
+
     handleMidiFaluire(msg) {
-        console.log('Failed to get MIDI access - ' + msg);
-        process.exit(1);
+        console.log('Failed to access MIDI - ' + msg);
+        restart();
     },
     
+    
     handleMidiSucces({ inputs, outputs }) {
-        test.inputs(inputs)
-        .then(() => test.outputs(outputs))
-        .then(() => config.inputs(inputs))
-        .then(() => config.outputs(outputs))
-        .then(startMidi)
-        .then(initLooper)
-        .then(monitorInput)
-        .catch((err) => {
-            return console.error('failed to start sequencer::', err)
-        })
+        
+        const handleConfigFailure = (msg) => {
+            console.log('Failed to start sequencer - ' + msg);
+            restart();
+        },
+
+        const midiIsAvailable = inputs.ports.length > 0  && inputs.ports.length > 0;
+
+        if (midiIsAvailable) {
+            return getUserConfig(inputs, outputs)
+                .then((userConfig) => {
+                    try {
+                        armMidi(userConfig);
+                        return armSequencer(midiRoutes);
+                    } catch (err) {
+                        return handleConfigFailure(err.msg);
+                    }
+                })
+                .catch((err) => {
+                    return handleConfigFailure(err.msg);
+                });
+        }
+        return handleConfigFailure('midi ports not available');
     }
 }
