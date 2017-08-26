@@ -1,7 +1,7 @@
 
 module.exports = {
     getUserConfig: require('./getUserConfig'),
-    armMidi: require('./armMidi'),
+    armMIDI: require('./armMIDI'),
     armSequencer: require('./armSequencer')
 }
 

@@ -1,5 +1,14 @@
-const { requestMidiAccess } = require('web-midi-api');
+const { requestMIDIAccess } = require('web-midi-api');
 
-const { handleMidiSuccess, handleMidiFaluire } = require('./modules/handleMidiRequest');
+const { handleMIDISuccess, handleMIDIFaluire } = require('./modules/handleMIDIRequest');
+const { getUserConfig, armMIDI, armSequencer } = require('./modules/initialize/initSequencer');
 
-requestMidiAccess().then(handleMidiSuccess, handleMidiFaluire)
+requestMIDIAccess()
+    .then((MIDIAccess) => {
+        const MIDI = handleMIDISuccess.getMIDIPorts(MIDIAccess)
+        return getUserConfig(MIDI);
+    })
+    .then((MIDI) => { 
+        return armMIDI(MIDI)
+    })
+    .catch(handleMIDIFaluire);
