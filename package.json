@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "inquirer": "^3.2.1",
+    "midimessage": "^1.0.5",
     "web-midi-api": "^1.4.4"
   },
   "devDependencies": {
