@@ -1,11 +1,29 @@
 const MIDIMessage = require('midimessage');
 
 module.exports = (MIDI) => {
-    console.log(MIDI);
-    MIDI.inputs.map(portAndID => {
+
+    const handleMIDIIn = (routes) => {
+        return (event) => {
+            const parsedMIDIEvent = MIDIMessage(event);
+            try {
+                routes.forEach(route => {
+                    if (route.in.channel === parsedMIDIEvent.channel) {
+                        sendMIDIToSequencer(route, parsedMIDIEvent);
+                    }
+                });
+            } catch (error) {
+                console.error(error);
+            }
+        }
+    }
+
+    return MIDI.inputs.map(portAndID => {
         const port = portAndID[1];
-        console.log('id:', port.id, 'manufacturer:', port.manufacturer, 'name:', port.name, 'version:', port.version);
-        port.onmidimessage = (message) => console.log(MIDIMessage(message));
+        const routes = MIDI.routes.filter(route => {
+            console.log(route.in.name, port.name)
+            return route.in.name === port.name;
+        })
+        console.log(routes);
+        port.onmidimessage = handleMIDIIn(routes);
     })
-    return
 }

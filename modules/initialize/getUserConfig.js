@@ -1,5 +1,13 @@
 const inquirer = require('inquirer');
 
+let channels = [];
+for (let i = 0; i < 16; i++) {
+    channels.push({
+        name: (i + 1).toString(),
+        value: i
+    })
+}
+
 const getUserConfig = ({ inputs, outputs }) => {
     // Get routes from an inquirer prompt
     const getPortsAndChannels = (setOfRoutes) => {
@@ -21,7 +29,7 @@ const getUserConfig = ({ inputs, outputs }) => {
                     name: 'outChannel',
                     message: 'out-Channel',
                     type: 'list',
-                    choices: ['all', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16']
+                    choices: channels
                 },
                 {
                     name: 'input',
@@ -39,7 +47,7 @@ const getUserConfig = ({ inputs, outputs }) => {
                     name: 'inChannel',
                     message: 'In-Channel',
                     type: 'list',
-                    choices: ['all', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16']
+                    choices: channels,
                 },
                 {
                     name: 'another',
@@ -51,12 +59,12 @@ const getUserConfig = ({ inputs, outputs }) => {
                 const route = {
                     in: {
                         id: input.id,
-                        portName: input.name,
+                        name: input.name,
                         channel: inChannel
                     },
                     out: {
                         id: output.id,
-                        portName: output.name,
+                        name: output.name,
                         channel: outChannel
                     }
                 }
@@ -77,7 +85,7 @@ module.exports = (ports) => {
     switch (process.env.UI) {
         case 'test':
             throw new Error('test env not set up');
-            break;    
+            break;
         case 'cli':
             return getUserConfig(ports)
             break;
