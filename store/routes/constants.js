@@ -1,0 +1,8 @@
+const constants = {
+  REPLACE_ALL: 'ROUTES/REPLACE_ALL',
+  REPLACE_ONE: 'ROUTES/REPLACE_ONE',
+  APPEND: 'ROUTES/APPEND',
+  UPDATE_INDEX: 'ROUTES/UPDATE_INDEX',
+}
+
+module.exports = constants

@@ -4,14 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^3.2.1",
+    "inquirer": "^6.0.0",
     "midimessage": "^1.0.5",
-    "web-midi-api": "^1.4.4"
+    "npm": "^6.1.0",
+    "redux": "^4.0.0",
+    "reselect": "^3.0.1",
+    "rxjs": "^6.2.0",
+    "web-midi-api": "^2.0.1",
+    "winston": "^3.0.0-rc6"
   },
   "devDependencies": {
     "chai": "^4.1.1"

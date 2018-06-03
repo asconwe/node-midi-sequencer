@@ -1,4 +1,5 @@
 const inquirer = require('inquirer');
+const store = require('../../store');
 
 let channels = [];
 for (let i = 0; i < 16; i++) {
@@ -8,7 +9,8 @@ for (let i = 0; i < 16; i++) {
     })
 }
 
-const getUserConfig = ({ inputs, outputs }) => {
+const getUserConfig = () => {
+    const { inputs, outputs } = store.getState().ports;
     // Get routes from an inquirer prompt
     const getPortsAndChannels = (setOfRoutes) => {
         return inquirer
@@ -69,16 +71,12 @@ const getUserConfig = ({ inputs, outputs }) => {
                     }
                 }
                 if (another) return getPortsAndChannels(setOfRoutes.concat(route));
-                const MIDI = {
-                    inputs,
-                    outputs,
-                    routes: setOfRoutes.concat(route)
-                }
-                return MIDI;
+                return setOfRoutes.concat(route);
             })
     }
 
-    return getPortsAndChannels([]);
+    const routes = await getPortsAndChannels([]);
+    store.dispatch(replaceAllRoutes(routes));
 }
 
 module.exports = (ports) => {

@@ -1,14 +1,18 @@
-const { requestMIDIAccess } = require('web-midi-api');
+const store = require('./store');
+const initMIDIAccess = require('./processes/init/MIDIAccess');
+const initPorts = require('./processes/init/ports');
+const initUserConfig = require('./processes/init/userConfig');
+const armRoutes = require('./processes/armRoutes');
 
-const { handleMIDISuccess, handleMIDIFaluire } = require('./modules/handleMIDIRequest');
-const { getUserConfig, armMIDI, armSequencer } = require('./modules/initialize/initSequencer');
+const main = async () => {
+    try {
+        await initMIDIAccess();
+        initPorts()
+        await initUserConfig();
+        armRoutes();
+    } catch (error) {
+        console.log(error);
+    }
+}
 
-requestMIDIAccess()
-    .then((MIDIAccess) => {
-        const MIDI = handleMIDISuccess.getMIDIPorts(MIDIAccess)
-        return getUserConfig(MIDI);
-    })
-    .then((MIDI) => { 
-        return armMIDI(MIDI)
-    })
-    .catch(handleMIDIFaluire);
+main();
