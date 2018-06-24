@@ -1,22 +1,23 @@
+const logger = require('../../utils/logger');
 const constants = require('./constants');
 
 const initialState = {
   menuItems: [],
   currentIndex: 0,
-  previousMenu: null
-}
+  previousMenu: null,
+};
 
 module.exports = (state = initialState, action) => {
   switch (action.type) {
     case constants.NEXT_INDEX:
       return {
         ...state,
-        currentIndex: (currentIndex + 1) % (menuItems.length - 1),
+        currentIndex: (state.currentIndex + 1) % (state.menuItems.length),
       };
     case constants.PREVIOUS_INDEX:
       return {
         ...state,
-        currentIndex: ((currentIndex - 1) + (menuItems.length - 1)) % (menuItems.length - 1)
+        currentIndex: ((state.currentIndex - 1) + (state.menuItems.length)) % (state.menuItems.length),
       };
     case constants.SET_MENU_ITEMS:
       return {
@@ -34,4 +35,4 @@ module.exports = (state = initialState, action) => {
     default:
       return state;
   }
-}
+};

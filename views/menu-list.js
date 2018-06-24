@@ -1,3 +1,4 @@
+const logger = require('../utils/logger');
 const menuItem = require('./menu-item');
 
-module.exports = list => list.reduce((str, item) => `${str}${menuItem(item.text, item.isActive)}\n`, '');
+module.exports = ({ menuItems, currentIndex }) => menuItems.reduce((str, item, index) => `${str}${menuItem(item.name, currentIndex === index)}\n`, '');

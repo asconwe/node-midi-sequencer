@@ -18,7 +18,7 @@ const main = async () => {
     render();
     await initMIDIAccess();
     initPorts();
-    // await initUserControl();
+    await initUserControl();
     await initUserConfig();
     armRoutes();
     armTransport();

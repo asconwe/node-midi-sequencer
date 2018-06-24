@@ -26,3 +26,87 @@
   level: 'error',
   timestamp: '2018-06-24T16:59:37.931Z',
   [Symbol(level)]: 'error' }
+{ message: 'Failed to start sequencer - No MIDI inputs available',
+  level: 'error',
+  timestamp: '2018-06-24T18:33:55.638Z',
+  [Symbol(level)]: 'error' }
+{ message: 's is not defined',
+  level: 'error',
+  timestamp: '2018-06-24T18:51:24.696Z',
+  [Symbol(level)]: 'error' }
+{ message: 's is not defined',
+  level: 'error',
+  timestamp: '2018-06-24T18:57:03.442Z',
+  [Symbol(level)]: 'error' }
+{ message: 's is not defined',
+  level: 'error',
+  timestamp: '2018-06-24T18:57:11.201Z',
+  [Symbol(level)]: 'error' }
+{ message: 's is not defined',
+  level: 'error',
+  timestamp: '2018-06-24T18:57:46.147Z',
+  [Symbol(level)]: 'error' }
+{ message: 's is not defined',
+  level: 'error',
+  timestamp: '2018-06-24T18:57:53.344Z',
+  [Symbol(level)]: 'error' }
+{ message: 's is not defined',
+  level: 'error',
+  timestamp: '2018-06-24T18:57:53.966Z',
+  [Symbol(level)]: 'error' }
+{ message: 's is not defined',
+  level: 'error',
+  timestamp: '2018-06-24T18:59:30.710Z',
+  [Symbol(level)]: 'error' }
+{ message: 's is not defined',
+  level: 'error',
+  timestamp: '2018-06-24T18:59:43.570Z',
+  [Symbol(level)]: 'error' }
+{ message: 's is not defined',
+  level: 'error',
+  timestamp: '2018-06-24T18:59:44.023Z',
+  [Symbol(level)]: 'error' }
+{ message: 's is not defined',
+  level: 'error',
+  timestamp: '2018-06-24T19:01:24.744Z',
+  [Symbol(level)]: 'error' }
+{ message: 's is not defined',
+  level: 'error',
+  timestamp: '2018-06-24T19:01:26.398Z',
+  [Symbol(level)]: 'error' }
+{ message: 's is not defined',
+  level: 'error',
+  timestamp: '2018-06-24T19:02:14.630Z',
+  [Symbol(level)]: 'error' }
+{ message: 's is not defined',
+  level: 'error',
+  timestamp: '2018-06-24T19:02:15.816Z',
+  [Symbol(level)]: 'error' }
+{ message: 's is not defined',
+  level: 'error',
+  timestamp: '2018-06-24T19:02:17.548Z',
+  [Symbol(level)]: 'error' }
+{ message: 's is not defined',
+  level: 'error',
+  timestamp: '2018-06-24T19:02:56.035Z',
+  [Symbol(level)]: 'error' }
+{ message: 'Cannot read property \'menuItems\' of undefined',
+  level: 'error',
+  timestamp: '2018-06-24T19:06:51.302Z',
+  [Symbol(level)]: 'error' }
+{ message: 'Cannot read property \'reduce\' of undefined',
+  level: 'error',
+  timestamp: '2018-06-24T19:07:53.135Z',
+  [Symbol(level)]: 'error' }
+{ message: 'Cannot read property \'reduce\' of undefined',
+  level: 'error',
+  timestamp: '2018-06-24T19:07:58.378Z',
+  [Symbol(level)]: 'error' }
+{ message: 'logger is not defined',
+  level: 'error',
+  timestamp: '2018-06-24T19:10:52.001Z',
+  [Symbol(level)]: 'error' }
+{ message: 'chooseInputChannel is not defined',
+  level: 'error',
+  timestamp: '2018-06-24T21:01:37.797Z',
+  [Symbol(level)]: 'error' }

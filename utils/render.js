@@ -23,10 +23,8 @@ module.exports = () => {
   observeStore(
     store,
     selectView,
-    (state) => {
-      logger.info(`state.view:::${state.view}`);
-      if (state && state.view) {
-        const view = state.view;
+    (view) => {
+      if (view) {
         render(view);
       }
     },
