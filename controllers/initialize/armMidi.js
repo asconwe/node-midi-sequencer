@@ -20,10 +20,10 @@ module.exports = (MIDI) => {
     return MIDI.inputs.map(portAndID => {
         const port = portAndID[1];
         const routes = MIDI.routes.filter(route => {
-            console.log(route.in.name, port.name)
+            logger.info(route.in.name, port.name)
             return route.in.name === port.name;
         })
-        console.log(routes);
+        logger.info(routes);
         port.onmidimessage = handleMIDIIn(routes);
     })
 }

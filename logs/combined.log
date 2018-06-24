@@ -1,0 +1,1015 @@
+{"level":"info"}
+{"level":"info"}
+{"level":"info"}
+{"level":"info"}
+{"level":"info"}
+{"level":"info"}
+{"level":"info"}
+{"message":"here","level":"info"}
+{"level":"info"}
+{"message":"here","level":"info"}
+{"level":"info"}
+{"message":"here","level":"info"}
+{"level":"info"}
+{"message":"here","level":"info"}
+{"message":"Failed to start sequencer - No MIDI inputs available","level":"error"}
+{"message":"here","level":"info"}
+{"message":"logger is not defined","level":"error"}
+{"message":"here","level":"info"}
+{"message":"logger is not defined","level":"error"}
+{"message":"here","level":"info"}
+{"message":"logger is not defined","level":"error"}
+{"message":"here","level":"info"}
+{"message":"logger is not defined","level":"error"}
+{"message":"here","level":"info"}
+{"message":"here","level":"info"}
+{"message":"here","level":"info"}
+{"message":"here","level":"info"}
+{"message":"here","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"logger is not defined","level":"error"}
+{"message":"here","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"logger is not defined","level":"error"}
+{"message":"here","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"logger is not defined","level":"error"}
+{"message":"here","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"logger is not defined","level":"error"}
+{"message":"here","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"logger is not defined","level":"error"}
+{"message":"here","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"logger is not defined","level":"error"}
+{"message":"here","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"logger is not defined","level":"error"}
+{"message":"here","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"logger is not defined","level":"error"}
+{"message":"here","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"logger is not defined","level":"error"}
+{"message":"here","level":"info"}
+{"message":"Move the knob you'll use to navigate menus","level":"info"}
+{"message":"knob set","level":"info"}
+{"message":"Tap the button you'll use to navigate menus","level":"info"}
+{"message":"button set","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"logger is not defined","level":"error"}
+{"message":"here","level":"info"}
+{"message":"Move the knob you'll use to navigate menus","level":"info"}
+{"message":"knob set","level":"info"}
+{"message":"Tap the button you'll use to navigate menus","level":"info"}
+{"message":"button set","level":"info"}
+{"message":"user config","level":"info"}
+{"message":"here","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"here","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"here","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"here","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"here","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"here","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"knob set","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"button set","level":"info"}
+{"message":"user config","level":"info"}
+{"message":"here","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"knob set","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"button set","level":"info"}
+{"message":"user config","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"render is not defined","level":"error"}
+{"message":"here","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"knob set","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"button set","level":"info"}
+{"message":"user config","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"here","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"knob set","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"button set","level":"info"}
+{"message":"user config","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"here","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"knob set","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"button set","level":"info"}
+{"message":"user config","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"here","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"here","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"here","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"here","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"here","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"here","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"here","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"knob set","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"button set","level":"info"}
+{"message":"user config","level":"info"}
+{"message":"choosing input","level":"info"}
+{"message":"here","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"here","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"here","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"here","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"here","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"here","level":"info"}
+{"level":"info"}
+{"message":"here","level":"info"}
+{"level":"info"}
+{"message":"here","level":"info"}
+{"level":"info"}
+{"message":"here","level":"info"}
+{"level":"info"}
+{"message":"here","level":"info"}
+{"message":"here","level":"info"}
+{"message":"knob set","level":"info"}
+{"message":"here","level":"info"}
+{"message":"here","level":"info"}
+{"message":"here","level":"info"}
+{"message":"here","level":"info"}
+{"message":"here","level":"info"}
+{"message":"knob set","level":"info"}
+{"message":"here","level":"info"}
+{"message":"here","level":"info"}
+{"message":"here","level":"info"}
+{"message":"here","level":"info"}
+{"message":"here","level":"info"}
+{"message":"here","level":"info"}
+{"message":"here","level":"info"}
+{"message":"here","level":"info"}
+{"message":"{\"routes\":[],\"ports\":{\"inputs\":[],\"outputs\":[]},\"MIDIAccess\":{},\"listeners\":{},\"transport\":{\"currentIndex\":0,\"playing\":false,\"tempo\":120},\"userControl\":{\"knob\":null,\"knobIsEndless\":true,\"button\":null,\"buttonIsMomentary\":false},\"view\":{\"view\":\"\"}}","level":"info"}
+{"message":"\"\"","level":"info"}
+{"message":"{\"routes\":[],\"ports\":{\"inputs\":[],\"outputs\":[]},\"MIDIAccess\":{},\"listeners\":{},\"transport\":{\"currentIndex\":0,\"playing\":false,\"tempo\":120},\"userControl\":{\"knob\":null,\"knobIsEndless\":true,\"button\":null,\"buttonIsMomentary\":false},\"view\":{\"view\":\"\\n!!!!!!!!!!!!!!!!!!!!!!!!!!\\n\\u001b[34m-----\\u001b[39m\\u001b[31m ERROR --------------\\u001b[39m\\n!!!!!!!!!!!!!!!!!!!!!!!!!!\\nTypeError: Cannot read property 'view' of undefined\\n    at selectView (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\store\\\\view\\\\selectors.js:5:21)\\n    at observeStore (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\utils\\\\render.js:24:12)\\n    at handleChange (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\store\\\\observeStore.js:14:7)\\n    at observeStore (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\store\\\\observeStore.js:19:3)\\n    at module.exports (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\utils\\\\render.js:23:23)\\n    at main (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\index.js:18:5)\\n    at Object.<anonymous> (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\index.js:31:1)\\n    at Module._compile (module.js:652:30)\\n    at Object.Module._extensions..js (module.js:663:10)\\n    at Module.load (module.js:565:32)\\n--------------------------\\nMESSAGE: \\u001b[31mCannot read property 'view' of undefined\\u001b[39m\\n--------------------------\\n\"}}","level":"info"}
+{"message":"\"\\n!!!!!!!!!!!!!!!!!!!!!!!!!!\\n\\u001b[34m-----\\u001b[39m\\u001b[31m ERROR --------------\\u001b[39m\\n!!!!!!!!!!!!!!!!!!!!!!!!!!\\nTypeError: Cannot read property 'view' of undefined\\n    at selectView (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\store\\\\view\\\\selectors.js:5:21)\\n    at observeStore (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\utils\\\\render.js:24:12)\\n    at handleChange (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\store\\\\observeStore.js:14:7)\\n    at observeStore (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\store\\\\observeStore.js:19:3)\\n    at module.exports (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\utils\\\\render.js:23:23)\\n    at main (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\index.js:18:5)\\n    at Object.<anonymous> (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\index.js:31:1)\\n    at Module._compile (module.js:652:30)\\n    at Object.Module._extensions..js (module.js:663:10)\\n    at Module.load (module.js:565:32)\\n--------------------------\\nMESSAGE: \\u001b[31mCannot read property 'view' of undefined\\u001b[39m\\n--------------------------\\n\"","level":"info"}
+{"message":"here","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"level":"info"}
+{"message":"{\"view\":\"\\n!!!!!!!!!!!!!!!!!!!!!!!!!!\\n\\u001b[34m-----\\u001b[39m\\u001b[31m ERROR --------------\\u001b[39m\\n!!!!!!!!!!!!!!!!!!!!!!!!!!\\nTypeError: Cannot read property 'view' of undefined\\n    at selectView (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\store\\\\view\\\\selectors.js:5:21)\\n    at observeStore (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\utils\\\\render.js:24:12)\\n    at handleChange (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\store\\\\observeStore.js:14:7)\\n    at observeStore (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\store\\\\observeStore.js:19:3)\\n    at module.exports (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\utils\\\\render.js:23:23)\\n    at main (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\index.js:18:5)\\n    at Object.<anonymous> (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\index.js:31:1)\\n    at Module._compile (module.js:652:30)\\n    at Object.Module._extensions..js (module.js:663:10)\\n    at Module.load (module.js:565:32)\\n--------------------------\\nMESSAGE: \\u001b[31mCannot read property 'view' of undefined\\u001b[39m\\n--------------------------\\n\"}","level":"info"}
+{"level":"info"}
+{"message":"here","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"message":"{\"view\":\"\\n\\nTurn the knob you'll use to make selections\\n\\n\"}","level":"info"}
+{"message":"here","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"level":"info"}
+{"message":"{\"view\":\"\\n!!!!!!!!!!!!!!!!!!!!!!!!!!\\n\\u001b[34m-----\\u001b[39m\\u001b[31m ERROR --------------\\u001b[39m\\n!!!!!!!!!!!!!!!!!!!!!!!!!!\\nTypeError: Cannot read property 'view' of undefined\\n    at selectView (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\store\\\\view\\\\selectors.js:5:21)\\n    at observeStore (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\utils\\\\render.js:24:12)\\n    at handleChange (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\store\\\\observeStore.js:14:7)\\n    at observeStore (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\store\\\\observeStore.js:19:3)\\n    at module.exports (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\utils\\\\render.js:23:23)\\n    at main (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\index.js:18:5)\\n    at Object.<anonymous> (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\index.js:31:1)\\n    at Module._compile (module.js:652:30)\\n    at Object.Module._extensions..js (module.js:663:10)\\n    at Module.load (module.js:565:32)\\n--------------------------\\nMESSAGE: \\u001b[31mCannot read property 'view' of undefined\\u001b[39m\\n--------------------------\\n\"}","level":"info"}
+{"level":"info"}
+{"message":"here","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"level":"info"}
+{"message":"{\"view\":\"\\n!!!!!!!!!!!!!!!!!!!!!!!!!!\\n\\u001b[34m-----\\u001b[39m\\u001b[31m ERROR --------------\\u001b[39m\\n!!!!!!!!!!!!!!!!!!!!!!!!!!\\nTypeError: Cannot read property 'view' of undefined\\n    at selectView (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\store\\\\view\\\\selectors.js:5:21)\\n    at observeStore (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\utils\\\\render.js:24:12)\\n    at handleChange (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\store\\\\observeStore.js:14:7)\\n    at observeStore (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\store\\\\observeStore.js:19:3)\\n    at module.exports (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\utils\\\\render.js:23:23)\\n    at main (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\index.js:18:5)\\n    at Object.<anonymous> (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\index.js:31:1)\\n    at Module._compile (module.js:652:30)\\n    at Object.Module._extensions..js (module.js:663:10)\\n    at Module.load (module.js:565:32)\\n--------------------------\\nMESSAGE: \\u001b[31mCannot read property 'view' of undefined\\u001b[39m\\n--------------------------\\n\"}","level":"info"}
+{"level":"info"}
+{"message":"here","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"level":"info"}
+{"message":"{\"view\":\"\\n!!!!!!!!!!!!!!!!!!!!!!!!!!\\n\\u001b[34m-----\\u001b[39m\\u001b[31m ERROR --------------\\u001b[39m\\n!!!!!!!!!!!!!!!!!!!!!!!!!!\\nTypeError: Cannot read property 'view' of undefined\\n    at selectView (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\store\\\\view\\\\selectors.js:5:21)\\n    at observeStore (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\utils\\\\render.js:27:14)\\n    at handleChange (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\store\\\\observeStore.js:14:7)\\n    at observeStore (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\store\\\\observeStore.js:19:3)\\n    at module.exports (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\utils\\\\render.js:23:23)\\n    at main (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\index.js:18:5)\\n    at Object.<anonymous> (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\index.js:31:1)\\n    at Module._compile (module.js:652:30)\\n    at Object.Module._extensions..js (module.js:663:10)\\n    at Module.load (module.js:565:32)\\n--------------------------\\nMESSAGE: \\u001b[31mCannot read property 'view' of undefined\\u001b[39m\\n--------------------------\\n\"}","level":"info"}
+{"level":"info"}
+{"message":"here","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"level":"info"}
+{"message":"{\"view\":\"\\n!!!!!!!!!!!!!!!!!!!!!!!!!!\\n\\u001b[34m-----\\u001b[39m\\u001b[31m ERROR --------------\\u001b[39m\\n!!!!!!!!!!!!!!!!!!!!!!!!!!\\nTypeError: Cannot read property 'view' of undefined\\n    at selectView (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\store\\\\view\\\\selectors.js:5:21)\\n    at observeStore (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\utils\\\\render.js:27:14)\\n    at handleChange (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\store\\\\observeStore.js:14:7)\\n    at observeStore (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\store\\\\observeStore.js:19:3)\\n    at module.exports (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\utils\\\\render.js:23:23)\\n    at main (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\index.js:18:5)\\n    at Object.<anonymous> (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\index.js:31:1)\\n    at Module._compile (module.js:652:30)\\n    at Object.Module._extensions..js (module.js:663:10)\\n    at Module.load (module.js:565:32)\\n--------------------------\\nMESSAGE: \\u001b[31mCannot read property 'view' of undefined\\u001b[39m\\n--------------------------\\n\"}","level":"info"}
+{"level":"info"}
+{"message":"here","level":"info"}
+{"message":"false","level":"info"}
+{"message":"false","level":"info"}
+{"message":"false","level":"info"}
+{"message":"false","level":"info"}
+{"message":"here","level":"info"}
+{"message":"here","level":"info"}
+{"message":"here","level":"info"}
+{"message":"false","level":"info"}
+{"message":"false","level":"info"}
+{"message":"false","level":"info"}
+{"message":"false","level":"info"}
+{"message":"here","level":"info"}
+{"message":"false","level":"info"}
+{"message":"false","level":"info"}
+{"message":"false","level":"info"}
+{"message":"false","level":"info"}
+{"message":"here","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"level":"info"}
+{"message":"{\"view\":\"\\n!!!!!!!!!!!!!!!!!!!!!!!!!!\\n\\u001b[34m-----\\u001b[39m\\u001b[31m ERROR --------------\\u001b[39m\\n!!!!!!!!!!!!!!!!!!!!!!!!!!\\nTypeError: Cannot read property 'view' of undefined\\n    at selectView (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\store\\\\view\\\\selectors.js:5:21)\\n    at observeStore (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\utils\\\\render.js:27:14)\\n    at handleChange (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\store\\\\observeStore.js:14:7)\\n    at observeStore (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\store\\\\observeStore.js:19:3)\\n    at module.exports (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\utils\\\\render.js:23:23)\\n    at main (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\index.js:18:5)\\n    at Object.<anonymous> (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\index.js:31:1)\\n    at Module._compile (module.js:652:30)\\n    at Object.Module._extensions..js (module.js:663:10)\\n    at Module.load (module.js:565:32)\\n--------------------------\\nMESSAGE: \\u001b[31mCannot read property 'view' of undefined\\u001b[39m\\n--------------------------\\n\"}","level":"info"}
+{"level":"info"}
+{"message":"here","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"message":"\"\"","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"message":"{\"view\":\"\\n\\nTurn the knob you'll use to make selections\\n\\n\"}","level":"info"}
+{"message":"\"\\n\\nTurn the knob you'll use to make selections\\n\\n\"","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"here","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"message":"\"\"","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"message":"{\"view\":\"\\n\\nTurn the knob you'll use to make selections\\n\\n\"}","level":"info"}
+{"message":"\"\\n\\nTurn the knob you'll use to make selections\\n\\n\"","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"here","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"message":"\"\"","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"message":"{\"view\":\"\\n\\nTurn the knob you'll use to make selections\\n\\n\"}","level":"info"}
+{"message":"\"\\n\\nTurn the knob you'll use to make selections\\n\\n\"","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"here","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"level":"info"}
+{"message":"{\"view\":\"\\n!!!!!!!!!!!!!!!!!!!!!!!!!!\\n\\u001b[34m-----\\u001b[39m\\u001b[31m ERROR --------------\\u001b[39m\\n!!!!!!!!!!!!!!!!!!!!!!!!!!\\nTypeError: Cannot read property 'view' of undefined\\n    at selectView (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\store\\\\view\\\\selectors.js:5:21)\\n    at observeStore (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\utils\\\\render.js:27:14)\\n    at handleChange (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\store\\\\observeStore.js:14:7)\\n    at observeStore (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\store\\\\observeStore.js:19:3)\\n    at module.exports (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\utils\\\\render.js:23:23)\\n    at main (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\index.js:18:5)\\n    at Object.<anonymous> (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\index.js:31:1)\\n    at Module._compile (module.js:652:30)\\n    at Object.Module._extensions..js (module.js:663:10)\\n    at Module.load (module.js:565:32)\\n--------------------------\\nMESSAGE: \\u001b[31mCannot read property 'view' of undefined\\u001b[39m\\n--------------------------\\n\"}","level":"info"}
+{"level":"info"}
+{"message":"here","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"message":"\"\"","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"message":"{\"view\":\"\\n\\nTurn the knob you'll use to make selections\\n\\n\"}","level":"info"}
+{"message":"\"\\n\\nTurn the knob you'll use to make selections\\n\\n\"","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"knob set","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"message":"\"\"","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"{\"view\":\"\\n\\nTap the button you'll use to make selections\\n\\n\"}","level":"info"}
+{"message":"\"\\n\\nTap the button you'll use to make selections\\n\\n\"","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"button set","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"message":"\"\"","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"message":"user config","level":"info"}
+{"message":"choosing input","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"message":"here","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"level":"info"}
+{"message":"{\"view\":\"\\n!!!!!!!!!!!!!!!!!!!!!!!!!!\\n\\u001b[34m-----\\u001b[39m\\u001b[31m ERROR --------------\\u001b[39m\\n!!!!!!!!!!!!!!!!!!!!!!!!!!\\nTypeError: Cannot read property 'view' of undefined\\n    at selectView (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\store\\\\view\\\\selectors.js:5:21)\\n    at observeStore (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\utils\\\\render.js:27:14)\\n    at handleChange (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\store\\\\observeStore.js:14:7)\\n    at observeStore (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\store\\\\observeStore.js:19:3)\\n    at module.exports (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\utils\\\\render.js:23:23)\\n    at main (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\index.js:18:5)\\n    at Object.<anonymous> (C:\\\\Users\\\\augus\\\\workspace\\\\node-midi-sequencer\\\\index.js:31:1)\\n    at Module._compile (module.js:652:30)\\n    at Object.Module._extensions..js (module.js:663:10)\\n    at Module.load (module.js:565:32)\\n--------------------------\\nMESSAGE: \\u001b[31mCannot read property 'view' of undefined\\u001b[39m\\n--------------------------\\n\"}","level":"info"}
+{"level":"info"}
+{"message":"here","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"message":"\"\"","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"message":"{\"view\":\"\\n\\nTurn the knob you'll use to make selections\\n\\n\"}","level":"info"}
+{"message":"\"\\n\\nTurn the knob you'll use to make selections\\n\\n\"","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"here","level":"info"}
+{"level":"info","message":"{\"view\":\"\"}"}
+{"level":"info","message":"\"\""}
+{"message":"rendering view","level":"info"}
+{"level":"info","message":"{\"view\":\"\"}"}
+{"level":"info","message":"{\"view\":\"\"}"}
+{"level":"info","message":"{\"view\":\"\\n\\nTurn the knob you'll use to make selections\\n\\n\"}"}
+{"level":"info","message":"\"\\n\\nTurn the knob you'll use to make selections\\n\\n\""}
+{"message":"rendering view","level":"info"}
+{"message":"here","level":"info"}
+{"message":"{\n\t\"view\": \"\"\n}","level":"info"}
+{"message":"\"\"","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"{\n\t\"view\": \"\"\n}","level":"info"}
+{"message":"{\n\t\"view\": \"\"\n}","level":"info"}
+{"message":"{\n\t\"view\": \"\\n\\nTurn the knob you'll use to make selections\\n\\n\"\n}","level":"info"}
+{"message":"\"\\n\\nTurn the knob you'll use to make selections\\n\\n\"","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"knob set","level":"info"}
+{"message":"{\n\t\"view\": \"\"\n}","level":"info"}
+{"message":"\"\"","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"{\n\t\"view\": \"\\n\\nTap the button you'll use to make selections\\n\\n\"\n}","level":"info"}
+{"message":"\"\\n\\nTap the button you'll use to make selections\\n\\n\"","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"here","level":"info"}
+{"message":"{\n\n\"view\": \"\"\n}","level":"info"}
+{"message":"\"\"","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"{\n\n\"view\": \"\"\n}","level":"info"}
+{"message":"{\n\n\"view\": \"\"\n}","level":"info"}
+{"message":"{\n\n\"view\": \"\\n\\nTurn the knob you'll use to make selections\\n\\n\"\n}","level":"info"}
+{"message":"\"\\n\\nTurn the knob you'll use to make selections\\n\\n\"","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"knob set","level":"info"}
+{"message":"{\n\n\"view\": \"\"\n}","level":"info"}
+{"message":"\"\"","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"{\n\n\"view\": \"\\n\\nTap the button you'll use to make selections\\n\\n\"\n}","level":"info"}
+{"message":"\"\\n\\nTap the button you'll use to make selections\\n\\n\"","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"here","level":"info"}
+{"message":"{\n  \"view\": \"\"\n}","level":"info"}
+{"message":"\"\"","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"{\n  \"view\": \"\"\n}","level":"info"}
+{"message":"{\n  \"view\": \"\"\n}","level":"info"}
+{"message":"{\n  \"view\": \"\\n\\nTurn the knob you'll use to make selections\\n\\n\"\n}","level":"info"}
+{"message":"\"\\n\\nTurn the knob you'll use to make selections\\n\\n\"","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"knob set","level":"info"}
+{"message":"{\n  \"view\": \"\"\n}","level":"info"}
+{"message":"\"\"","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"{\n  \"view\": \"\\n\\nTap the button you'll use to make selections\\n\\n\"\n}","level":"info"}
+{"message":"\"\\n\\nTap the button you'll use to make selections\\n\\n\"","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"here","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"message":"\"\"","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"message":"{\"view\":\"\\n\\nTurn the knob you'll use to make selections\\n\\n\"}","level":"info"}
+{"message":"\"\\n\\nTurn the knob you'll use to make selections\\n\\n\"","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"knob set","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"message":"\"\"","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"{\"view\":\"\\n\\nTap the button you'll use to make selections\\n\\n\"}","level":"info"}
+{"message":"\"\\n\\nTap the button you'll use to make selections\\n\\n\"","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"button set","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"message":"\"\"","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"message":"user config","level":"info"}
+{"message":"choosing input","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"message":"here","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"message":"\"\"","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"message":"{\"view\":\"\\n\\nTurn the knob you'll use to make selections\\n\\n\"}","level":"info"}
+{"message":"\"\\n\\nTurn the knob you'll use to make selections\\n\\n\"","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"knob set","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"message":"\"\"","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"{\"view\":\"\\n\\nTap the button you'll use to make selections\\n\\n\"}","level":"info"}
+{"message":"\"\\n\\nTap the button you'll use to make selections\\n\\n\"","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"button set","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"message":"\"\"","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"message":"user config","level":"info"}
+{"message":"choosing input","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"message":"here","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"message":"\"\"","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"message":"{\"view\":\"\\n\\nTurn the knob you'll use to make selections\\n\\n\"}","level":"info"}
+{"message":"\"\\n\\nTurn the knob you'll use to make selections\\n\\n\"","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"here","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"message":"\"\"","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"message":"{\"view\":\"\\n\\nTurn the knob you'll use to make selections\\n\\n\"}","level":"info"}
+{"message":"\"\\n\\nTurn the knob you'll use to make selections\\n\\n\"","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"here","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"message":"\"\"","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"message":"{\"view\":\"\\n\\nTurn the knob you'll use to make selections\\n\\n\"}","level":"info"}
+{"message":"\"\\n\\nTurn the knob you'll use to make selections\\n\\n\"","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"here","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"message":"\"\"","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"message":"{\"view\":\"\\n\\nTurn the knob you'll use to make selections\\n\\n\"}","level":"info"}
+{"message":"\"\\n\\nTurn the knob you'll use to make selections\\n\\n\"","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"here","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"message":"\"\"","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"message":"{\"view\":\"\\n\\nTurn the knob you'll use to make selections\\n\\n\"}","level":"info"}
+{"message":"\"\\n\\nTurn the knob you'll use to make selections\\n\\n\"","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"knob set","level":"info"}
+{"message":"{\"view\":\"\"}","level":"info"}
+{"message":"\"\"","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"{\"view\":\"\\n\\nTap the button you'll use to make selections\\n\\n\"}","level":"info"}
+{"message":"\"\\n\\nTap the button you'll use to make selections\\n\\n\"","level":"info"}
+{"message":"rendering view","level":"info"}
+{"message":"here","level":"info","timestamp":"2018-06-23T18:01:02.006Z"}
+{"message":"{\"view\":\"\"}","level":"info","timestamp":"2018-06-23T18:01:02.008Z"}
+{"message":"\"\"","level":"info","timestamp":"2018-06-23T18:01:02.008Z"}
+{"message":"rendering view","level":"info","timestamp":"2018-06-23T18:01:02.008Z"}
+{"message":"{\"view\":\"\"}","level":"info","timestamp":"2018-06-23T18:01:02.152Z"}
+{"message":"{\"view\":\"\"}","level":"info","timestamp":"2018-06-23T18:01:02.152Z"}
+{"message":"{\"view\":\"\\n\\nTurn the knob you'll use to make selections\\n\\n\"}","level":"info","timestamp":"2018-06-23T18:01:02.153Z"}
+{"message":"\"\\n\\nTurn the knob you'll use to make selections\\n\\n\"","level":"info","timestamp":"2018-06-23T18:01:02.153Z"}
+{"message":"rendering view","level":"info","timestamp":"2018-06-23T18:01:02.153Z"}
+{"message":"knob set","level":"info","timestamp":"2018-06-23T18:59:52.075Z"}
+{"message":"{\"view\":\"\"}","level":"info","timestamp":"2018-06-23T18:59:52.076Z"}
+{"message":"\"\"","level":"info","timestamp":"2018-06-23T18:59:52.076Z"}
+{"message":"rendering view","level":"info","timestamp":"2018-06-23T18:59:52.078Z"}
+{"message":"{\"view\":\"\\n\\nTap the button you'll use to make selections\\n\\n\"}","level":"info","timestamp":"2018-06-23T18:59:52.082Z"}
+{"message":"\"\\n\\nTap the button you'll use to make selections\\n\\n\"","level":"info","timestamp":"2018-06-23T18:59:52.082Z"}
+{"message":"rendering view","level":"info","timestamp":"2018-06-23T18:59:52.082Z"}
+{"message":"button set","level":"info","timestamp":"2018-06-23T18:59:53.174Z"}
+{"message":"{\"view\":\"\"}","level":"info","timestamp":"2018-06-23T18:59:53.174Z"}
+{"message":"\"\"","level":"info","timestamp":"2018-06-23T18:59:53.174Z"}
+{"message":"rendering view","level":"info","timestamp":"2018-06-23T18:59:53.175Z"}
+{"message":"{\"view\":\"\"}","level":"info","timestamp":"2018-06-23T18:59:53.179Z"}
+{"message":"{\"view\":\"\"}","level":"info","timestamp":"2018-06-23T18:59:53.180Z"}
+{"message":"user config","level":"info","timestamp":"2018-06-23T18:59:53.182Z"}
+{"message":"choosing input","level":"info","timestamp":"2018-06-23T18:59:53.183Z"}
+{"message":"{\"view\":\"\"}","level":"info","timestamp":"2018-06-23T18:59:53.185Z"}
+{"message":"here","level":"info","timestamp":"2018-06-23T19:01:48.557Z"}
+{"message":"{\"view\":\"\"}","level":"info","timestamp":"2018-06-23T19:01:48.560Z"}
+{"message":"state.view:::","level":"info","timestamp":"2018-06-23T19:01:48.560Z"}
+{"message":"\"\"","level":"info","timestamp":"2018-06-23T19:01:48.560Z"}
+{"message":"rendering view","level":"info","timestamp":"2018-06-23T19:01:48.560Z"}
+{"message":"{\"view\":\"\"}","level":"info","timestamp":"2018-06-23T19:01:48.716Z"}
+{"message":"{\"view\":\"\"}","level":"info","timestamp":"2018-06-23T19:01:48.716Z"}
+{"message":"{\"view\":\"\\n\\nTurn the knob you'll use to make selections\\n\\n\"}","level":"info","timestamp":"2018-06-23T19:01:48.717Z"}
+{"message":"state.view:::\n\nTurn the knob you'll use to make selections\n\n","level":"info","timestamp":"2018-06-23T19:01:48.717Z"}
+{"message":"\"\\n\\nTurn the knob you'll use to make selections\\n\\n\"","level":"info","timestamp":"2018-06-23T19:01:48.717Z"}
+{"message":"rendering view","level":"info","timestamp":"2018-06-23T19:01:48.717Z"}
+{"message":"here","level":"info","timestamp":"2018-06-23T19:02:01.765Z"}
+{"message":"state.view:::","level":"info","timestamp":"2018-06-23T19:02:01.767Z"}
+{"message":"rendering view","level":"info","timestamp":"2018-06-23T19:02:01.768Z"}
+{"message":"state.view:::\n\nTurn the knob you'll use to make selections\n\n","level":"info","timestamp":"2018-06-23T19:02:01.925Z"}
+{"message":"rendering view","level":"info","timestamp":"2018-06-23T19:02:01.925Z"}
+{"message":"here","level":"info","timestamp":"2018-06-23T19:02:08.400Z"}
+{"message":"state.view:::","level":"info","timestamp":"2018-06-23T19:02:08.402Z"}
+{"message":"rendering view","level":"info","timestamp":"2018-06-23T19:02:08.402Z"}
+{"message":"state.view:::\n\nTurn the knob you'll use to make selections\n\n","level":"info","timestamp":"2018-06-23T19:02:08.552Z"}
+{"message":"rendering view","level":"info","timestamp":"2018-06-23T19:02:08.552Z"}
+{"message":"knob set","level":"info","timestamp":"2018-06-23T19:02:18.170Z"}
+{"message":"state.view:::","level":"info","timestamp":"2018-06-23T19:02:18.170Z"}
+{"message":"rendering view","level":"info","timestamp":"2018-06-23T19:02:18.171Z"}
+{"message":"state.view:::\n\nTap the button you'll use to make selections\n\n","level":"info","timestamp":"2018-06-23T19:02:18.174Z"}
+{"message":"rendering view","level":"info","timestamp":"2018-06-23T19:02:18.174Z"}
+{"message":"button set","level":"info","timestamp":"2018-06-23T19:02:19.057Z"}
+{"message":"state.view:::","level":"info","timestamp":"2018-06-23T19:02:19.057Z"}
+{"message":"rendering view","level":"info","timestamp":"2018-06-23T19:02:19.058Z"}
+{"message":"user config","level":"info","timestamp":"2018-06-23T19:02:19.063Z"}
+{"message":"choosing input","level":"info","timestamp":"2018-06-23T19:02:19.064Z"}
+{"message":"here","level":"info","timestamp":"2018-06-23T19:02:33.285Z"}
+{"message":"state.view:::undefined","level":"info","timestamp":"2018-06-23T19:02:33.286Z"}
+{"message":"state.view:::undefined","level":"info","timestamp":"2018-06-23T19:02:33.287Z"}
+{"message":"here","level":"info","timestamp":"2018-06-23T19:02:45.463Z"}
+{"message":"state.view:::","level":"info","timestamp":"2018-06-23T19:02:45.464Z"}
+{"message":"rendering view","level":"info","timestamp":"2018-06-23T19:02:45.464Z"}
+{"message":"state.view:::\n\nTurn the knob you'll use to make selections\n\n","level":"info","timestamp":"2018-06-23T19:02:45.611Z"}
+{"message":"rendering view","level":"info","timestamp":"2018-06-23T19:02:45.611Z"}
+{ message: 'here',
+  level: 'info',
+  timestamp: '2018-06-23T19:03:48.151Z',
+  [Symbol(level)]: 'info' }
+{ message: 'state.view:::',
+  level: 'info',
+  timestamp: '2018-06-23T19:03:48.154Z',
+  [Symbol(level)]: 'info' }
+{ message: 'rendering view',
+  level: 'info',
+  timestamp: '2018-06-23T19:03:48.155Z',
+  [Symbol(level)]: 'info' }
+{ message: 'state.view:::\n\nTurn the knob you\'ll use to make selections\n\n',
+  level: 'info',
+  timestamp: '2018-06-23T19:03:48.402Z',
+  [Symbol(level)]: 'info' }
+{ message: 'rendering view',
+  level: 'info',
+  timestamp: '2018-06-23T19:03:48.402Z',
+  [Symbol(level)]: 'info' }
+{ message: 'knob set',
+  level: 'info',
+  timestamp: '2018-06-23T19:04:23.120Z',
+  [Symbol(level)]: 'info' }
+{ message: 'state.view:::',
+  level: 'info',
+  timestamp: '2018-06-23T19:04:23.120Z',
+  [Symbol(level)]: 'info' }
+{ message: 'rendering view',
+  level: 'info',
+  timestamp: '2018-06-23T19:04:23.122Z',
+  [Symbol(level)]: 'info' }
+{ message: 'state.view:::\n\nTap the button you\'ll use to make selections\n\n',
+  level: 'info',
+  timestamp: '2018-06-23T19:04:23.125Z',
+  [Symbol(level)]: 'info' }
+{ message: 'rendering view',
+  level: 'info',
+  timestamp: '2018-06-23T19:04:23.125Z',
+  [Symbol(level)]: 'info' }
+{ message: 'button set',
+  level: 'info',
+  timestamp: '2018-06-23T19:04:23.841Z',
+  [Symbol(level)]: 'info' }
+{ message: 'state.view:::',
+  level: 'info',
+  timestamp: '2018-06-23T19:04:23.842Z',
+  [Symbol(level)]: 'info' }
+{ message: 'rendering view',
+  level: 'info',
+  timestamp: '2018-06-23T19:04:23.843Z',
+  [Symbol(level)]: 'info' }
+{ message: 'user config',
+  level: 'info',
+  timestamp: '2018-06-23T19:04:23.848Z',
+  [Symbol(level)]: 'info' }
+{ message: 'choosing input',
+  level: 'info',
+  timestamp: '2018-06-23T19:04:23.848Z',
+  [Symbol(level)]: 'info' }
+{ message: 'here',
+  level: 'info',
+  timestamp: '2018-06-23T19:05:06.464Z',
+  [Symbol(level)]: 'info' }
+{ message: 'state.view:::',
+  level: 'info',
+  timestamp: '2018-06-23T19:05:06.467Z',
+  [Symbol(level)]: 'info' }
+{ message: 'rendering view',
+  level: 'info',
+  timestamp: '2018-06-23T19:05:06.468Z',
+  [Symbol(level)]: 'info' }
+{ message: 'state.view:::\n\nTurn the knob you\'ll use to make selections\n\n',
+  level: 'info',
+  timestamp: '2018-06-23T19:05:06.600Z',
+  [Symbol(level)]: 'info' }
+{ message: 'rendering view',
+  level: 'info',
+  timestamp: '2018-06-23T19:05:06.600Z',
+  [Symbol(level)]: 'info' }
+{ message: 'here',
+  level: 'info',
+  timestamp: '2018-06-23T19:06:12.245Z',
+  [Symbol(level)]: 'info' }
+{ message: 'state.view:::',
+  level: 'info',
+  timestamp: '2018-06-23T19:06:12.250Z',
+  [Symbol(level)]: 'info' }
+{ message: 'state.view:::\n\nTurn the knob you\'ll use to make selections\n\n',
+  level: 'info',
+  timestamp: '2018-06-23T19:06:12.391Z',
+  [Symbol(level)]: 'info' }
+{ ReferenceError: view is not defined
+    at observeStore (C:\Users\augus\workspace\node-midi-sequencer\utils\render.js:29:16)
+    at handleChange (C:\Users\augus\workspace\node-midi-sequencer\store\observeStore.js:14:7)
+    at Object.dispatch (C:\Users\augus\workspace\node-midi-sequencer\node_modules\redux\lib\redux.js:227:7)
+    at setKnob (C:\Users\augus\workspace\node-midi-sequencer\processes\init\userControl.js:19:11)
+    at observeStore (C:\Users\augus\workspace\node-midi-sequencer\processes\init\userControl.js:69:18)
+    at handleChange (C:\Users\augus\workspace\node-midi-sequencer\store\observeStore.js:14:7)
+    at observeStore (C:\Users\augus\workspace\node-midi-sequencer\store\observeStore.js:19:3)
+    at Promise (C:\Users\augus\workspace\node-midi-sequencer\processes\init\userControl.js:61:23)
+    at new Promise (<anonymous>)
+    at module.exports (C:\Users\augus\workspace\node-midi-sequencer\processes\init\userControl.js:17:24)
+  level: 'info',
+  timestamp: '2018-06-23T19:06:12.392Z',
+  [Symbol(level)]: 'info' }
+{ message: 'here',
+  level: 'info',
+  timestamp: '2018-06-23T19:06:13.877Z',
+  [Symbol(level)]: 'info' }
+{ message: 'state.view:::',
+  level: 'info',
+  timestamp: '2018-06-23T19:06:13.880Z',
+  [Symbol(level)]: 'info' }
+{ message: 'state.view:::\n\nTurn the knob you\'ll use to make selections\n\n',
+  level: 'info',
+  timestamp: '2018-06-23T19:06:14.027Z',
+  [Symbol(level)]: 'info' }
+{ ReferenceError: view is not defined
+    at observeStore (C:\Users\augus\workspace\node-midi-sequencer\utils\render.js:29:16)
+    at handleChange (C:\Users\augus\workspace\node-midi-sequencer\store\observeStore.js:14:7)
+    at Object.dispatch (C:\Users\augus\workspace\node-midi-sequencer\node_modules\redux\lib\redux.js:227:7)
+    at setKnob (C:\Users\augus\workspace\node-midi-sequencer\processes\init\userControl.js:19:11)
+    at observeStore (C:\Users\augus\workspace\node-midi-sequencer\processes\init\userControl.js:69:18)
+    at handleChange (C:\Users\augus\workspace\node-midi-sequencer\store\observeStore.js:14:7)
+    at observeStore (C:\Users\augus\workspace\node-midi-sequencer\store\observeStore.js:19:3)
+    at Promise (C:\Users\augus\workspace\node-midi-sequencer\processes\init\userControl.js:61:23)
+    at new Promise (<anonymous>)
+    at module.exports (C:\Users\augus\workspace\node-midi-sequencer\processes\init\userControl.js:17:24)
+  level: 'info',
+  timestamp: '2018-06-23T19:06:14.027Z',
+  [Symbol(level)]: 'info' }
+{ message: 'here',
+  level: 'info',
+  timestamp: '2018-06-23T19:06:23.073Z',
+  [Symbol(level)]: 'info' }
+{ message: 'state.view:::',
+  level: 'info',
+  timestamp: '2018-06-23T19:06:23.078Z',
+  [Symbol(level)]: 'info' }
+{ message: 'state.view:::\n\nTurn the knob you\'ll use to make selections\n\n',
+  level: 'info',
+  timestamp: '2018-06-23T19:06:23.242Z',
+  [Symbol(level)]: 'info' }
+{ message: 'rendering view',
+  level: 'info',
+  timestamp: '2018-06-23T19:06:23.242Z',
+  [Symbol(level)]: 'info' }
+{ message: 'knob set',
+  level: 'info',
+  timestamp: '2018-06-23T19:06:29.314Z',
+  [Symbol(level)]: 'info' }
+{ message: 'state.view:::',
+  level: 'info',
+  timestamp: '2018-06-23T19:06:29.315Z',
+  [Symbol(level)]: 'info' }
+{ message: 'state.view:::\n\nTap the button you\'ll use to make selections\n\n',
+  level: 'info',
+  timestamp: '2018-06-23T19:06:29.316Z',
+  [Symbol(level)]: 'info' }
+{ message: 'rendering view',
+  level: 'info',
+  timestamp: '2018-06-23T19:06:29.316Z',
+  [Symbol(level)]: 'info' }
+{ message: 'button set',
+  level: 'info',
+  timestamp: '2018-06-23T19:06:30.298Z',
+  [Symbol(level)]: 'info' }
+{ message: 'state.view:::',
+  level: 'info',
+  timestamp: '2018-06-23T19:06:30.299Z',
+  [Symbol(level)]: 'info' }
+{ message: 'user config',
+  level: 'info',
+  timestamp: '2018-06-23T19:06:30.301Z',
+  [Symbol(level)]: 'info' }
+{ message: 'choosing input',
+  level: 'info',
+  timestamp: '2018-06-23T19:06:30.303Z',
+  [Symbol(level)]: 'info' }
+{ message: 'here',
+  level: 'info',
+  timestamp: '2018-06-23T19:09:45.085Z',
+  [Symbol(level)]: 'info' }
+{ message: 'state.view:::',
+  level: 'info',
+  timestamp: '2018-06-23T19:09:45.090Z',
+  [Symbol(level)]: 'info' }
+{ message: 'state.view:::\n\nTurn the knob you\'ll use to make selections\n\n',
+  level: 'info',
+  timestamp: '2018-06-23T19:09:45.322Z',
+  [Symbol(level)]: 'info' }
+{ message: 'rendering view',
+  level: 'info',
+  timestamp: '2018-06-23T19:09:45.322Z',
+  [Symbol(level)]: 'info' }
+{ message: 'knob set',
+  level: 'info',
+  timestamp: '2018-06-23T19:09:49.763Z',
+  [Symbol(level)]: 'info' }
+{ message: 'state.view:::',
+  level: 'info',
+  timestamp: '2018-06-23T19:09:49.763Z',
+  [Symbol(level)]: 'info' }
+{ message: 'state.view:::\n\nTap the button you\'ll use to make selections\n\n',
+  level: 'info',
+  timestamp: '2018-06-23T19:09:49.764Z',
+  [Symbol(level)]: 'info' }
+{ message: 'rendering view',
+  level: 'info',
+  timestamp: '2018-06-23T19:09:49.764Z',
+  [Symbol(level)]: 'info' }
+{ message: 'button set',
+  level: 'info',
+  timestamp: '2018-06-23T19:09:50.576Z',
+  [Symbol(level)]: 'info' }
+{ message: 'state.view:::',
+  level: 'info',
+  timestamp: '2018-06-23T19:09:50.576Z',
+  [Symbol(level)]: 'info' }
+{ message: 'user config',
+  level: 'info',
+  timestamp: '2018-06-23T19:09:50.579Z',
+  [Symbol(level)]: 'info' }
+{ message: 'choosing input',
+  level: 'info',
+  timestamp: '2018-06-23T19:09:50.580Z',
+  [Symbol(level)]: 'info' }
+{ message: 'here',
+  level: 'info',
+  timestamp: '2018-06-23T19:23:06.109Z',
+  [Symbol(level)]: 'info' }
+{ message: 'state.view:::',
+  level: 'info',
+  timestamp: '2018-06-23T19:23:06.113Z',
+  [Symbol(level)]: 'info' }
+{ message: 'state.view:::\n!!!!!!!!!!!!!!!!!!!!!!!!!!\n\u001b[34m-----\u001b[39m\u001b[31m ERROR --------------\u001b[39m\n!!!!!!!!!!!!!!!!!!!!!!!!!!\nError: Failed to start sequencer - No MIDI inputs available\n    at handleConfigFailure (C:\\Users\\augus\\workspace\\node-midi-sequencer\\processes\\init\\ports.js:7:11)\n    at initMIDIPorts (C:\\Users\\augus\\workspace\\node-midi-sequencer\\processes\\init\\ports.js:14:32)\n    at main (C:\\Users\\augus\\workspace\\node-midi-sequencer\\index.js:20:5)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)\n    at Function.Module.runMain (module.js:695:11)\n    at startup (bootstrap_node.js:188:16)\n    at bootstrap_node.js:609:3\n--------------------------\nMESSAGE: \u001b[31mFailed to start sequencer - No MIDI inputs available\u001b[39m\n--------------------------\n',
+  level: 'info',
+  timestamp: '2018-06-23T19:23:06.237Z',
+  [Symbol(level)]: 'info' }
+{ message: 'rendering view',
+  level: 'info',
+  timestamp: '2018-06-23T19:23:06.238Z',
+  [Symbol(level)]: 'info' }
+{ message: 'Failed to start sequencer - No MIDI inputs available',
+  level: 'error',
+  timestamp: '2018-06-23T19:23:06.240Z',
+  [Symbol(level)]: 'error' }
+{ message: 'here',
+  level: 'info',
+  timestamp: '2018-06-23T19:23:26.465Z',
+  [Symbol(level)]: 'info' }
+{ message: 'state.view:::',
+  level: 'info',
+  timestamp: '2018-06-23T19:23:26.468Z',
+  [Symbol(level)]: 'info' }
+{ message: 'state.view:::\n\nTurn the knob you\'ll use to make selections\n\n',
+  level: 'info',
+  timestamp: '2018-06-23T19:23:26.597Z',
+  [Symbol(level)]: 'info' }
+{ message: 'rendering view',
+  level: 'info',
+  timestamp: '2018-06-23T19:23:26.597Z',
+  [Symbol(level)]: 'info' }
+{ message: 'here',
+  level: 'info',
+  timestamp: '2018-06-23T19:23:54.072Z',
+  [Symbol(level)]: 'info' }
+{ message: 'state.view:::',
+  level: 'info',
+  timestamp: '2018-06-23T19:23:54.075Z',
+  [Symbol(level)]: 'info' }
+{ message: 'user config',
+  level: 'info',
+  timestamp: '2018-06-23T19:23:54.206Z',
+  [Symbol(level)]: 'info' }
+{ message: 'choosing input',
+  level: 'info',
+  timestamp: '2018-06-23T19:23:54.206Z',
+  [Symbol(level)]: 'info' }
+{ message: 'here',
+  level: 'info',
+  timestamp: '2018-06-24T16:23:23.675Z',
+  [Symbol(level)]: 'info' }
+{ message: 'state.view:::',
+  level: 'info',
+  timestamp: '2018-06-24T16:23:23.678Z',
+  [Symbol(level)]: 'info' }
+{ message: 'user config',
+  level: 'info',
+  timestamp: '2018-06-24T16:23:23.837Z',
+  [Symbol(level)]: 'info' }
+{ message: 'choosing input',
+  level: 'info',
+  timestamp: '2018-06-24T16:23:23.837Z',
+  [Symbol(level)]: 'info' }
+{ message: 'here',
+  level: 'info',
+  timestamp: '2018-06-24T16:23:49.589Z',
+  [Symbol(level)]: 'info' }
+{ message: 'state.view:::',
+  level: 'info',
+  timestamp: '2018-06-24T16:23:49.592Z',
+  [Symbol(level)]: 'info' }
+{ message: 'user config',
+  level: 'info',
+  timestamp: '2018-06-24T16:23:49.740Z',
+  [Symbol(level)]: 'info' }
+{ message: 'choosing input',
+  level: 'info',
+  timestamp: '2018-06-24T16:23:49.740Z',
+  [Symbol(level)]: 'info' }
+{ message: 'here',
+  level: 'info',
+  timestamp: '2018-06-24T16:23:53.123Z',
+  [Symbol(level)]: 'info' }
+{ message: 'state.view:::',
+  level: 'info',
+  timestamp: '2018-06-24T16:23:53.126Z',
+  [Symbol(level)]: 'info' }
+{ message: 'user config',
+  level: 'info',
+  timestamp: '2018-06-24T16:23:53.253Z',
+  [Symbol(level)]: 'info' }
+{ message: 'choosing input',
+  level: 'info',
+  timestamp: '2018-06-24T16:23:53.254Z',
+  [Symbol(level)]: 'info' }
+{ message: 'here',
+  level: 'info',
+  timestamp: '2018-06-24T16:28:47.308Z',
+  [Symbol(level)]: 'info' }
+{ message: 'state.view:::',
+  level: 'info',
+  timestamp: '2018-06-24T16:28:47.312Z',
+  [Symbol(level)]: 'info' }
+{ message: 'state.view:::\n\nTurn the knob you\'ll use to make selections\n\n',
+  level: 'info',
+  timestamp: '2018-06-24T16:28:47.453Z',
+  [Symbol(level)]: 'info' }
+{ message: 'rendering view',
+  level: 'info',
+  timestamp: '2018-06-24T16:28:47.454Z',
+  [Symbol(level)]: 'info' }
+{ message: 'knob set',
+  level: 'info',
+  timestamp: '2018-06-24T16:28:49.448Z',
+  [Symbol(level)]: 'info' }
+{ message: 'state.view:::',
+  level: 'info',
+  timestamp: '2018-06-24T16:28:49.449Z',
+  [Symbol(level)]: 'info' }
+{ message: 'state.view:::\n\nTap the button you\'ll use to make selections\n\n',
+  level: 'info',
+  timestamp: '2018-06-24T16:28:49.450Z',
+  [Symbol(level)]: 'info' }
+{ message: 'rendering view',
+  level: 'info',
+  timestamp: '2018-06-24T16:28:49.450Z',
+  [Symbol(level)]: 'info' }
+{ message: 'button set',
+  level: 'info',
+  timestamp: '2018-06-24T16:28:50.123Z',
+  [Symbol(level)]: 'info' }
+{ message: 'state.view:::',
+  level: 'info',
+  timestamp: '2018-06-24T16:28:50.123Z',
+  [Symbol(level)]: 'info' }
+{ message: 'state.view:::\n!!!!!!!!!!!!!!!!!!!!!!!!!!\n\u001b[34m-----\u001b[39m\u001b[31m ERROR --------------\u001b[39m\n!!!!!!!!!!!!!!!!!!!!!!!!!!\nReferenceError: s is not defined\n    at main (C:\\Users\\augus\\workspace\\node-midi-sequencer\\index.js:21:30)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)\n--------------------------\nMESSAGE: \u001b[31ms is not defined\u001b[39m\n--------------------------\n',
+  level: 'info',
+  timestamp: '2018-06-24T16:28:50.126Z',
+  [Symbol(level)]: 'info' }
+{ message: 'rendering view',
+  level: 'info',
+  timestamp: '2018-06-24T16:28:50.127Z',
+  [Symbol(level)]: 'info' }
+{ message: 's is not defined',
+  level: 'error',
+  timestamp: '2018-06-24T16:28:50.129Z',
+  [Symbol(level)]: 'error' }
+{ message: 'here',
+  level: 'info',
+  timestamp: '2018-06-24T16:28:58.309Z',
+  [Symbol(level)]: 'info' }
+{ message: 'state.view:::',
+  level: 'info',
+  timestamp: '2018-06-24T16:28:58.312Z',
+  [Symbol(level)]: 'info' }
+{ message: 'state.view:::\n\nTurn the knob you\'ll use to make selections\n\n',
+  level: 'info',
+  timestamp: '2018-06-24T16:28:58.439Z',
+  [Symbol(level)]: 'info' }
+{ message: 'rendering view',
+  level: 'info',
+  timestamp: '2018-06-24T16:28:58.439Z',
+  [Symbol(level)]: 'info' }
+{ message: 'knob set',
+  level: 'info',
+  timestamp: '2018-06-24T16:29:00.194Z',
+  [Symbol(level)]: 'info' }
+{ message: 'state.view:::',
+  level: 'info',
+  timestamp: '2018-06-24T16:29:00.194Z',
+  [Symbol(level)]: 'info' }
+{ message: 'state.view:::\n\nTap the button you\'ll use to make selections\n\n',
+  level: 'info',
+  timestamp: '2018-06-24T16:29:00.194Z',
+  [Symbol(level)]: 'info' }
+{ message: 'rendering view',
+  level: 'info',
+  timestamp: '2018-06-24T16:29:00.195Z',
+  [Symbol(level)]: 'info' }
+{ message: 'button set',
+  level: 'info',
+  timestamp: '2018-06-24T16:29:00.832Z',
+  [Symbol(level)]: 'info' }
+{ message: 'state.view:::',
+  level: 'info',
+  timestamp: '2018-06-24T16:29:00.833Z',
+  [Symbol(level)]: 'info' }
+{ message: 'user config',
+  level: 'info',
+  timestamp: '2018-06-24T16:29:00.836Z',
+  [Symbol(level)]: 'info' }
+{ message: 'choosing input',
+  level: 'info',
+  timestamp: '2018-06-24T16:29:00.837Z',
+  [Symbol(level)]: 'info' }
+{ message: 'here',
+  level: 'info',
+  timestamp: '2018-06-24T16:29:05.947Z',
+  [Symbol(level)]: 'info' }
+{ message: 'state.view:::',
+  level: 'info',
+  timestamp: '2018-06-24T16:29:05.950Z',
+  [Symbol(level)]: 'info' }
+{ message: 'user config',
+  level: 'info',
+  timestamp: '2018-06-24T16:29:06.087Z',
+  [Symbol(level)]: 'info' }
+{ message: 'choosing input',
+  level: 'info',
+  timestamp: '2018-06-24T16:29:06.087Z',
+  [Symbol(level)]: 'info' }
+{ message: 'here',
+  level: 'info',
+  timestamp: '2018-06-24T16:59:37.791Z',
+  [Symbol(level)]: 'info' }
+{ message: 'state.view:::',
+  level: 'info',
+  timestamp: '2018-06-24T16:59:37.794Z',
+  [Symbol(level)]: 'info' }
+{ message: 'user config',
+  level: 'info',
+  timestamp: '2018-06-24T16:59:37.929Z',
+  [Symbol(level)]: 'info' }
+{ message: 'state.view:::\n!!!!!!!!!!!!!!!!!!!!!!!!!!\n\u001b[34m-----\u001b[39m\u001b[31m ERROR --------------\u001b[39m\n!!!!!!!!!!!!!!!!!!!!!!!!!!\nReferenceError: renderView is not defined\n    at module.exports (C:\\Users\\augus\\workspace\\node-midi-sequencer\\processes\\init\\userConfig.v2.js:64:9)\n    at main (C:\\Users\\augus\\workspace\\node-midi-sequencer\\index.js:22:11)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)\n    at Function.Module.runMain (module.js:695:11)\n    at startup (bootstrap_node.js:188:16)\n    at bootstrap_node.js:609:3\n--------------------------\nMESSAGE: \u001b[31mrenderView is not defined\u001b[39m\n--------------------------\n',
+  level: 'info',
+  timestamp: '2018-06-24T16:59:37.929Z',
+  [Symbol(level)]: 'info' }
+{ message: 'rendering view',
+  level: 'info',
+  timestamp: '2018-06-24T16:59:37.929Z',
+  [Symbol(level)]: 'info' }
+{ message: 'renderView is not defined',
+  level: 'error',
+  timestamp: '2018-06-24T16:59:37.931Z',
+  [Symbol(level)]: 'error' }
+{ message: 'here',
+  level: 'info',
+  timestamp: '2018-06-24T17:01:38.743Z',
+  [Symbol(level)]: 'info' }
+{ message: 'state.view:::',
+  level: 'info',
+  timestamp: '2018-06-24T17:01:38.751Z',
+  [Symbol(level)]: 'info' }
+{ message: 'user config',
+  level: 'info',
+  timestamp: '2018-06-24T17:01:38.891Z',
+  [Symbol(level)]: 'info' }
+{ message: 'state.view:::test',
+  level: 'info',
+  timestamp: '2018-06-24T17:01:38.891Z',
+  [Symbol(level)]: 'info' }
+{ message: 'rendering view',
+  level: 'info',
+  timestamp: '2018-06-24T17:01:38.891Z',
+  [Symbol(level)]: 'info' }
+{ message: 'choosing input',
+  level: 'info',
+  timestamp: '2018-06-24T17:01:38.892Z',
+  [Symbol(level)]: 'info' }
+{ message: 'state.view:::',
+  level: 'info',
+  timestamp: '2018-06-24T17:01:38.893Z',
+  [Symbol(level)]: 'info' }

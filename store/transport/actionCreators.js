@@ -29,8 +29,23 @@ retreatTransportToPrevious = (duration) => {
   })
 }
 
+advanceOneTick = () => {
+  const currentIndex = getCurrentIndex();
+  return ({
+    type: constants.UPDATE,
+    currentIndex: currentIndex + 1,
+  })
+}
+
+update = (payload) => ({
+  type: constants.UPDATE,
+  payload,
+})
+
 module.exports = {
+  advanceOneTick,
   advanceTransportToNext,
-  retreatTransportToPrevious
+  retreatTransportToPrevious,
+  update,
 }
 

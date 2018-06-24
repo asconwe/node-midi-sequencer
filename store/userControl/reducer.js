@@ -1,21 +1,23 @@
 const constants = require('./constants');
 
 const initialState = {
-  currentIndex: 0,
-  playing: false,
-  tempo: 120,
+  knob: null,
+  knobIsEndless: true,
+  button: null,
+  buttonIsMomentary: false,
 }
 
-const transportReducer = (state = initialState, action) => {
+const userControlReducer = (state = initialState, action) => {
   switch (action.type) {
     case constants.UPDATE:
       return {
         ...state,
         ...action.payload,
       }
+
     default:
-      return state
+      return state;
   }
 }
 
-module.exports = transportReducer;
+module.exports = userControlReducer;

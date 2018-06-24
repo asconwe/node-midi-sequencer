@@ -1,0 +1,28 @@
+{"message":"Failed to start sequencer - No MIDI inputs available","level":"error"}
+{"message":"logger is not defined","level":"error"}
+{"message":"logger is not defined","level":"error"}
+{"message":"logger is not defined","level":"error"}
+{"message":"logger is not defined","level":"error"}
+{"message":"logger is not defined","level":"error"}
+{"message":"logger is not defined","level":"error"}
+{"message":"logger is not defined","level":"error"}
+{"message":"logger is not defined","level":"error"}
+{"message":"logger is not defined","level":"error"}
+{"message":"logger is not defined","level":"error"}
+{"message":"logger is not defined","level":"error"}
+{"message":"logger is not defined","level":"error"}
+{"message":"logger is not defined","level":"error"}
+{"message":"logger is not defined","level":"error"}
+{"message":"render is not defined","level":"error"}
+{ message: 'Failed to start sequencer - No MIDI inputs available',
+  level: 'error',
+  timestamp: '2018-06-23T19:23:06.240Z',
+  [Symbol(level)]: 'error' }
+{ message: 's is not defined',
+  level: 'error',
+  timestamp: '2018-06-24T16:28:50.129Z',
+  [Symbol(level)]: 'error' }
+{ message: 'renderView is not defined',
+  level: 'error',
+  timestamp: '2018-06-24T16:59:37.931Z',
+  [Symbol(level)]: 'error' }

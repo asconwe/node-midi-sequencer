@@ -19,3 +19,5 @@ function observeStore(store, select, onChange) {
   handleChange();
   return unsubscribe;
 }
+
+module.exports = observeStore;

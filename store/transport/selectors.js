@@ -1,17 +1,10 @@
 const { createSelector } = require('reselect');
 
-const selectCurrentIndex = state => state.transport.selectCurrentIndex;
-const selectIsPlaying = state => state.transport.selectIsPlaying;
+const selectCurrentIndex = state => state.transport.currentIndex;
+const selectIsPlaying = state => state.transport.playing;
 const selectTempo = state => state.transport.tempo;
 
 const baseStep = 256;
-
-// bpm = tempo
-// minutesPerBeat = 1 / bpm
-// secondsPerBeat = 60 / bpm
-// msPerBeat = 60 * 1000 / bpm
-// stepsPerBeat = 256 / 4
-// msPerStep = msPerBeat / stepsPerBeat
 
 const msPerBaseStep = createSelector(
   selectTempo,
@@ -23,6 +16,7 @@ const msPerBaseStep = createSelector(
 )
 
 module.exports = {
+  msPerBaseStep,
   selectIsPlaying,
   selectCurrentIndex,
 }

@@ -1,3 +1,3 @@
 module.exports = (error) => {
-    console.log(error)
+    logger.info(error)
 }
