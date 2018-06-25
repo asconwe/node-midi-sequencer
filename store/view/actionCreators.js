@@ -1,7 +1,7 @@
 const constants = require('./constants');
 const store = require('../../store');
 const menuListView = require('../../views/menu-list');
-const { selectMenu } = require('../menus/selectors');
+const { selectMenu, selectMenuTitle } = require('../menus/selectors');
 
 const renderView = view => ({
   type: constants.RENDER_VIEW,
@@ -10,7 +10,12 @@ const renderView = view => ({
 
 const renderDerivedMenu = () => {
   const state = store.getState();
-  const view = menuListView(selectMenu(state));
+  const list = menuListView(selectMenu(state));
+  const title = selectMenuTitle(state);
+  const view = `
+${title}
+----------------------------
+${list}`;
   return renderView(view);
 };
 

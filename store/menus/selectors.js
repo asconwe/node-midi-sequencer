@@ -4,8 +4,10 @@ const selectMenu = state => ({
 });
 
 const selectCurrentItemAction = state => state.menus.menuItems[state.menus.currentIndex].action;
+const selectMenuTitle = state => state.menus.menuTitle;
 
 module.exports = {
   selectCurrentItemAction,
   selectMenu,
+  selectMenuTitle,
 };

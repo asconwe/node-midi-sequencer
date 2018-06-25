@@ -14,4 +14,8 @@ module.exports = {
   saveMenuAsPrevious: () => ({
     type: constants.SAVE_MENU_AS_PREVIOUS,
   }),
+  setMenuTitle: title => ({
+    type: constants.SET_TITLE,
+    title,
+  }),
 };

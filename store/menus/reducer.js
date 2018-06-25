@@ -5,6 +5,7 @@ const initialState = {
   menuItems: [],
   currentIndex: 0,
   previousMenu: null,
+  menuTitle: '',
 };
 
 module.exports = (state = initialState, action) => {
@@ -31,6 +32,11 @@ module.exports = (state = initialState, action) => {
         previousMenu: {
           ...state,
         },
+      };
+    case constants.SET_TITLE:
+      return {
+        ...state,
+        menuTitle: action.title,
       };
     default:
       return state;

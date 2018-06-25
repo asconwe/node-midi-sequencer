@@ -1,5 +1,6 @@
 const constants = require('./constants');
 const routeReducer = require('./route/reducer');
+
 const initialState = [];
 
 const reducer = (state = initialState, action) => {
@@ -11,20 +12,19 @@ const reducer = (state = initialState, action) => {
       return [
         ...state.routes.slice(0, action.index),
         action.route,
-        ...action.routes.slice(action.index + 1)
+        ...action.routes.slice(action.index + 1),
       ];
 
     case constants.APPEND:
-      return state.concat(action.payload);
+      return state.concat(action.route);
 
     case constants.UPDATE_INDEX:
       return routeReducer(state[action.index], action);
 
     default:
-      return state
+      return state;
   }
-}
-
+};
 
 
 module.exports = reducer;

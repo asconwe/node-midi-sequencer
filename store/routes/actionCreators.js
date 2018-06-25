@@ -4,7 +4,7 @@ const constants = require('./constants');
  * @param {[route]} routes All MIDI routes
  * @returns {{ type: string, routes: [{ in: *, out: * }] }} A redux action
  */
-const replaceAllRoutes = (routes) => ({
+const replaceAllRoutes = routes => ({
   type: constants.REPLACE_ALL,
   routes,
 });
@@ -17,17 +17,17 @@ const replaceAllRoutes = (routes) => ({
 const replaceOneRoute = (route, index) => ({
   type: constants.REPLACE_ONE,
   routes,
-  index
+  index,
 });
 
 /** @description Create an APPEND action to be dispatched
- * @param {route} routes A MIDI route
+ * @param {route: { in: *, out: * }} routes A MIDI route
  * @returns {{ type: string, route: { in: *, out: * } }} A redux action
  */
-const appendRoute = (route) => ({
+const appendRoute = route => ({
   type: constants.APPEND,
-  route
-})
+  route,
+});
 
 /**
  * Create a UPDATE_INDEX action
@@ -37,11 +37,11 @@ const appendRoute = (route) => ({
 const updateIndex = ({ index, payload }) => ({
   type: constants.UPDATE_INDEX,
   index,
-  payload
-})
+  payload,
+});
 
 module.exports = {
   replaceAllRoutes,
   replaceOneRoute,
   appendRoute,
-}
+};

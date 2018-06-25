@@ -110,3 +110,39 @@
   level: 'error',
   timestamp: '2018-06-24T21:01:37.797Z',
   [Symbol(level)]: 'error' }
+{ message: 'Failed to start sequencer - No MIDI inputs available',
+  level: 'error',
+  timestamp: '2018-06-24T22:41:45.223Z',
+  [Symbol(level)]: 'error' }
+{ message: 'state is not defined',
+  level: 'error',
+  timestamp: '2018-06-25T01:33:12.763Z',
+  [Symbol(level)]: 'error' }
+{ message: 'Cannot read property \'out\' of undefined',
+  level: 'error',
+  timestamp: '2018-06-25T02:29:19.000Z',
+  [Symbol(level)]: 'error' }
+{ message: 'Cannot read property \'out\' of undefined',
+  level: 'error',
+  timestamp: '2018-06-25T02:31:55.439Z',
+  [Symbol(level)]: 'error' }
+{ message: 'logger is not defined',
+  level: 'error',
+  timestamp: '2018-06-25T02:34:05.689Z',
+  [Symbol(level)]: 'error' }
+{ message: 'Cannot read property \'out\' of undefined',
+  level: 'error',
+  timestamp: '2018-06-25T02:34:38.552Z',
+  [Symbol(level)]: 'error' }
+{ message: 'Cannot read property \'out\' of undefined',
+  level: 'error',
+  timestamp: '2018-06-25T02:36:29.471Z',
+  [Symbol(level)]: 'error' }
+{ message: 'Cannot read property \'out\' of undefined',
+  level: 'error',
+  timestamp: '2018-06-25T02:37:09.602Z',
+  [Symbol(level)]: 'error' }
+{ message: 'Cannot read property \'out\' of undefined',
+  level: 'error',
+  timestamp: '2018-06-25T02:38:07.641Z',
+  [Symbol(level)]: 'error' }
