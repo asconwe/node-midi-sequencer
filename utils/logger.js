@@ -5,6 +5,7 @@ const logger = winston.createLogger({
   format: winston.format.combine(
     winston.format.timestamp(),
     winston.format.prettyPrint(),
+    winston.format.simple(),
   ),
   transports: [
     //

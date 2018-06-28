@@ -22,6 +22,7 @@ const main = async () => {
     await initUserConfig();
     armRoutes();
     armTransport();
+    store.dispatch(renderView('Listening for midi and sequencer control message!'));
   } catch (error) {
     store.dispatch(renderView(errorView(error)));
     logger.error(error.message);

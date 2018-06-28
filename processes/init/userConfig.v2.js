@@ -30,7 +30,7 @@ const chooseInputChannel = async () => new Promise((resolve, reject) => {
     logger.info('choosing input channel');
     const menuItems = channels.map(channel => ({
       action: () => {
-        resolve(channel);
+        resolve(channel - 1);
       },
       name: channel,
     }));
@@ -65,7 +65,7 @@ const chooseOutputChannel = async () => new Promise((resolve, reject) => {
     logger.info('choosing output cahnnel');
     const menuItems = channels.map(channel => ({
       action: () => {
-        resolve(channel);
+        resolve(channel - 1);
       },
       name: channel,
     }));

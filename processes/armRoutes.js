@@ -8,9 +8,7 @@ const attachListeners = require('./attachListeners');
 const createListeners = () => {
   const state = store.getState();
   const { routes = [], ports } = state;
-  logger.info(routes);
   routes.forEach((route) => {
-    logger.info(`route::::${route}`);
     const outputPort = ports.outputs.get(route.out.id);
     createListener(route, outputPort);
   });
@@ -31,6 +29,8 @@ const sendMIDIOut = (parsedEvent, route, outputPort) => {
   const channelDiff = route.out.channel - route.in.channel;
   const messageTypeAndChannel = parsedEvent._event.data[0] + channelDiff;
   const outMessage = [messageTypeAndChannel, ...parsedEvent._event.data.slice(1)];
+  logger.info(`outmessage: ${outMessage}`);
+  outputPort.send(outMessage);
 };
 
 module.exports = () => {
