@@ -1,52 +1,45 @@
 const _ = require('lodash');
 const logger = require('../utils/logger');
 const store = require('../store');
-const { nextIndex, previousIndex } = require('../store/menus/actionCreators');
-const { renderDerivedMenu } = require('../store/view/actionCreators');
-const { selectCurrentItemAction } = require('../store/menus/selectors');
-
-let controlButtonTimeout;
+const { knobMove, knobReset } = require('../store/knobs/actionCreators');
+const {
+  buttonDown, buttonPressAndHold, buttonUp, buttonPressAndHoldRelease,
+} = require('../store/buttons/actionCreators');
 
 const pressAndHoldDuration = 800;
 
-const next = _.throttle(() => {
-  store.dispatch(nextIndex());
-  store.dispatch(renderDerivedMenu());
-}, 200, { trailing: false });
-
-const previous = _.throttle(() => {
-  store.dispatch(previousIndex());
-  store.dispatch(renderDerivedMenu());
-}, 200, { trailing: false });
-
 module.exports = {
-  handleKnobControl: knob => (event) => {
+  handleKnobEvent: target => knob => (event) => {
     if (event.channel === knob.channel && event.controllerNumber === knob.controllerNumber) {
-      if (event.controllerValue > 64) {
-        next();
-        return logger.info('knob right');
-      }
-      previous();
-      return logger.info('knob left');
+      const movement = event.controllerValue - 64;
+      store.dispatch(knobMove(target, movement));
+      store.dispatch(knobReset(target));
     }
     return null;
   },
 
-  handleButtonControl: button => (event) => {
-    if (event.channel === button.channel && event.controllerNumber === button.controllerNumber) {
-      if (event.controllerValue === 127) {
-        clearTimeout(controlButtonTimeout);
-        return controlButtonTimeout = setTimeout(() => {
-          clearTimeout(controlButtonTimeout);
-          logger.info('press and hold');
-        }, pressAndHoldDuration);
+  handleButtonEvent: target => (button) => {
+    let buttonTimeout;
+    return (event) => {
+      if (event.channel === button.channel && event.controllerNumber === button.controllerNumber) {
+        // Button down event
+        if (event.controllerValue === 127) {
+          store.dispatch(buttonDown(target));
+          logger.info(`${target} button down event`);
+          clearTimeout(buttonTimeout);
+          buttonTimeout = setTimeout(() => {
+            clearTimeout(buttonTimeout);
+            store.dispatch(buttonPressAndHold(target));
+            logger.info(`${target} press and hold`);
+          }, pressAndHoldDuration);
+          return;
+        }
+        // Button up event
+        clearTimeout(buttonTimeout);
+        store.dispatch(buttonUp(target));
+        store.dispatch(buttonPressAndHoldRelease(target));
+        logger.info(`${target} button up event`);
       }
-      if (controlButtonTimeout && !controlButtonTimeout._called) {
-        clearTimeout(controlButtonTimeout);
-        const currentAction = selectCurrentItemAction(store.getState());
-        currentAction();
-        return logger.info('tap');
-      }
-    }
+    };
   },
 };

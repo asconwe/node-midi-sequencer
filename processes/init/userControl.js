@@ -1,10 +1,14 @@
 const MIDIMessage = require('midimessage');
 const logger = require('../../utils/logger');
 const render = require('../../utils/render');
-const knob = require('../../views/knob');
-const button = require('../../views/button');
+const {
+  SET_CONTROL_KNOB_VIEW,
+  SET_CONTROL_BUTTON_VIEW,
+  SET_TRANSPORT_BUTTON_VIEW,
+  SET_RECORD_BUTTON_VIEW,
+} = require('../../views/constant/setControls');
 
-const { handleKnobControl, handleButtonControl } = require('../handleSequencerControl');
+const { handleKnobEvent, handleButtonEvent } = require('../handleSequencerControl');
 const attachListeners = require('../attachListeners');
 
 const store = require('../../store');
@@ -16,23 +20,23 @@ const { update } = require('../../store/userControl/actionCreators');
 
 module.exports = () => new Promise(((resolve) => {
   const setKnob = (inputs) => {
-    store.dispatch(renderView((knob())));
+    store.dispatch(renderView(SET_CONTROL_KNOB_VIEW));
     inputs.forEach((port) => {
       port.onmidimessage = (event) => {
         const parsedEvent = MIDIMessage(event);
-        const control = {
+        const controlKnob = {
           channel: parsedEvent.channel,
           controllerNumber: parsedEvent.controllerNumber,
           id: parsedEvent._event.currentTarget.id,
         };
-        logger.info('knob set');
-        store.dispatch(update({ knob: control }));
+        logger.info('Control knob set');
+        store.dispatch(update({ controlKnob }));
       };
     });
   };
 
-  const setButton = (inputs, knob) => {
-    store.dispatch(renderView((button())));
+  const setControlButton = (inputs, knob) => {
+    store.dispatch(renderView((SET_CONTROL_BUTTON_VIEW)));
     inputs.forEach((port) => {
       port.onmidimessage = (event) => {
         const parsedEvent = MIDIMessage(event);
@@ -40,13 +44,56 @@ module.exports = () => new Promise(((resolve) => {
           parsedEvent.channel !== knob.channel
           || parsedEvent.controllerNumber !== knob.controllerNumber
         ) {
-          const control = {
+          const controlButton = {
             channel: parsedEvent.channel,
             controllerNumber: parsedEvent.controllerNumber,
             id: parsedEvent._event.currentTarget.id,
           };
-          logger.info('button set');
-          store.dispatch(update({ button: control }));
+          logger.info('Control button set');
+          store.dispatch(update({ controlButton }));
+        }
+      };
+    });
+  };
+
+  const setTransportButton = (inputs, controlKnob, controlButton) => {
+    store.dispatch(renderView((SET_TRANSPORT_BUTTON_VIEW)));
+    inputs.forEach((port) => {
+      port.onmidimessage = (event) => {
+        const parsedEvent = MIDIMessage(event);
+        if (
+          (parsedEvent.channel !== controlKnob.channel || parsedEvent.controllerNumber !== controlKnob.controllerNumber)
+          && (parsedEvent.channel !== controlButton.channel || parsedEvent.controllerNumber !== controlButton.controllerNumber)
+        ) {
+          const transportButton = {
+            channel: parsedEvent.channel,
+            controllerNumber: parsedEvent.controllerNumber,
+            id: parsedEvent._event.currentTarget.id,
+          };
+          logger.info('Transport button set');
+          store.dispatch(update({ transportButton }));
+        }
+      };
+    });
+  };
+
+  const setRecordButton = (inputs, controlKnob, controlButton, transportButton) => {
+    store.dispatch(renderView((SET_RECORD_BUTTON_VIEW)));
+    inputs.forEach((port) => {
+      port.onmidimessage = (event) => {
+        const parsedEvent = MIDIMessage(event);
+        if (
+          (parsedEvent.channel !== controlKnob.channel || parsedEvent.controllerNumber !== controlKnob.controllerNumber)
+          && (parsedEvent.channel !== controlButton.channel || parsedEvent.controllerNumber !== controlButton.controllerNumber)
+          && (parsedEvent.channel !== transportButton.channel || parsedEvent.controllerNumber !== transportButton.controllerNumber)
+        ) {
+          const recordButton = {
+            channel: parsedEvent.channel,
+            controllerNumber: parsedEvent.controllerNumber,
+            id: parsedEvent._event.currentTarget.id,
+          };
+          logger.info('Record button set');
+          store.dispatch(update({ recordButton }));
         }
       };
     });
@@ -61,23 +108,35 @@ module.exports = () => new Promise(((resolve) => {
   const unsubscribe = observeStore(
     store,
     selectControls,
-    (state) => {
+    (selectedState) => {
       try {
-        const { knob, button } = state;
+        const {
+          controlKnob,
+          controlButton,
+          transportButton,
+          recordButton,
+        } = selectedState;
         const inputs = allInputs(store.getState());
-        if (!knob) {
+        if (!controlKnob) {
           return setKnob(inputs);
-        } if (!button) {
-          return setButton(inputs, knob);
+        } if (!controlButton) {
+          return setControlButton(inputs, controlKnob);
+        } if (!transportButton) {
+          return setTransportButton(inputs, controlKnob, controlButton);
+        } if (!recordButton) {
+          return setRecordButton(inputs, controlKnob, controlButton, transportButton);
         }
         clearMIDIListeners(inputs);
-        store.dispatch(addMIDIListener({ id: knob.id, listener: handleKnobControl(knob) }));
-        store.dispatch(addMIDIListener({ id: button.id, listener: handleButtonControl(button) }));
+        store.dispatch(addMIDIListener({ id: controlKnob.id, listener: handleKnobEvent('control')(controlKnob), type: 'control-knob' }));
+        store.dispatch(addMIDIListener({ id: controlButton.id, listener: handleButtonEvent('control')(controlButton), type: 'control-button' }));
+        store.dispatch(addMIDIListener({ id: transportButton.id, listener: handleButtonEvent('transport')(transportButton), type: 'transport-button' }));
+        store.dispatch(addMIDIListener({ id: recordButton.id, listener: handleButtonEvent('record')(recordButton), type: 'record-button' }));
         attachListeners();
         unsubscribe();
         return resolve();
       } catch (error) {
         logger.info(error);
+        throw error;
       }
     },
   );

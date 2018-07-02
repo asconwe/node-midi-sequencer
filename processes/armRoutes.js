@@ -22,7 +22,7 @@ const createListener = (route, outputPort) => {
       sendMIDIOut(parsedEvent, route, outputPort);
     }
   };
-  store.dispatch(addMIDIListener({ id: route.in.id, listener }));
+  store.dispatch(addMIDIListener({ id: route.in.id, listener, type: 'route' }));
 };
 
 const sendMIDIOut = (parsedEvent, route, outputPort) => {

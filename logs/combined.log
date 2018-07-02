@@ -21811,3 +21811,3737 @@
   level: 'info',
   timestamp: '2018-06-25T02:39:55.250Z',
   [Symbol(level)]: 'info' }
+info: here {"timestamp":"2018-07-01T00:09:03.106Z"}
+info: rendering view {"timestamp":"2018-07-01T00:09:04.292Z"}
+info: knob set {"timestamp":"2018-07-01T00:09:16.954Z"}
+info: rendering view {"timestamp":"2018-07-01T00:09:16.955Z"}
+info: button set {"timestamp":"2018-07-01T00:09:17.867Z"}
+info: user config {"timestamp":"2018-07-01T00:09:17.871Z"}
+info: choosing input port {"timestamp":"2018-07-01T00:09:17.872Z"}
+info: rendering view {"timestamp":"2018-07-01T00:09:17.876Z"}
+info: rendering view {"timestamp":"2018-07-01T00:09:19.183Z"}
+info: knob right {"timestamp":"2018-07-01T00:09:19.186Z"}
+info: knob right {"timestamp":"2018-07-01T00:09:19.231Z"}
+info: knob right {"timestamp":"2018-07-01T00:09:19.276Z"}
+info: knob right {"timestamp":"2018-07-01T00:09:19.318Z"}
+info: knob right {"timestamp":"2018-07-01T00:09:19.366Z"}
+info: rendering view {"timestamp":"2018-07-01T00:09:19.424Z"}
+info: knob right {"timestamp":"2018-07-01T00:09:19.426Z"}
+info: knob right {"timestamp":"2018-07-01T00:09:19.483Z"}
+info: knob right {"timestamp":"2018-07-01T00:09:19.537Z"}
+info: knob right {"timestamp":"2018-07-01T00:09:19.575Z"}
+info: knob right {"timestamp":"2018-07-01T00:09:19.617Z"}
+info: rendering view {"timestamp":"2018-07-01T00:09:19.677Z"}
+info: knob right {"timestamp":"2018-07-01T00:09:19.678Z"}
+info: rendering view {"timestamp":"2018-07-01T00:09:19.961Z"}
+info: knob left {"timestamp":"2018-07-01T00:09:19.962Z"}
+info: knob left {"timestamp":"2018-07-01T00:09:20.005Z"}
+info: knob left {"timestamp":"2018-07-01T00:09:20.052Z"}
+info: knob left {"timestamp":"2018-07-01T00:09:20.111Z"}
+info: rendering view {"timestamp":"2018-07-01T00:09:20.422Z"}
+info: knob left {"timestamp":"2018-07-01T00:09:20.423Z"}
+info: knob left {"timestamp":"2018-07-01T00:09:20.505Z"}
+info: knob left {"timestamp":"2018-07-01T00:09:20.588Z"}
+info: rendering view {"timestamp":"2018-07-01T00:09:20.878Z"}
+info: knob left {"timestamp":"2018-07-01T00:09:20.879Z"}
+info: knob left {"timestamp":"2018-07-01T00:09:20.970Z"}
+info: rendering view {"timestamp":"2018-07-01T00:09:21.552Z"}
+info: knob right {"timestamp":"2018-07-01T00:09:21.554Z"}
+info: knob right {"timestamp":"2018-07-01T00:09:21.582Z"}
+info: knob right {"timestamp":"2018-07-01T00:09:21.624Z"}
+info: rendering view {"timestamp":"2018-07-01T00:09:22.016Z"}
+info: knob left {"timestamp":"2018-07-01T00:09:22.019Z"}
+info: knob left {"timestamp":"2018-07-01T00:09:22.086Z"}
+info: tap {"timestamp":"2018-07-01T00:09:22.808Z"}
+info: choosing input channel {"timestamp":"2018-07-01T00:09:22.808Z"}
+info: rendering view {"timestamp":"2018-07-01T00:09:22.808Z"}
+info: tap {"timestamp":"2018-07-01T00:09:23.791Z"}
+info: choosing output port {"timestamp":"2018-07-01T00:09:23.792Z"}
+info: rendering view {"timestamp":"2018-07-01T00:09:23.794Z"}
+info: tap {"timestamp":"2018-07-01T00:09:24.794Z"}
+info: choosing output cahnnel {"timestamp":"2018-07-01T00:09:24.795Z"}
+info: rendering view {"timestamp":"2018-07-01T00:09:24.796Z"}
+info: tap {"timestamp":"2018-07-01T00:09:25.369Z"}
+info: choosing if we will make another route {"timestamp":"2018-07-01T00:09:25.371Z"}
+info: rendering view {"timestamp":"2018-07-01T00:09:25.371Z"}
+info: rendering view {"timestamp":"2018-07-01T00:09:26.446Z"}
+info: knob right {"timestamp":"2018-07-01T00:09:26.448Z"}
+info: knob right {"timestamp":"2018-07-01T00:09:26.480Z"}
+info: tap {"timestamp":"2018-07-01T00:09:27.426Z"}
+info: rendering view {"timestamp":"2018-07-01T00:09:27.428Z"}
+info: outmessage: 144,64,41 {"timestamp":"2018-07-01T00:10:47.942Z"}
+info: outmessage: 128,64,39 {"timestamp":"2018-07-01T00:10:48.038Z"}
+info: outmessage: 144,65,7 {"timestamp":"2018-07-01T00:10:53.183Z"}
+info: outmessage: 128,65,7 {"timestamp":"2018-07-01T00:10:53.377Z"}
+info: outmessage: 144,65,97 {"timestamp":"2018-07-01T00:10:53.876Z"}
+info: outmessage: 128,65,7 {"timestamp":"2018-07-01T00:10:54.470Z"}
+info: outmessage: 144,69,81 {"timestamp":"2018-07-01T00:10:54.994Z"}
+info: outmessage: 144,71,95 {"timestamp":"2018-07-01T00:10:54.996Z"}
+info: outmessage: 128,71,6 {"timestamp":"2018-07-01T00:10:55.188Z"}
+info: outmessage: 128,69,7 {"timestamp":"2018-07-01T00:10:55.471Z"}
+info: outmessage: 144,76,103 {"timestamp":"2018-07-01T00:10:57.044Z"}
+info: outmessage: 144,72,89 {"timestamp":"2018-07-01T00:10:57.047Z"}
+info: outmessage: 128,76,7 {"timestamp":"2018-07-01T00:10:57.372Z"}
+info: outmessage: 128,72,7 {"timestamp":"2018-07-01T00:10:57.415Z"}
+info: outmessage: 144,69,83 {"timestamp":"2018-07-01T00:10:59.143Z"}
+info: outmessage: 128,69,7 {"timestamp":"2018-07-01T00:10:59.691Z"}
+info: here {"timestamp":"2018-07-01T00:11:37.215Z"}
+info: rendering view {"timestamp":"2018-07-01T00:11:37.518Z"}
+info: knob set {"timestamp":"2018-07-01T00:15:34.923Z"}
+info: rendering view {"timestamp":"2018-07-01T00:15:34.924Z"}
+info: button set {"timestamp":"2018-07-01T00:15:36.291Z"}
+info: user config {"timestamp":"2018-07-01T00:15:36.295Z"}
+info: choosing input port {"timestamp":"2018-07-01T00:15:36.296Z"}
+info: rendering view {"timestamp":"2018-07-01T00:15:36.299Z"}
+info: tap {"timestamp":"2018-07-01T00:15:38.642Z"}
+info: choosing input channel {"timestamp":"2018-07-01T00:15:38.643Z"}
+info: rendering view {"timestamp":"2018-07-01T00:15:38.645Z"}
+info: tap {"timestamp":"2018-07-01T00:15:39.323Z"}
+info: choosing output port {"timestamp":"2018-07-01T00:15:39.324Z"}
+info: rendering view {"timestamp":"2018-07-01T00:15:39.325Z"}
+info: tap {"timestamp":"2018-07-01T00:15:40.262Z"}
+info: choosing output cahnnel {"timestamp":"2018-07-01T00:15:40.263Z"}
+info: rendering view {"timestamp":"2018-07-01T00:15:40.264Z"}
+info: tap {"timestamp":"2018-07-01T00:15:41.531Z"}
+info: choosing if we will make another route {"timestamp":"2018-07-01T00:15:41.532Z"}
+info: rendering view {"timestamp":"2018-07-01T00:15:41.532Z"}
+info: rendering view {"timestamp":"2018-07-01T00:15:42.745Z"}
+info: knob right {"timestamp":"2018-07-01T00:15:42.747Z"}
+info: knob right {"timestamp":"2018-07-01T00:15:42.787Z"}
+info: knob right {"timestamp":"2018-07-01T00:15:42.827Z"}
+info: tap {"timestamp":"2018-07-01T00:15:43.338Z"}
+info: rendering view {"timestamp":"2018-07-01T00:15:43.339Z"}
+info: outmessage: 176,2,22 {"timestamp":"2018-07-01T00:27:52.529Z"}
+info: outmessage: 144,65,73 {"timestamp":"2018-07-01T00:45:10.205Z"}
+info: outmessage: 128,65,25 {"timestamp":"2018-07-01T00:45:11.092Z"}
+info: outmessage: 144,72,67 {"timestamp":"2018-07-01T00:45:11.904Z"}
+info: outmessage: 144,69,59 {"timestamp":"2018-07-01T00:45:11.909Z"}
+info: outmessage: 128,72,7 {"timestamp":"2018-07-01T00:45:12.442Z"}
+info: outmessage: 128,69,7 {"timestamp":"2018-07-01T00:45:12.452Z"}
+info: outmessage: 144,71,37 {"timestamp":"2018-07-01T00:45:13.087Z"}
+info: outmessage: 144,67,7 {"timestamp":"2018-07-01T00:45:13.088Z"}
+info: outmessage: 128,71,6 {"timestamp":"2018-07-01T00:45:13.428Z"}
+info: outmessage: 128,67,7 {"timestamp":"2018-07-01T00:45:13.440Z"}
+info: outmessage: 144,74,17 {"timestamp":"2018-07-01T00:45:14.128Z"}
+info: outmessage: 144,69,7 {"timestamp":"2018-07-01T00:45:14.130Z"}
+info: outmessage: 128,74,7 {"timestamp":"2018-07-01T00:45:14.265Z"}
+info: outmessage: 128,69,7 {"timestamp":"2018-07-01T00:45:14.276Z"}
+info: outmessage: 144,72,77 {"timestamp":"2018-07-01T00:45:15.219Z"}
+info: outmessage: 144,67,37 {"timestamp":"2018-07-01T00:45:15.235Z"}
+info: outmessage: 128,72,7 {"timestamp":"2018-07-01T00:45:15.351Z"}
+info: outmessage: 128,67,7 {"timestamp":"2018-07-01T00:45:15.370Z"}
+info: outmessage: 144,76,83 {"timestamp":"2018-07-01T00:45:17.071Z"}
+info: outmessage: 144,72,59 {"timestamp":"2018-07-01T00:45:17.073Z"}
+info: outmessage: 128,76,17 {"timestamp":"2018-07-01T00:45:17.165Z"}
+info: outmessage: 128,72,7 {"timestamp":"2018-07-01T00:45:17.169Z"}
+info: outmessage: 144,79,69 {"timestamp":"2018-07-01T00:45:18.185Z"}
+info: outmessage: 144,74,59 {"timestamp":"2018-07-01T00:45:18.189Z"}
+info: outmessage: 128,79,7 {"timestamp":"2018-07-01T00:45:18.302Z"}
+info: outmessage: 128,74,7 {"timestamp":"2018-07-01T00:45:18.326Z"}
+info: outmessage: 144,81,81 {"timestamp":"2018-07-01T00:45:21.390Z"}
+info: outmessage: 128,81,7 {"timestamp":"2018-07-01T00:45:22.969Z"}
+info: outmessage: 144,69,89 {"timestamp":"2018-07-01T00:45:32.022Z"}
+info: outmessage: 144,65,49 {"timestamp":"2018-07-01T00:45:32.026Z"}
+info: outmessage: 128,69,21 {"timestamp":"2018-07-01T00:45:32.181Z"}
+info: outmessage: 128,65,25 {"timestamp":"2018-07-01T00:45:32.182Z"}
+info: outmessage: 144,71,19 {"timestamp":"2018-07-01T00:45:32.669Z"}
+info: outmessage: 144,67,7 {"timestamp":"2018-07-01T00:45:32.677Z"}
+info: outmessage: 128,67,7 {"timestamp":"2018-07-01T00:45:32.769Z"}
+info: outmessage: 128,71,13 {"timestamp":"2018-07-01T00:45:32.779Z"}
+info: outmessage: 144,67,39 {"timestamp":"2018-07-01T00:45:33.429Z"}
+info: outmessage: 144,64,7 {"timestamp":"2018-07-01T00:45:33.451Z"}
+info: outmessage: 128,67,17 {"timestamp":"2018-07-01T00:45:33.519Z"}
+info: outmessage: 128,64,7 {"timestamp":"2018-07-01T00:45:33.525Z"}
+info: outmessage: 144,67,75 {"timestamp":"2018-07-01T00:45:34.461Z"}
+info: outmessage: 144,71,55 {"timestamp":"2018-07-01T00:45:34.474Z"}
+info: outmessage: 128,71,7 {"timestamp":"2018-07-01T00:45:34.531Z"}
+info: outmessage: 128,67,11 {"timestamp":"2018-07-01T00:45:34.543Z"}
+info: outmessage: 144,72,63 {"timestamp":"2018-07-01T00:45:35.319Z"}
+info: outmessage: 144,69,27 {"timestamp":"2018-07-01T00:45:35.334Z"}
+info: outmessage: 128,72,21 {"timestamp":"2018-07-01T00:45:35.406Z"}
+info: outmessage: 128,69,7 {"timestamp":"2018-07-01T00:45:35.412Z"}
+info: outmessage: 144,72,63 {"timestamp":"2018-07-01T00:45:35.882Z"}
+info: outmessage: 144,76,95 {"timestamp":"2018-07-01T00:45:35.884Z"}
+info: outmessage: 128,72,29 {"timestamp":"2018-07-01T00:45:35.950Z"}
+info: outmessage: 128,76,51 {"timestamp":"2018-07-01T00:45:35.961Z"}
+info: outmessage: 144,79,53 {"timestamp":"2018-07-01T00:45:36.562Z"}
+info: outmessage: 144,76,7 {"timestamp":"2018-07-01T00:45:36.583Z"}
+info: outmessage: 128,79,7 {"timestamp":"2018-07-01T00:45:36.659Z"}
+info: outmessage: 128,76,7 {"timestamp":"2018-07-01T00:45:36.668Z"}
+info: outmessage: 144,79,59 {"timestamp":"2018-07-01T00:45:37.585Z"}
+info: outmessage: 144,83,55 {"timestamp":"2018-07-01T00:45:37.589Z"}
+info: outmessage: 128,79,13 {"timestamp":"2018-07-01T00:45:37.657Z"}
+info: outmessage: 128,83,35 {"timestamp":"2018-07-01T00:45:37.666Z"}
+info: outmessage: 144,81,59 {"timestamp":"2018-07-01T00:45:38.548Z"}
+info: outmessage: 144,84,59 {"timestamp":"2018-07-01T00:45:38.551Z"}
+info: outmessage: 128,81,29 {"timestamp":"2018-07-01T00:45:38.604Z"}
+info: outmessage: 128,84,7 {"timestamp":"2018-07-01T00:45:38.614Z"}
+info: here {"timestamp":"2018-07-01T00:47:39.909Z"}
+info: rendering view {"timestamp":"2018-07-01T00:47:40.121Z"}
+info: here {"timestamp":"2018-07-01T00:48:52.936Z"}
+info: rendering view {"timestamp":"2018-07-01T00:48:53.110Z"}
+info: here {"timestamp":"2018-07-01T00:51:04.275Z"}
+info: rendering view {"timestamp":"2018-07-01T00:51:04.427Z"}
+info: here {"timestamp":"2018-07-01T00:51:18.578Z"}
+info: rendering view {"timestamp":"2018-07-01T00:51:18.747Z"}
+info: here {"timestamp":"2018-07-01T00:51:31.509Z"}
+info: rendering view {"timestamp":"2018-07-01T00:51:31.666Z"}
+info: here {"timestamp":"2018-07-01T00:51:57.469Z"}
+info: rendering view {"timestamp":"2018-07-01T00:51:57.615Z"}
+info: here {"timestamp":"2018-07-01T00:56:11.558Z"}
+info: rendering view {"timestamp":"2018-07-01T00:56:11.708Z"}
+info: here {"timestamp":"2018-07-01T00:58:25.982Z"}
+info: rendering view {"timestamp":"2018-07-01T00:58:26.129Z"}
+info: here {"timestamp":"2018-07-01T00:59:21.296Z"}
+info: rendering view {"timestamp":"2018-07-01T00:59:21.449Z"}
+info: here {"timestamp":"2018-07-01T00:59:50.525Z"}
+info: rendering view {"timestamp":"2018-07-01T00:59:50.674Z"}
+info: here {"timestamp":"2018-07-01T01:12:18.030Z"}
+info: rendering view {"timestamp":"2018-07-01T01:12:18.186Z"}
+info: here {"timestamp":"2018-07-01T01:12:25.747Z"}
+info: rendering view {"timestamp":"2018-07-01T01:12:25.902Z"}
+info: here {"timestamp":"2018-07-01T01:14:26.761Z"}
+info: rendering view {"timestamp":"2018-07-01T01:14:26.914Z"}
+info: here {"timestamp":"2018-07-01T01:14:42.564Z"}
+info: rendering view {"timestamp":"2018-07-01T01:14:42.713Z"}
+info: here {"timestamp":"2018-07-01T01:14:45.410Z"}
+info: rendering view {"timestamp":"2018-07-01T01:14:45.559Z"}
+info: here {"timestamp":"2018-07-01T01:14:50.534Z"}
+info: rendering view {"timestamp":"2018-07-01T01:14:50.687Z"}
+info: here {"timestamp":"2018-07-01T01:15:02.787Z"}
+info: rendering view {"timestamp":"2018-07-01T01:15:02.938Z"}
+info: Control knob set {"timestamp":"2018-07-01T01:16:14.621Z"}
+info: rendering view {"timestamp":"2018-07-01T01:16:14.621Z"}
+info: here {"timestamp":"2018-07-01T02:11:16.592Z"}
+info: rendering view {"timestamp":"2018-07-01T02:11:16.796Z"}
+info: here {"timestamp":"2018-07-01T02:29:18.088Z"}
+info: rendering view {"timestamp":"2018-07-01T02:29:18.238Z"}
+info: here {"timestamp":"2018-07-01T02:32:49.266Z"}
+info: rendering view {"timestamp":"2018-07-01T02:32:49.423Z"}
+info: here {"timestamp":"2018-07-01T02:35:18.131Z"}
+info: rendering view {"timestamp":"2018-07-01T02:35:18.300Z"}
+info: here {"timestamp":"2018-07-01T02:35:26.000Z"}
+info: rendering view {"timestamp":"2018-07-01T02:35:26.183Z"}
+info: here {"timestamp":"2018-07-01T02:37:31.422Z"}
+info: rendering view {"timestamp":"2018-07-01T02:37:31.610Z"}
+info: here {"timestamp":"2018-07-01T02:51:16.100Z"}
+info: rendering view {"timestamp":"2018-07-01T02:51:16.260Z"}
+info: here {"timestamp":"2018-07-01T02:51:17.431Z"}
+info: rendering view {"timestamp":"2018-07-01T02:51:17.577Z"}
+info: here {"timestamp":"2018-07-01T02:51:20.652Z"}
+info: rendering view {"timestamp":"2018-07-01T02:51:20.813Z"}
+info: here {"timestamp":"2018-07-01T02:53:53.159Z"}
+info: rendering view {"timestamp":"2018-07-01T02:53:53.323Z"}
+info: here {"timestamp":"2018-07-01T02:54:24.920Z"}
+info: rendering view {"timestamp":"2018-07-01T02:54:25.160Z"}
+info: here {"timestamp":"2018-07-01T02:56:55.647Z"}
+info: rendering view {"timestamp":"2018-07-01T02:56:55.815Z"}
+info: here {"timestamp":"2018-07-01T03:02:47.557Z"}
+info: rendering view {"timestamp":"2018-07-01T03:02:47.707Z"}
+info: here {"timestamp":"2018-07-01T03:02:51.002Z"}
+info: rendering view {"timestamp":"2018-07-01T03:02:51.151Z"}
+info: here {"timestamp":"2018-07-01T03:02:54.296Z"}
+info: rendering view {"timestamp":"2018-07-01T03:02:54.447Z"}
+info: here {"timestamp":"2018-07-01T03:03:10.885Z"}
+info: rendering view {"timestamp":"2018-07-01T03:03:11.044Z"}
+info: here {"timestamp":"2018-07-01T03:03:12.455Z"}
+info: rendering view {"timestamp":"2018-07-01T03:03:12.610Z"}
+info: here {"timestamp":"2018-07-01T03:03:18.187Z"}
+info: rendering view {"timestamp":"2018-07-01T03:03:18.331Z"}
+info: Control knob set {"timestamp":"2018-07-01T03:05:54.273Z"}
+info: rendering view {"timestamp":"2018-07-01T03:05:54.274Z"}
+info: Control button set {"timestamp":"2018-07-01T03:05:59.075Z"}
+info: user config {"timestamp":"2018-07-01T03:05:59.080Z"}
+info: choosing input port {"timestamp":"2018-07-01T03:05:59.081Z"}
+info: rendering view {"timestamp":"2018-07-01T03:05:59.084Z"}
+info: here {"timestamp":"2018-07-01T15:36:12.648Z"}
+info: rendering view {"timestamp":"2018-07-01T15:36:13.982Z"}
+info: here {"timestamp":"2018-07-01T16:07:22.119Z"}
+info: rendering view {"timestamp":"2018-07-01T16:07:22.386Z"}
+info: here {"timestamp":"2018-07-01T16:09:25.296Z"}
+info: rendering view {"timestamp":"2018-07-01T16:09:25.543Z"}
+info: here {"timestamp":"2018-07-01T16:11:33.307Z"}
+info: rendering view {"timestamp":"2018-07-01T16:11:33.531Z"}
+info: here {"timestamp":"2018-07-01T16:11:42.466Z"}
+info: rendering view {"timestamp":"2018-07-01T16:11:42.693Z"}
+info: here {"timestamp":"2018-07-01T16:25:53.127Z"}
+info: rendering view {"timestamp":"2018-07-01T16:25:53.395Z"}
+info: here {"timestamp":"2018-07-01T16:26:01.622Z"}
+info: rendering view {"timestamp":"2018-07-01T16:26:01.859Z"}
+info: here {"timestamp":"2018-07-01T16:26:19.117Z"}
+info: rendering view {"timestamp":"2018-07-01T16:26:19.374Z"}
+info: here {"timestamp":"2018-07-01T16:26:44.424Z"}
+info: rendering view {"timestamp":"2018-07-01T16:26:44.722Z"}
+info: here {"timestamp":"2018-07-01T16:30:44.494Z"}
+info: rendering view {"timestamp":"2018-07-01T16:30:44.758Z"}
+info: here {"timestamp":"2018-07-01T16:30:46.265Z"}
+info: rendering view {"timestamp":"2018-07-01T16:30:46.502Z"}
+info: here {"timestamp":"2018-07-01T16:30:59.977Z"}
+info: rendering view {"timestamp":"2018-07-01T16:31:00.344Z"}
+info: here {"timestamp":"2018-07-01T16:31:33.870Z"}
+info: rendering view {"timestamp":"2018-07-01T16:31:34.154Z"}
+info: here {"timestamp":"2018-07-01T16:31:45.994Z"}
+info: here {"timestamp":"2018-07-01T16:31:47.375Z"}
+info: rendering view {"timestamp":"2018-07-01T16:31:47.663Z"}
+info: here {"timestamp":"2018-07-01T16:31:54.135Z"}
+info: rendering view {"timestamp":"2018-07-01T16:31:54.404Z"}
+info: here {"timestamp":"2018-07-01T16:32:59.314Z"}
+info: rendering view {"timestamp":"2018-07-01T16:32:59.549Z"}
+info: here {"timestamp":"2018-07-01T16:36:18.768Z"}
+info: rendering view {"timestamp":"2018-07-01T16:36:19.026Z"}
+info: here {"timestamp":"2018-07-01T16:58:39.563Z"}
+info: rendering view {"timestamp":"2018-07-01T16:58:39.788Z"}
+info: here {"timestamp":"2018-07-01T16:59:28.644Z"}
+info: rendering view {"timestamp":"2018-07-01T16:59:28.873Z"}
+info: here {"timestamp":"2018-07-01T17:01:45.179Z"}
+info: rendering view {"timestamp":"2018-07-01T17:01:45.434Z"}
+info: here {"timestamp":"2018-07-01T17:01:46.719Z"}
+info: rendering view {"timestamp":"2018-07-01T17:01:46.972Z"}
+info: here {"timestamp":"2018-07-01T17:07:20.251Z"}
+info: rendering view {"timestamp":"2018-07-01T17:07:20.519Z"}
+info: here {"timestamp":"2018-07-01T17:07:20.263Z"}
+info: rendering view {"timestamp":"2018-07-01T17:07:20.536Z"}
+info: here {"timestamp":"2018-07-01T17:08:36.281Z"}
+info: rendering view {"timestamp":"2018-07-01T17:08:36.469Z"}
+info: here {"timestamp":"2018-07-01T17:08:36.285Z"}
+info: rendering view {"timestamp":"2018-07-01T17:08:36.475Z"}
+info: here {"timestamp":"2018-07-01T17:08:52.289Z"}
+info: rendering view {"timestamp":"2018-07-01T17:08:52.447Z"}
+info: here {"timestamp":"2018-07-01T17:09:50.852Z"}
+info: rendering view {"timestamp":"2018-07-01T17:09:51.035Z"}
+info: here {"timestamp":"2018-07-01T17:09:50.851Z"}
+info: rendering view {"timestamp":"2018-07-01T17:09:51.037Z"}
+info: here {"timestamp":"2018-07-01T17:10:44.703Z"}
+info: rendering view {"timestamp":"2018-07-01T17:10:44.852Z"}
+error: Failed to start sequencer - No MIDI inputs available {"timestamp":"2018-07-01T17:10:44.854Z"}
+info: here {"timestamp":"2018-07-01T17:10:53.520Z"}
+info: rendering view {"timestamp":"2018-07-01T17:10:53.665Z"}
+error: Failed to start sequencer - No MIDI inputs available {"timestamp":"2018-07-01T17:10:53.666Z"}
+info: here {"timestamp":"2018-07-01T17:11:11.749Z"}
+info: rendering view {"timestamp":"2018-07-01T17:11:11.882Z"}
+error: Failed to start sequencer - No MIDI inputs available {"timestamp":"2018-07-01T17:11:11.883Z"}
+info: here {"timestamp":"2018-07-01T17:11:36.306Z"}
+info: rendering view {"timestamp":"2018-07-01T17:11:36.444Z"}
+info: Control knob set {"timestamp":"2018-07-01T17:11:36.469Z"}
+info: rendering view {"timestamp":"2018-07-01T17:11:36.469Z"}
+info: Control button set {"timestamp":"2018-07-01T17:11:38.532Z"}
+info: transport is not defined {"timestamp":"2018-07-01T17:11:38.532Z"}
+info: here {"timestamp":"2018-07-01T17:11:42.591Z"}
+info: rendering view {"timestamp":"2018-07-01T17:11:42.729Z"}
+info: Control knob set {"timestamp":"2018-07-01T17:11:43.047Z"}
+info: rendering view {"timestamp":"2018-07-01T17:11:43.048Z"}
+info: Control button set {"timestamp":"2018-07-01T17:11:45.661Z"}
+info: transport is not defined {"timestamp":"2018-07-01T17:11:45.662Z"}
+info: Control button set {"timestamp":"2018-07-01T17:11:45.810Z"}
+info: transport is not defined {"timestamp":"2018-07-01T17:11:45.811Z"}
+info: Control button set {"timestamp":"2018-07-01T17:11:49.896Z"}
+info: transport is not defined {"timestamp":"2018-07-01T17:11:49.896Z"}
+info: Control button set {"timestamp":"2018-07-01T17:11:50.581Z"}
+info: transport is not defined {"timestamp":"2018-07-01T17:11:50.582Z"}
+info: Control button set {"timestamp":"2018-07-01T17:11:51.296Z"}
+info: transport is not defined {"timestamp":"2018-07-01T17:11:51.296Z"}
+info: Control button set {"timestamp":"2018-07-01T17:11:52.181Z"}
+info: transport is not defined {"timestamp":"2018-07-01T17:11:52.184Z"}
+info: Control button set {"timestamp":"2018-07-01T17:11:53.322Z"}
+info: transport is not defined {"timestamp":"2018-07-01T17:11:53.323Z"}
+info: here {"timestamp":"2018-07-01T17:12:26.294Z"}
+info: rendering view {"timestamp":"2018-07-01T17:12:26.432Z"}
+info: Control knob set {"timestamp":"2018-07-01T17:12:29.598Z"}
+info: rendering view {"timestamp":"2018-07-01T17:12:29.599Z"}
+info: Control button set {"timestamp":"2018-07-01T17:12:31.761Z"}
+info: transport is not defined {"timestamp":"2018-07-01T17:12:31.762Z"}
+info: Control button set {"timestamp":"2018-07-01T17:12:31.869Z"}
+info: transport is not defined {"timestamp":"2018-07-01T17:12:31.869Z"}
+info: Control button set {"timestamp":"2018-07-01T17:12:34.822Z"}
+info: transport is not defined {"timestamp":"2018-07-01T17:12:34.823Z"}
+info: Control button set {"timestamp":"2018-07-01T17:12:35.129Z"}
+info: transport is not defined {"timestamp":"2018-07-01T17:12:35.130Z"}
+info: here {"timestamp":"2018-07-01T17:13:07.003Z"}
+info: rendering view {"timestamp":"2018-07-01T17:13:07.181Z"}
+info: here {"timestamp":"2018-07-01T17:13:07.011Z"}
+info: rendering view {"timestamp":"2018-07-01T17:13:07.192Z"}
+info: here {"timestamp":"2018-07-01T17:13:11.777Z"}
+info: rendering view {"timestamp":"2018-07-01T17:13:11.916Z"}
+info: here {"timestamp":"2018-07-01T17:13:17.875Z"}
+info: rendering view {"timestamp":"2018-07-01T17:13:18.013Z"}
+info: Control knob set {"timestamp":"2018-07-01T17:13:19.933Z"}
+info: rendering view {"timestamp":"2018-07-01T17:13:19.934Z"}
+info: Control button set {"timestamp":"2018-07-01T17:13:20.611Z"}
+info: transport is not defined {"timestamp":"2018-07-01T17:13:20.612Z"}
+info: Control button set {"timestamp":"2018-07-01T17:13:20.711Z"}
+info: transport is not defined {"timestamp":"2018-07-01T17:13:20.712Z"}
+info: Control button set {"timestamp":"2018-07-01T17:13:38.981Z"}
+info: transport is not defined {"timestamp":"2018-07-01T17:13:38.982Z"}
+info: Control button set {"timestamp":"2018-07-01T17:13:39.067Z"}
+info: transport is not defined {"timestamp":"2018-07-01T17:13:39.067Z"}
+info: here {"timestamp":"2018-07-01T17:13:53.350Z"}
+info: rendering view {"timestamp":"2018-07-01T17:13:53.493Z"}
+info: Control knob set {"timestamp":"2018-07-01T17:13:56.496Z"}
+info: rendering view {"timestamp":"2018-07-01T17:13:56.497Z"}
+info: Control button set {"timestamp":"2018-07-01T17:13:57.940Z"}
+info: transport is not defined {"timestamp":"2018-07-01T17:13:57.940Z"}
+info: Control button set {"timestamp":"2018-07-01T17:13:58.126Z"}
+info: transport is not defined {"timestamp":"2018-07-01T17:13:58.126Z"}
+info: here {"timestamp":"2018-07-01T17:14:28.741Z"}
+info: rendering view {"timestamp":"2018-07-01T17:14:28.880Z"}
+info: here {"timestamp":"2018-07-01T17:14:41.451Z"}
+info: rendering view {"timestamp":"2018-07-01T17:14:41.590Z"}
+info: here {"timestamp":"2018-07-01T17:14:46.070Z"}
+info: rendering view {"timestamp":"2018-07-01T17:14:46.250Z"}
+info: Control knob set {"timestamp":"2018-07-01T17:14:47.590Z"}
+info: rendering view {"timestamp":"2018-07-01T17:14:47.590Z"}
+info: Control button set {"timestamp":"2018-07-01T17:14:50.424Z"}
+info: here {"timestamp":"2018-07-01T17:15:14.396Z"}
+info: rendering view {"timestamp":"2018-07-01T17:15:14.545Z"}
+info: Control knob set {"timestamp":"2018-07-01T17:15:16.243Z"}
+info: rendering view {"timestamp":"2018-07-01T17:15:16.245Z"}
+info: Control button set {"timestamp":"2018-07-01T17:15:17.480Z"}
+info: rendering view {"timestamp":"2018-07-01T17:15:17.480Z"}
+info: Transport button set {"timestamp":"2018-07-01T17:15:23.461Z"}
+info: rendering view {"timestamp":"2018-07-01T17:15:23.462Z"}
+info: Record button set {"timestamp":"2018-07-01T17:15:25.588Z"}
+info: here {"timestamp":"2018-07-01T17:15:53.495Z"}
+info: rendering view {"timestamp":"2018-07-01T17:15:53.658Z"}
+info: Control knob set {"timestamp":"2018-07-01T17:15:56.569Z"}
+info: rendering view {"timestamp":"2018-07-01T17:15:56.569Z"}
+info: Control button set {"timestamp":"2018-07-01T17:15:57.717Z"}
+info: rendering view {"timestamp":"2018-07-01T17:15:57.717Z"}
+info: Transport button set {"timestamp":"2018-07-01T17:15:59.843Z"}
+info: rendering view {"timestamp":"2018-07-01T17:15:59.844Z"}
+info: Record button set {"timestamp":"2018-07-01T17:16:00.586Z"}
+info: here {"timestamp":"2018-07-01T17:16:21.852Z"}
+info: rendering view {"timestamp":"2018-07-01T17:16:22.013Z"}
+info: Control knob set {"timestamp":"2018-07-01T17:16:23.589Z"}
+info: rendering view {"timestamp":"2018-07-01T17:16:23.590Z"}
+info: Control button set {"timestamp":"2018-07-01T17:16:24.287Z"}
+info: rendering view {"timestamp":"2018-07-01T17:16:24.288Z"}
+info: Transport button set {"timestamp":"2018-07-01T17:16:25.201Z"}
+info: rendering view {"timestamp":"2018-07-01T17:16:25.202Z"}
+info: Record button set {"timestamp":"2018-07-01T17:16:25.758Z"}
+info: user config {"timestamp":"2018-07-01T17:16:25.761Z"}
+info: choosing input port {"timestamp":"2018-07-01T17:16:25.762Z"}
+info: rendering view {"timestamp":"2018-07-01T17:16:25.763Z"}
+info: here {"timestamp":"2018-07-01T17:22:21.586Z"}
+info: rendering view {"timestamp":"2018-07-01T17:22:21.805Z"}
+info: here {"timestamp":"2018-07-01T17:25:53.207Z"}
+info: rendering view {"timestamp":"2018-07-01T17:25:53.346Z"}
+info: here {"timestamp":"2018-07-01T17:26:46.283Z"}
+info: rendering view {"timestamp":"2018-07-01T17:26:46.452Z"}
+info: Control knob set {"timestamp":"2018-07-01T17:31:32.162Z"}
+info: rendering view {"timestamp":"2018-07-01T17:31:32.162Z"}
+info: Control button set {"timestamp":"2018-07-01T18:00:10.709Z"}
+info: rendering view {"timestamp":"2018-07-01T18:00:10.709Z"}
+info: Transport button set {"timestamp":"2018-07-01T19:05:59.580Z"}
+info: rendering view {"timestamp":"2018-07-01T19:05:59.581Z"}
+info: Record button set {"timestamp":"2018-07-01T19:10:42.305Z"}
+info: user config {"timestamp":"2018-07-01T19:10:42.305Z"}
+info: choosing input port {"timestamp":"2018-07-01T19:10:42.305Z"}
+info: rendering view {"timestamp":"2018-07-01T19:10:42.315Z"}
+info: here {"timestamp":"2018-07-01T19:10:53.558Z"}
+info: rendering view {"timestamp":"2018-07-01T19:10:53.929Z"}
+info: Control knob set {"timestamp":"2018-07-01T19:10:56.546Z"}
+info: rendering view {"timestamp":"2018-07-01T19:10:56.547Z"}
+info: Control button set {"timestamp":"2018-07-01T19:10:57.463Z"}
+info: rendering view {"timestamp":"2018-07-01T19:10:57.464Z"}
+info: Transport button set {"timestamp":"2018-07-01T19:10:58.040Z"}
+info: rendering view {"timestamp":"2018-07-01T19:10:58.040Z"}
+info: Record button set {"timestamp":"2018-07-01T19:10:58.626Z"}
+info: user config {"timestamp":"2018-07-01T19:10:58.629Z"}
+info: choosing input port {"timestamp":"2018-07-01T19:10:58.630Z"}
+info: rendering view {"timestamp":"2018-07-01T19:10:58.632Z"}
+info: here {"timestamp":"2018-07-01T19:11:44.385Z"}
+info: rendering view {"timestamp":"2018-07-01T19:11:45.297Z"}
+info: here {"timestamp":"2018-07-01T19:12:10.098Z"}
+info: rendering view {"timestamp":"2018-07-01T19:12:10.401Z"}
+info: Control knob set {"timestamp":"2018-07-01T19:12:13.280Z"}
+info: rendering view {"timestamp":"2018-07-01T19:12:13.280Z"}
+info: Control button set {"timestamp":"2018-07-01T19:12:16.680Z"}
+info: rendering view {"timestamp":"2018-07-01T19:12:16.680Z"}
+info: Transport button set {"timestamp":"2018-07-01T19:12:17.546Z"}
+info: rendering view {"timestamp":"2018-07-01T19:12:17.546Z"}
+info: Record button set {"timestamp":"2018-07-01T19:12:18.350Z"}
+info: user config {"timestamp":"2018-07-01T19:12:18.350Z"}
+info: choosing input port {"timestamp":"2018-07-01T19:12:18.350Z"}
+info: rendering view {"timestamp":"2018-07-01T19:12:18.350Z"}
+info: record button up event {"timestamp":"2018-07-01T19:12:18.412Z"}
+info: control button down event {"timestamp":"2018-07-01T19:12:22.230Z"}
+info: control button up event {"timestamp":"2018-07-01T19:12:22.360Z"}
+info: control press and hold {"timestamp":"2018-07-01T19:12:23.041Z"}
+info: control button down event {"timestamp":"2018-07-01T19:12:30.016Z"}
+info: control button up event {"timestamp":"2018-07-01T19:12:30.334Z"}
+info: control press and hold {"timestamp":"2018-07-01T19:12:30.819Z"}
+info: control button down event {"timestamp":"2018-07-01T19:12:31.240Z"}
+info: control button up event {"timestamp":"2018-07-01T19:12:31.430Z"}
+info: control press and hold {"timestamp":"2018-07-01T19:12:32.046Z"}
+info: control button down event {"timestamp":"2018-07-01T19:12:34.300Z"}
+info: control button up event {"timestamp":"2018-07-01T19:12:34.400Z"}
+info: control press and hold {"timestamp":"2018-07-01T19:12:35.109Z"}
+info: here {"timestamp":"2018-07-01T19:14:16.980Z"}
+info: rendering view {"timestamp":"2018-07-01T19:14:17.264Z"}
+info: here {"timestamp":"2018-07-01T19:14:22.405Z"}
+info: rendering view {"timestamp":"2018-07-01T19:14:22.699Z"}
+info: Control knob set {"timestamp":"2018-07-01T19:14:24.356Z"}
+info: rendering view {"timestamp":"2018-07-01T19:14:24.356Z"}
+info: Control button set {"timestamp":"2018-07-01T19:14:26.120Z"}
+info: rendering view {"timestamp":"2018-07-01T19:14:26.132Z"}
+info: Transport button set {"timestamp":"2018-07-01T19:14:26.642Z"}
+info: rendering view {"timestamp":"2018-07-01T19:14:26.642Z"}
+info: Record button set {"timestamp":"2018-07-01T19:14:27.235Z"}
+info: user config {"timestamp":"2018-07-01T19:14:27.235Z"}
+info: choosing input port {"timestamp":"2018-07-01T19:14:27.242Z"}
+info: rendering view {"timestamp":"2018-07-01T19:14:27.242Z"}
+info: record button up event {"timestamp":"2018-07-01T19:14:27.316Z"}
+info: control button down event {"timestamp":"2018-07-01T19:14:28.242Z"}
+info: control button up event {"timestamp":"2018-07-01T19:14:28.472Z"}
+info: control button down event {"timestamp":"2018-07-01T19:14:31.556Z"}
+info: control button up event {"timestamp":"2018-07-01T19:14:31.662Z"}
+info: control button down event {"timestamp":"2018-07-01T19:14:35.053Z"}
+info: control press and hold {"timestamp":"2018-07-01T19:14:35.855Z"}
+info: control button up event {"timestamp":"2018-07-01T19:14:37.622Z"}
+info: control button down event {"timestamp":"2018-07-01T19:14:42.272Z"}
+info: control button up event {"timestamp":"2018-07-01T19:14:42.419Z"}
+info: control button down event {"timestamp":"2018-07-01T19:24:10.432Z"}
+info: control button up event {"timestamp":"2018-07-01T19:24:10.622Z"}
+info: rendering view {"timestamp":"2018-07-01T19:27:19.681Z"}
+info: knob left {"timestamp":"2018-07-01T19:27:19.681Z"}
+info: knob left {"timestamp":"2018-07-01T19:27:19.691Z"}
+info: rendering view {"timestamp":"2018-07-01T19:27:42.931Z"}
+info: knob right {"timestamp":"2018-07-01T19:27:42.931Z"}
+info: knob right {"timestamp":"2018-07-01T19:27:43.019Z"}
+info: knob right {"timestamp":"2018-07-01T19:27:43.056Z"}
+info: knob right {"timestamp":"2018-07-01T19:27:43.071Z"}
+info: knob right {"timestamp":"2018-07-01T19:27:43.092Z"}
+info: knob right {"timestamp":"2018-07-01T19:27:43.121Z"}
+info: rendering view {"timestamp":"2018-07-01T19:27:43.145Z"}
+info: knob right {"timestamp":"2018-07-01T19:27:43.145Z"}
+info: knob right {"timestamp":"2018-07-01T19:27:43.165Z"}
+info: knob right {"timestamp":"2018-07-01T19:27:43.194Z"}
+info: knob right {"timestamp":"2018-07-01T19:27:43.221Z"}
+info: rendering view {"timestamp":"2018-07-01T19:27:51.981Z"}
+info: knob right {"timestamp":"2018-07-01T19:27:51.981Z"}
+info: knob right {"timestamp":"2018-07-01T19:27:52.034Z"}
+info: knob right {"timestamp":"2018-07-01T19:27:52.053Z"}
+info: knob right {"timestamp":"2018-07-01T19:27:52.092Z"}
+info: knob right {"timestamp":"2018-07-01T19:27:52.172Z"}
+info: rendering view {"timestamp":"2018-07-01T19:27:52.912Z"}
+info: knob right {"timestamp":"2018-07-01T19:27:52.913Z"}
+info: rendering view {"timestamp":"2018-07-01T19:27:57.879Z"}
+info: knob right {"timestamp":"2018-07-01T19:27:57.879Z"}
+info: knob right {"timestamp":"2018-07-01T19:27:57.931Z"}
+info: knob right {"timestamp":"2018-07-01T19:27:58.001Z"}
+info: rendering view {"timestamp":"2018-07-01T19:27:58.096Z"}
+info: knob right {"timestamp":"2018-07-01T19:27:58.097Z"}
+info: rendering view {"timestamp":"2018-07-01T19:27:58.953Z"}
+info: knob right {"timestamp":"2018-07-01T19:27:58.953Z"}
+info: knob right {"timestamp":"2018-07-01T19:27:58.984Z"}
+info: knob right {"timestamp":"2018-07-01T19:27:59.017Z"}
+info: knob right {"timestamp":"2018-07-01T19:27:59.039Z"}
+info: knob right {"timestamp":"2018-07-01T19:27:59.059Z"}
+info: knob right {"timestamp":"2018-07-01T19:27:59.071Z"}
+info: knob right {"timestamp":"2018-07-01T19:27:59.091Z"}
+info: knob right {"timestamp":"2018-07-01T19:27:59.118Z"}
+info: knob right {"timestamp":"2018-07-01T19:27:59.150Z"}
+info: rendering view {"timestamp":"2018-07-01T19:28:01.251Z"}
+info: knob right {"timestamp":"2018-07-01T19:28:01.251Z"}
+info: rendering view {"timestamp":"2018-07-01T19:28:02.645Z"}
+info: knob right {"timestamp":"2018-07-01T19:28:02.645Z"}
+info: knob right {"timestamp":"2018-07-01T19:28:02.746Z"}
+info: here {"timestamp":"2018-07-01T19:28:43.306Z"}
+info: rendering view {"timestamp":"2018-07-01T19:28:43.652Z"}
+info: here {"timestamp":"2018-07-01T19:30:32.925Z"}
+info: rendering view {"timestamp":"2018-07-01T19:30:33.333Z"}
+info: Control knob set {"timestamp":"2018-07-01T19:31:00.968Z"}
+info: rendering view {"timestamp":"2018-07-01T19:31:00.969Z"}
+info: here {"timestamp":"2018-07-01T20:21:47.225Z"}
+info: rendering view {"timestamp":"2018-07-01T20:21:48.212Z"}
+info: here {"timestamp":"2018-07-01T20:22:59.354Z"}
+info: rendering view {"timestamp":"2018-07-01T20:23:00.300Z"}
+info: here {"timestamp":"2018-07-01T20:23:50.013Z"}
+info: rendering view {"timestamp":"2018-07-01T20:23:50.309Z"}
+info: here {"timestamp":"2018-07-01T20:24:05.016Z"}
+info: rendering view {"timestamp":"2018-07-01T20:24:05.313Z"}
+info: Control knob set {"timestamp":"2018-07-01T20:29:38.277Z"}
+info: rendering view {"timestamp":"2018-07-01T20:29:38.277Z"}
+info: Control button set {"timestamp":"2018-07-01T20:29:38.984Z"}
+info: rendering view {"timestamp":"2018-07-01T20:29:38.984Z"}
+info: Transport button set {"timestamp":"2018-07-01T20:29:40.658Z"}
+info: rendering view {"timestamp":"2018-07-01T20:29:40.658Z"}
+info: Record button set {"timestamp":"2018-07-01T20:29:41.548Z"}
+info: user config {"timestamp":"2018-07-01T20:29:41.557Z"}
+info: choosing input port {"timestamp":"2018-07-01T20:29:41.558Z"}
+info: rendering view {"timestamp":"2018-07-01T20:29:41.559Z"}
+info: record button up event {"timestamp":"2018-07-01T20:29:41.646Z"}
+info: rendering view {"timestamp":"2018-07-01T20:29:42.645Z"}
+info: knob right {"timestamp":"2018-07-01T20:29:42.654Z"}
+info: knob right {"timestamp":"2018-07-01T20:29:42.684Z"}
+info: knob right {"timestamp":"2018-07-01T20:29:42.717Z"}
+info: knob right {"timestamp":"2018-07-01T20:29:42.742Z"}
+info: knob right {"timestamp":"2018-07-01T20:29:42.774Z"}
+info: knob right {"timestamp":"2018-07-01T20:29:42.814Z"}
+info: rendering view {"timestamp":"2018-07-01T20:29:42.875Z"}
+info: knob right {"timestamp":"2018-07-01T20:29:42.875Z"}
+info: knob right {"timestamp":"2018-07-01T20:29:42.938Z"}
+info: knob right {"timestamp":"2018-07-01T20:29:42.981Z"}
+info: knob right {"timestamp":"2018-07-01T20:29:43.027Z"}
+info: knob right {"timestamp":"2018-07-01T20:29:43.070Z"}
+info: rendering view {"timestamp":"2018-07-01T20:29:43.698Z"}
+info: knob left {"timestamp":"2018-07-01T20:29:43.698Z"}
+info: knob left {"timestamp":"2018-07-01T20:29:43.729Z"}
+info: knob left {"timestamp":"2018-07-01T20:29:43.753Z"}
+info: knob left {"timestamp":"2018-07-01T20:29:43.776Z"}
+info: knob left {"timestamp":"2018-07-01T20:29:43.798Z"}
+info: knob left {"timestamp":"2018-07-01T20:29:43.826Z"}
+info: knob left {"timestamp":"2018-07-01T20:29:43.859Z"}
+info: here {"timestamp":"2018-07-01T20:30:54.310Z"}
+info: rendering view {"timestamp":"2018-07-01T20:30:54.620Z"}
+info: here {"timestamp":"2018-07-01T20:30:59.493Z"}
+info: rendering view {"timestamp":"2018-07-01T20:30:59.791Z"}
+info: here {"timestamp":"2018-07-01T20:31:02.408Z"}
+info: rendering view {"timestamp":"2018-07-01T20:31:02.732Z"}
+info: here {"timestamp":"2018-07-01T20:32:00.284Z"}
+info: rendering view {"timestamp":"2018-07-01T20:32:00.570Z"}
+info: here {"timestamp":"2018-07-01T20:35:59.335Z"}
+info: rendering view {"timestamp":"2018-07-01T20:35:59.632Z"}
+info: here {"timestamp":"2018-07-01T20:39:42.052Z"}
+info: rendering view {"timestamp":"2018-07-01T20:39:43.019Z"}
+info: Control knob set {"timestamp":"2018-07-01T20:39:44.789Z"}
+info: rendering view {"timestamp":"2018-07-01T20:39:44.789Z"}
+info: Control button set {"timestamp":"2018-07-01T20:39:45.425Z"}
+info: rendering view {"timestamp":"2018-07-01T20:39:45.426Z"}
+info: Transport button set {"timestamp":"2018-07-01T20:39:46.569Z"}
+info: rendering view {"timestamp":"2018-07-01T20:39:46.569Z"}
+info: Record button set {"timestamp":"2018-07-01T20:39:47.199Z"}
+info: rendering view {"timestamp":"2018-07-01T20:39:47.199Z"}
+error: Cannot read property 'action' of undefined {"timestamp":"2018-07-01T20:39:47.199Z"}
+info: here {"timestamp":"2018-07-01T20:42:37.380Z"}
+info: rendering view {"timestamp":"2018-07-01T20:42:38.346Z"}
+info: Control knob set {"timestamp":"2018-07-01T20:42:40.091Z"}
+info: rendering view {"timestamp":"2018-07-01T20:42:40.092Z"}
+info: Control button set {"timestamp":"2018-07-01T20:42:40.527Z"}
+info: rendering view {"timestamp":"2018-07-01T20:42:40.527Z"}
+info: Transport button set {"timestamp":"2018-07-01T20:42:42.136Z"}
+info: rendering view {"timestamp":"2018-07-01T20:42:42.136Z"}
+info: Record button set {"timestamp":"2018-07-01T20:42:42.947Z"}
+info: rendering view {"timestamp":"2018-07-01T20:42:42.949Z"}
+error: Cannot read property 'action' of undefined {"timestamp":"2018-07-01T20:42:42.950Z"}
+info: record button up event {"timestamp":"2018-07-01T20:42:43.105Z"}
+info: here {"timestamp":"2018-07-01T20:43:27.212Z"}
+info: rendering view {"timestamp":"2018-07-01T20:43:27.537Z"}
+info: Control knob set {"timestamp":"2018-07-01T20:43:31.396Z"}
+info: rendering view {"timestamp":"2018-07-01T20:43:31.396Z"}
+info: Control button set {"timestamp":"2018-07-01T20:43:31.996Z"}
+info: rendering view {"timestamp":"2018-07-01T20:43:32.006Z"}
+info: Transport button set {"timestamp":"2018-07-01T20:43:32.955Z"}
+info: rendering view {"timestamp":"2018-07-01T20:43:32.956Z"}
+info: Record button set {"timestamp":"2018-07-01T20:43:33.416Z"}
+info: rendering view {"timestamp":"2018-07-01T20:43:33.416Z"}
+error: logger is not defined {"timestamp":"2018-07-01T20:43:33.416Z"}
+info: record button up event {"timestamp":"2018-07-01T20:43:33.516Z"}
+info: here {"timestamp":"2018-07-01T20:43:51.105Z"}
+info: rendering view {"timestamp":"2018-07-01T20:43:51.392Z"}
+info: Control knob set {"timestamp":"2018-07-01T20:43:52.989Z"}
+info: rendering view {"timestamp":"2018-07-01T20:43:52.989Z"}
+info: Control button set {"timestamp":"2018-07-01T20:43:53.434Z"}
+info: rendering view {"timestamp":"2018-07-01T20:43:53.434Z"}
+info: Transport button set {"timestamp":"2018-07-01T20:43:54.574Z"}
+info: rendering view {"timestamp":"2018-07-01T20:43:54.574Z"}
+info: Record button set {"timestamp":"2018-07-01T20:43:55.062Z"}
+info: [object Object] {"timestamp":"2018-07-01T20:43:55.066Z"}
+info: rendering view {"timestamp":"2018-07-01T20:43:55.066Z"}
+error: Cannot read property 'action' of undefined {"timestamp":"2018-07-01T20:43:55.067Z"}
+info: record button up event {"timestamp":"2018-07-01T20:43:55.148Z"}
+info: here {"timestamp":"2018-07-01T20:44:34.691Z"}
+info: rendering view {"timestamp":"2018-07-01T20:44:34.987Z"}
+info: Control knob set {"timestamp":"2018-07-01T20:44:40.627Z"}
+info: rendering view {"timestamp":"2018-07-01T20:44:40.627Z"}
+info: Control button set {"timestamp":"2018-07-01T20:44:41.087Z"}
+info: rendering view {"timestamp":"2018-07-01T20:44:41.087Z"}
+info: Transport button set {"timestamp":"2018-07-01T20:44:42.755Z"}
+info: rendering view {"timestamp":"2018-07-01T20:44:42.755Z"}
+info: Record button set {"timestamp":"2018-07-01T20:44:43.117Z"}
+info: {
+	"routes": [],
+	"ports": {
+		"inputs": {},
+		"outputs": {}
+	},
+	"MIDIAccess": {
+		"sysexEnabled": true,
+		"outputs": {},
+		"inputs": {}
+	},
+	"listeners": {
+		"7605EB499A0D452ED5B6750A2CC0D5AF7087E4299545AAAABACF88533405F58A": [
+			null,
+			null,
+			null,
+			null
+		]
+	},
+	"transport": {
+		"currentIndex": 0,
+		"playing": false,
+		"tempo": 120
+	},
+	"userControl": {
+		"controlKnob": {
+			"channel": 0,
+			"controllerNumber": 91,
+			"id": "7605EB499A0D452ED5B6750A2CC0D5AF7087E4299545AAAABACF88533405F58A"
+		},
+		"controlButton": {
+			"channel": 0,
+			"controllerNumber": 22,
+			"id": "7605EB499A0D452ED5B6750A2CC0D5AF7087E4299545AAAABACF88533405F58A"
+		},
+		"transportButton": {
+			"channel": 0,
+			"controllerNumber": 23,
+			"id": "7605EB499A0D452ED5B6750A2CC0D5AF7087E4299545AAAABACF88533405F58A"
+		},
+		"recordButton": {
+			"channel": 0,
+			"controllerNumber": 24,
+			"id": "7605EB499A0D452ED5B6750A2CC0D5AF7087E4299545AAAABACF88533405F58A"
+		}
+	},
+	"view": {
+		"view": ""
+	},
+	"menus": {
+		"menuItems": [],
+		"currentIndex": 0,
+		"previousMenu": null,
+		"menuTitle": ""
+	},
+	"buttons": {
+		"control": {
+			"down": false,
+			"held": false
+		},
+		"transport": {
+			"down": false,
+			"held": false
+		},
+		"record": {
+			"down": false,
+			"held": false
+		}
+	}
+} {"timestamp":"2018-07-01T20:44:43.117Z"}
+info: rendering view {"timestamp":"2018-07-01T20:44:43.117Z"}
+error: Cannot read property 'action' of undefined {"timestamp":"2018-07-01T20:44:43.117Z"}
+info: record button up event {"timestamp":"2018-07-01T20:44:43.227Z"}
+info: here {"timestamp":"2018-07-01T20:46:54.398Z"}
+info: rendering view {"timestamp":"2018-07-01T20:46:54.694Z"}
+info: Control knob set {"timestamp":"2018-07-01T20:46:56.413Z"}
+info: rendering view {"timestamp":"2018-07-01T20:46:56.417Z"}
+info: Control button set {"timestamp":"2018-07-01T20:46:57.019Z"}
+info: rendering view {"timestamp":"2018-07-01T20:46:57.019Z"}
+info: Transport button set {"timestamp":"2018-07-01T20:46:57.746Z"}
+info: rendering view {"timestamp":"2018-07-01T20:46:57.747Z"}
+info: Record button set {"timestamp":"2018-07-01T20:47:01.553Z"}
+info: {
+	"routes": [],
+	"ports": {
+		"inputs": {},
+		"outputs": {}
+	},
+	"MIDIAccess": {
+		"sysexEnabled": true,
+		"outputs": {},
+		"inputs": {}
+	},
+	"listeners": {
+		"FA2F9DD2149115591CD57B2DBE172FDD6880586350566B2D168B6F979C22AFE5": [
+			null,
+			null,
+			null,
+			null
+		]
+	},
+	"transport": {
+		"currentIndex": 0,
+		"playing": false,
+		"tempo": 120
+	},
+	"userControl": {
+		"controlKnob": {
+			"channel": 0,
+			"controllerNumber": 91,
+			"id": "FA2F9DD2149115591CD57B2DBE172FDD6880586350566B2D168B6F979C22AFE5"
+		},
+		"controlButton": {
+			"channel": 0,
+			"controllerNumber": 22,
+			"id": "FA2F9DD2149115591CD57B2DBE172FDD6880586350566B2D168B6F979C22AFE5"
+		},
+		"transportButton": {
+			"channel": 0,
+			"controllerNumber": 23,
+			"id": "FA2F9DD2149115591CD57B2DBE172FDD6880586350566B2D168B6F979C22AFE5"
+		},
+		"recordButton": {
+			"channel": 0,
+			"controllerNumber": 24,
+			"id": "FA2F9DD2149115591CD57B2DBE172FDD6880586350566B2D168B6F979C22AFE5"
+		}
+	},
+	"view": {
+		"view": ""
+	},
+	"menus": {
+		"menuItems": [],
+		"currentIndex": 0,
+		"previousMenu": null,
+		"menuTitle": ""
+	},
+	"buttons": {
+		"control": {
+			"down": false,
+			"held": false
+		},
+		"transport": {
+			"down": false,
+			"held": false
+		},
+		"record": {
+			"down": false,
+			"held": false
+		}
+	}
+} {"timestamp":"2018-07-01T20:47:01.553Z"}
+info: rendering view {"timestamp":"2018-07-01T20:47:01.553Z"}
+error: Cannot read property 'action' of undefined {"timestamp":"2018-07-01T20:47:01.562Z"}
+info: record button up event {"timestamp":"2018-07-01T20:47:07.614Z"}
+info: here {"timestamp":"2018-07-01T20:50:20.653Z"}
+info: rendering view {"timestamp":"2018-07-01T20:50:21.023Z"}
+info: here {"timestamp":"2018-07-01T20:50:42.193Z"}
+info: rendering view {"timestamp":"2018-07-01T20:50:42.539Z"}
+info: here {"timestamp":"2018-07-01T20:51:53.928Z"}
+info: rendering view {"timestamp":"2018-07-01T20:51:54.282Z"}
+info: here {"timestamp":"2018-07-01T20:52:04.430Z"}
+info: rendering view {"timestamp":"2018-07-01T20:52:04.754Z"}
+info: here {"timestamp":"2018-07-01T20:54:47.830Z"}
+info: rendering view {"timestamp":"2018-07-01T20:54:48.098Z"}
+info: here {"timestamp":"2018-07-01T20:55:37.718Z"}
+info: rendering view {"timestamp":"2018-07-01T20:55:37.999Z"}
+info: here {"timestamp":"2018-07-01T20:56:05.600Z"}
+info: rendering view {"timestamp":"2018-07-01T20:56:05.892Z"}
+info: here {"timestamp":"2018-07-01T20:57:29.561Z"}
+info: rendering view {"timestamp":"2018-07-01T20:57:29.848Z"}
+info: Control knob set {"timestamp":"2018-07-01T20:57:36.660Z"}
+info: rendering view {"timestamp":"2018-07-01T20:57:36.660Z"}
+info: Control button set {"timestamp":"2018-07-01T20:57:38.477Z"}
+info: rendering view {"timestamp":"2018-07-01T20:57:38.477Z"}
+info: Transport button set {"timestamp":"2018-07-01T20:57:39.019Z"}
+info: rendering view {"timestamp":"2018-07-01T20:57:39.020Z"}
+info: Record button set {"timestamp":"2018-07-01T20:57:39.467Z"}
+info: {
+	"routes": [],
+	"ports": {
+		"inputs": {},
+		"outputs": {}
+	},
+	"MIDIAccess": {
+		"sysexEnabled": true,
+		"outputs": {},
+		"inputs": {}
+	},
+	"listeners": {
+		"ED08EA0E5EEA06A9316EB06A954F1421100111C372E1A2DA15EFB34403DF26D7": [
+			null,
+			null,
+			null,
+			null
+		]
+	},
+	"transport": {
+		"currentIndex": 0,
+		"playing": false,
+		"tempo": 120
+	},
+	"userControl": {
+		"controlKnob": {
+			"channel": 0,
+			"controllerNumber": 91,
+			"id": "ED08EA0E5EEA06A9316EB06A954F1421100111C372E1A2DA15EFB34403DF26D7"
+		},
+		"controlButton": {
+			"channel": 0,
+			"controllerNumber": 22,
+			"id": "ED08EA0E5EEA06A9316EB06A954F1421100111C372E1A2DA15EFB34403DF26D7"
+		},
+		"transportButton": {
+			"channel": 0,
+			"controllerNumber": 23,
+			"id": "ED08EA0E5EEA06A9316EB06A954F1421100111C372E1A2DA15EFB34403DF26D7"
+		},
+		"recordButton": {
+			"channel": 0,
+			"controllerNumber": 24,
+			"id": "ED08EA0E5EEA06A9316EB06A954F1421100111C372E1A2DA15EFB34403DF26D7"
+		}
+	},
+	"view": {
+		"view": ""
+	},
+	"menus": {
+		"menuItems": [],
+		"currentIndex": 0,
+		"previousMenu": null,
+		"menuTitle": ""
+	},
+	"buttons": {
+		"control": {
+			"down": false,
+			"held": false
+		},
+		"transport": {
+			"down": false,
+			"held": false
+		},
+		"record": {
+			"down": false,
+			"held": false
+		}
+	}
+} {"timestamp":"2018-07-01T20:57:39.477Z"}
+info: rendering view {"timestamp":"2018-07-01T20:57:39.477Z"}
+error: action is not a function {"timestamp":"2018-07-01T20:57:39.477Z"}
+info: record button up event {"timestamp":"2018-07-01T20:57:39.555Z"}
+info: here {"timestamp":"2018-07-01T20:59:27.180Z"}
+info: rendering view {"timestamp":"2018-07-01T20:59:28.102Z"}
+info: Control knob set {"timestamp":"2018-07-01T20:59:29.837Z"}
+info: rendering view {"timestamp":"2018-07-01T20:59:29.838Z"}
+info: Control button set {"timestamp":"2018-07-01T20:59:30.702Z"}
+info: rendering view {"timestamp":"2018-07-01T20:59:30.702Z"}
+info: Transport button set {"timestamp":"2018-07-01T20:59:31.462Z"}
+info: rendering view {"timestamp":"2018-07-01T20:59:31.462Z"}
+info: Record button set {"timestamp":"2018-07-01T20:59:32.285Z"}
+info: {
+	"routes": [],
+	"ports": {
+		"inputs": {},
+		"outputs": {}
+	},
+	"MIDIAccess": {
+		"sysexEnabled": true,
+		"outputs": {},
+		"inputs": {}
+	},
+	"listeners": {
+		"698C2FC8F23EB7B02A8FE7B1F651344138E6990BD1AAA1C9BD89DC9ADBD17C2E": [
+			null,
+			null,
+			null,
+			null
+		]
+	},
+	"transport": {
+		"currentIndex": 0,
+		"playing": false,
+		"tempo": 120
+	},
+	"userControl": {
+		"controlKnob": {
+			"channel": 0,
+			"controllerNumber": 91,
+			"id": "698C2FC8F23EB7B02A8FE7B1F651344138E6990BD1AAA1C9BD89DC9ADBD17C2E"
+		},
+		"controlButton": {
+			"channel": 0,
+			"controllerNumber": 22,
+			"id": "698C2FC8F23EB7B02A8FE7B1F651344138E6990BD1AAA1C9BD89DC9ADBD17C2E"
+		},
+		"transportButton": {
+			"channel": 0,
+			"controllerNumber": 23,
+			"id": "698C2FC8F23EB7B02A8FE7B1F651344138E6990BD1AAA1C9BD89DC9ADBD17C2E"
+		},
+		"recordButton": {
+			"channel": 0,
+			"controllerNumber": 24,
+			"id": "698C2FC8F23EB7B02A8FE7B1F651344138E6990BD1AAA1C9BD89DC9ADBD17C2E"
+		}
+	},
+	"view": {
+		"view": ""
+	},
+	"menus": {
+		"menuItems": [],
+		"currentIndex": 0,
+		"previousMenu": null,
+		"menuTitle": ""
+	},
+	"buttons": {
+		"control": {
+			"down": false,
+			"held": false
+		},
+		"transport": {
+			"down": false,
+			"held": false
+		},
+		"record": {
+			"down": false,
+			"held": false
+		}
+	}
+} {"timestamp":"2018-07-01T20:59:32.287Z"}
+info: user config {"timestamp":"2018-07-01T20:59:32.289Z"}
+info: choosing input port {"timestamp":"2018-07-01T20:59:32.289Z"}
+info: rendering view {"timestamp":"2018-07-01T20:59:32.291Z"}
+info: record button up event {"timestamp":"2018-07-01T20:59:32.392Z"}
+info: control button down event {"timestamp":"2018-07-01T20:59:35.392Z"}
+info: control button up event {"timestamp":"2018-07-01T20:59:35.534Z"}
+info: control button down event {"timestamp":"2018-07-01T20:59:37.845Z"}
+info: control button up event {"timestamp":"2018-07-01T20:59:38.351Z"}
+info: control button down event {"timestamp":"2018-07-01T20:59:44.422Z"}
+info: control press and hold {"timestamp":"2018-07-01T20:59:45.242Z"}
+info: control button up event {"timestamp":"2018-07-01T20:59:46.715Z"}
+info: control button down event {"timestamp":"2018-07-01T20:59:48.642Z"}
+info: control button up event {"timestamp":"2018-07-01T20:59:48.792Z"}
+info: here {"timestamp":"2018-07-01T21:00:10.275Z"}
+info: rendering view {"timestamp":"2018-07-01T21:00:10.568Z"}
+info: Control knob set {"timestamp":"2018-07-01T21:00:12.538Z"}
+info: rendering view {"timestamp":"2018-07-01T21:00:12.538Z"}
+info: Control button set {"timestamp":"2018-07-01T21:00:13.461Z"}
+info: rendering view {"timestamp":"2018-07-01T21:00:13.461Z"}
+info: Transport button set {"timestamp":"2018-07-01T21:00:15.949Z"}
+info: rendering view {"timestamp":"2018-07-01T21:00:15.950Z"}
+info: Record button set {"timestamp":"2018-07-01T21:00:17.433Z"}
+info: {
+	"routes": [],
+	"ports": {
+		"inputs": {},
+		"outputs": {}
+	},
+	"MIDIAccess": {
+		"sysexEnabled": true,
+		"outputs": {},
+		"inputs": {}
+	},
+	"listeners": {
+		"E5A6CD0EE03F6FCDD79A8997F1EADAA0C28544E98711B2530DCC99282B096FFD": [
+			null,
+			null,
+			null,
+			null
+		]
+	},
+	"transport": {
+		"currentIndex": 0,
+		"playing": false,
+		"tempo": 120
+	},
+	"userControl": {
+		"controlKnob": {
+			"channel": 0,
+			"controllerNumber": 91,
+			"id": "E5A6CD0EE03F6FCDD79A8997F1EADAA0C28544E98711B2530DCC99282B096FFD"
+		},
+		"controlButton": {
+			"channel": 0,
+			"controllerNumber": 22,
+			"id": "E5A6CD0EE03F6FCDD79A8997F1EADAA0C28544E98711B2530DCC99282B096FFD"
+		},
+		"transportButton": {
+			"channel": 0,
+			"controllerNumber": 23,
+			"id": "E5A6CD0EE03F6FCDD79A8997F1EADAA0C28544E98711B2530DCC99282B096FFD"
+		},
+		"recordButton": {
+			"channel": 0,
+			"controllerNumber": 24,
+			"id": "E5A6CD0EE03F6FCDD79A8997F1EADAA0C28544E98711B2530DCC99282B096FFD"
+		}
+	},
+	"view": {
+		"view": ""
+	},
+	"menus": {
+		"menuItems": [],
+		"currentIndex": 0,
+		"previousMenu": null,
+		"menuTitle": ""
+	},
+	"buttons": {
+		"control": {
+			"down": false,
+			"held": false
+		},
+		"transport": {
+			"down": false,
+			"held": false
+		},
+		"record": {
+			"down": false,
+			"held": false
+		}
+	}
+} {"timestamp":"2018-07-01T21:00:17.434Z"}
+info: user config {"timestamp":"2018-07-01T21:00:17.434Z"}
+info: choosing input port {"timestamp":"2018-07-01T21:00:17.435Z"}
+info: rendering view {"timestamp":"2018-07-01T21:00:17.435Z"}
+info: record button up event {"timestamp":"2018-07-01T21:00:17.588Z"}
+info: control button down event {"timestamp":"2018-07-01T21:00:33.188Z"}
+info: control button up event {"timestamp":"2018-07-01T21:00:33.367Z"}
+info: control button down event {"timestamp":"2018-07-01T21:00:33.916Z"}
+info: control button up event {"timestamp":"2018-07-01T21:00:34.060Z"}
+info: here {"timestamp":"2018-07-01T21:01:37.456Z"}
+info: rendering view {"timestamp":"2018-07-01T21:01:37.742Z"}
+info: Control knob set {"timestamp":"2018-07-01T21:01:39.927Z"}
+info: rendering view {"timestamp":"2018-07-01T21:01:39.928Z"}
+info: Control button set {"timestamp":"2018-07-01T21:01:40.439Z"}
+info: rendering view {"timestamp":"2018-07-01T21:01:40.439Z"}
+info: Transport button set {"timestamp":"2018-07-01T21:01:41.382Z"}
+info: rendering view {"timestamp":"2018-07-01T21:01:41.389Z"}
+info: Record button set {"timestamp":"2018-07-01T21:01:43.132Z"}
+info: rendering view {"timestamp":"2018-07-01T21:01:43.139Z"}
+error: logger is not defined {"timestamp":"2018-07-01T21:01:43.139Z"}
+info: record button up event {"timestamp":"2018-07-01T21:01:43.223Z"}
+info: here {"timestamp":"2018-07-01T21:02:06.539Z"}
+info: rendering view {"timestamp":"2018-07-01T21:02:06.834Z"}
+info: Control knob set {"timestamp":"2018-07-01T21:02:08.094Z"}
+info: rendering view {"timestamp":"2018-07-01T21:02:08.096Z"}
+info: Control button set {"timestamp":"2018-07-01T21:02:08.445Z"}
+info: rendering view {"timestamp":"2018-07-01T21:02:08.445Z"}
+info: Transport button set {"timestamp":"2018-07-01T21:02:08.775Z"}
+info: rendering view {"timestamp":"2018-07-01T21:02:08.776Z"}
+info: Record button set {"timestamp":"2018-07-01T21:02:09.124Z"}
+info: in here!!!! {"timestamp":"2018-07-01T21:02:09.124Z"}
+info: {
+	"routes": [],
+	"ports": {
+		"inputs": {},
+		"outputs": {}
+	},
+	"MIDIAccess": {
+		"sysexEnabled": true,
+		"outputs": {},
+		"inputs": {}
+	},
+	"listeners": {
+		"6579334029DDCDFF86EEA4DD8707AE9DFC44C3541AF6D4403FA4DA5463F88B36": [
+			null,
+			null,
+			null,
+			null
+		]
+	},
+	"transport": {
+		"currentIndex": 0,
+		"playing": false,
+		"tempo": 120
+	},
+	"userControl": {
+		"controlKnob": {
+			"channel": 0,
+			"controllerNumber": 91,
+			"id": "6579334029DDCDFF86EEA4DD8707AE9DFC44C3541AF6D4403FA4DA5463F88B36"
+		},
+		"controlButton": {
+			"channel": 0,
+			"controllerNumber": 22,
+			"id": "6579334029DDCDFF86EEA4DD8707AE9DFC44C3541AF6D4403FA4DA5463F88B36"
+		},
+		"transportButton": {
+			"channel": 0,
+			"controllerNumber": 23,
+			"id": "6579334029DDCDFF86EEA4DD8707AE9DFC44C3541AF6D4403FA4DA5463F88B36"
+		},
+		"recordButton": {
+			"channel": 0,
+			"controllerNumber": 24,
+			"id": "6579334029DDCDFF86EEA4DD8707AE9DFC44C3541AF6D4403FA4DA5463F88B36"
+		}
+	},
+	"view": {
+		"view": ""
+	},
+	"menus": {
+		"menuItems": [],
+		"currentIndex": 0,
+		"previousMenu": null,
+		"menuTitle": ""
+	},
+	"buttons": {
+		"control": {
+			"down": false,
+			"held": false
+		},
+		"transport": {
+			"down": false,
+			"held": false
+		},
+		"record": {
+			"down": false,
+			"held": false
+		}
+	}
+} {"timestamp":"2018-07-01T21:02:09.124Z"}
+info: user config {"timestamp":"2018-07-01T21:02:09.124Z"}
+info: choosing input port {"timestamp":"2018-07-01T21:02:09.124Z"}
+info: rendering view {"timestamp":"2018-07-01T21:02:09.124Z"}
+info: record button up event {"timestamp":"2018-07-01T21:02:09.194Z"}
+info: control button down event {"timestamp":"2018-07-01T21:02:18.094Z"}
+info: control press and hold {"timestamp":"2018-07-01T21:02:18.898Z"}
+info: control button up event {"timestamp":"2018-07-01T21:02:19.905Z"}
+info: here {"timestamp":"2018-07-01T21:04:28.515Z"}
+info: rendering view {"timestamp":"2018-07-01T21:04:28.821Z"}
+info: here {"timestamp":"2018-07-01T21:05:38.724Z"}
+info: rendering view {"timestamp":"2018-07-01T21:05:39.024Z"}
+info: here {"timestamp":"2018-07-01T21:06:22.141Z"}
+info: rendering view {"timestamp":"2018-07-01T21:06:22.437Z"}
+info: Control knob set {"timestamp":"2018-07-01T21:06:23.926Z"}
+info: rendering view {"timestamp":"2018-07-01T21:06:23.928Z"}
+info: Control button set {"timestamp":"2018-07-01T21:06:24.402Z"}
+info: rendering view {"timestamp":"2018-07-01T21:06:24.402Z"}
+info: Transport button set {"timestamp":"2018-07-01T21:06:24.882Z"}
+info: rendering view {"timestamp":"2018-07-01T21:06:24.882Z"}
+info: Record button set {"timestamp":"2018-07-01T21:06:25.372Z"}
+info: in here!!!! {"timestamp":"2018-07-01T21:06:25.377Z"}
+info: {
+	"routes": [],
+	"ports": {
+		"inputs": {},
+		"outputs": {}
+	},
+	"MIDIAccess": {
+		"sysexEnabled": true,
+		"outputs": {},
+		"inputs": {}
+	},
+	"listeners": {
+		"82AFEF64CA6E5BF392619F463ACFBFAB76DD822F38B64DBA25AFC9CE9CC27773": [
+			null,
+			null,
+			null,
+			null
+		]
+	},
+	"transport": {
+		"currentIndex": 0,
+		"playing": false,
+		"tempo": 120
+	},
+	"userControl": {
+		"controlKnob": {
+			"channel": 0,
+			"controllerNumber": 91,
+			"id": "82AFEF64CA6E5BF392619F463ACFBFAB76DD822F38B64DBA25AFC9CE9CC27773"
+		},
+		"controlButton": {
+			"channel": 0,
+			"controllerNumber": 22,
+			"id": "82AFEF64CA6E5BF392619F463ACFBFAB76DD822F38B64DBA25AFC9CE9CC27773"
+		},
+		"transportButton": {
+			"channel": 0,
+			"controllerNumber": 23,
+			"id": "82AFEF64CA6E5BF392619F463ACFBFAB76DD822F38B64DBA25AFC9CE9CC27773"
+		},
+		"recordButton": {
+			"channel": 0,
+			"controllerNumber": 24,
+			"id": "82AFEF64CA6E5BF392619F463ACFBFAB76DD822F38B64DBA25AFC9CE9CC27773"
+		}
+	},
+	"view": {
+		"view": ""
+	},
+	"menus": {
+		"menuItems": [],
+		"currentIndex": 0,
+		"previousMenu": null,
+		"menuTitle": ""
+	},
+	"buttons": {
+		"control": {
+			"down": false,
+			"held": false
+		},
+		"transport": {
+			"down": false,
+			"held": false
+		},
+		"record": {
+			"down": false,
+			"held": false
+		}
+	}
+} {"timestamp":"2018-07-01T21:06:25.377Z"}
+info: user config {"timestamp":"2018-07-01T21:06:25.377Z"}
+info: choosing input port {"timestamp":"2018-07-01T21:06:25.377Z"}
+info: rendering view {"timestamp":"2018-07-01T21:06:25.377Z"}
+info: record button up event {"timestamp":"2018-07-01T21:06:25.437Z"}
+info: in here!!!! {"timestamp":"2018-07-01T21:06:27.412Z"}
+info: control button down event {"timestamp":"2018-07-01T21:06:27.422Z"}
+info: in here!!!! {"timestamp":"2018-07-01T21:06:27.522Z"}
+info: {
+	"routes": [],
+	"ports": {
+		"inputs": {},
+		"outputs": {}
+	},
+	"MIDIAccess": {
+		"sysexEnabled": true,
+		"outputs": {},
+		"inputs": {}
+	},
+	"listeners": {
+		"82AFEF64CA6E5BF392619F463ACFBFAB76DD822F38B64DBA25AFC9CE9CC27773": [
+			null,
+			null,
+			null,
+			null
+		]
+	},
+	"transport": {
+		"currentIndex": 0,
+		"playing": false,
+		"tempo": 120
+	},
+	"userControl": {
+		"controlKnob": {
+			"channel": 0,
+			"controllerNumber": 91,
+			"id": "82AFEF64CA6E5BF392619F463ACFBFAB76DD822F38B64DBA25AFC9CE9CC27773"
+		},
+		"controlButton": {
+			"channel": 0,
+			"controllerNumber": 22,
+			"id": "82AFEF64CA6E5BF392619F463ACFBFAB76DD822F38B64DBA25AFC9CE9CC27773"
+		},
+		"transportButton": {
+			"channel": 0,
+			"controllerNumber": 23,
+			"id": "82AFEF64CA6E5BF392619F463ACFBFAB76DD822F38B64DBA25AFC9CE9CC27773"
+		},
+		"recordButton": {
+			"channel": 0,
+			"controllerNumber": 24,
+			"id": "82AFEF64CA6E5BF392619F463ACFBFAB76DD822F38B64DBA25AFC9CE9CC27773"
+		}
+	},
+	"view": {
+		"view": ""
+	},
+	"menus": {
+		"menuItems": [
+			{
+				"name": "Analog Experience - The Player"
+			}
+		],
+		"currentIndex": 0,
+		"previousMenu": null,
+		"menuTitle": "Choose an input port"
+	},
+	"buttons": {
+		"control": {
+			"down": false,
+			"held": false
+		},
+		"transport": {
+			"down": false,
+			"held": false
+		},
+		"record": {
+			"down": false,
+			"held": false
+		}
+	}
+} {"timestamp":"2018-07-01T21:06:27.522Z"}
+info: in here!!!! {"timestamp":"2018-07-01T21:06:27.522Z"}
+info: {
+	"routes": [],
+	"ports": {
+		"inputs": {},
+		"outputs": {}
+	},
+	"MIDIAccess": {
+		"sysexEnabled": true,
+		"outputs": {},
+		"inputs": {}
+	},
+	"listeners": {
+		"82AFEF64CA6E5BF392619F463ACFBFAB76DD822F38B64DBA25AFC9CE9CC27773": [
+			null,
+			null,
+			null,
+			null
+		]
+	},
+	"transport": {
+		"currentIndex": 0,
+		"playing": false,
+		"tempo": 120
+	},
+	"userControl": {
+		"controlKnob": {
+			"channel": 0,
+			"controllerNumber": 91,
+			"id": "82AFEF64CA6E5BF392619F463ACFBFAB76DD822F38B64DBA25AFC9CE9CC27773"
+		},
+		"controlButton": {
+			"channel": 0,
+			"controllerNumber": 22,
+			"id": "82AFEF64CA6E5BF392619F463ACFBFAB76DD822F38B64DBA25AFC9CE9CC27773"
+		},
+		"transportButton": {
+			"channel": 0,
+			"controllerNumber": 23,
+			"id": "82AFEF64CA6E5BF392619F463ACFBFAB76DD822F38B64DBA25AFC9CE9CC27773"
+		},
+		"recordButton": {
+			"channel": 0,
+			"controllerNumber": 24,
+			"id": "82AFEF64CA6E5BF392619F463ACFBFAB76DD822F38B64DBA25AFC9CE9CC27773"
+		}
+	},
+	"view": {
+		"view": ""
+	},
+	"menus": {
+		"menuItems": [
+			{
+				"name": "Analog Experience - The Player"
+			}
+		],
+		"currentIndex": 0,
+		"previousMenu": null,
+		"menuTitle": "Choose an input port"
+	},
+	"buttons": {
+		"control": {
+			"down": false,
+			"held": false
+		},
+		"transport": {
+			"down": false,
+			"held": false
+		},
+		"record": {
+			"down": false,
+			"held": false
+		}
+	}
+} {"timestamp":"2018-07-01T21:06:27.522Z"}
+info: control button up event {"timestamp":"2018-07-01T21:06:27.522Z"}
+info: choosing input channel {"timestamp":"2018-07-01T21:06:27.532Z"}
+info: rendering view {"timestamp":"2018-07-01T21:06:27.532Z"}
+info: rendering view {"timestamp":"2018-07-01T21:06:29.851Z"}
+info: knob right {"timestamp":"2018-07-01T21:06:29.852Z"}
+info: knob right {"timestamp":"2018-07-01T21:06:29.956Z"}
+info: rendering view {"timestamp":"2018-07-01T21:06:30.148Z"}
+info: knob right {"timestamp":"2018-07-01T21:06:30.151Z"}
+info: knob right {"timestamp":"2018-07-01T21:06:30.212Z"}
+info: knob right {"timestamp":"2018-07-01T21:06:30.283Z"}
+info: knob right {"timestamp":"2018-07-01T21:06:30.332Z"}
+info: rendering view {"timestamp":"2018-07-01T21:06:30.403Z"}
+info: knob right {"timestamp":"2018-07-01T21:06:30.403Z"}
+info: knob right {"timestamp":"2018-07-01T21:06:30.457Z"}
+info: knob right {"timestamp":"2018-07-01T21:06:30.522Z"}
+info: knob right {"timestamp":"2018-07-01T21:06:30.575Z"}
+info: rendering view {"timestamp":"2018-07-01T21:06:30.625Z"}
+info: knob right {"timestamp":"2018-07-01T21:06:30.625Z"}
+info: knob right {"timestamp":"2018-07-01T21:06:30.669Z"}
+info: knob right {"timestamp":"2018-07-01T21:06:30.713Z"}
+info: knob right {"timestamp":"2018-07-01T21:06:30.798Z"}
+info: rendering view {"timestamp":"2018-07-01T21:06:30.898Z"}
+info: knob right {"timestamp":"2018-07-01T21:06:30.901Z"}
+info: knob right {"timestamp":"2018-07-01T21:06:30.968Z"}
+info: knob right {"timestamp":"2018-07-01T21:06:31.027Z"}
+info: knob right {"timestamp":"2018-07-01T21:06:31.082Z"}
+info: rendering view {"timestamp":"2018-07-01T21:06:31.132Z"}
+info: knob right {"timestamp":"2018-07-01T21:06:31.135Z"}
+info: knob right {"timestamp":"2018-07-01T21:06:31.190Z"}
+info: knob right {"timestamp":"2018-07-01T21:06:31.252Z"}
+info: knob right {"timestamp":"2018-07-01T21:06:31.322Z"}
+info: rendering view {"timestamp":"2018-07-01T21:06:31.452Z"}
+info: knob right {"timestamp":"2018-07-01T21:06:31.452Z"}
+info: knob right {"timestamp":"2018-07-01T21:06:31.527Z"}
+info: knob right {"timestamp":"2018-07-01T21:06:31.592Z"}
+info: rendering view {"timestamp":"2018-07-01T21:06:33.382Z"}
+info: knob left {"timestamp":"2018-07-01T21:06:33.382Z"}
+info: knob left {"timestamp":"2018-07-01T21:06:33.409Z"}
+info: knob left {"timestamp":"2018-07-01T21:06:33.432Z"}
+info: knob left {"timestamp":"2018-07-01T21:06:33.454Z"}
+info: knob left {"timestamp":"2018-07-01T21:06:33.475Z"}
+info: knob left {"timestamp":"2018-07-01T21:06:33.502Z"}
+info: knob left {"timestamp":"2018-07-01T21:06:33.542Z"}
+info: rendering view {"timestamp":"2018-07-01T21:06:33.595Z"}
+info: knob left {"timestamp":"2018-07-01T21:06:33.595Z"}
+info: knob left {"timestamp":"2018-07-01T21:06:33.639Z"}
+info: knob left {"timestamp":"2018-07-01T21:06:33.706Z"}
+info: knob left {"timestamp":"2018-07-01T21:06:33.774Z"}
+info: rendering view {"timestamp":"2018-07-01T21:06:33.822Z"}
+info: knob left {"timestamp":"2018-07-01T21:06:33.824Z"}
+info: knob left {"timestamp":"2018-07-01T21:06:33.890Z"}
+info: rendering view {"timestamp":"2018-07-01T21:06:34.031Z"}
+info: knob left {"timestamp":"2018-07-01T21:06:34.042Z"}
+info: knob left {"timestamp":"2018-07-01T21:06:34.083Z"}
+info: knob left {"timestamp":"2018-07-01T21:06:34.181Z"}
+info: rendering view {"timestamp":"2018-07-01T21:06:34.242Z"}
+info: knob left {"timestamp":"2018-07-01T21:06:34.242Z"}
+info: knob left {"timestamp":"2018-07-01T21:06:34.304Z"}
+info: knob left {"timestamp":"2018-07-01T21:06:34.382Z"}
+info: rendering view {"timestamp":"2018-07-01T21:06:34.442Z"}
+info: knob left {"timestamp":"2018-07-01T21:06:34.442Z"}
+info: knob left {"timestamp":"2018-07-01T21:06:34.501Z"}
+info: rendering view {"timestamp":"2018-07-01T21:06:35.162Z"}
+info: knob left {"timestamp":"2018-07-01T21:06:35.172Z"}
+info: in here!!!! {"timestamp":"2018-07-01T21:06:36.710Z"}
+info: control button down event {"timestamp":"2018-07-01T21:06:36.710Z"}
+info: in here!!!! {"timestamp":"2018-07-01T21:06:36.796Z"}
+info: {
+	"routes": [],
+	"ports": {
+		"inputs": {},
+		"outputs": {}
+	},
+	"MIDIAccess": {
+		"sysexEnabled": true,
+		"outputs": {},
+		"inputs": {}
+	},
+	"listeners": {
+		"82AFEF64CA6E5BF392619F463ACFBFAB76DD822F38B64DBA25AFC9CE9CC27773": [
+			null,
+			null,
+			null,
+			null
+		]
+	},
+	"transport": {
+		"currentIndex": 0,
+		"playing": false,
+		"tempo": 120
+	},
+	"userControl": {
+		"controlKnob": {
+			"channel": 0,
+			"controllerNumber": 91,
+			"id": "82AFEF64CA6E5BF392619F463ACFBFAB76DD822F38B64DBA25AFC9CE9CC27773"
+		},
+		"controlButton": {
+			"channel": 0,
+			"controllerNumber": 22,
+			"id": "82AFEF64CA6E5BF392619F463ACFBFAB76DD822F38B64DBA25AFC9CE9CC27773"
+		},
+		"transportButton": {
+			"channel": 0,
+			"controllerNumber": 23,
+			"id": "82AFEF64CA6E5BF392619F463ACFBFAB76DD822F38B64DBA25AFC9CE9CC27773"
+		},
+		"recordButton": {
+			"channel": 0,
+			"controllerNumber": 24,
+			"id": "82AFEF64CA6E5BF392619F463ACFBFAB76DD822F38B64DBA25AFC9CE9CC27773"
+		}
+	},
+	"view": {
+		"view": ""
+	},
+	"menus": {
+		"menuItems": [
+			{
+				"name": 1
+			},
+			{
+				"name": 2
+			},
+			{
+				"name": 3
+			},
+			{
+				"name": 4
+			},
+			{
+				"name": 5
+			},
+			{
+				"name": 6
+			},
+			{
+				"name": 7
+			},
+			{
+				"name": 8
+			},
+			{
+				"name": 9
+			},
+			{
+				"name": 10
+			},
+			{
+				"name": 11
+			},
+			{
+				"name": 12
+			},
+			{
+				"name": 13
+			},
+			{
+				"name": 14
+			},
+			{
+				"name": 15
+			},
+			{
+				"name": 16
+			}
+		],
+		"currentIndex": 0,
+		"previousMenu": null,
+		"menuTitle": "Choose an input channel"
+	},
+	"buttons": {
+		"control": {
+			"down": false,
+			"held": false
+		},
+		"transport": {
+			"down": false,
+			"held": false
+		},
+		"record": {
+			"down": false,
+			"held": false
+		}
+	}
+} {"timestamp":"2018-07-01T21:06:36.797Z"}
+info: in here!!!! {"timestamp":"2018-07-01T21:06:36.798Z"}
+info: {
+	"routes": [],
+	"ports": {
+		"inputs": {},
+		"outputs": {}
+	},
+	"MIDIAccess": {
+		"sysexEnabled": true,
+		"outputs": {},
+		"inputs": {}
+	},
+	"listeners": {
+		"82AFEF64CA6E5BF392619F463ACFBFAB76DD822F38B64DBA25AFC9CE9CC27773": [
+			null,
+			null,
+			null,
+			null
+		]
+	},
+	"transport": {
+		"currentIndex": 0,
+		"playing": false,
+		"tempo": 120
+	},
+	"userControl": {
+		"controlKnob": {
+			"channel": 0,
+			"controllerNumber": 91,
+			"id": "82AFEF64CA6E5BF392619F463ACFBFAB76DD822F38B64DBA25AFC9CE9CC27773"
+		},
+		"controlButton": {
+			"channel": 0,
+			"controllerNumber": 22,
+			"id": "82AFEF64CA6E5BF392619F463ACFBFAB76DD822F38B64DBA25AFC9CE9CC27773"
+		},
+		"transportButton": {
+			"channel": 0,
+			"controllerNumber": 23,
+			"id": "82AFEF64CA6E5BF392619F463ACFBFAB76DD822F38B64DBA25AFC9CE9CC27773"
+		},
+		"recordButton": {
+			"channel": 0,
+			"controllerNumber": 24,
+			"id": "82AFEF64CA6E5BF392619F463ACFBFAB76DD822F38B64DBA25AFC9CE9CC27773"
+		}
+	},
+	"view": {
+		"view": ""
+	},
+	"menus": {
+		"menuItems": [
+			{
+				"name": 1
+			},
+			{
+				"name": 2
+			},
+			{
+				"name": 3
+			},
+			{
+				"name": 4
+			},
+			{
+				"name": 5
+			},
+			{
+				"name": 6
+			},
+			{
+				"name": 7
+			},
+			{
+				"name": 8
+			},
+			{
+				"name": 9
+			},
+			{
+				"name": 10
+			},
+			{
+				"name": 11
+			},
+			{
+				"name": 12
+			},
+			{
+				"name": 13
+			},
+			{
+				"name": 14
+			},
+			{
+				"name": 15
+			},
+			{
+				"name": 16
+			}
+		],
+		"currentIndex": 0,
+		"previousMenu": null,
+		"menuTitle": "Choose an input channel"
+	},
+	"buttons": {
+		"control": {
+			"down": false,
+			"held": false
+		},
+		"transport": {
+			"down": false,
+			"held": false
+		},
+		"record": {
+			"down": false,
+			"held": false
+		}
+	}
+} {"timestamp":"2018-07-01T21:06:36.798Z"}
+info: control button up event {"timestamp":"2018-07-01T21:06:36.798Z"}
+info: choosing output port {"timestamp":"2018-07-01T21:06:36.799Z"}
+info: rendering view {"timestamp":"2018-07-01T21:06:36.799Z"}
+info: in here!!!! {"timestamp":"2018-07-01T21:06:38.422Z"}
+info: control button down event {"timestamp":"2018-07-01T21:06:38.432Z"}
+info: in here!!!! {"timestamp":"2018-07-01T21:06:38.536Z"}
+info: {
+	"routes": [],
+	"ports": {
+		"inputs": {},
+		"outputs": {}
+	},
+	"MIDIAccess": {
+		"sysexEnabled": true,
+		"outputs": {},
+		"inputs": {}
+	},
+	"listeners": {
+		"82AFEF64CA6E5BF392619F463ACFBFAB76DD822F38B64DBA25AFC9CE9CC27773": [
+			null,
+			null,
+			null,
+			null
+		]
+	},
+	"transport": {
+		"currentIndex": 0,
+		"playing": false,
+		"tempo": 120
+	},
+	"userControl": {
+		"controlKnob": {
+			"channel": 0,
+			"controllerNumber": 91,
+			"id": "82AFEF64CA6E5BF392619F463ACFBFAB76DD822F38B64DBA25AFC9CE9CC27773"
+		},
+		"controlButton": {
+			"channel": 0,
+			"controllerNumber": 22,
+			"id": "82AFEF64CA6E5BF392619F463ACFBFAB76DD822F38B64DBA25AFC9CE9CC27773"
+		},
+		"transportButton": {
+			"channel": 0,
+			"controllerNumber": 23,
+			"id": "82AFEF64CA6E5BF392619F463ACFBFAB76DD822F38B64DBA25AFC9CE9CC27773"
+		},
+		"recordButton": {
+			"channel": 0,
+			"controllerNumber": 24,
+			"id": "82AFEF64CA6E5BF392619F463ACFBFAB76DD822F38B64DBA25AFC9CE9CC27773"
+		}
+	},
+	"view": {
+		"view": ""
+	},
+	"menus": {
+		"menuItems": [
+			{
+				"name": "Microsoft GS Wavetable Synth"
+			},
+			{
+				"name": "Analog Experience - The Player"
+			}
+		],
+		"currentIndex": 0,
+		"previousMenu": null,
+		"menuTitle": "Choose an output port"
+	},
+	"buttons": {
+		"control": {
+			"down": false,
+			"held": false
+		},
+		"transport": {
+			"down": false,
+			"held": false
+		},
+		"record": {
+			"down": false,
+			"held": false
+		}
+	}
+} {"timestamp":"2018-07-01T21:06:38.536Z"}
+info: in here!!!! {"timestamp":"2018-07-01T21:06:38.536Z"}
+info: {
+	"routes": [],
+	"ports": {
+		"inputs": {},
+		"outputs": {}
+	},
+	"MIDIAccess": {
+		"sysexEnabled": true,
+		"outputs": {},
+		"inputs": {}
+	},
+	"listeners": {
+		"82AFEF64CA6E5BF392619F463ACFBFAB76DD822F38B64DBA25AFC9CE9CC27773": [
+			null,
+			null,
+			null,
+			null
+		]
+	},
+	"transport": {
+		"currentIndex": 0,
+		"playing": false,
+		"tempo": 120
+	},
+	"userControl": {
+		"controlKnob": {
+			"channel": 0,
+			"controllerNumber": 91,
+			"id": "82AFEF64CA6E5BF392619F463ACFBFAB76DD822F38B64DBA25AFC9CE9CC27773"
+		},
+		"controlButton": {
+			"channel": 0,
+			"controllerNumber": 22,
+			"id": "82AFEF64CA6E5BF392619F463ACFBFAB76DD822F38B64DBA25AFC9CE9CC27773"
+		},
+		"transportButton": {
+			"channel": 0,
+			"controllerNumber": 23,
+			"id": "82AFEF64CA6E5BF392619F463ACFBFAB76DD822F38B64DBA25AFC9CE9CC27773"
+		},
+		"recordButton": {
+			"channel": 0,
+			"controllerNumber": 24,
+			"id": "82AFEF64CA6E5BF392619F463ACFBFAB76DD822F38B64DBA25AFC9CE9CC27773"
+		}
+	},
+	"view": {
+		"view": ""
+	},
+	"menus": {
+		"menuItems": [
+			{
+				"name": "Microsoft GS Wavetable Synth"
+			},
+			{
+				"name": "Analog Experience - The Player"
+			}
+		],
+		"currentIndex": 0,
+		"previousMenu": null,
+		"menuTitle": "Choose an output port"
+	},
+	"buttons": {
+		"control": {
+			"down": false,
+			"held": false
+		},
+		"transport": {
+			"down": false,
+			"held": false
+		},
+		"record": {
+			"down": false,
+			"held": false
+		}
+	}
+} {"timestamp":"2018-07-01T21:06:38.536Z"}
+info: control button up event {"timestamp":"2018-07-01T21:06:38.536Z"}
+info: choosing output cahnnel {"timestamp":"2018-07-01T21:06:38.536Z"}
+info: rendering view {"timestamp":"2018-07-01T21:06:38.542Z"}
+info: in here!!!! {"timestamp":"2018-07-01T21:06:38.938Z"}
+info: control button down event {"timestamp":"2018-07-01T21:06:38.938Z"}
+info: in here!!!! {"timestamp":"2018-07-01T21:06:39.038Z"}
+info: {
+	"routes": [],
+	"ports": {
+		"inputs": {},
+		"outputs": {}
+	},
+	"MIDIAccess": {
+		"sysexEnabled": true,
+		"outputs": {},
+		"inputs": {}
+	},
+	"listeners": {
+		"82AFEF64CA6E5BF392619F463ACFBFAB76DD822F38B64DBA25AFC9CE9CC27773": [
+			null,
+			null,
+			null,
+			null
+		]
+	},
+	"transport": {
+		"currentIndex": 0,
+		"playing": false,
+		"tempo": 120
+	},
+	"userControl": {
+		"controlKnob": {
+			"channel": 0,
+			"controllerNumber": 91,
+			"id": "82AFEF64CA6E5BF392619F463ACFBFAB76DD822F38B64DBA25AFC9CE9CC27773"
+		},
+		"controlButton": {
+			"channel": 0,
+			"controllerNumber": 22,
+			"id": "82AFEF64CA6E5BF392619F463ACFBFAB76DD822F38B64DBA25AFC9CE9CC27773"
+		},
+		"transportButton": {
+			"channel": 0,
+			"controllerNumber": 23,
+			"id": "82AFEF64CA6E5BF392619F463ACFBFAB76DD822F38B64DBA25AFC9CE9CC27773"
+		},
+		"recordButton": {
+			"channel": 0,
+			"controllerNumber": 24,
+			"id": "82AFEF64CA6E5BF392619F463ACFBFAB76DD822F38B64DBA25AFC9CE9CC27773"
+		}
+	},
+	"view": {
+		"view": ""
+	},
+	"menus": {
+		"menuItems": [
+			{
+				"name": 1
+			},
+			{
+				"name": 2
+			},
+			{
+				"name": 3
+			},
+			{
+				"name": 4
+			},
+			{
+				"name": 5
+			},
+			{
+				"name": 6
+			},
+			{
+				"name": 7
+			},
+			{
+				"name": 8
+			},
+			{
+				"name": 9
+			},
+			{
+				"name": 10
+			},
+			{
+				"name": 11
+			},
+			{
+				"name": 12
+			},
+			{
+				"name": 13
+			},
+			{
+				"name": 14
+			},
+			{
+				"name": 15
+			},
+			{
+				"name": 16
+			}
+		],
+		"currentIndex": 0,
+		"previousMenu": null,
+		"menuTitle": "Choose an output port"
+	},
+	"buttons": {
+		"control": {
+			"down": false,
+			"held": false
+		},
+		"transport": {
+			"down": false,
+			"held": false
+		},
+		"record": {
+			"down": false,
+			"held": false
+		}
+	}
+} {"timestamp":"2018-07-01T21:06:39.039Z"}
+info: in here!!!! {"timestamp":"2018-07-01T21:06:39.039Z"}
+info: {
+	"routes": [],
+	"ports": {
+		"inputs": {},
+		"outputs": {}
+	},
+	"MIDIAccess": {
+		"sysexEnabled": true,
+		"outputs": {},
+		"inputs": {}
+	},
+	"listeners": {
+		"82AFEF64CA6E5BF392619F463ACFBFAB76DD822F38B64DBA25AFC9CE9CC27773": [
+			null,
+			null,
+			null,
+			null
+		]
+	},
+	"transport": {
+		"currentIndex": 0,
+		"playing": false,
+		"tempo": 120
+	},
+	"userControl": {
+		"controlKnob": {
+			"channel": 0,
+			"controllerNumber": 91,
+			"id": "82AFEF64CA6E5BF392619F463ACFBFAB76DD822F38B64DBA25AFC9CE9CC27773"
+		},
+		"controlButton": {
+			"channel": 0,
+			"controllerNumber": 22,
+			"id": "82AFEF64CA6E5BF392619F463ACFBFAB76DD822F38B64DBA25AFC9CE9CC27773"
+		},
+		"transportButton": {
+			"channel": 0,
+			"controllerNumber": 23,
+			"id": "82AFEF64CA6E5BF392619F463ACFBFAB76DD822F38B64DBA25AFC9CE9CC27773"
+		},
+		"recordButton": {
+			"channel": 0,
+			"controllerNumber": 24,
+			"id": "82AFEF64CA6E5BF392619F463ACFBFAB76DD822F38B64DBA25AFC9CE9CC27773"
+		}
+	},
+	"view": {
+		"view": ""
+	},
+	"menus": {
+		"menuItems": [
+			{
+				"name": 1
+			},
+			{
+				"name": 2
+			},
+			{
+				"name": 3
+			},
+			{
+				"name": 4
+			},
+			{
+				"name": 5
+			},
+			{
+				"name": 6
+			},
+			{
+				"name": 7
+			},
+			{
+				"name": 8
+			},
+			{
+				"name": 9
+			},
+			{
+				"name": 10
+			},
+			{
+				"name": 11
+			},
+			{
+				"name": 12
+			},
+			{
+				"name": 13
+			},
+			{
+				"name": 14
+			},
+			{
+				"name": 15
+			},
+			{
+				"name": 16
+			}
+		],
+		"currentIndex": 0,
+		"previousMenu": null,
+		"menuTitle": "Choose an output port"
+	},
+	"buttons": {
+		"control": {
+			"down": false,
+			"held": false
+		},
+		"transport": {
+			"down": false,
+			"held": false
+		},
+		"record": {
+			"down": false,
+			"held": false
+		}
+	}
+} {"timestamp":"2018-07-01T21:06:39.040Z"}
+info: control button up event {"timestamp":"2018-07-01T21:06:39.040Z"}
+info: choosing if we will make another route {"timestamp":"2018-07-01T21:06:39.041Z"}
+info: rendering view {"timestamp":"2018-07-01T21:06:39.042Z"}
+info: rendering view {"timestamp":"2018-07-01T21:06:40.622Z"}
+info: knob right {"timestamp":"2018-07-01T21:06:40.622Z"}
+info: knob right {"timestamp":"2018-07-01T21:06:40.658Z"}
+info: knob right {"timestamp":"2018-07-01T21:06:40.686Z"}
+info: in here!!!! {"timestamp":"2018-07-01T21:06:41.729Z"}
+info: control button down event {"timestamp":"2018-07-01T21:06:41.730Z"}
+info: in here!!!! {"timestamp":"2018-07-01T21:06:41.823Z"}
+info: {
+	"routes": [
+		{
+			"in": {
+				"id": "82AFEF64CA6E5BF392619F463ACFBFAB76DD822F38B64DBA25AFC9CE9CC27773",
+				"channel": 0
+			},
+			"out": {
+				"id": "16E6550FBE83105D1AE1D174D3642ABAA43A1BC6636BAFEC08666981E701BC99",
+				"channel": 0
+			}
+		}
+	],
+	"ports": {
+		"inputs": {},
+		"outputs": {}
+	},
+	"MIDIAccess": {
+		"sysexEnabled": true,
+		"outputs": {},
+		"inputs": {}
+	},
+	"listeners": {
+		"82AFEF64CA6E5BF392619F463ACFBFAB76DD822F38B64DBA25AFC9CE9CC27773": [
+			null,
+			null,
+			null,
+			null
+		]
+	},
+	"transport": {
+		"currentIndex": 0,
+		"playing": false,
+		"tempo": 120
+	},
+	"userControl": {
+		"controlKnob": {
+			"channel": 0,
+			"controllerNumber": 91,
+			"id": "82AFEF64CA6E5BF392619F463ACFBFAB76DD822F38B64DBA25AFC9CE9CC27773"
+		},
+		"controlButton": {
+			"channel": 0,
+			"controllerNumber": 22,
+			"id": "82AFEF64CA6E5BF392619F463ACFBFAB76DD822F38B64DBA25AFC9CE9CC27773"
+		},
+		"transportButton": {
+			"channel": 0,
+			"controllerNumber": 23,
+			"id": "82AFEF64CA6E5BF392619F463ACFBFAB76DD822F38B64DBA25AFC9CE9CC27773"
+		},
+		"recordButton": {
+			"channel": 0,
+			"controllerNumber": 24,
+			"id": "82AFEF64CA6E5BF392619F463ACFBFAB76DD822F38B64DBA25AFC9CE9CC27773"
+		}
+	},
+	"view": {
+		"view": ""
+	},
+	"menus": {
+		"menuItems": [
+			{
+				"name": "Yes"
+			},
+			{
+				"name": "No"
+			}
+		],
+		"currentIndex": 1,
+		"previousMenu": null,
+		"menuTitle": "Make another route?"
+	},
+	"buttons": {
+		"control": {
+			"down": false,
+			"held": false
+		},
+		"transport": {
+			"down": false,
+			"held": false
+		},
+		"record": {
+			"down": false,
+			"held": false
+		}
+	}
+} {"timestamp":"2018-07-01T21:06:41.824Z"}
+info: in here!!!! {"timestamp":"2018-07-01T21:06:41.825Z"}
+info: {
+	"routes": [
+		{
+			"in": {
+				"id": "82AFEF64CA6E5BF392619F463ACFBFAB76DD822F38B64DBA25AFC9CE9CC27773",
+				"channel": 0
+			},
+			"out": {
+				"id": "16E6550FBE83105D1AE1D174D3642ABAA43A1BC6636BAFEC08666981E701BC99",
+				"channel": 0
+			}
+		}
+	],
+	"ports": {
+		"inputs": {},
+		"outputs": {}
+	},
+	"MIDIAccess": {
+		"sysexEnabled": true,
+		"outputs": {},
+		"inputs": {}
+	},
+	"listeners": {
+		"82AFEF64CA6E5BF392619F463ACFBFAB76DD822F38B64DBA25AFC9CE9CC27773": [
+			null,
+			null,
+			null,
+			null
+		]
+	},
+	"transport": {
+		"currentIndex": 0,
+		"playing": false,
+		"tempo": 120
+	},
+	"userControl": {
+		"controlKnob": {
+			"channel": 0,
+			"controllerNumber": 91,
+			"id": "82AFEF64CA6E5BF392619F463ACFBFAB76DD822F38B64DBA25AFC9CE9CC27773"
+		},
+		"controlButton": {
+			"channel": 0,
+			"controllerNumber": 22,
+			"id": "82AFEF64CA6E5BF392619F463ACFBFAB76DD822F38B64DBA25AFC9CE9CC27773"
+		},
+		"transportButton": {
+			"channel": 0,
+			"controllerNumber": 23,
+			"id": "82AFEF64CA6E5BF392619F463ACFBFAB76DD822F38B64DBA25AFC9CE9CC27773"
+		},
+		"recordButton": {
+			"channel": 0,
+			"controllerNumber": 24,
+			"id": "82AFEF64CA6E5BF392619F463ACFBFAB76DD822F38B64DBA25AFC9CE9CC27773"
+		}
+	},
+	"view": {
+		"view": ""
+	},
+	"menus": {
+		"menuItems": [
+			{
+				"name": "Yes"
+			},
+			{
+				"name": "No"
+			}
+		],
+		"currentIndex": 1,
+		"previousMenu": null,
+		"menuTitle": "Make another route?"
+	},
+	"buttons": {
+		"control": {
+			"down": false,
+			"held": false
+		},
+		"transport": {
+			"down": false,
+			"held": false
+		},
+		"record": {
+			"down": false,
+			"held": false
+		}
+	}
+} {"timestamp":"2018-07-01T21:06:41.825Z"}
+info: control button up event {"timestamp":"2018-07-01T21:06:41.825Z"}
+info: rendering view {"timestamp":"2018-07-01T21:06:41.827Z"}
+info: outmessage: 144,64,91 {"timestamp":"2018-07-01T21:06:43.916Z"}
+info: outmessage: 144,60,89 {"timestamp":"2018-07-01T21:06:43.918Z"}
+info: outmessage: 128,64,7 {"timestamp":"2018-07-01T21:06:44.716Z"}
+info: outmessage: 128,60,6 {"timestamp":"2018-07-01T21:06:44.732Z"}
+info: outmessage: 144,60,99 {"timestamp":"2018-07-01T21:06:48.197Z"}
+info: outmessage: 144,64,107 {"timestamp":"2018-07-01T21:06:48.198Z"}
+info: outmessage: 128,60,6 {"timestamp":"2018-07-01T21:06:49.057Z"}
+info: outmessage: 128,64,7 {"timestamp":"2018-07-01T21:06:49.082Z"}
+info: outmessage: 144,59,79 {"timestamp":"2018-07-01T21:06:49.292Z"}
+info: outmessage: 144,55,85 {"timestamp":"2018-07-01T21:06:49.296Z"}
+info: outmessage: 128,55,7 {"timestamp":"2018-07-01T21:06:49.755Z"}
+info: outmessage: 128,59,43 {"timestamp":"2018-07-01T21:06:49.762Z"}
+info: outmessage: 144,52,77 {"timestamp":"2018-07-01T21:06:50.251Z"}
+info: outmessage: 144,48,91 {"timestamp":"2018-07-01T21:06:50.255Z"}
+info: outmessage: 128,48,7 {"timestamp":"2018-07-01T21:06:50.732Z"}
+info: outmessage: 128,52,7 {"timestamp":"2018-07-01T21:06:50.734Z"}
+info: outmessage: 144,55,63 {"timestamp":"2018-07-01T21:06:51.029Z"}
+info: outmessage: 144,59,75 {"timestamp":"2018-07-01T21:06:51.042Z"}
+info: outmessage: 128,59,37 {"timestamp":"2018-07-01T21:06:51.512Z"}
+info: outmessage: 128,55,7 {"timestamp":"2018-07-01T21:06:51.536Z"}
+info: outmessage: 144,55,67 {"timestamp":"2018-07-01T21:06:51.622Z"}
+info: outmessage: 144,52,49 {"timestamp":"2018-07-01T21:06:51.622Z"}
+info: outmessage: 128,55,35 {"timestamp":"2018-07-01T21:06:52.260Z"}
+info: outmessage: 128,52,7 {"timestamp":"2018-07-01T21:06:52.270Z"}
+info: here {"timestamp":"2018-07-01T21:07:11.142Z"}
+info: rendering view {"timestamp":"2018-07-01T21:07:11.432Z"}
+info: here {"timestamp":"2018-07-01T21:07:28.265Z"}
+info: rendering view {"timestamp":"2018-07-01T21:07:28.593Z"}
+info: here {"timestamp":"2018-07-01T21:08:19.722Z"}
+info: rendering view {"timestamp":"2018-07-01T21:08:20.030Z"}
+info: here {"timestamp":"2018-07-01T21:20:29.538Z"}
+info: rendering view {"timestamp":"2018-07-01T21:20:29.709Z"}
+info: here {"timestamp":"2018-07-01T21:24:49.907Z"}
+info: rendering view {"timestamp":"2018-07-01T21:24:50.047Z"}
+info: here {"timestamp":"2018-07-01T21:24:50.631Z"}
+info: rendering view {"timestamp":"2018-07-01T21:24:50.783Z"}
+info: here {"timestamp":"2018-07-01T21:24:51.395Z"}
+info: rendering view {"timestamp":"2018-07-01T21:24:51.530Z"}
+info: here {"timestamp":"2018-07-01T21:43:19.452Z"}
+info: rendering view {"timestamp":"2018-07-01T21:43:19.616Z"}
+info: here {"timestamp":"2018-07-01T21:43:24.538Z"}
+info: rendering view {"timestamp":"2018-07-01T21:43:24.682Z"}
+info: here {"timestamp":"2018-07-01T21:43:50.162Z"}
+info: rendering view {"timestamp":"2018-07-01T21:43:50.304Z"}
+info: here {"timestamp":"2018-07-01T21:44:00.788Z"}
+info: rendering view {"timestamp":"2018-07-01T21:44:00.949Z"}
+info: here {"timestamp":"2018-07-01T21:49:42.465Z"}
+info: rendering view {"timestamp":"2018-07-01T21:49:42.606Z"}
+info: here {"timestamp":"2018-07-01T21:49:49.221Z"}
+info: rendering view {"timestamp":"2018-07-01T21:49:49.379Z"}
+info: here {"timestamp":"2018-07-01T21:51:00.244Z"}
+info: rendering view {"timestamp":"2018-07-01T21:51:00.380Z"}
+info: here {"timestamp":"2018-07-01T21:52:04.123Z"}
+info: rendering view {"timestamp":"2018-07-01T21:52:04.258Z"}
+info: here {"timestamp":"2018-07-01T21:52:21.569Z"}
+info: rendering view {"timestamp":"2018-07-01T21:52:21.705Z"}
+info: Control knob set {"timestamp":"2018-07-01T21:52:24.702Z"}
+info: rendering view {"timestamp":"2018-07-01T21:52:24.704Z"}
+info: here {"timestamp":"2018-07-01T21:52:38.488Z"}
+info: rendering view {"timestamp":"2018-07-01T21:52:38.621Z"}
+info: here {"timestamp":"2018-07-01T21:52:55.980Z"}
+info: rendering view {"timestamp":"2018-07-01T21:52:56.117Z"}
+info: here {"timestamp":"2018-07-01T21:53:12.442Z"}
+info: rendering view {"timestamp":"2018-07-01T21:53:12.581Z"}
+info: here {"timestamp":"2018-07-01T21:53:33.754Z"}
+info: rendering view {"timestamp":"2018-07-01T21:53:33.924Z"}
+info: here {"timestamp":"2018-07-01T21:53:51.949Z"}
+info: rendering view {"timestamp":"2018-07-01T21:53:52.091Z"}
+info: here {"timestamp":"2018-07-01T21:56:05.483Z"}
+info: rendering view {"timestamp":"2018-07-01T21:56:05.622Z"}
+info: here {"timestamp":"2018-07-01T22:00:52.672Z"}
+info: rendering view {"timestamp":"2018-07-01T22:00:52.819Z"}
+info: here {"timestamp":"2018-07-01T22:00:53.419Z"}
+info: rendering view {"timestamp":"2018-07-01T22:00:53.565Z"}
+info: here {"timestamp":"2018-07-01T22:03:52.654Z"}
+info: rendering view {"timestamp":"2018-07-01T22:03:52.801Z"}
+info: here {"timestamp":"2018-07-01T22:04:36.172Z"}
+info: rendering view {"timestamp":"2018-07-01T22:04:36.346Z"}
+info: here {"timestamp":"2018-07-01T22:05:01.436Z"}
+info: rendering view {"timestamp":"2018-07-01T22:05:01.579Z"}
+info: here {"timestamp":"2018-07-01T22:06:01.453Z"}
+info: rendering view {"timestamp":"2018-07-01T22:06:01.598Z"}
+info: here {"timestamp":"2018-07-01T22:12:32.848Z"}
+info: rendering view {"timestamp":"2018-07-01T22:12:32.987Z"}
+info: here {"timestamp":"2018-07-01T22:17:05.972Z"}
+info: rendering view {"timestamp":"2018-07-01T22:17:06.132Z"}
+info: Control knob set {"timestamp":"2018-07-01T22:19:32.146Z"}
+info: rendering view {"timestamp":"2018-07-01T22:19:32.147Z"}
+info: Control button set {"timestamp":"2018-07-01T22:19:32.882Z"}
+info: rendering view {"timestamp":"2018-07-01T22:19:32.883Z"}
+info: Transport button set {"timestamp":"2018-07-01T22:19:35.530Z"}
+info: rendering view {"timestamp":"2018-07-01T22:19:35.531Z"}
+info: Record button set {"timestamp":"2018-07-01T22:19:36.786Z"}
+info: user config {"timestamp":"2018-07-01T22:19:36.789Z"}
+info: choosing input port {"timestamp":"2018-07-01T22:19:36.790Z"}
+info: rendering view {"timestamp":"2018-07-01T22:19:36.791Z"}
+info: record button up event {"timestamp":"2018-07-01T22:19:36.909Z"}
+info: control button down event {"timestamp":"2018-07-01T22:19:38.221Z"}
+info: control button up event {"timestamp":"2018-07-01T22:19:38.308Z"}
+info: choosing input channel {"timestamp":"2018-07-01T22:19:38.310Z"}
+info: rendering view {"timestamp":"2018-07-01T22:19:38.311Z"}
+info: here {"timestamp":"2018-07-01T22:20:01.774Z"}
+info: rendering view {"timestamp":"2018-07-01T22:20:01.915Z"}
+info: Control knob set {"timestamp":"2018-07-01T22:20:04.042Z"}
+info: rendering view {"timestamp":"2018-07-01T22:20:04.043Z"}
+info: here {"timestamp":"2018-07-01T22:20:08.608Z"}
+info: rendering view {"timestamp":"2018-07-01T22:20:08.753Z"}
+info: Control knob set {"timestamp":"2018-07-01T22:20:10.322Z"}
+info: rendering view {"timestamp":"2018-07-01T22:20:10.322Z"}
+info: Control button set {"timestamp":"2018-07-01T22:20:11.067Z"}
+info: rendering view {"timestamp":"2018-07-01T22:20:11.068Z"}
+info: Transport button set {"timestamp":"2018-07-01T22:20:11.589Z"}
+info: rendering view {"timestamp":"2018-07-01T22:20:11.590Z"}
+info: Record button set {"timestamp":"2018-07-01T22:20:12.181Z"}
+info: user config {"timestamp":"2018-07-01T22:20:12.183Z"}
+info: choosing input port {"timestamp":"2018-07-01T22:20:12.183Z"}
+info: rendering view {"timestamp":"2018-07-01T22:20:12.184Z"}
+info: record button up event {"timestamp":"2018-07-01T22:20:12.253Z"}
+info: control button down event {"timestamp":"2018-07-01T22:20:13.259Z"}
+info: control button up event {"timestamp":"2018-07-01T22:20:13.352Z"}
+info: choosing input channel {"timestamp":"2018-07-01T22:20:13.352Z"}
+info: rendering view {"timestamp":"2018-07-01T22:20:13.353Z"}
+info: here {"timestamp":"2018-07-01T22:22:08.879Z"}
+info: rendering view {"timestamp":"2018-07-01T22:22:09.042Z"}
+info: Control knob set {"timestamp":"2018-07-01T22:22:10.811Z"}
+info: rendering view {"timestamp":"2018-07-01T22:22:10.812Z"}
+info: Control button set {"timestamp":"2018-07-01T22:22:11.896Z"}
+info: rendering view {"timestamp":"2018-07-01T22:22:11.897Z"}
+info: Transport button set {"timestamp":"2018-07-01T22:22:12.374Z"}
+info: rendering view {"timestamp":"2018-07-01T22:22:12.375Z"}
+info: Record button set {"timestamp":"2018-07-01T22:22:13.059Z"}
+info: user config {"timestamp":"2018-07-01T22:22:13.060Z"}
+info: choosing input port {"timestamp":"2018-07-01T22:22:13.061Z"}
+info: rendering view {"timestamp":"2018-07-01T22:22:13.063Z"}
+info: record button up event {"timestamp":"2018-07-01T22:22:13.189Z"}
+info: control button down event {"timestamp":"2018-07-01T22:22:25.477Z"}
+info: control button up event {"timestamp":"2018-07-01T22:22:25.692Z"}
+info: choosing input channel {"timestamp":"2018-07-01T22:22:25.693Z"}
+info: rendering view {"timestamp":"2018-07-01T22:22:25.694Z"}
+info: here {"timestamp":"2018-07-01T22:22:29.562Z"}
+info: rendering view {"timestamp":"2018-07-01T22:22:29.703Z"}
+info: here {"timestamp":"2018-07-01T22:22:43.754Z"}
+info: rendering view {"timestamp":"2018-07-01T22:22:43.897Z"}
+info: Control knob set {"timestamp":"2018-07-01T22:22:47.240Z"}
+info: rendering view {"timestamp":"2018-07-01T22:22:47.241Z"}
+info: Control button set {"timestamp":"2018-07-01T22:22:48.384Z"}
+info: rendering view {"timestamp":"2018-07-01T22:22:48.385Z"}
+info: Transport button set {"timestamp":"2018-07-01T22:22:48.848Z"}
+info: rendering view {"timestamp":"2018-07-01T22:22:48.849Z"}
+info: Record button set {"timestamp":"2018-07-01T22:22:49.441Z"}
+info: rendering view {"timestamp":"2018-07-01T22:22:49.445Z"}
+info: here {"timestamp":"2018-07-01T22:32:31.527Z"}
+info: rendering view {"timestamp":"2018-07-01T22:32:31.720Z"}
+info: Control knob set {"timestamp":"2018-07-01T22:32:33.740Z"}
+info: rendering view {"timestamp":"2018-07-01T22:32:33.742Z"}
+info: Control button set {"timestamp":"2018-07-01T22:32:34.517Z"}
+info: rendering view {"timestamp":"2018-07-01T22:32:34.518Z"}
+info: Transport button set {"timestamp":"2018-07-01T22:32:34.931Z"}
+info: rendering view {"timestamp":"2018-07-01T22:32:34.932Z"}
+info: Record button set {"timestamp":"2018-07-01T22:32:35.482Z"}
+info: rendering view {"timestamp":"2018-07-01T22:32:35.483Z"}
+info: here {"timestamp":"2018-07-01T22:33:10.761Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:10.981Z"}
+info: here {"timestamp":"2018-07-01T22:33:12.433Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:12.636Z"}
+info: Control knob set {"timestamp":"2018-07-01T22:33:14.570Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:14.572Z"}
+info: Control button set {"timestamp":"2018-07-01T22:33:15.049Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:15.051Z"}
+info: Transport button set {"timestamp":"2018-07-01T22:33:15.321Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:15.321Z"}
+info: Record button set {"timestamp":"2018-07-01T22:33:15.756Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:15.758Z"}
+info: here {"timestamp":"2018-07-01T22:33:34.376Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:34.539Z"}
+info: Control knob set {"timestamp":"2018-07-01T22:33:37.185Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:37.186Z"}
+info: Control button set {"timestamp":"2018-07-01T22:33:38.897Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:38.898Z"}
+info: Transport button set {"timestamp":"2018-07-01T22:33:39.248Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:39.248Z"}
+info: Record button set {"timestamp":"2018-07-01T22:33:39.705Z"}
+info: user config {"timestamp":"2018-07-01T22:33:39.709Z"}
+info: choosing input port {"timestamp":"2018-07-01T22:33:39.710Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:39.713Z"}
+info: record button up event {"timestamp":"2018-07-01T22:33:39.778Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:41.444Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:41.948Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:42.810Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:43.255Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:43.706Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:43.929Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:44.159Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:44.844Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:45.135Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:45.401Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:45.601Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:45.838Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:46.084Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:46.717Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:47.082Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:47.325Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:47.525Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:47.741Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:48.524Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:48.806Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:49.035Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:49.299Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:49.530Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:49.767Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:49.971Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:50.936Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:51.173Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:51.373Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:51.576Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:51.797Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:52.396Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:52.772Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:53.123Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:53.404Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:53.649Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:53.860Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:54.082Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:54.770Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:55.048Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:55.261Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:55.499Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:55.711Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:55.955Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:56.354Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:56.584Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:57.080Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:57.283Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:57.891Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:58.092Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:58.311Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:58.534Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:59.572Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:59.771Z"}
+info: rendering view {"timestamp":"2018-07-01T22:33:59.976Z"}
+info: rendering view {"timestamp":"2018-07-01T22:34:00.190Z"}
+info: rendering view {"timestamp":"2018-07-01T22:34:00.982Z"}
+info: rendering view {"timestamp":"2018-07-01T22:34:01.184Z"}
+info: rendering view {"timestamp":"2018-07-01T22:34:01.909Z"}
+info: rendering view {"timestamp":"2018-07-01T22:34:02.125Z"}
+info: rendering view {"timestamp":"2018-07-01T22:34:02.339Z"}
+info: rendering view {"timestamp":"2018-07-01T22:34:02.559Z"}
+info: rendering view {"timestamp":"2018-07-01T22:34:02.972Z"}
+info: rendering view {"timestamp":"2018-07-01T22:34:03.175Z"}
+info: rendering view {"timestamp":"2018-07-01T22:34:03.405Z"}
+info: rendering view {"timestamp":"2018-07-01T22:34:03.615Z"}
+info: rendering view {"timestamp":"2018-07-01T22:34:04.348Z"}
+info: rendering view {"timestamp":"2018-07-01T22:34:04.588Z"}
+info: rendering view {"timestamp":"2018-07-01T22:34:04.826Z"}
+info: rendering view {"timestamp":"2018-07-01T22:34:05.030Z"}
+info: rendering view {"timestamp":"2018-07-01T22:34:05.254Z"}
+info: rendering view {"timestamp":"2018-07-01T22:34:05.500Z"}
+info: rendering view {"timestamp":"2018-07-01T22:34:06.144Z"}
+info: rendering view {"timestamp":"2018-07-01T22:34:06.397Z"}
+info: rendering view {"timestamp":"2018-07-01T22:34:06.618Z"}
+info: rendering view {"timestamp":"2018-07-01T22:34:06.827Z"}
+info: rendering view {"timestamp":"2018-07-01T22:34:07.029Z"}
+info: rendering view {"timestamp":"2018-07-01T22:34:07.734Z"}
+info: rendering view {"timestamp":"2018-07-01T22:34:07.944Z"}
+info: rendering view {"timestamp":"2018-07-01T22:34:08.176Z"}
+info: rendering view {"timestamp":"2018-07-01T22:34:08.380Z"}
+info: rendering view {"timestamp":"2018-07-01T22:34:08.594Z"}
+info: rendering view {"timestamp":"2018-07-01T22:34:42.762Z"}
+info: rendering view {"timestamp":"2018-07-01T22:34:43.021Z"}
+info: rendering view {"timestamp":"2018-07-01T22:34:43.479Z"}
+info: control button down event {"timestamp":"2018-07-01T22:34:45.324Z"}
+info: control button up event {"timestamp":"2018-07-01T22:34:45.503Z"}
+info: choosing input channel {"timestamp":"2018-07-01T22:34:45.504Z"}
+info: rendering view {"timestamp":"2018-07-01T22:34:45.505Z"}
+info: control button down event {"timestamp":"2018-07-01T22:34:49.769Z"}
+info: control button up event {"timestamp":"2018-07-01T22:34:49.934Z"}
+info: choosing output port {"timestamp":"2018-07-01T22:34:49.934Z"}
+info: rendering view {"timestamp":"2018-07-01T22:34:49.935Z"}
+info: control button down event {"timestamp":"2018-07-01T22:34:51.554Z"}
+info: control button up event {"timestamp":"2018-07-01T22:34:51.725Z"}
+info: choosing output cahnnel {"timestamp":"2018-07-01T22:34:51.726Z"}
+info: rendering view {"timestamp":"2018-07-01T22:34:51.727Z"}
+info: control button down event {"timestamp":"2018-07-01T22:34:52.874Z"}
+info: control button up event {"timestamp":"2018-07-01T22:34:53.060Z"}
+info: choosing if we will make another route {"timestamp":"2018-07-01T22:34:53.061Z"}
+info: rendering view {"timestamp":"2018-07-01T22:34:53.061Z"}
+info: rendering view {"timestamp":"2018-07-01T22:34:53.907Z"}
+info: control button down event {"timestamp":"2018-07-01T22:34:54.538Z"}
+info: control button up event {"timestamp":"2018-07-01T22:34:54.667Z"}
+info: rendering view {"timestamp":"2018-07-01T22:34:54.667Z"}
+info: outmessage: 144,59,111 {"timestamp":"2018-07-01T22:34:56.529Z"}
+info: outmessage: 144,55,97 {"timestamp":"2018-07-01T22:34:56.531Z"}
+info: outmessage: 128,55,43 {"timestamp":"2018-07-01T22:34:57.232Z"}
+info: outmessage: 128,59,7 {"timestamp":"2018-07-01T22:34:57.234Z"}
+info: outmessage: 144,52,97 {"timestamp":"2018-07-01T22:34:57.420Z"}
+info: outmessage: 144,48,105 {"timestamp":"2018-07-01T22:34:57.426Z"}
+info: outmessage: 128,48,13 {"timestamp":"2018-07-01T22:34:58.002Z"}
+info: outmessage: 128,52,7 {"timestamp":"2018-07-01T22:34:58.043Z"}
+info: outmessage: 144,55,91 {"timestamp":"2018-07-01T22:34:58.350Z"}
+info: outmessage: 144,59,101 {"timestamp":"2018-07-01T22:34:58.353Z"}
+info: outmessage: 128,59,7 {"timestamp":"2018-07-01T22:34:58.662Z"}
+info: outmessage: 128,55,9 {"timestamp":"2018-07-01T22:34:58.680Z"}
+info: outmessage: 144,52,103 {"timestamp":"2018-07-01T22:34:58.795Z"}
+info: outmessage: 144,55,105 {"timestamp":"2018-07-01T22:34:58.797Z"}
+info: outmessage: 128,55,29 {"timestamp":"2018-07-01T22:34:59.821Z"}
+info: outmessage: 128,52,47 {"timestamp":"2018-07-01T22:34:59.825Z"}
+info: outmessage: 144,55,101 {"timestamp":"2018-07-01T22:34:59.908Z"}
+info: outmessage: 144,59,103 {"timestamp":"2018-07-01T22:34:59.910Z"}
+info: outmessage: 128,55,6 {"timestamp":"2018-07-01T22:35:00.689Z"}
+info: outmessage: 128,59,7 {"timestamp":"2018-07-01T22:35:00.718Z"}
+info: outmessage: 144,52,99 {"timestamp":"2018-07-01T22:35:00.898Z"}
+info: outmessage: 144,48,109 {"timestamp":"2018-07-01T22:35:00.901Z"}
+info: outmessage: 128,52,7 {"timestamp":"2018-07-01T22:35:01.482Z"}
+info: outmessage: 128,48,7 {"timestamp":"2018-07-01T22:35:01.550Z"}
+info: outmessage: 144,55,101 {"timestamp":"2018-07-01T22:35:01.860Z"}
+info: outmessage: 144,59,103 {"timestamp":"2018-07-01T22:35:01.866Z"}
+info: outmessage: 128,55,7 {"timestamp":"2018-07-01T22:35:02.231Z"}
+info: outmessage: 128,59,7 {"timestamp":"2018-07-01T22:35:02.232Z"}
+info: outmessage: 144,55,89 {"timestamp":"2018-07-01T22:35:02.357Z"}
+info: outmessage: 144,52,89 {"timestamp":"2018-07-01T22:35:02.363Z"}
+info: outmessage: 128,55,7 {"timestamp":"2018-07-01T22:35:03.566Z"}
+info: outmessage: 128,52,15 {"timestamp":"2018-07-01T22:35:03.572Z"}
+info: outmessage: 144,55,93 {"timestamp":"2018-07-01T22:35:03.688Z"}
+info: outmessage: 144,59,91 {"timestamp":"2018-07-01T22:35:03.701Z"}
+info: outmessage: 128,55,35 {"timestamp":"2018-07-01T22:35:04.539Z"}
+info: outmessage: 128,59,51 {"timestamp":"2018-07-01T22:35:04.570Z"}
+info: outmessage: 144,48,7 {"timestamp":"2018-07-01T22:35:04.573Z"}
+info: outmessage: 128,48,11 {"timestamp":"2018-07-01T22:35:04.624Z"}
+info: outmessage: 144,52,77 {"timestamp":"2018-07-01T22:35:04.777Z"}
+info: outmessage: 144,48,111 {"timestamp":"2018-07-01T22:35:04.782Z"}
+info: outmessage: 144,50,75 {"timestamp":"2018-07-01T22:35:04.784Z"}
+info: outmessage: 128,50,7 {"timestamp":"2018-07-01T22:35:04.846Z"}
+info: outmessage: 128,52,7 {"timestamp":"2018-07-01T22:35:05.292Z"}
+info: outmessage: 128,48,6 {"timestamp":"2018-07-01T22:35:05.376Z"}
+info: outmessage: 144,55,97 {"timestamp":"2018-07-01T22:35:05.822Z"}
+info: outmessage: 144,59,101 {"timestamp":"2018-07-01T22:35:05.829Z"}
+info: outmessage: 128,59,7 {"timestamp":"2018-07-01T22:35:06.071Z"}
+info: outmessage: 128,55,7 {"timestamp":"2018-07-01T22:35:06.105Z"}
+info: outmessage: 144,55,89 {"timestamp":"2018-07-01T22:35:06.219Z"}
+info: outmessage: 144,52,83 {"timestamp":"2018-07-01T22:35:06.224Z"}
+info: outmessage: 128,52,7 {"timestamp":"2018-07-01T22:35:07.272Z"}
+info: outmessage: 128,55,7 {"timestamp":"2018-07-01T22:35:07.284Z"}
+info: outmessage: 144,55,67 {"timestamp":"2018-07-01T22:35:07.390Z"}
+info: outmessage: 144,57,71 {"timestamp":"2018-07-01T22:35:07.393Z"}
+info: outmessage: 144,59,65 {"timestamp":"2018-07-01T22:35:07.397Z"}
+info: outmessage: 144,60,81 {"timestamp":"2018-07-01T22:35:07.400Z"}
+info: outmessage: 128,57,6 {"timestamp":"2018-07-01T22:35:07.521Z"}
+info: outmessage: 128,60,6 {"timestamp":"2018-07-01T22:35:07.534Z"}
+info: outmessage: 128,55,21 {"timestamp":"2018-07-01T22:35:08.093Z"}
+info: outmessage: 128,59,7 {"timestamp":"2018-07-01T22:35:08.138Z"}
+info: outmessage: 144,52,59 {"timestamp":"2018-07-01T22:35:08.345Z"}
+info: outmessage: 144,48,53 {"timestamp":"2018-07-01T22:35:08.358Z"}
+info: outmessage: 128,52,7 {"timestamp":"2018-07-01T22:35:08.740Z"}
+info: outmessage: 128,48,17 {"timestamp":"2018-07-01T22:35:08.764Z"}
+info: outmessage: 144,55,97 {"timestamp":"2018-07-01T22:35:09.162Z"}
+info: outmessage: 144,59,95 {"timestamp":"2018-07-01T22:35:09.169Z"}
+info: outmessage: 128,59,7 {"timestamp":"2018-07-01T22:35:09.360Z"}
+info: outmessage: 128,55,7 {"timestamp":"2018-07-01T22:35:09.382Z"}
+info: outmessage: 144,55,93 {"timestamp":"2018-07-01T22:35:09.533Z"}
+info: outmessage: 144,50,57 {"timestamp":"2018-07-01T22:35:09.546Z"}
+info: outmessage: 144,52,59 {"timestamp":"2018-07-01T22:35:09.548Z"}
+info: outmessage: 128,50,7 {"timestamp":"2018-07-01T22:35:09.821Z"}
+info: outmessage: 128,52,7 {"timestamp":"2018-07-01T22:35:09.861Z"}
+info: outmessage: 128,55,6 {"timestamp":"2018-07-01T22:35:09.894Z"}
+info: here {"timestamp":"2018-07-01T22:36:01.072Z"}
+info: rendering view {"timestamp":"2018-07-01T22:36:01.231Z"}
+info: Control knob set {"timestamp":"2018-07-01T22:38:35.163Z"}
+info: rendering view {"timestamp":"2018-07-01T22:38:35.164Z"}
+info: here {"timestamp":"2018-07-01T22:43:19.389Z"}
+info: rendering view {"timestamp":"2018-07-01T22:43:19.537Z"}
+info: here {"timestamp":"2018-07-01T22:43:20.351Z"}
+info: rendering view {"timestamp":"2018-07-01T22:43:20.501Z"}
+info: here {"timestamp":"2018-07-01T23:25:17.011Z"}
+info: rendering view {"timestamp":"2018-07-01T23:25:17.162Z"}
+info: Control knob set {"timestamp":"2018-07-01T23:25:24.593Z"}
+info: rendering view {"timestamp":"2018-07-01T23:25:24.593Z"}
+info: Control button set {"timestamp":"2018-07-01T23:25:25.360Z"}
+info: rendering view {"timestamp":"2018-07-01T23:25:25.360Z"}
+info: Transport button set {"timestamp":"2018-07-01T23:25:26.098Z"}
+info: rendering view {"timestamp":"2018-07-01T23:25:26.099Z"}
+info: Record button set {"timestamp":"2018-07-01T23:25:26.973Z"}
+info: user config {"timestamp":"2018-07-01T23:25:26.974Z"}
+info: choosing input port {"timestamp":"2018-07-01T23:25:26.975Z"}
+info: rendering view {"timestamp":"2018-07-01T23:25:26.975Z"}
+info: record button up event {"timestamp":"2018-07-01T23:25:27.110Z"}
+info: control button down event {"timestamp":"2018-07-01T23:25:30.225Z"}
+info: control button up event {"timestamp":"2018-07-01T23:25:30.376Z"}
+info: choosing input channel {"timestamp":"2018-07-01T23:25:30.377Z"}
+info: rendering view {"timestamp":"2018-07-01T23:25:30.377Z"}
+info: control button down event {"timestamp":"2018-07-01T23:25:32.811Z"}
+info: control button up event {"timestamp":"2018-07-01T23:25:32.941Z"}
+info: choosing output port {"timestamp":"2018-07-01T23:25:32.941Z"}
+info: rendering view {"timestamp":"2018-07-01T23:25:32.941Z"}
+info: control button down event {"timestamp":"2018-07-01T23:25:34.610Z"}
+info: control button up event {"timestamp":"2018-07-01T23:25:34.767Z"}
+info: choosing output cahnnel {"timestamp":"2018-07-01T23:25:34.768Z"}
+info: rendering view {"timestamp":"2018-07-01T23:25:34.768Z"}
+info: control button down event {"timestamp":"2018-07-01T23:25:35.571Z"}
+info: control button up event {"timestamp":"2018-07-01T23:25:35.757Z"}
+info: choosing if we will make another route {"timestamp":"2018-07-01T23:25:35.758Z"}
+info: rendering view {"timestamp":"2018-07-01T23:25:35.758Z"}
+info: rendering view {"timestamp":"2018-07-01T23:25:37.352Z"}
+info: control button down event {"timestamp":"2018-07-01T23:25:38.329Z"}
+info: control button up event {"timestamp":"2018-07-01T23:25:38.451Z"}
+info: rendering view {"timestamp":"2018-07-01T23:25:38.452Z"}
+info: here {"timestamp":"2018-07-01T23:29:23.145Z"}
+info: rendering view {"timestamp":"2018-07-01T23:29:23.293Z"}
+info: here {"timestamp":"2018-07-01T23:31:37.289Z"}
+info: rendering view {"timestamp":"2018-07-01T23:31:37.444Z"}
+info: Control knob set {"timestamp":"2018-07-01T23:32:09.243Z"}
+info: rendering view {"timestamp":"2018-07-01T23:32:09.243Z"}
+info: here {"timestamp":"2018-07-01T23:32:31.254Z"}
+info: rendering view {"timestamp":"2018-07-01T23:32:31.403Z"}
+info: here {"timestamp":"2018-07-01T23:32:32.429Z"}
+info: rendering view {"timestamp":"2018-07-01T23:32:32.581Z"}
+info: here {"timestamp":"2018-07-01T23:42:36.524Z"}
+info: rendering view {"timestamp":"2018-07-01T23:42:36.686Z"}
+info: here {"timestamp":"2018-07-01T23:43:01.511Z"}
+info: rendering view {"timestamp":"2018-07-01T23:43:01.685Z"}
+info: here {"timestamp":"2018-07-01T23:43:42.750Z"}
+info: rendering view {"timestamp":"2018-07-01T23:43:42.926Z"}
+info: here {"timestamp":"2018-07-01T23:43:45.457Z"}
+info: rendering view {"timestamp":"2018-07-01T23:43:45.623Z"}
+info: here {"timestamp":"2018-07-01T23:44:48.379Z"}
+info: rendering view {"timestamp":"2018-07-01T23:44:48.556Z"}
+info: here {"timestamp":"2018-07-01T23:49:40.883Z"}
+info: rendering view {"timestamp":"2018-07-01T23:49:41.324Z"}
+info: here {"timestamp":"2018-07-01T23:51:36.284Z"}
+info: rendering view {"timestamp":"2018-07-01T23:51:36.453Z"}
+info: here {"timestamp":"2018-07-01T23:51:36.990Z"}
+info: rendering view {"timestamp":"2018-07-01T23:51:37.143Z"}
+info: here {"timestamp":"2018-07-01T23:51:38.704Z"}
+info: rendering view {"timestamp":"2018-07-01T23:51:38.855Z"}
+info: here {"timestamp":"2018-07-01T23:52:15.679Z"}
+info: rendering view {"timestamp":"2018-07-01T23:52:15.864Z"}
+info: here {"timestamp":"2018-07-01T23:56:18.931Z"}
+info: rendering view {"timestamp":"2018-07-01T23:56:19.081Z"}
+info: here {"timestamp":"2018-07-01T23:56:20.899Z"}
+info: rendering view {"timestamp":"2018-07-01T23:56:21.048Z"}
+info: here {"timestamp":"2018-07-01T23:57:33.958Z"}
+info: rendering view {"timestamp":"2018-07-01T23:57:34.110Z"}
+info: Control knob set {"timestamp":"2018-07-01T23:57:42.218Z"}
+info: rendering view {"timestamp":"2018-07-01T23:57:42.218Z"}
+info: Control button set {"timestamp":"2018-07-01T23:57:43.018Z"}
+info: rendering view {"timestamp":"2018-07-01T23:57:43.018Z"}
+info: Transport button set {"timestamp":"2018-07-01T23:57:43.037Z"}
+info: rendering view {"timestamp":"2018-07-01T23:57:43.037Z"}
+info: Record button set {"timestamp":"2018-07-01T23:57:44.008Z"}
+info: user config {"timestamp":"2018-07-01T23:57:44.011Z"}
+info: choosing input port {"timestamp":"2018-07-01T23:57:44.011Z"}
+info: rendering view {"timestamp":"2018-07-01T23:57:44.013Z"}
+info: record button up event {"timestamp":"2018-07-01T23:57:44.088Z"}
+info: transport button up event {"timestamp":"2018-07-02T00:07:05.067Z"}
+info: transport button up event {"timestamp":"2018-07-02T00:07:05.168Z"}
+info: transport button up event {"timestamp":"2018-07-02T00:07:05.240Z"}
+info: transport button up event {"timestamp":"2018-07-02T00:07:05.255Z"}
+info: here {"timestamp":"2018-07-02T00:12:29.140Z"}
+info: rendering view {"timestamp":"2018-07-02T00:12:29.291Z"}
+info: here {"timestamp":"2018-07-02T00:12:32.187Z"}
+info: rendering view {"timestamp":"2018-07-02T00:12:32.335Z"}
+info: here {"timestamp":"2018-07-02T00:21:52.127Z"}
+info: rendering view {"timestamp":"2018-07-02T00:21:52.302Z"}
+info: here {"timestamp":"2018-07-02T00:22:14.020Z"}
+info: rendering view {"timestamp":"2018-07-02T00:22:14.166Z"}
+info: here {"timestamp":"2018-07-02T00:22:33.097Z"}
+info: rendering view {"timestamp":"2018-07-02T00:22:33.269Z"}
+info: here {"timestamp":"2018-07-02T00:22:54.522Z"}
+info: rendering view {"timestamp":"2018-07-02T00:22:54.661Z"}
+info: here {"timestamp":"2018-07-02T00:23:42.840Z"}
+info: rendering view {"timestamp":"2018-07-02T00:23:42.982Z"}
+info: Control knob set {"timestamp":"2018-07-02T00:23:43.049Z"}
+info: rendering view {"timestamp":"2018-07-02T00:23:43.049Z"}
+info: Control button set {"timestamp":"2018-07-02T00:23:45.625Z"}
+info: rendering view {"timestamp":"2018-07-02T00:23:45.625Z"}
+info: here {"timestamp":"2018-07-02T00:23:49.765Z"}
+info: rendering view {"timestamp":"2018-07-02T00:23:49.905Z"}
+info: Control knob set {"timestamp":"2018-07-02T00:23:50.051Z"}
+info: rendering view {"timestamp":"2018-07-02T00:23:50.051Z"}
+info: here {"timestamp":"2018-07-02T00:23:57.789Z"}
+info: rendering view {"timestamp":"2018-07-02T00:23:57.935Z"}
+info: Control knob set {"timestamp":"2018-07-02T00:23:58.581Z"}
+info: rendering view {"timestamp":"2018-07-02T00:23:58.582Z"}
+info: here {"timestamp":"2018-07-02T00:24:13.694Z"}
+info: rendering view {"timestamp":"2018-07-02T00:24:13.837Z"}
+info: Control knob set {"timestamp":"2018-07-02T00:24:17.880Z"}
+info: rendering view {"timestamp":"2018-07-02T00:24:17.880Z"}
+info: Control button set {"timestamp":"2018-07-02T00:24:18.987Z"}
+info: rendering view {"timestamp":"2018-07-02T00:24:18.987Z"}
+info: Transport button set {"timestamp":"2018-07-02T00:24:19.851Z"}
+info: rendering view {"timestamp":"2018-07-02T00:24:19.852Z"}
+info: Record button set {"timestamp":"2018-07-02T00:24:20.938Z"}
+info: user config {"timestamp":"2018-07-02T00:24:20.940Z"}
+info: choosing input port {"timestamp":"2018-07-02T00:24:20.940Z"}
+info: rendering view {"timestamp":"2018-07-02T00:24:20.941Z"}
+info: record button up event {"timestamp":"2018-07-02T00:24:20.989Z"}
+info: control button down event {"timestamp":"2018-07-02T00:24:23.921Z"}
+info: control button up event {"timestamp":"2018-07-02T00:24:24.102Z"}
+info: choosing input channel {"timestamp":"2018-07-02T00:24:24.103Z"}
+info: rendering view {"timestamp":"2018-07-02T00:24:24.104Z"}
+info: control button down event {"timestamp":"2018-07-02T00:24:26.360Z"}
+info: control button up event {"timestamp":"2018-07-02T00:24:26.497Z"}
+info: choosing output port {"timestamp":"2018-07-02T00:24:26.498Z"}
+info: rendering view {"timestamp":"2018-07-02T00:24:26.498Z"}
+info: control button down event {"timestamp":"2018-07-02T00:24:35.683Z"}
+info: control button up event {"timestamp":"2018-07-02T00:24:35.861Z"}
+info: choosing output cahnnel {"timestamp":"2018-07-02T00:24:35.862Z"}
+info: rendering view {"timestamp":"2018-07-02T00:24:35.862Z"}
+info: control button down event {"timestamp":"2018-07-02T00:24:37.049Z"}
+info: control button up event {"timestamp":"2018-07-02T00:24:37.306Z"}
+info: choosing if we will make another route {"timestamp":"2018-07-02T00:24:37.307Z"}
+info: rendering view {"timestamp":"2018-07-02T00:24:37.307Z"}
+info: rendering view {"timestamp":"2018-07-02T00:24:38.442Z"}
+info: control button down event {"timestamp":"2018-07-02T00:24:39.360Z"}
+info: control button up event {"timestamp":"2018-07-02T00:24:39.626Z"}
+info: rendering view {"timestamp":"2018-07-02T00:24:39.628Z"}
+info: outmessage: 144,71,69 {"timestamp":"2018-07-02T00:24:42.968Z"}
+info: outmessage: 144,67,73 {"timestamp":"2018-07-02T00:24:42.972Z"}
+info: outmessage: 128,67,7 {"timestamp":"2018-07-02T00:24:43.590Z"}
+info: outmessage: 128,71,7 {"timestamp":"2018-07-02T00:24:43.637Z"}
+info: outmessage: 144,69,39 {"timestamp":"2018-07-02T00:24:43.738Z"}
+info: outmessage: 144,65,7 {"timestamp":"2018-07-02T00:24:43.745Z"}
+info: outmessage: 128,69,7 {"timestamp":"2018-07-02T00:24:44.072Z"}
+info: outmessage: 128,65,7 {"timestamp":"2018-07-02T00:24:44.179Z"}
+info: outmessage: 144,57,95 {"timestamp":"2018-07-02T00:24:44.773Z"}
+info: outmessage: 128,57,7 {"timestamp":"2018-07-02T00:24:45.486Z"}
+info: outmessage: 144,48,113 {"timestamp":"2018-07-02T00:24:47.028Z"}
+info: outmessage: 128,48,7 {"timestamp":"2018-07-02T00:24:47.724Z"}
+info: outmessage: 176,2,21 {"timestamp":"2018-07-02T00:24:48.442Z"}
+info: outmessage: 144,69,6 {"timestamp":"2018-07-02T00:24:56.275Z"}
+info: outmessage: 128,69,6 {"timestamp":"2018-07-02T00:24:56.329Z"}
+info: outmessage: 144,65,73 {"timestamp":"2018-07-02T00:24:56.575Z"}
+info: outmessage: 128,65,47 {"timestamp":"2018-07-02T00:24:57.283Z"}
+info: outmessage: 144,67,101 {"timestamp":"2018-07-02T00:24:57.844Z"}
+info: outmessage: 128,67,15 {"timestamp":"2018-07-02T00:24:58.649Z"}
+info: here {"timestamp":"2018-07-02T00:39:22.691Z"}
+info: rendering view {"timestamp":"2018-07-02T00:39:22.833Z"}
+info: here {"timestamp":"2018-07-02T00:40:52.102Z"}
+info: rendering view {"timestamp":"2018-07-02T00:40:52.234Z"}
+info: here {"timestamp":"2018-07-02T00:40:55.146Z"}
+info: rendering view {"timestamp":"2018-07-02T00:40:55.292Z"}
+info: here {"timestamp":"2018-07-02T00:40:57.054Z"}
+info: rendering view {"timestamp":"2018-07-02T00:40:57.193Z"}
+info: Control knob set {"timestamp":"2018-07-02T00:44:11.977Z"}
+info: rendering view {"timestamp":"2018-07-02T00:44:11.978Z"}
+info: here {"timestamp":"2018-07-02T00:53:25.132Z"}
+info: rendering view {"timestamp":"2018-07-02T00:53:25.465Z"}
+info: here {"timestamp":"2018-07-02T00:53:30.268Z"}
+info: rendering view {"timestamp":"2018-07-02T00:53:30.589Z"}
+info: here {"timestamp":"2018-07-02T00:55:41.520Z"}
+info: rendering view {"timestamp":"2018-07-02T00:55:41.799Z"}
+info: here {"timestamp":"2018-07-02T00:57:52.831Z"}
+info: rendering view {"timestamp":"2018-07-02T00:57:52.996Z"}
+info: here {"timestamp":"2018-07-02T00:58:40.202Z"}
+info: rendering view {"timestamp":"2018-07-02T00:58:40.341Z"}
+info: here {"timestamp":"2018-07-02T00:58:41.036Z"}
+info: rendering view {"timestamp":"2018-07-02T00:58:41.161Z"}
+info: here {"timestamp":"2018-07-02T00:58:57.825Z"}
+info: rendering view {"timestamp":"2018-07-02T00:58:57.979Z"}
+info: here {"timestamp":"2018-07-02T00:59:09.081Z"}
+info: rendering view {"timestamp":"2018-07-02T00:59:09.235Z"}
+info: here {"timestamp":"2018-07-02T00:59:26.040Z"}
+info: rendering view {"timestamp":"2018-07-02T00:59:26.170Z"}
+info: here {"timestamp":"2018-07-02T00:59:53.771Z"}
+info: rendering view {"timestamp":"2018-07-02T00:59:53.901Z"}
+info: here {"timestamp":"2018-07-02T01:00:01.502Z"}
+info: rendering view {"timestamp":"2018-07-02T01:00:01.639Z"}
+info: Control knob set {"timestamp":"2018-07-02T01:00:32.231Z"}
+info: rendering view {"timestamp":"2018-07-02T01:00:32.233Z"}
+info: Control button set {"timestamp":"2018-07-02T01:00:33.630Z"}
+info: rendering view {"timestamp":"2018-07-02T01:00:33.630Z"}
+info: Transport button set {"timestamp":"2018-07-02T01:00:35.350Z"}
+info: rendering view {"timestamp":"2018-07-02T01:00:35.350Z"}
+info: Record button set {"timestamp":"2018-07-02T01:00:36.369Z"}
+info: user config {"timestamp":"2018-07-02T01:00:36.372Z"}
+info: choosing input port {"timestamp":"2018-07-02T01:00:36.375Z"}
+info: rendering view {"timestamp":"2018-07-02T01:00:36.375Z"}
+info: record button up event {"timestamp":"2018-07-02T01:00:36.481Z"}
+info: control button down event {"timestamp":"2018-07-02T01:00:39.217Z"}
+info: control button up event {"timestamp":"2018-07-02T01:00:39.431Z"}
+info: choosing input channel {"timestamp":"2018-07-02T01:00:39.431Z"}
+info: rendering view {"timestamp":"2018-07-02T01:00:39.431Z"}
+info: control button down event {"timestamp":"2018-07-02T01:00:42.564Z"}
+info: control button up event {"timestamp":"2018-07-02T01:00:42.774Z"}
+info: choosing output port {"timestamp":"2018-07-02T01:00:42.775Z"}
+info: rendering view {"timestamp":"2018-07-02T01:00:42.775Z"}
+info: control button down event {"timestamp":"2018-07-02T01:00:44.196Z"}
+info: control button up event {"timestamp":"2018-07-02T01:00:44.441Z"}
+info: choosing output cahnnel {"timestamp":"2018-07-02T01:00:44.441Z"}
+info: rendering view {"timestamp":"2018-07-02T01:00:44.441Z"}
+info: control button down event {"timestamp":"2018-07-02T01:00:47.341Z"}
+info: control button up event {"timestamp":"2018-07-02T01:00:47.552Z"}
+info: choosing if we will make another route {"timestamp":"2018-07-02T01:00:47.553Z"}
+info: rendering view {"timestamp":"2018-07-02T01:00:47.554Z"}
+info: rendering view {"timestamp":"2018-07-02T01:00:48.399Z"}
+info: control button down event {"timestamp":"2018-07-02T01:00:49.470Z"}
+info: control button up event {"timestamp":"2018-07-02T01:00:49.601Z"}
+info: rendering view {"timestamp":"2018-07-02T01:00:49.601Z"}
+info: outmessage: 144,65,81 {"timestamp":"2018-07-02T01:00:52.022Z"}
+info: outmessage: 144,62,73 {"timestamp":"2018-07-02T01:00:52.031Z"}
+info: outmessage: 128,65,7 {"timestamp":"2018-07-02T01:00:52.491Z"}
+info: outmessage: 128,62,7 {"timestamp":"2018-07-02T01:00:52.491Z"}
+info: here {"timestamp":"2018-07-02T01:03:07.903Z"}
+info: here {"timestamp":"2018-07-02T01:03:15.321Z"}
+info: rendering view {"timestamp":"2018-07-02T01:03:15.460Z"}
+info: here {"timestamp":"2018-07-02T01:04:28.036Z"}
+info: rendering view {"timestamp":"2018-07-02T01:04:28.198Z"}
+info: Control knob set {"timestamp":"2018-07-02T01:04:30.615Z"}
+info: rendering view {"timestamp":"2018-07-02T01:04:30.615Z"}
+info: Control button set {"timestamp":"2018-07-02T01:04:31.581Z"}
+info: rendering view {"timestamp":"2018-07-02T01:04:31.581Z"}
+info: Transport button set {"timestamp":"2018-07-02T01:04:34.361Z"}
+info: rendering view {"timestamp":"2018-07-02T01:04:34.361Z"}
+info: Record button set {"timestamp":"2018-07-02T01:04:35.251Z"}
+info: user config {"timestamp":"2018-07-02T01:04:35.261Z"}
+info: choosing input port {"timestamp":"2018-07-02T01:04:35.261Z"}
+info: rendering view {"timestamp":"2018-07-02T01:04:35.261Z"}
+info: record button up event {"timestamp":"2018-07-02T01:04:35.463Z"}
+info: control button down event {"timestamp":"2018-07-02T01:04:37.654Z"}
+info: control button up event {"timestamp":"2018-07-02T01:04:37.807Z"}
+info: choosing input channel {"timestamp":"2018-07-02T01:04:37.807Z"}
+info: rendering view {"timestamp":"2018-07-02T01:04:37.808Z"}
+info: control button down event {"timestamp":"2018-07-02T01:04:38.471Z"}
+info: control button up event {"timestamp":"2018-07-02T01:04:38.621Z"}
+info: choosing output port {"timestamp":"2018-07-02T01:04:38.621Z"}
+info: rendering view {"timestamp":"2018-07-02T01:04:38.621Z"}
+info: control button down event {"timestamp":"2018-07-02T01:04:40.510Z"}
+info: control button up event {"timestamp":"2018-07-02T01:04:40.703Z"}
+info: choosing output cahnnel {"timestamp":"2018-07-02T01:04:40.704Z"}
+info: rendering view {"timestamp":"2018-07-02T01:04:40.705Z"}
+info: control button down event {"timestamp":"2018-07-02T01:04:41.332Z"}
+info: control button up event {"timestamp":"2018-07-02T01:04:41.441Z"}
+info: choosing if we will make another route {"timestamp":"2018-07-02T01:04:41.441Z"}
+info: rendering view {"timestamp":"2018-07-02T01:04:41.441Z"}
+info: rendering view {"timestamp":"2018-07-02T01:04:42.605Z"}
+info: control button down event {"timestamp":"2018-07-02T01:04:43.251Z"}
+info: control button up event {"timestamp":"2018-07-02T01:04:43.351Z"}
+info: rendering view {"timestamp":"2018-07-02T01:04:43.361Z"}
+info: here {"timestamp":"2018-07-02T01:05:47.914Z"}
+info: rendering view {"timestamp":"2018-07-02T01:05:48.060Z"}
+info: Control knob set {"timestamp":"2018-07-02T01:05:51.008Z"}
+info: rendering view {"timestamp":"2018-07-02T01:05:51.009Z"}
+info: Control button set {"timestamp":"2018-07-02T01:05:51.611Z"}
+info: rendering view {"timestamp":"2018-07-02T01:05:51.611Z"}
+info: Transport button set {"timestamp":"2018-07-02T01:05:53.351Z"}
+info: rendering view {"timestamp":"2018-07-02T01:05:53.351Z"}
+info: Record button set {"timestamp":"2018-07-02T01:05:55.998Z"}
+info: user config {"timestamp":"2018-07-02T01:05:56.002Z"}
+info: choosing input port {"timestamp":"2018-07-02T01:05:56.003Z"}
+info: rendering view {"timestamp":"2018-07-02T01:05:56.005Z"}
+info: record button up event {"timestamp":"2018-07-02T01:05:56.221Z"}
+info: control button down event {"timestamp":"2018-07-02T01:05:57.923Z"}
+info: control button up event {"timestamp":"2018-07-02T01:05:58.073Z"}
+info: choosing input channel {"timestamp":"2018-07-02T01:05:58.073Z"}
+info: rendering view {"timestamp":"2018-07-02T01:05:58.073Z"}
+info: control button down event {"timestamp":"2018-07-02T01:05:58.701Z"}
+info: control button up event {"timestamp":"2018-07-02T01:05:58.816Z"}
+info: choosing output port {"timestamp":"2018-07-02T01:05:58.817Z"}
+info: rendering view {"timestamp":"2018-07-02T01:05:58.818Z"}
+info: control button down event {"timestamp":"2018-07-02T01:06:01.777Z"}
+info: control button up event {"timestamp":"2018-07-02T01:06:01.981Z"}
+info: choosing output cahnnel {"timestamp":"2018-07-02T01:06:01.981Z"}
+info: rendering view {"timestamp":"2018-07-02T01:06:01.981Z"}
+info: control button down event {"timestamp":"2018-07-02T01:06:04.031Z"}
+info: control button up event {"timestamp":"2018-07-02T01:06:04.283Z"}
+info: choosing if we will make another route {"timestamp":"2018-07-02T01:06:04.284Z"}
+info: rendering view {"timestamp":"2018-07-02T01:06:04.284Z"}
+info: rendering view {"timestamp":"2018-07-02T01:06:07.208Z"}
+info: control button down event {"timestamp":"2018-07-02T01:06:07.882Z"}
+info: control button up event {"timestamp":"2018-07-02T01:06:08.047Z"}
+info: control button down event {"timestamp":"2018-07-02T01:06:12.131Z"}
+info: control button up event {"timestamp":"2018-07-02T01:06:12.542Z"}
+info: control button down event {"timestamp":"2018-07-02T01:06:13.611Z"}
+info: control button up event {"timestamp":"2018-07-02T01:06:13.881Z"}
+info: here {"timestamp":"2018-07-02T01:06:57.680Z"}
+info: rendering view {"timestamp":"2018-07-02T01:06:57.839Z"}
+info: Control knob set {"timestamp":"2018-07-02T01:06:59.963Z"}
+info: rendering view {"timestamp":"2018-07-02T01:06:59.963Z"}
+info: Control button set {"timestamp":"2018-07-02T01:07:00.813Z"}
+info: rendering view {"timestamp":"2018-07-02T01:07:00.813Z"}
+info: Transport button set {"timestamp":"2018-07-02T01:07:01.964Z"}
+info: rendering view {"timestamp":"2018-07-02T01:07:01.965Z"}
+info: Record button set {"timestamp":"2018-07-02T01:07:03.100Z"}
+info: user config {"timestamp":"2018-07-02T01:07:03.100Z"}
+info: choosing input port {"timestamp":"2018-07-02T01:07:03.110Z"}
+info: rendering view {"timestamp":"2018-07-02T01:07:03.110Z"}
+info: record button up event {"timestamp":"2018-07-02T01:07:03.363Z"}
+info: control button down event {"timestamp":"2018-07-02T01:07:04.340Z"}
+info: control button up event {"timestamp":"2018-07-02T01:07:04.626Z"}
+info: choosing input channel {"timestamp":"2018-07-02T01:07:04.627Z"}
+info: rendering view {"timestamp":"2018-07-02T01:07:04.627Z"}
+info: control button down event {"timestamp":"2018-07-02T01:07:05.490Z"}
+info: control button up event {"timestamp":"2018-07-02T01:07:05.783Z"}
+info: choosing output port {"timestamp":"2018-07-02T01:07:05.784Z"}
+info: rendering view {"timestamp":"2018-07-02T01:07:05.784Z"}
+info: control button down event {"timestamp":"2018-07-02T01:07:06.630Z"}
+info: control button up event {"timestamp":"2018-07-02T01:07:06.820Z"}
+info: choosing output cahnnel {"timestamp":"2018-07-02T01:07:06.820Z"}
+info: rendering view {"timestamp":"2018-07-02T01:07:06.820Z"}
+info: control button down event {"timestamp":"2018-07-02T01:07:07.494Z"}
+info: control button up event {"timestamp":"2018-07-02T01:07:07.633Z"}
+info: choosing if we will make another route {"timestamp":"2018-07-02T01:07:07.633Z"}
+info: rendering view {"timestamp":"2018-07-02T01:07:07.633Z"}
+info: control button down event {"timestamp":"2018-07-02T01:07:08.600Z"}
+info: control button up event {"timestamp":"2018-07-02T01:07:08.721Z"}
+info: user config {"timestamp":"2018-07-02T01:07:08.721Z"}
+info: choosing input port {"timestamp":"2018-07-02T01:07:08.722Z"}
+info: rendering view {"timestamp":"2018-07-02T01:07:08.722Z"}
+info: control button down event {"timestamp":"2018-07-02T01:07:12.600Z"}
+info: control button up event {"timestamp":"2018-07-02T01:07:12.771Z"}
+info: choosing input channel {"timestamp":"2018-07-02T01:07:12.772Z"}
+info: rendering view {"timestamp":"2018-07-02T01:07:12.772Z"}
+info: control button down event {"timestamp":"2018-07-02T01:07:13.480Z"}
+info: control button up event {"timestamp":"2018-07-02T01:07:13.654Z"}
+info: choosing output port {"timestamp":"2018-07-02T01:07:13.654Z"}
+info: rendering view {"timestamp":"2018-07-02T01:07:13.654Z"}
+info: control button down event {"timestamp":"2018-07-02T01:07:15.024Z"}
+info: control button up event {"timestamp":"2018-07-02T01:07:15.170Z"}
+info: choosing output cahnnel {"timestamp":"2018-07-02T01:07:15.170Z"}
+info: rendering view {"timestamp":"2018-07-02T01:07:15.170Z"}
+info: control button down event {"timestamp":"2018-07-02T01:07:15.803Z"}
+info: control button up event {"timestamp":"2018-07-02T01:07:15.860Z"}
+info: choosing if we will make another route {"timestamp":"2018-07-02T01:07:15.860Z"}
+info: rendering view {"timestamp":"2018-07-02T01:07:15.860Z"}
+info: rendering view {"timestamp":"2018-07-02T01:07:16.800Z"}
+info: control button down event {"timestamp":"2018-07-02T01:07:17.391Z"}
+info: control button up event {"timestamp":"2018-07-02T01:07:17.528Z"}
+info: rendering view {"timestamp":"2018-07-02T01:07:17.531Z"}
+info: here {"timestamp":"2018-07-02T01:07:37.404Z"}
+info: rendering view {"timestamp":"2018-07-02T01:07:37.546Z"}
+info: Control knob set {"timestamp":"2018-07-02T01:07:39.876Z"}
+info: rendering view {"timestamp":"2018-07-02T01:07:39.877Z"}
+info: Control button set {"timestamp":"2018-07-02T01:07:40.882Z"}
+info: rendering view {"timestamp":"2018-07-02T01:07:40.882Z"}
+info: Transport button set {"timestamp":"2018-07-02T01:07:45.641Z"}
+info: rendering view {"timestamp":"2018-07-02T01:07:45.641Z"}
+info: Record button set {"timestamp":"2018-07-02T01:07:46.841Z"}
+info: user config {"timestamp":"2018-07-02T01:07:46.841Z"}
+info: choosing input port {"timestamp":"2018-07-02T01:07:46.845Z"}
+info: rendering view {"timestamp":"2018-07-02T01:07:46.845Z"}
+info: record button up event {"timestamp":"2018-07-02T01:07:47.153Z"}
+info: control button down event {"timestamp":"2018-07-02T01:07:49.795Z"}
+info: control button up event {"timestamp":"2018-07-02T01:07:50.039Z"}
+info: choosing input channel {"timestamp":"2018-07-02T01:07:50.040Z"}
+info: rendering view {"timestamp":"2018-07-02T01:07:50.040Z"}
+info: control button down event {"timestamp":"2018-07-02T01:07:50.661Z"}
+info: control button up event {"timestamp":"2018-07-02T01:07:50.761Z"}
+info: choosing output port {"timestamp":"2018-07-02T01:07:50.761Z"}
+info: rendering view {"timestamp":"2018-07-02T01:07:50.761Z"}
+info: control button down event {"timestamp":"2018-07-02T01:07:51.518Z"}
+info: control button up event {"timestamp":"2018-07-02T01:07:51.691Z"}
+info: choosing output cahnnel {"timestamp":"2018-07-02T01:07:51.691Z"}
+info: rendering view {"timestamp":"2018-07-02T01:07:51.691Z"}
+info: control button down event {"timestamp":"2018-07-02T01:07:52.319Z"}
+info: control button up event {"timestamp":"2018-07-02T01:07:52.441Z"}
+info: choosing if we will make another route {"timestamp":"2018-07-02T01:07:52.441Z"}
+info: rendering view {"timestamp":"2018-07-02T01:07:52.451Z"}
+info: rendering view {"timestamp":"2018-07-02T01:07:54.243Z"}
+info: control button down event {"timestamp":"2018-07-02T01:07:54.817Z"}
+info: control button up event {"timestamp":"2018-07-02T01:07:54.947Z"}
+info: !!!! in handle change {"timestamp":"2018-07-02T01:07:54.949Z"}
+info: here {"timestamp":"2018-07-02T01:11:25.209Z"}
+info: rendering view {"timestamp":"2018-07-02T01:11:25.356Z"}
+info: Control knob set {"timestamp":"2018-07-02T01:11:28.677Z"}
+info: rendering view {"timestamp":"2018-07-02T01:11:28.677Z"}
+info: Control button set {"timestamp":"2018-07-02T01:11:29.328Z"}
+info: rendering view {"timestamp":"2018-07-02T01:11:29.328Z"}
+info: Transport button set {"timestamp":"2018-07-02T01:11:30.351Z"}
+info: rendering view {"timestamp":"2018-07-02T01:11:30.351Z"}
+info: Record button set {"timestamp":"2018-07-02T01:11:31.460Z"}
+info: user config {"timestamp":"2018-07-02T01:11:31.470Z"}
+info: choosing input port {"timestamp":"2018-07-02T01:11:31.470Z"}
+info: rendering view {"timestamp":"2018-07-02T01:11:31.470Z"}
+info: record button up event {"timestamp":"2018-07-02T01:11:31.595Z"}
+info: control button down event {"timestamp":"2018-07-02T01:11:33.161Z"}
+info: control button up event {"timestamp":"2018-07-02T01:11:33.285Z"}
+info: choosing input channel {"timestamp":"2018-07-02T01:11:33.287Z"}
+info: rendering view {"timestamp":"2018-07-02T01:11:33.288Z"}
+info: control button down event {"timestamp":"2018-07-02T01:11:34.063Z"}
+info: control button up event {"timestamp":"2018-07-02T01:11:34.240Z"}
+info: choosing output port {"timestamp":"2018-07-02T01:11:34.240Z"}
+info: rendering view {"timestamp":"2018-07-02T01:11:34.240Z"}
+info: control button down event {"timestamp":"2018-07-02T01:11:36.659Z"}
+info: control button up event {"timestamp":"2018-07-02T01:11:36.861Z"}
+info: choosing output cahnnel {"timestamp":"2018-07-02T01:11:36.862Z"}
+info: rendering view {"timestamp":"2018-07-02T01:11:36.862Z"}
+info: control button down event {"timestamp":"2018-07-02T01:11:38.346Z"}
+info: control button up event {"timestamp":"2018-07-02T01:11:38.494Z"}
+info: choosing if we will make another route {"timestamp":"2018-07-02T01:11:38.494Z"}
+info: rendering view {"timestamp":"2018-07-02T01:11:38.501Z"}
+info: rendering view {"timestamp":"2018-07-02T01:11:39.315Z"}
+info: control button down event {"timestamp":"2018-07-02T01:11:39.921Z"}
+info: control button up event {"timestamp":"2018-07-02T01:11:40.070Z"}
+info: !!!! in handle change {"timestamp":"2018-07-02T01:11:40.070Z"}
+info: rendering view {"timestamp":"2018-07-02T01:11:40.070Z"}
+info: !!!! in handle change {"timestamp":"2018-07-02T01:11:40.070Z"}
+info: here {"timestamp":"2018-07-02T01:11:49.153Z"}
+info: rendering view {"timestamp":"2018-07-02T01:11:49.305Z"}
+info: Control knob set {"timestamp":"2018-07-02T01:12:02.556Z"}
+info: rendering view {"timestamp":"2018-07-02T01:12:02.556Z"}
+info: Control button set {"timestamp":"2018-07-02T01:12:03.260Z"}
+info: rendering view {"timestamp":"2018-07-02T01:12:03.260Z"}
+info: Transport button set {"timestamp":"2018-07-02T01:12:04.210Z"}
+info: rendering view {"timestamp":"2018-07-02T01:12:04.213Z"}
+info: Record button set {"timestamp":"2018-07-02T01:12:04.998Z"}
+info: user config {"timestamp":"2018-07-02T01:12:05.001Z"}
+info: choosing input port {"timestamp":"2018-07-02T01:12:05.002Z"}
+info: rendering view {"timestamp":"2018-07-02T01:12:05.003Z"}
+info: record button up event {"timestamp":"2018-07-02T01:12:05.190Z"}
+info: control button down event {"timestamp":"2018-07-02T01:12:06.164Z"}
+info: control button up event {"timestamp":"2018-07-02T01:12:06.308Z"}
+info: choosing input channel {"timestamp":"2018-07-02T01:12:06.309Z"}
+info: rendering view {"timestamp":"2018-07-02T01:12:06.310Z"}
+info: control button down event {"timestamp":"2018-07-02T01:12:07.000Z"}
+info: control button up event {"timestamp":"2018-07-02T01:12:07.150Z"}
+info: choosing output port {"timestamp":"2018-07-02T01:12:07.151Z"}
+info: rendering view {"timestamp":"2018-07-02T01:12:07.151Z"}
+info: control button down event {"timestamp":"2018-07-02T01:12:07.780Z"}
+info: control button up event {"timestamp":"2018-07-02T01:12:07.801Z"}
+info: choosing output cahnnel {"timestamp":"2018-07-02T01:12:07.802Z"}
+info: rendering view {"timestamp":"2018-07-02T01:12:07.803Z"}
+info: control button down event {"timestamp":"2018-07-02T01:12:08.470Z"}
+info: control button up event {"timestamp":"2018-07-02T01:12:08.609Z"}
+info: choosing if we will make another route {"timestamp":"2018-07-02T01:12:08.611Z"}
+info: rendering view {"timestamp":"2018-07-02T01:12:08.612Z"}
+info: rendering view {"timestamp":"2018-07-02T01:12:09.979Z"}
+info: control button down event {"timestamp":"2018-07-02T01:12:10.563Z"}
+info: control button up event {"timestamp":"2018-07-02T01:12:10.680Z"}
+info: !!!! in handle change {"timestamp":"2018-07-02T01:12:10.680Z"}
+info: here {"timestamp":"2018-07-02T01:12:48.153Z"}
+info: rendering view {"timestamp":"2018-07-02T01:12:48.293Z"}
+info: Control knob set {"timestamp":"2018-07-02T01:12:51.026Z"}
+info: rendering view {"timestamp":"2018-07-02T01:12:51.027Z"}
+info: Control button set {"timestamp":"2018-07-02T01:12:52.170Z"}
+info: rendering view {"timestamp":"2018-07-02T01:12:52.170Z"}
+info: Transport button set {"timestamp":"2018-07-02T01:12:53.136Z"}
+info: rendering view {"timestamp":"2018-07-02T01:12:53.136Z"}
+info: Record button set {"timestamp":"2018-07-02T01:12:54.190Z"}
+info: user config {"timestamp":"2018-07-02T01:12:54.201Z"}
+info: choosing input port {"timestamp":"2018-07-02T01:12:54.201Z"}
+info: rendering view {"timestamp":"2018-07-02T01:12:54.203Z"}
+info: record button up event {"timestamp":"2018-07-02T01:12:54.325Z"}
+info: control button down event {"timestamp":"2018-07-02T01:12:55.433Z"}
+info: control button up event {"timestamp":"2018-07-02T01:12:55.528Z"}
+info: choosing input channel {"timestamp":"2018-07-02T01:12:55.529Z"}
+info: rendering view {"timestamp":"2018-07-02T01:12:55.530Z"}
+info: control button down event {"timestamp":"2018-07-02T01:12:56.152Z"}
+info: control button up event {"timestamp":"2018-07-02T01:12:56.230Z"}
+info: choosing output port {"timestamp":"2018-07-02T01:12:56.230Z"}
+info: rendering view {"timestamp":"2018-07-02T01:12:56.230Z"}
+info: control button down event {"timestamp":"2018-07-02T01:12:57.944Z"}
+info: control button up event {"timestamp":"2018-07-02T01:12:58.066Z"}
+info: choosing output cahnnel {"timestamp":"2018-07-02T01:12:58.066Z"}
+info: rendering view {"timestamp":"2018-07-02T01:12:58.067Z"}
+info: control button down event {"timestamp":"2018-07-02T01:12:59.110Z"}
+info: control button up event {"timestamp":"2018-07-02T01:12:59.200Z"}
+info: choosing if we will make another route {"timestamp":"2018-07-02T01:12:59.200Z"}
+info: rendering view {"timestamp":"2018-07-02T01:12:59.200Z"}
+info: rendering view {"timestamp":"2018-07-02T01:13:00.360Z"}
+info: control button down event {"timestamp":"2018-07-02T01:13:00.977Z"}
+info: control button up event {"timestamp":"2018-07-02T01:13:01.085Z"}
+info: !!!! in handle change {"timestamp":"2018-07-02T01:13:01.086Z"}
+info: here {"timestamp":"2018-07-02T01:14:36.298Z"}
+info: rendering view {"timestamp":"2018-07-02T01:14:36.430Z"}
+info: Control knob set {"timestamp":"2018-07-02T01:14:40.569Z"}
+info: rendering view {"timestamp":"2018-07-02T01:14:40.569Z"}
+info: Control button set {"timestamp":"2018-07-02T01:14:43.964Z"}
+info: rendering view {"timestamp":"2018-07-02T01:14:43.966Z"}
+info: Transport button set {"timestamp":"2018-07-02T01:14:45.803Z"}
+info: rendering view {"timestamp":"2018-07-02T01:14:45.804Z"}
+info: Record button set {"timestamp":"2018-07-02T01:14:46.750Z"}
+info: user config {"timestamp":"2018-07-02T01:14:46.750Z"}
+info: choosing input port {"timestamp":"2018-07-02T01:14:46.750Z"}
+info: rendering view {"timestamp":"2018-07-02T01:14:46.761Z"}
+info: record button up event {"timestamp":"2018-07-02T01:14:46.955Z"}
+info: control button down event {"timestamp":"2018-07-02T01:14:48.793Z"}
+info: control button up event {"timestamp":"2018-07-02T01:14:49.007Z"}
+info: choosing input channel {"timestamp":"2018-07-02T01:14:49.008Z"}
+info: rendering view {"timestamp":"2018-07-02T01:14:49.008Z"}
+info: control button down event {"timestamp":"2018-07-02T01:14:51.210Z"}
+info: control button up event {"timestamp":"2018-07-02T01:14:51.511Z"}
+info: choosing output port {"timestamp":"2018-07-02T01:14:51.511Z"}
+info: rendering view {"timestamp":"2018-07-02T01:14:51.511Z"}
+info: control button down event {"timestamp":"2018-07-02T01:14:52.702Z"}
+info: control button up event {"timestamp":"2018-07-02T01:14:52.956Z"}
+info: choosing output cahnnel {"timestamp":"2018-07-02T01:14:52.957Z"}
+info: rendering view {"timestamp":"2018-07-02T01:14:52.957Z"}
+info: control button down event {"timestamp":"2018-07-02T01:14:54.744Z"}
+info: control button up event {"timestamp":"2018-07-02T01:14:54.944Z"}
+info: choosing if we will make another route {"timestamp":"2018-07-02T01:14:54.946Z"}
+info: rendering view {"timestamp":"2018-07-02T01:14:54.946Z"}
+info: rendering view {"timestamp":"2018-07-02T01:14:55.803Z"}
+info: control button down event {"timestamp":"2018-07-02T01:14:56.475Z"}
+info: control button up event {"timestamp":"2018-07-02T01:14:56.740Z"}
+info: !!!! in handle change {"timestamp":"2018-07-02T01:14:56.740Z"}
+info: here {"timestamp":"2018-07-02T01:15:18.714Z"}
+info: rendering view {"timestamp":"2018-07-02T01:15:18.853Z"}
+info: Control knob set {"timestamp":"2018-07-02T01:15:22.130Z"}
+info: rendering view {"timestamp":"2018-07-02T01:15:22.130Z"}
+info: Control button set {"timestamp":"2018-07-02T01:15:22.827Z"}
+info: rendering view {"timestamp":"2018-07-02T01:15:22.827Z"}
+info: Transport button set {"timestamp":"2018-07-02T01:15:24.380Z"}
+info: rendering view {"timestamp":"2018-07-02T01:15:24.381Z"}
+info: Record button set {"timestamp":"2018-07-02T01:15:25.273Z"}
+info: user config {"timestamp":"2018-07-02T01:15:25.278Z"}
+info: choosing input port {"timestamp":"2018-07-02T01:15:25.279Z"}
+info: rendering view {"timestamp":"2018-07-02T01:15:25.284Z"}
+info: record button up event {"timestamp":"2018-07-02T01:15:25.460Z"}
+info: control button down event {"timestamp":"2018-07-02T01:15:26.531Z"}
+info: control button up event {"timestamp":"2018-07-02T01:15:26.640Z"}
+info: choosing input channel {"timestamp":"2018-07-02T01:15:26.640Z"}
+info: rendering view {"timestamp":"2018-07-02T01:15:26.640Z"}
+info: control button down event {"timestamp":"2018-07-02T01:15:27.268Z"}
+info: control button up event {"timestamp":"2018-07-02T01:15:27.350Z"}
+info: choosing output port {"timestamp":"2018-07-02T01:15:27.350Z"}
+info: rendering view {"timestamp":"2018-07-02T01:15:27.350Z"}
+info: control button down event {"timestamp":"2018-07-02T01:15:28.040Z"}
+info: control button up event {"timestamp":"2018-07-02T01:15:28.150Z"}
+info: choosing output cahnnel {"timestamp":"2018-07-02T01:15:28.150Z"}
+info: rendering view {"timestamp":"2018-07-02T01:15:28.150Z"}
+info: control button down event {"timestamp":"2018-07-02T01:15:30.021Z"}
+info: control button up event {"timestamp":"2018-07-02T01:15:30.170Z"}
+info: choosing if we will make another route {"timestamp":"2018-07-02T01:15:30.170Z"}
+info: rendering view {"timestamp":"2018-07-02T01:15:30.170Z"}
+info: rendering view {"timestamp":"2018-07-02T01:15:31.299Z"}
+info: control button down event {"timestamp":"2018-07-02T01:15:31.926Z"}
+info: control button up event {"timestamp":"2018-07-02T01:15:32.092Z"}
+info: !!!! in handle change {"timestamp":"2018-07-02T01:15:32.094Z"}
+info: here {"timestamp":"2018-07-02T01:17:07.851Z"}
+info: rendering view {"timestamp":"2018-07-02T01:17:07.986Z"}
+info: Control knob set {"timestamp":"2018-07-02T01:17:11.149Z"}
+info: rendering view {"timestamp":"2018-07-02T01:17:11.149Z"}
+info: Control button set {"timestamp":"2018-07-02T01:17:12.130Z"}
+info: rendering view {"timestamp":"2018-07-02T01:17:12.130Z"}
+info: Transport button set {"timestamp":"2018-07-02T01:17:12.943Z"}
+info: rendering view {"timestamp":"2018-07-02T01:17:12.944Z"}
+info: Record button set {"timestamp":"2018-07-02T01:17:14.229Z"}
+info: user config {"timestamp":"2018-07-02T01:17:14.242Z"}
+info: choosing input port {"timestamp":"2018-07-02T01:17:14.242Z"}
+info: rendering view {"timestamp":"2018-07-02T01:17:14.242Z"}
+info: record button up event {"timestamp":"2018-07-02T01:17:14.410Z"}
+info: control button down event {"timestamp":"2018-07-02T01:17:15.390Z"}
+info: control button up event {"timestamp":"2018-07-02T01:17:15.562Z"}
+info: choosing input channel {"timestamp":"2018-07-02T01:17:15.562Z"}
+info: rendering view {"timestamp":"2018-07-02T01:17:15.563Z"}
+info: control button down event {"timestamp":"2018-07-02T01:17:16.390Z"}
+info: control button up event {"timestamp":"2018-07-02T01:17:16.563Z"}
+info: choosing output port {"timestamp":"2018-07-02T01:17:16.563Z"}
+info: rendering view {"timestamp":"2018-07-02T01:17:16.564Z"}
+info: control button down event {"timestamp":"2018-07-02T01:17:18.590Z"}
+info: control button up event {"timestamp":"2018-07-02T01:17:18.751Z"}
+info: choosing output cahnnel {"timestamp":"2018-07-02T01:17:18.752Z"}
+info: rendering view {"timestamp":"2018-07-02T01:17:18.753Z"}
+info: control button down event {"timestamp":"2018-07-02T01:17:21.089Z"}
+info: control button up event {"timestamp":"2018-07-02T01:17:21.340Z"}
+info: choosing if we will make another route {"timestamp":"2018-07-02T01:17:21.340Z"}
+info: rendering view {"timestamp":"2018-07-02T01:17:21.340Z"}
+info: rendering view {"timestamp":"2018-07-02T01:17:22.990Z"}
+info: control button down event {"timestamp":"2018-07-02T01:17:24.319Z"}
+info: control button up event {"timestamp":"2018-07-02T01:17:24.460Z"}
+info: !!!! in handle change {"timestamp":"2018-07-02T01:17:24.460Z"}
+info: here {"timestamp":"2018-07-02T01:18:38.853Z"}
+info: rendering view {"timestamp":"2018-07-02T01:18:39.029Z"}
+info: Control knob set {"timestamp":"2018-07-02T01:18:41.267Z"}
+info: rendering view {"timestamp":"2018-07-02T01:18:41.268Z"}
+info: Control button set {"timestamp":"2018-07-02T01:18:41.999Z"}
+info: rendering view {"timestamp":"2018-07-02T01:18:42.000Z"}
+info: Transport button set {"timestamp":"2018-07-02T01:18:42.960Z"}
+info: rendering view {"timestamp":"2018-07-02T01:18:42.960Z"}
+info: Record button set {"timestamp":"2018-07-02T01:18:44.059Z"}
+info: user config {"timestamp":"2018-07-02T01:18:44.064Z"}
+info: choosing input port {"timestamp":"2018-07-02T01:18:44.065Z"}
+info: rendering view {"timestamp":"2018-07-02T01:18:44.067Z"}
+info: record button up event {"timestamp":"2018-07-02T01:18:44.218Z"}
+info: control button down event {"timestamp":"2018-07-02T01:18:45.940Z"}
+info: control button up event {"timestamp":"2018-07-02T01:18:46.056Z"}
+info: choosing input channel {"timestamp":"2018-07-02T01:18:46.057Z"}
+info: rendering view {"timestamp":"2018-07-02T01:18:46.057Z"}
+info: control button down event {"timestamp":"2018-07-02T01:18:46.820Z"}
+info: control button up event {"timestamp":"2018-07-02T01:18:46.950Z"}
+info: choosing output port {"timestamp":"2018-07-02T01:18:46.951Z"}
+info: rendering view {"timestamp":"2018-07-02T01:18:46.952Z"}
+info: control button down event {"timestamp":"2018-07-02T01:18:48.150Z"}
+info: control button up event {"timestamp":"2018-07-02T01:18:48.244Z"}
+info: choosing output cahnnel {"timestamp":"2018-07-02T01:18:48.244Z"}
+info: rendering view {"timestamp":"2018-07-02T01:18:48.244Z"}
+info: control button down event {"timestamp":"2018-07-02T01:18:48.870Z"}
+info: control button up event {"timestamp":"2018-07-02T01:18:48.958Z"}
+info: choosing if we will make another route {"timestamp":"2018-07-02T01:18:48.958Z"}
+info: rendering view {"timestamp":"2018-07-02T01:18:48.958Z"}
+info: rendering view {"timestamp":"2018-07-02T01:18:50.159Z"}
+info: control button down event {"timestamp":"2018-07-02T01:18:50.711Z"}
+info: control button up event {"timestamp":"2018-07-02T01:18:50.789Z"}
+info: !!!! in handle change {"timestamp":"2018-07-02T01:18:50.790Z"}
+info: here {"timestamp":"2018-07-02T01:20:31.873Z"}
+info: rendering view {"timestamp":"2018-07-02T01:20:32.038Z"}
+info: Control knob set {"timestamp":"2018-07-02T01:20:34.352Z"}
+info: rendering view {"timestamp":"2018-07-02T01:20:34.354Z"}
+info: Control button set {"timestamp":"2018-07-02T01:20:34.954Z"}
+info: rendering view {"timestamp":"2018-07-02T01:20:34.954Z"}
+info: Transport button set {"timestamp":"2018-07-02T01:20:36.500Z"}
+info: rendering view {"timestamp":"2018-07-02T01:20:36.500Z"}
+info: Record button set {"timestamp":"2018-07-02T01:20:37.853Z"}
+info: user config {"timestamp":"2018-07-02T01:20:37.854Z"}
+info: choosing input port {"timestamp":"2018-07-02T01:20:37.854Z"}
+info: rendering view {"timestamp":"2018-07-02T01:20:37.855Z"}
+info: record button up event {"timestamp":"2018-07-02T01:20:38.012Z"}
+info: control button down event {"timestamp":"2018-07-02T01:20:39.141Z"}
+info: control button up event {"timestamp":"2018-07-02T01:20:39.259Z"}
+info: choosing input channel {"timestamp":"2018-07-02T01:20:39.259Z"}
+info: rendering view {"timestamp":"2018-07-02T01:20:39.259Z"}
+info: control button down event {"timestamp":"2018-07-02T01:20:40.230Z"}
+info: control button up event {"timestamp":"2018-07-02T01:20:40.349Z"}
+info: choosing output port {"timestamp":"2018-07-02T01:20:40.349Z"}
+info: rendering view {"timestamp":"2018-07-02T01:20:40.359Z"}
+info: control button down event {"timestamp":"2018-07-02T01:20:41.680Z"}
+info: control button up event {"timestamp":"2018-07-02T01:20:41.830Z"}
+info: choosing output cahnnel {"timestamp":"2018-07-02T01:20:41.831Z"}
+info: rendering view {"timestamp":"2018-07-02T01:20:41.831Z"}
+info: control button down event {"timestamp":"2018-07-02T01:20:42.449Z"}
+info: control button up event {"timestamp":"2018-07-02T01:20:42.579Z"}
+info: choosing if we will make another route {"timestamp":"2018-07-02T01:20:42.579Z"}
+info: rendering view {"timestamp":"2018-07-02T01:20:42.579Z"}
+info: control button down event {"timestamp":"2018-07-02T01:20:43.531Z"}
+info: control button up event {"timestamp":"2018-07-02T01:20:43.954Z"}
+info: user config {"timestamp":"2018-07-02T01:20:43.954Z"}
+info: choosing input port {"timestamp":"2018-07-02T01:20:43.954Z"}
+info: rendering view {"timestamp":"2018-07-02T01:20:43.955Z"}
+info: control button down event {"timestamp":"2018-07-02T01:20:45.259Z"}
+info: control button up event {"timestamp":"2018-07-02T01:20:45.401Z"}
+info: choosing input channel {"timestamp":"2018-07-02T01:20:45.401Z"}
+info: rendering view {"timestamp":"2018-07-02T01:20:45.401Z"}
+info: control button down event {"timestamp":"2018-07-02T01:20:47.879Z"}
+info: control button up event {"timestamp":"2018-07-02T01:20:48.017Z"}
+info: choosing output port {"timestamp":"2018-07-02T01:20:48.017Z"}
+info: rendering view {"timestamp":"2018-07-02T01:20:48.017Z"}
+info: control button down event {"timestamp":"2018-07-02T01:20:48.921Z"}
+info: control button up event {"timestamp":"2018-07-02T01:20:49.025Z"}
+info: choosing output cahnnel {"timestamp":"2018-07-02T01:20:49.025Z"}
+info: rendering view {"timestamp":"2018-07-02T01:20:49.025Z"}
+info: control button down event {"timestamp":"2018-07-02T01:20:50.004Z"}
+info: control button up event {"timestamp":"2018-07-02T01:20:50.169Z"}
+info: choosing if we will make another route {"timestamp":"2018-07-02T01:20:50.169Z"}
+info: rendering view {"timestamp":"2018-07-02T01:20:50.169Z"}
+info: rendering view {"timestamp":"2018-07-02T01:20:51.550Z"}
+info: control button down event {"timestamp":"2018-07-02T01:20:52.148Z"}
+info: control button up event {"timestamp":"2018-07-02T01:20:52.311Z"}
+info: !!!! in handle change {"timestamp":"2018-07-02T01:20:52.313Z"}
+info: here {"timestamp":"2018-07-02T01:28:21.139Z"}
+info: rendering view {"timestamp":"2018-07-02T01:28:21.374Z"}
+info: Control knob set {"timestamp":"2018-07-02T01:28:24.483Z"}
+info: rendering view {"timestamp":"2018-07-02T01:28:24.483Z"}
+info: Control button set {"timestamp":"2018-07-02T01:28:25.593Z"}
+info: rendering view {"timestamp":"2018-07-02T01:28:25.593Z"}
+info: Transport button set {"timestamp":"2018-07-02T01:28:26.380Z"}
+info: rendering view {"timestamp":"2018-07-02T01:28:26.380Z"}
+info: Record button set {"timestamp":"2018-07-02T01:28:27.810Z"}
+info: user config {"timestamp":"2018-07-02T01:28:27.811Z"}
+info: choosing input port {"timestamp":"2018-07-02T01:28:27.812Z"}
+info: rendering view {"timestamp":"2018-07-02T01:28:27.812Z"}
+info: record button up event {"timestamp":"2018-07-02T01:28:28.021Z"}
+info: control button down event {"timestamp":"2018-07-02T01:28:29.354Z"}
+info: control button up event {"timestamp":"2018-07-02T01:28:29.499Z"}
+info: choosing input channel {"timestamp":"2018-07-02T01:28:29.499Z"}
+info: rendering view {"timestamp":"2018-07-02T01:28:29.499Z"}
+info: control button down event {"timestamp":"2018-07-02T01:28:30.485Z"}
+info: control button up event {"timestamp":"2018-07-02T01:28:30.629Z"}
+info: choosing output port {"timestamp":"2018-07-02T01:28:30.629Z"}
+info: rendering view {"timestamp":"2018-07-02T01:28:30.629Z"}
+info: control button down event {"timestamp":"2018-07-02T01:28:31.628Z"}
+info: control button up event {"timestamp":"2018-07-02T01:28:31.766Z"}
+info: choosing output cahnnel {"timestamp":"2018-07-02T01:28:31.767Z"}
+info: rendering view {"timestamp":"2018-07-02T01:28:31.768Z"}
+info: control button down event {"timestamp":"2018-07-02T01:28:32.879Z"}
+info: control button up event {"timestamp":"2018-07-02T01:28:33.011Z"}
+info: choosing if we will make another route {"timestamp":"2018-07-02T01:28:33.012Z"}
+info: rendering view {"timestamp":"2018-07-02T01:28:33.012Z"}
+info: rendering view {"timestamp":"2018-07-02T01:28:34.209Z"}
+info: control button down event {"timestamp":"2018-07-02T01:28:34.989Z"}
+info: control button up event {"timestamp":"2018-07-02T01:28:35.089Z"}
+info: !!!! in handle change {"timestamp":"2018-07-02T01:28:35.089Z"}
+info: rendering view {"timestamp":"2018-07-02T01:28:35.089Z"}
+info: after {"timestamp":"2018-07-02T01:28:35.089Z"}
+info: transport button down event {"timestamp":"2018-07-02T01:28:45.748Z"}
+info: outmessage: 176,105,127 {"timestamp":"2018-07-02T01:28:45.750Z"}
+info: transport button up event {"timestamp":"2018-07-02T01:28:45.949Z"}
+info: outmessage: 176,105,0 {"timestamp":"2018-07-02T01:28:45.949Z"}
+info: transport button down event {"timestamp":"2018-07-02T01:28:47.973Z"}
+info: outmessage: 176,105,127 {"timestamp":"2018-07-02T01:28:47.974Z"}
+info: transport button up event {"timestamp":"2018-07-02T01:28:48.179Z"}
+info: outmessage: 176,105,0 {"timestamp":"2018-07-02T01:28:48.179Z"}
+info: transport button down event {"timestamp":"2018-07-02T01:28:50.339Z"}
+info: outmessage: 176,105,127 {"timestamp":"2018-07-02T01:28:50.339Z"}
+info: transport button up event {"timestamp":"2018-07-02T01:28:50.549Z"}
+info: outmessage: 176,105,0 {"timestamp":"2018-07-02T01:28:50.550Z"}
+info: transport button down event {"timestamp":"2018-07-02T01:28:51.334Z"}
+info: outmessage: 176,105,127 {"timestamp":"2018-07-02T01:28:51.334Z"}
+info: transport button up event {"timestamp":"2018-07-02T01:28:51.579Z"}
+info: outmessage: 176,105,0 {"timestamp":"2018-07-02T01:28:51.579Z"}
+info: control button down event {"timestamp":"2018-07-02T01:28:54.970Z"}
+info: control button up event {"timestamp":"2018-07-02T01:28:55.140Z"}
+info: control button down event {"timestamp":"2018-07-02T01:28:56.849Z"}
+info: control button up event {"timestamp":"2018-07-02T01:28:56.989Z"}
+info: !!!! in handle change {"timestamp":"2018-07-02T01:28:57.880Z"}
+info: rendering view {"timestamp":"2018-07-02T01:28:57.880Z"}
+info: rendering view {"timestamp":"2018-07-02T01:28:57.889Z"}
+info: !!!! in handle change {"timestamp":"2018-07-02T01:28:59.072Z"}
+info: rendering view {"timestamp":"2018-07-02T01:28:59.073Z"}
+info: rendering view {"timestamp":"2018-07-02T01:28:59.074Z"}
+info: !!!! in handle change {"timestamp":"2018-07-02T01:28:59.742Z"}
+info: rendering view {"timestamp":"2018-07-02T01:28:59.742Z"}
+info: rendering view {"timestamp":"2018-07-02T01:28:59.744Z"}
+info: !!!! in handle change {"timestamp":"2018-07-02T01:29:00.179Z"}
+info: rendering view {"timestamp":"2018-07-02T01:29:00.179Z"}
+info: rendering view {"timestamp":"2018-07-02T01:29:00.179Z"}
+info: control button down event {"timestamp":"2018-07-02T01:29:00.935Z"}
+info: control button up event {"timestamp":"2018-07-02T01:29:01.076Z"}
+info: control button down event {"timestamp":"2018-07-02T01:29:02.107Z"}
+info: control button up event {"timestamp":"2018-07-02T01:29:02.400Z"}
+info: here {"timestamp":"2018-07-02T01:30:19.449Z"}
+info: rendering view {"timestamp":"2018-07-02T01:30:19.579Z"}
+info: Control knob set {"timestamp":"2018-07-02T01:30:22.680Z"}
+info: rendering view {"timestamp":"2018-07-02T01:30:22.680Z"}
+info: Control button set {"timestamp":"2018-07-02T01:30:23.480Z"}
+info: rendering view {"timestamp":"2018-07-02T01:30:23.480Z"}
+info: Transport button set {"timestamp":"2018-07-02T01:30:25.109Z"}
+info: rendering view {"timestamp":"2018-07-02T01:30:25.119Z"}
+info: Record button set {"timestamp":"2018-07-02T01:30:26.400Z"}
+info: user config {"timestamp":"2018-07-02T01:30:26.410Z"}
+info: choosing input port {"timestamp":"2018-07-02T01:30:26.411Z"}
+info: rendering view {"timestamp":"2018-07-02T01:30:26.413Z"}
+info: record button up event {"timestamp":"2018-07-02T01:30:26.580Z"}
+info: control button down event {"timestamp":"2018-07-02T01:30:28.481Z"}
+info: control button up event {"timestamp":"2018-07-02T01:30:28.620Z"}
+info: choosing input channel {"timestamp":"2018-07-02T01:30:28.620Z"}
+info: rendering view {"timestamp":"2018-07-02T01:30:28.620Z"}
+info: control button down event {"timestamp":"2018-07-02T01:30:29.630Z"}
+info: control button up event {"timestamp":"2018-07-02T01:30:29.790Z"}
+info: choosing output port {"timestamp":"2018-07-02T01:30:29.790Z"}
+info: rendering view {"timestamp":"2018-07-02T01:30:29.791Z"}
+info: control button down event {"timestamp":"2018-07-02T01:30:30.990Z"}
+info: control button up event {"timestamp":"2018-07-02T01:30:31.200Z"}
+info: choosing output cahnnel {"timestamp":"2018-07-02T01:30:31.201Z"}
+info: rendering view {"timestamp":"2018-07-02T01:30:31.202Z"}
+info: control button down event {"timestamp":"2018-07-02T01:30:32.700Z"}
+info: control button up event {"timestamp":"2018-07-02T01:30:32.894Z"}
+info: choosing if we will make another route {"timestamp":"2018-07-02T01:30:32.895Z"}
+info: rendering view {"timestamp":"2018-07-02T01:30:32.896Z"}
+info: rendering view {"timestamp":"2018-07-02T01:30:34.330Z"}
+info: control button down event {"timestamp":"2018-07-02T01:30:35.019Z"}
+info: control button up event {"timestamp":"2018-07-02T01:30:35.140Z"}
+info: rendering view {"timestamp":"2018-07-02T01:30:35.149Z"}
+error: unsubscribeConfig is not a function {"timestamp":"2018-07-02T01:30:35.149Z"}
+info: here {"timestamp":"2018-07-02T01:31:09.929Z"}
+info: rendering view {"timestamp":"2018-07-02T01:31:10.060Z"}
+info: here {"timestamp":"2018-07-02T01:59:06.996Z"}
+info: rendering view {"timestamp":"2018-07-02T01:59:07.148Z"}
+info: here {"timestamp":"2018-07-02T02:00:17.652Z"}
+info: rendering view {"timestamp":"2018-07-02T02:00:17.793Z"}
+info: here {"timestamp":"2018-07-02T02:02:00.500Z"}
+info: rendering view {"timestamp":"2018-07-02T02:02:00.638Z"}
+info: here {"timestamp":"2018-07-02T02:03:21.658Z"}
+info: rendering view {"timestamp":"2018-07-02T02:03:21.813Z"}
+info: here {"timestamp":"2018-07-02T02:06:12.163Z"}
+info: rendering view {"timestamp":"2018-07-02T02:06:12.322Z"}
+info: here {"timestamp":"2018-07-02T02:06:14.662Z"}
+info: rendering view {"timestamp":"2018-07-02T02:06:14.820Z"}
+info: here {"timestamp":"2018-07-02T02:06:20.631Z"}
+info: rendering view {"timestamp":"2018-07-02T02:06:20.767Z"}
+info: Control knob set {"timestamp":"2018-07-02T02:06:30.293Z"}
+info: rendering view {"timestamp":"2018-07-02T02:06:30.294Z"}
+info: Control button set {"timestamp":"2018-07-02T02:06:31.197Z"}
+info: rendering view {"timestamp":"2018-07-02T02:06:31.197Z"}
+info: Transport button set {"timestamp":"2018-07-02T02:06:32.347Z"}
+info: rendering view {"timestamp":"2018-07-02T02:06:32.347Z"}
+info: Record button set {"timestamp":"2018-07-02T02:06:33.483Z"}
+info: user config {"timestamp":"2018-07-02T02:06:33.486Z"}
+info: choosing input port {"timestamp":"2018-07-02T02:06:33.487Z"}
+info: rendering view {"timestamp":"2018-07-02T02:06:33.489Z"}
+info: record button up event {"timestamp":"2018-07-02T02:06:33.667Z"}
+info: control button down event {"timestamp":"2018-07-02T02:06:34.879Z"}
+info: control button up event {"timestamp":"2018-07-02T02:06:34.988Z"}
+info: choosing input channel {"timestamp":"2018-07-02T02:06:34.989Z"}
+info: rendering view {"timestamp":"2018-07-02T02:06:34.990Z"}
+info: control button down event {"timestamp":"2018-07-02T02:06:35.616Z"}
+info: control button up event {"timestamp":"2018-07-02T02:06:35.739Z"}
+info: choosing output port {"timestamp":"2018-07-02T02:06:35.740Z"}
+info: rendering view {"timestamp":"2018-07-02T02:06:35.741Z"}
+info: control button down event {"timestamp":"2018-07-02T02:06:36.588Z"}
+info: control button up event {"timestamp":"2018-07-02T02:06:36.732Z"}
+info: choosing output cahnnel {"timestamp":"2018-07-02T02:06:36.732Z"}
+info: rendering view {"timestamp":"2018-07-02T02:06:36.732Z"}
+info: control button down event {"timestamp":"2018-07-02T02:06:37.468Z"}
+info: control button up event {"timestamp":"2018-07-02T02:06:37.607Z"}
+info: choosing if we will make another route {"timestamp":"2018-07-02T02:06:37.607Z"}
+info: rendering view {"timestamp":"2018-07-02T02:06:37.607Z"}
+info: rendering view {"timestamp":"2018-07-02T02:06:38.386Z"}
+info: control button down event {"timestamp":"2018-07-02T02:06:39.529Z"}
+info: control button up event {"timestamp":"2018-07-02T02:06:39.658Z"}
+info: init complete. {"timestamp":"2018-07-02T02:06:39.658Z"}
+info: rendering view {"timestamp":"2018-07-02T02:06:39.658Z"}
+info: transport button down event {"timestamp":"2018-07-02T02:06:43.558Z"}
+info: outmessage: 176,105,127 {"timestamp":"2018-07-02T02:06:43.560Z"}
+info: transport button up event {"timestamp":"2018-07-02T02:06:43.737Z"}
+info: outmessage: 176,105,0 {"timestamp":"2018-07-02T02:06:43.737Z"}
+info: here {"timestamp":"2018-07-02T02:07:00.723Z"}
+info: rendering view {"timestamp":"2018-07-02T02:07:00.877Z"}
+info: here {"timestamp":"2018-07-02T02:13:20.131Z"}
+info: rendering view {"timestamp":"2018-07-02T02:13:20.266Z"}
+info: Control knob set {"timestamp":"2018-07-02T02:13:24.006Z"}
+info: rendering view {"timestamp":"2018-07-02T02:13:24.006Z"}
+info: Control button set {"timestamp":"2018-07-02T02:13:25.247Z"}
+info: rendering view {"timestamp":"2018-07-02T02:13:25.256Z"}
+info: Transport button set {"timestamp":"2018-07-02T02:13:26.216Z"}
+info: rendering view {"timestamp":"2018-07-02T02:13:26.216Z"}
+info: Record button set {"timestamp":"2018-07-02T02:13:27.316Z"}
+info: user config {"timestamp":"2018-07-02T02:13:27.316Z"}
+info: choosing input port {"timestamp":"2018-07-02T02:13:27.327Z"}
+info: rendering view {"timestamp":"2018-07-02T02:13:27.330Z"}
+info: record button up event {"timestamp":"2018-07-02T02:13:27.476Z"}
+info: control button down event {"timestamp":"2018-07-02T02:13:32.657Z"}
+info: control button up event {"timestamp":"2018-07-02T02:13:32.817Z"}
+info: choosing input channel {"timestamp":"2018-07-02T02:13:32.826Z"}
+info: rendering view {"timestamp":"2018-07-02T02:13:32.826Z"}
+info: control button down event {"timestamp":"2018-07-02T02:13:34.176Z"}
+info: control button up event {"timestamp":"2018-07-02T02:13:34.245Z"}
+info: choosing output port {"timestamp":"2018-07-02T02:13:34.256Z"}
+info: rendering view {"timestamp":"2018-07-02T02:13:34.256Z"}
+info: control button down event {"timestamp":"2018-07-02T02:13:38.047Z"}
+info: control button up event {"timestamp":"2018-07-02T02:13:38.191Z"}
+info: choosing output cahnnel {"timestamp":"2018-07-02T02:13:38.191Z"}
+info: rendering view {"timestamp":"2018-07-02T02:13:38.192Z"}
+info: control button down event {"timestamp":"2018-07-02T02:13:40.193Z"}
+info: control button up event {"timestamp":"2018-07-02T02:13:40.337Z"}
+info: choosing if we will make another route {"timestamp":"2018-07-02T02:13:40.337Z"}
+info: rendering view {"timestamp":"2018-07-02T02:13:40.337Z"}
+info: rendering view {"timestamp":"2018-07-02T02:13:41.098Z"}
+info: control button down event {"timestamp":"2018-07-02T02:13:42.009Z"}
+info: control button up event {"timestamp":"2018-07-02T02:13:42.147Z"}
+info: init complete. {"timestamp":"2018-07-02T02:13:42.147Z"}
+info: rendering view {"timestamp":"2018-07-02T02:13:42.147Z"}
+info: transport button down event {"timestamp":"2018-07-02T02:13:44.407Z"}
+info: outmessage: 176,105,127 {"timestamp":"2018-07-02T02:13:44.407Z"}
+info: transport button up event {"timestamp":"2018-07-02T02:13:44.556Z"}
+info: outmessage: 176,105,0 {"timestamp":"2018-07-02T02:13:44.556Z"}
+info: transport button down event {"timestamp":"2018-07-02T02:13:49.237Z"}
+info: outmessage: 176,105,127 {"timestamp":"2018-07-02T02:13:49.237Z"}
+info: transport button up event {"timestamp":"2018-07-02T02:13:49.810Z"}
+info: outmessage: 176,105,0 {"timestamp":"2018-07-02T02:13:49.811Z"}
+info: here {"timestamp":"2018-07-02T02:15:54.694Z"}
+info: rendering view {"timestamp":"2018-07-02T02:15:54.827Z"}
+info: Control knob set {"timestamp":"2018-07-02T02:16:02.707Z"}
+info: rendering view {"timestamp":"2018-07-02T02:16:02.708Z"}
+info: Control button set {"timestamp":"2018-07-02T02:16:03.407Z"}
+info: rendering view {"timestamp":"2018-07-02T02:16:03.407Z"}
+info: Transport button set {"timestamp":"2018-07-02T02:16:04.400Z"}
+info: rendering view {"timestamp":"2018-07-02T02:16:04.400Z"}
+info: Record button set {"timestamp":"2018-07-02T02:16:05.317Z"}
+info: user config {"timestamp":"2018-07-02T02:16:05.317Z"}
+info: choosing input port {"timestamp":"2018-07-02T02:16:05.317Z"}
+info: rendering view {"timestamp":"2018-07-02T02:16:05.317Z"}
+info: record button up event {"timestamp":"2018-07-02T02:16:05.451Z"}
+info: control button down event {"timestamp":"2018-07-02T02:16:06.624Z"}
+info: control button up event {"timestamp":"2018-07-02T02:16:06.777Z"}
+info: choosing input channel {"timestamp":"2018-07-02T02:16:06.777Z"}
+info: rendering view {"timestamp":"2018-07-02T02:16:06.777Z"}
+info: control button down event {"timestamp":"2018-07-02T02:16:07.632Z"}
+info: control button up event {"timestamp":"2018-07-02T02:16:07.763Z"}
+info: choosing output port {"timestamp":"2018-07-02T02:16:07.766Z"}
+info: rendering view {"timestamp":"2018-07-02T02:16:07.767Z"}
+info: control button down event {"timestamp":"2018-07-02T02:16:08.527Z"}
+info: control button up event {"timestamp":"2018-07-02T02:16:08.648Z"}
+info: choosing output cahnnel {"timestamp":"2018-07-02T02:16:08.649Z"}
+info: rendering view {"timestamp":"2018-07-02T02:16:08.649Z"}
+info: control button down event {"timestamp":"2018-07-02T02:16:09.267Z"}
+info: control button up event {"timestamp":"2018-07-02T02:16:09.377Z"}
+info: choosing if we will make another route {"timestamp":"2018-07-02T02:16:09.377Z"}
+info: rendering view {"timestamp":"2018-07-02T02:16:09.377Z"}
+info: rendering view {"timestamp":"2018-07-02T02:16:10.108Z"}
+info: control button down event {"timestamp":"2018-07-02T02:16:10.665Z"}
+info: control button up event {"timestamp":"2018-07-02T02:16:10.766Z"}
+info: init complete. {"timestamp":"2018-07-02T02:16:10.767Z"}
+info: rendering view {"timestamp":"2018-07-02T02:16:10.769Z"}
+info: transport {"timestamp":"2018-07-02T02:16:12.877Z"}
+info: transport button down event {"timestamp":"2018-07-02T02:16:12.877Z"}
+info: outmessage: 176,105,127 {"timestamp":"2018-07-02T02:16:12.877Z"}
+info: transport button up event {"timestamp":"2018-07-02T02:16:13.041Z"}
+info: outmessage: 176,105,0 {"timestamp":"2018-07-02T02:16:13.041Z"}
+info: transport {"timestamp":"2018-07-02T02:16:19.507Z"}
+info: transport button down event {"timestamp":"2018-07-02T02:16:19.507Z"}
+info: outmessage: 176,105,127 {"timestamp":"2018-07-02T02:16:19.507Z"}
+info: transport button up event {"timestamp":"2018-07-02T02:16:19.738Z"}
+info: outmessage: 176,105,0 {"timestamp":"2018-07-02T02:16:19.738Z"}
+info: here {"timestamp":"2018-07-02T02:16:32.866Z"}
+info: rendering view {"timestamp":"2018-07-02T02:16:33.013Z"}
+info: here {"timestamp":"2018-07-02T02:19:57.767Z"}
+info: rendering view {"timestamp":"2018-07-02T02:19:57.915Z"}
+info: Control knob set {"timestamp":"2018-07-02T02:20:01.657Z"}
+info: rendering view {"timestamp":"2018-07-02T02:20:01.657Z"}
+info: Control button set {"timestamp":"2018-07-02T02:20:02.337Z"}
+info: rendering view {"timestamp":"2018-07-02T02:20:02.337Z"}
+info: Transport button set {"timestamp":"2018-07-02T02:20:03.127Z"}
+info: rendering view {"timestamp":"2018-07-02T02:20:03.127Z"}
+info: Record button set {"timestamp":"2018-07-02T02:20:04.327Z"}
+info: user config {"timestamp":"2018-07-02T02:20:04.327Z"}
+info: choosing input port {"timestamp":"2018-07-02T02:20:04.327Z"}
+info: rendering view {"timestamp":"2018-07-02T02:20:04.337Z"}
+info: record button up event {"timestamp":"2018-07-02T02:20:04.576Z"}
+info: control button down event {"timestamp":"2018-07-02T02:20:07.594Z"}
+info: control button up event {"timestamp":"2018-07-02T02:20:07.824Z"}
+info: choosing input channel {"timestamp":"2018-07-02T02:20:07.825Z"}
+info: rendering view {"timestamp":"2018-07-02T02:20:07.826Z"}
+info: control button down event {"timestamp":"2018-07-02T02:20:08.517Z"}
+info: control button up event {"timestamp":"2018-07-02T02:20:08.662Z"}
+info: choosing output port {"timestamp":"2018-07-02T02:20:08.663Z"}
+info: rendering view {"timestamp":"2018-07-02T02:20:08.665Z"}
+info: control button down event {"timestamp":"2018-07-02T02:20:09.417Z"}
+info: control button up event {"timestamp":"2018-07-02T02:20:09.583Z"}
+info: choosing output cahnnel {"timestamp":"2018-07-02T02:20:09.584Z"}
+info: rendering view {"timestamp":"2018-07-02T02:20:09.585Z"}
+info: control button down event {"timestamp":"2018-07-02T02:20:10.207Z"}
+info: control button up event {"timestamp":"2018-07-02T02:20:10.297Z"}
+info: choosing if we will make another route {"timestamp":"2018-07-02T02:20:10.297Z"}
+info: rendering view {"timestamp":"2018-07-02T02:20:10.297Z"}
+info: rendering view {"timestamp":"2018-07-02T02:20:11.054Z"}
+info: control button down event {"timestamp":"2018-07-02T02:20:11.892Z"}
+info: control button up event {"timestamp":"2018-07-02T02:20:12.107Z"}
+info: init complete. {"timestamp":"2018-07-02T02:20:12.107Z"}
+info: rendering view {"timestamp":"2018-07-02T02:20:12.107Z"}
+info: rendering view {"timestamp":"2018-07-02T02:20:13.867Z"}
+info: transport button down event {"timestamp":"2018-07-02T02:20:13.867Z"}
+info: outmessage: 176,105,127 {"timestamp":"2018-07-02T02:20:13.867Z"}
+info: transport button up event {"timestamp":"2018-07-02T02:20:14.075Z"}
+info: outmessage: 176,105,0 {"timestamp":"2018-07-02T02:20:14.076Z"}
+info: rendering view {"timestamp":"2018-07-02T02:20:17.919Z"}
+info: transport button down event {"timestamp":"2018-07-02T02:20:17.921Z"}
+info: outmessage: 176,105,127 {"timestamp":"2018-07-02T02:20:17.921Z"}
+info: playback is stopped {"timestamp":"2018-07-02T02:20:17.926Z"}
+info: playback is stopped {"timestamp":"2018-07-02T02:20:17.926Z"}
+info: transport button up event {"timestamp":"2018-07-02T02:20:18.124Z"}
+info: outmessage: 176,105,0 {"timestamp":"2018-07-02T02:20:18.124Z"}
+info: here {"timestamp":"2018-07-02T02:21:32.251Z"}
+info: rendering view {"timestamp":"2018-07-02T02:21:32.396Z"}
+info: here {"timestamp":"2018-07-02T02:22:00.620Z"}
+info: rendering view {"timestamp":"2018-07-02T02:22:00.775Z"}
+info: Control knob set {"timestamp":"2018-07-02T02:22:05.297Z"}
+info: rendering view {"timestamp":"2018-07-02T02:22:05.297Z"}
+info: Control button set {"timestamp":"2018-07-02T02:22:06.076Z"}
+info: rendering view {"timestamp":"2018-07-02T02:22:06.076Z"}
+info: Transport button set {"timestamp":"2018-07-02T02:22:07.149Z"}
+info: rendering view {"timestamp":"2018-07-02T02:22:07.150Z"}
+info: Record button set {"timestamp":"2018-07-02T02:22:07.986Z"}
+info: user config {"timestamp":"2018-07-02T02:22:07.987Z"}
+info: choosing input port {"timestamp":"2018-07-02T02:22:07.987Z"}
+info: rendering view {"timestamp":"2018-07-02T02:22:07.988Z"}
+info: record button up event {"timestamp":"2018-07-02T02:22:08.194Z"}
+info: control button down event {"timestamp":"2018-07-02T02:22:10.010Z"}
+info: control button up event {"timestamp":"2018-07-02T02:22:10.161Z"}
+info: choosing input channel {"timestamp":"2018-07-02T02:22:10.161Z"}
+info: rendering view {"timestamp":"2018-07-02T02:22:10.161Z"}
+info: control button down event {"timestamp":"2018-07-02T02:22:10.968Z"}
+info: control button up event {"timestamp":"2018-07-02T02:22:11.146Z"}
+info: choosing output port {"timestamp":"2018-07-02T02:22:11.146Z"}
+info: rendering view {"timestamp":"2018-07-02T02:22:11.150Z"}
+info: control button down event {"timestamp":"2018-07-02T02:22:11.776Z"}
+info: control button up event {"timestamp":"2018-07-02T02:22:11.940Z"}
+info: choosing output cahnnel {"timestamp":"2018-07-02T02:22:11.941Z"}
+info: rendering view {"timestamp":"2018-07-02T02:22:11.941Z"}
+info: control button down event {"timestamp":"2018-07-02T02:22:12.566Z"}
+info: control button up event {"timestamp":"2018-07-02T02:22:12.576Z"}
+info: choosing if we will make another route {"timestamp":"2018-07-02T02:22:12.586Z"}
+info: rendering view {"timestamp":"2018-07-02T02:22:12.587Z"}
+info: rendering view {"timestamp":"2018-07-02T02:22:13.624Z"}
+info: control button down event {"timestamp":"2018-07-02T02:22:14.206Z"}
+info: control button up event {"timestamp":"2018-07-02T02:22:14.344Z"}
+info: Transport: false {"timestamp":"2018-07-02T02:22:14.344Z"}
+info: init complete. {"timestamp":"2018-07-02T02:22:14.344Z"}
+info: rendering view {"timestamp":"2018-07-02T02:22:14.344Z"}
+info: Transport: true {"timestamp":"2018-07-02T02:22:18.157Z"}
+info: here {"timestamp":"2018-07-02T02:23:02.046Z"}
+info: rendering view {"timestamp":"2018-07-02T02:23:02.213Z"}
+info: here {"timestamp":"2018-07-02T02:23:07.466Z"}
+info: rendering view {"timestamp":"2018-07-02T02:23:07.606Z"}
+info: Control knob set {"timestamp":"2018-07-02T02:23:10.907Z"}
+info: rendering view {"timestamp":"2018-07-02T02:23:10.909Z"}
+info: Control button set {"timestamp":"2018-07-02T02:23:11.385Z"}
+info: rendering view {"timestamp":"2018-07-02T02:23:11.386Z"}
+info: Transport button set {"timestamp":"2018-07-02T02:23:12.847Z"}
+info: rendering view {"timestamp":"2018-07-02T02:23:12.847Z"}
+info: Record button set {"timestamp":"2018-07-02T02:23:13.636Z"}
+info: user config {"timestamp":"2018-07-02T02:23:13.640Z"}
+info: choosing input port {"timestamp":"2018-07-02T02:23:13.640Z"}
+info: rendering view {"timestamp":"2018-07-02T02:23:13.640Z"}
+info: record button up event {"timestamp":"2018-07-02T02:23:13.646Z"}
+info: control button down event {"timestamp":"2018-07-02T02:23:15.067Z"}
+info: control button up event {"timestamp":"2018-07-02T02:23:15.237Z"}
+info: choosing input channel {"timestamp":"2018-07-02T02:23:15.237Z"}
+info: rendering view {"timestamp":"2018-07-02T02:23:15.237Z"}
+info: control button down event {"timestamp":"2018-07-02T02:23:15.946Z"}
+info: control button up event {"timestamp":"2018-07-02T02:23:16.125Z"}
+info: choosing output port {"timestamp":"2018-07-02T02:23:16.125Z"}
+info: rendering view {"timestamp":"2018-07-02T02:23:16.126Z"}
+info: control button down event {"timestamp":"2018-07-02T02:23:16.926Z"}
+info: control button up event {"timestamp":"2018-07-02T02:23:17.066Z"}
+info: choosing output cahnnel {"timestamp":"2018-07-02T02:23:17.066Z"}
+info: rendering view {"timestamp":"2018-07-02T02:23:17.066Z"}
+info: control button down event {"timestamp":"2018-07-02T02:23:17.741Z"}
+info: control button up event {"timestamp":"2018-07-02T02:23:17.907Z"}
+info: choosing if we will make another route {"timestamp":"2018-07-02T02:23:17.910Z"}
+info: rendering view {"timestamp":"2018-07-02T02:23:17.911Z"}
+info: rendering view {"timestamp":"2018-07-02T02:23:18.547Z"}
+info: control button down event {"timestamp":"2018-07-02T02:23:19.208Z"}
+info: control button up event {"timestamp":"2018-07-02T02:23:19.366Z"}
+info: Transport: false {"timestamp":"2018-07-02T02:23:19.366Z"}
+info: init complete. {"timestamp":"2018-07-02T02:23:19.366Z"}
+info: rendering view {"timestamp":"2018-07-02T02:23:19.366Z"}
+info: Transport: true {"timestamp":"2018-07-02T02:23:21.671Z"}

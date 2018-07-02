@@ -1,11 +1,13 @@
 const constants = require('./constants');
 
 const initialState = {
-  knob: null,
-  knobIsEndless: true,
-  button: null,
-  buttonIsMomentary: false,
-}
+  controlKnob: null,
+  // knobIsEndless: true,
+  controlButton: null,
+  // buttonIsMomentary: false,
+  transportButton: null,
+  recordButton: null,
+};
 
 const userControlReducer = (state = initialState, action) => {
   switch (action.type) {
@@ -13,11 +15,11 @@ const userControlReducer = (state = initialState, action) => {
       return {
         ...state,
         ...action.payload,
-      }
+      };
 
     default:
       return state;
   }
-}
+};
 
 module.exports = userControlReducer;

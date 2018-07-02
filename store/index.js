@@ -8,9 +8,20 @@ const transport = require('./transport/reducer');
 const userControl = require('./userControl/reducer');
 const menus = require('./menus/reducer');
 const view = require('./view/reducer');
+const buttons = require('./buttons/reducer');
+const knobs = require('./knobs/reducer');
 
 const rootReducer = combineReducers({
-  routes, ports, MIDIAccess, listeners, transport, userControl, view, menus,
+  routes,
+  ports,
+  MIDIAccess,
+  listeners,
+  transport,
+  userControl,
+  view,
+  menus,
+  buttons,
+  knobs,
 });
 
 const store = createStore(rootReducer);

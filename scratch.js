@@ -1,6 +1,6 @@
 const render = require('./utils/render');
 
-const menuList = require('./views/menu-list');
+const menuList = require('./views/dynamic/menu-list');
 
 render(menuList([
   { text: 'hey', isActive: false },

@@ -1,17 +1,27 @@
 const { createSelector } = require('reselect');
 
-const selectControlKnob = state => state.userControl.knob;
-
-const selectControlButton = state => state.userControl.button;
+const selectControlKnob = state => state.userControl.controlKnob;
+const selectControlButton = state => state.userControl.controlButton;
+const selectTransportButton = state => state.userControl.transportButton;
+const selectRecordButton = state => state.userControl.recordButton;
 
 const selectControls = createSelector(
-  selectControlButton,
   selectControlKnob,
-  (button, knob) => ({ knob, button })
-)
+  selectControlButton,
+  selectTransportButton,
+  selectRecordButton,
+  (controlKnob, controlButton, transportButton, recordButton) => ({
+    controlKnob,
+    controlButton,
+    transportButton,
+    recordButton,
+  }),
+);
 
 module.exports = {
-  selectControlButton,
   selectControlKnob,
+  selectControlButton,
+  selectTransportButton,
+  selectRecordButton,
   selectControls,
-}
+};

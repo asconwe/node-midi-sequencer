@@ -1,3 +1,4 @@
 module.exports = {
   UPDATE: 'TRANSPORT/UPDATE',
-}
+  TOGGLE: 'TRANSPORT/TOGGLE',
+};

@@ -1,6 +1,6 @@
 const constants = require('./constants');
 const store = require('../../store');
-const menuListView = require('../../views/menu-list');
+const menuListView = require('../../views/dynamic/menu-list');
 const { selectMenu, selectMenuTitle } = require('../menus/selectors');
 
 const renderView = view => ({
