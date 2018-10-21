@@ -1,3 +1,4 @@
+const logger = require('../../utils/logger');
 const constants = require('./constants');
 
 const initialButtonState = {
@@ -47,6 +48,7 @@ const buttonsReducer = (state = initialState, action) => {
         control: buttonReducer(state.control, action.buttonAction),
       };
     case constants.TRANSPORT:
+      logger.debug('transport button event', action);
       return {
         ...state,
         transport: buttonReducer(state.transport, action.buttonAction),

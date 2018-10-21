@@ -12,7 +12,7 @@ const chooseInputPort = async state => new Promise((resolve, reject) => {
     logger.info('choosing input port');
     const { inputs } = selectPorts(state);
     const menuItems = Array.from(inputs).map(([id, port]) => ({
-      action: () => {
+      pressReleaseAction: () => {
         resolve(id);
       },
       name: port.name,
@@ -29,7 +29,7 @@ const chooseInputChannel = async () => new Promise((resolve, reject) => {
   try {
     logger.info('choosing input channel');
     const menuItems = channels.map(channel => ({
-      action: () => {
+      pressReleaseAction: () => {
         resolve(channel - 1);
       },
       name: channel,
@@ -47,7 +47,7 @@ const chooseOutputPort = async state => new Promise((resolve, reject) => {
     logger.info('choosing output port');
     const { outputs } = selectPorts(state);
     const menuItems = Array.from(outputs).map(([id, port]) => ({
-      action: () => {
+      pressReleaseAction: () => {
         resolve(id);
       },
       name: port.name,
@@ -64,7 +64,7 @@ const chooseOutputChannel = async () => new Promise((resolve, reject) => {
   try {
     logger.info('choosing output cahnnel');
     const menuItems = channels.map(channel => ({
-      action: () => {
+      pressReleaseAction: () => {
         resolve(channel - 1);
       },
       name: channel,
@@ -82,12 +82,12 @@ const chooseMakeAnother = async () => new Promise((resolve, reject) => {
     logger.info('choosing if we will make another route');
     const menuItems = [{
       name: 'Yes',
-      action: () => {
+      pressReleaseAction: () => {
         resolve(true);
       },
     }, {
       name: 'No',
-      action: () => {
+      pressReleaseAction: () => {
         resolve(false);
       },
     }];

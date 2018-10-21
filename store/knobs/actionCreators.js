@@ -22,7 +22,26 @@ const knobMove = (target, movement) => ({
 const knobReset = target => ({
   type: constants[target.trim().toUpperCase()],
   knobAction: {
-    type: constants.knob.RESET,
+    type: constants.knob.RESET_MOVEMENT,
+  },
+});
+
+const setInterceptorWithVelocity = (target, interceptor) => ({
+  type: constants[target.trim().toUpperCase()],
+  knobAction: {
+    type: constants.SET_INTERCEPTOR,
+    intercepted: {
+      ...interceptor,
+      withVelocity: true,
+    },
+  },
+});
+
+const setInterceptor = (target, interceptor) => ({
+  type: constants[target.trim().toUpperCase()],
+  knobAction: {
+    type: constants.SET_INTERCEPTOR,
+    intercepted: interceptor,
   },
 });
 

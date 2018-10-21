@@ -18,6 +18,7 @@ const createListener = (route, outputPort) => {
   const listener = (parsedEvent) => {
     if (parsedEvent.channel === route.in.channel) {
       // Send to sequencer
+
       // Send to midi out
       sendMIDIOut(parsedEvent, route, outputPort);
     }

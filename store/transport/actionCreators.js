@@ -18,7 +18,7 @@ const advanceTransportToNext = (noteLength) => {
   });
 };
 
-const retreatTransportToPrevious = (duration) => {
+const retreatTransportToPrevious = (noteLength) => {
   const currentIndex = getCurrentIndex();
   const calculatedLength = 256 * noteLength;
   const diff = (currentIndex % calculatedLength);
@@ -29,11 +29,23 @@ const retreatTransportToPrevious = (duration) => {
   });
 };
 
-const advanceOneTick = () => {
+const tick = () => ({
+  type: constants.UPDATE,
+  payload: { tick: true },
+});
+
+const tickReset = () => ({
+  type: constants.UPDATE,
+  payload: { tick: false },
+});
+
+const advanceOne = () => {
   const currentIndex = getCurrentIndex();
   return ({
     type: constants.UPDATE,
-    currentIndex: currentIndex + 1,
+    payload: {
+      currentIndex: currentIndex + 1,
+    },
   });
 };
 
@@ -46,10 +58,22 @@ const toggleTransport = () => ({
   type: constants.TOGGLE,
 });
 
+const tempoUp = () => ({
+  type: constants.TEMPO_UP,
+});
+
+const tempoDown = () => ({
+  type: constants.TEMPO_DOWN,
+});
+
 module.exports = {
-  advanceOneTick,
+  advanceOne,
   advanceTransportToNext,
   retreatTransportToPrevious,
   update,
   toggleTransport,
+  tick,
+  tickReset,
+  tempoUp,
+  tempoDown,
 };

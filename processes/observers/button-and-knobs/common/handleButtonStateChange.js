@@ -1,3 +1,4 @@
+let prevButtonPositionWasDown;
 const noOp = () => { };
 
 /**
@@ -11,24 +12,30 @@ const handleButtonStateChange = ({ down, held }, {
   onPressAndHoldRelease = noOp,
   onPressRelease = noOp,
 }) => {
-  const up = !down;
-  if (down && held) {
-    // do thing for press and hold
-    onPressAndHold();
-    return;
-  }
-  if (up && held) {
-    // do thing for press and hold release
-    onPressAndHoldRelease();
-    return;
-  }
-  if (down) {
-    // do thing for press
-    onPress();
-    return;
-  }
-  // do thing for tap
-  onPressRelease();
+  const handleChange = () => {
+    const up = !down;
+    if (down && held) {
+      // do thing for press and hold
+      onPressAndHold();
+      return;
+    }
+    if (up && held) {
+      // do thing for press and hold release
+      onPressAndHoldRelease();
+      return;
+    }
+    if (down) {
+      // do thing for press
+      onPress();
+      return;
+    }
+    // do thing for tap
+    if (prevButtonPositionWasDown && up) {
+      onPressRelease();
+    }
+  };
+  handleChange();
+  prevButtonPositionWasDown = down;
 };
 
 module.exports = handleButtonStateChange;

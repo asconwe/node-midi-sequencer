@@ -6,7 +6,7 @@ const {
   buttonDown, buttonPressAndHold, buttonUp, buttonPressAndHoldRelease,
 } = require('../store/buttons/actionCreators');
 
-const pressAndHoldDuration = 800;
+const pressAndHoldDuration = 400;
 
 module.exports = {
   handleKnobEvent: target => knob => (event) => {

@@ -3,12 +3,13 @@ const homeView = ({
   menuTitle,
   transportState,
   recordingState,
+  tempo,
 }) => `
 ${menuTitle}
 ${menu}
 ------------------------------------------------------------
-${transportState}
-${recordingState}
+|| ${transportState} || ${tempo}
+|| ${recordingState}
 
 `;
 

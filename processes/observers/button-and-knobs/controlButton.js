@@ -1,26 +1,34 @@
-const logger = require('../../../utils/logger');
 const store = require('../../../store');
 const observeStore = require('../../../store/observeStore');
 const { selectControlButtonState } = require('../../../store/buttons/selectors');
-const { selectCurrentItemAction } = require('../../../store/menus/selectors');
 const handleButtonStateChange = require('./common/handleButtonStateChange');
+const {
+  selectCurrentPressReleaseAction,
+  selectCurrentPressAction,
+  selectCurrentPressAndHoldAction,
+  selectCurrentPressAndHoldReleaseAction,
+} = require('../../../store/menus/selectors');
 
-const onPress = () => {
-  // no-op for now
+
+const noOp = () => { };
+
+const onPress = state => () => {
+  const action = selectCurrentPressAction(state) || noOp;
+  action();
 };
 
-const onPressAndHold = () => {
-  // no-op for now
+const onPressAndHold = state => () => {
+  const action = selectCurrentPressAndHoldAction(state) || noOp;
+  action();
 };
 
-const onPressAndHoldRelease = () => {
-  // no-op for now
+const onPressAndHoldRelease = state => () => {
+  const action = selectCurrentPressAndHoldReleaseAction(state) || noOp;
+  action();
 };
 
-const onPressRelease = () => {
-  const noOp = () => { };
-  const state = store.getState();
-  const action = selectCurrentItemAction(state) || noOp;
+const onPressRelease = state => () => {
+  const action = selectCurrentPressReleaseAction(state) || noOp;
   action();
 };
 
@@ -28,13 +36,14 @@ module.exports = () => observeStore(
   store,
   selectControlButtonState,
   (controlButtonState) => {
+    const state = store.getState();
     handleButtonStateChange(
       controlButtonState,
       {
-        onPress,
-        onPressAndHold,
-        onPressAndHoldRelease,
-        onPressRelease,
+        onPress: onPress(state),
+        onPressAndHold: onPressAndHold(state),
+        onPressAndHoldRelease: onPressAndHoldRelease(state),
+        onPressRelease: onPressRelease(state),
       },
     );
   },

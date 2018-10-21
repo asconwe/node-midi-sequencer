@@ -158,3 +158,21 @@ error: Cannot read property 'action' of undefined {"timestamp":"2018-07-01T20:47
 error: action is not a function {"timestamp":"2018-07-01T20:57:39.477Z"}
 error: logger is not defined {"timestamp":"2018-07-01T21:01:43.139Z"}
 error: unsubscribeConfig is not a function {"timestamp":"2018-07-02T01:30:35.149Z"}
+error: Failed to start sequencer - No MIDI inputs available {"timestamp":"2018-10-20T14:14:40.768Z"}
+error: ENOENT: no such file or directory, open 'C:\Users\augus\workspace\logs\state.log' {"errno":-4058,"code":"ENOENT","syscall":"open","path":"C:\\Users\\augus\\workspace\\logs\\state.log","timestamp":"2018-10-20T15:01:37.934Z"}
+error: ENOENT: no such file or directory, open 'C:\Users\augus\workspace\logs\state.log' {"errno":-4058,"code":"ENOENT","syscall":"open","path":"C:\\Users\\augus\\workspace\\logs\\state.log","timestamp":"2018-10-20T15:01:37.934Z"}
+error: ENOENT: no such file or directory, open 'C:\Users\augus\workspace\logs\state.log' {"errno":-4058,"code":"ENOENT","syscall":"open","path":"C:\\Users\\augus\\workspace\\logs\\state.log","timestamp":"2018-10-20T15:01:37.935Z"}
+error: ENOENT: no such file or directory, open 'C:\Users\augus\workspace\logs\state.log' {"errno":-4058,"code":"ENOENT","syscall":"open","path":"C:\\Users\\augus\\workspace\\logs\\state.log","timestamp":"2018-10-20T15:01:37.935Z"}
+error: ENOENT: no such file or directory, open 'C:\Users\augus\workspace\logs\state.log' {"errno":-4058,"code":"ENOENT","syscall":"open","path":"C:\\Users\\augus\\workspace\\logs\\state.log","timestamp":"2018-10-20T15:03:09.520Z"}
+error: ENOENT: no such file or directory, open 'C:\Users\augus\workspace\logs\state.log' {"errno":-4058,"code":"ENOENT","syscall":"open","path":"C:\\Users\\augus\\workspace\\logs\\state.log","timestamp":"2018-10-20T15:03:09.520Z"}
+error: ENOENT: no such file or directory, open 'C:\Users\augus\workspace\node-midi-sequencer\utils\logs\state.log' {"errno":-4058,"code":"ENOENT","syscall":"open","path":"C:\\Users\\augus\\workspace\\node-midi-sequencer\\utils\\logs\\state.log","timestamp":"2018-10-20T15:17:14.245Z"}
+error: ENOENT: no such file or directory, open 'C:\Users\augus\workspace\node-midi-sequencer\utils\logs\state.log' {"errno":-4058,"code":"ENOENT","syscall":"open","path":"C:\\Users\\augus\\workspace\\node-midi-sequencer\\utils\\logs\\state.log","timestamp":"2018-10-20T15:17:14.246Z"}
+error: ENOENT: no such file or directory, open 'C:\Users\augus\workspace\node-midi-sequencer\utils\logs\state.log' {"errno":-4058,"code":"ENOENT","syscall":"open","path":"C:\\Users\\augus\\workspace\\node-midi-sequencer\\utils\\logs\\state.log","timestamp":"2018-10-20T15:17:14.246Z"}
+error: ENOENT: no such file or directory, open 'C:\Users\augus\workspace\node-midi-sequencer\utils\logs\state.log' {"errno":-4058,"code":"ENOENT","syscall":"open","path":"C:\\Users\\augus\\workspace\\node-midi-sequencer\\utils\\logs\\state.log","timestamp":"2018-10-20T15:17:14.246Z"}
+error: ENOENT: no such file or directory, open 'C:\Users\augus\workspace\node-midi-sequencer\utils\logs\state.log' {"errno":-4058,"code":"ENOENT","syscall":"open","path":"C:\\Users\\augus\\workspace\\node-midi-sequencer\\utils\\logs\\state.log","timestamp":"2018-10-20T15:17:21.161Z"}
+error: ENOENT: no such file or directory, open 'C:\Users\augus\workspace\node-midi-sequencer\utils\logs\state.log' {"errno":-4058,"code":"ENOENT","syscall":"open","path":"C:\\Users\\augus\\workspace\\node-midi-sequencer\\utils\\logs\\state.log","timestamp":"2018-10-20T15:17:21.161Z"}
+error: ENOENT: no such file or directory, open 'C:\Users\augus\workspace\node-midi-sequencer\utils\logs\state.log' {"errno":-4058,"code":"ENOENT","syscall":"open","path":"C:\\Users\\augus\\workspace\\node-midi-sequencer\\utils\\logs\\state.log","timestamp":"2018-10-20T15:17:21.162Z"}
+error: ENOENT: no such file or directory, open 'C:\Users\augus\workspace\node-midi-sequencer\utils\logs\state.log' {"errno":-4058,"code":"ENOENT","syscall":"open","path":"C:\\Users\\augus\\workspace\\node-midi-sequencer\\utils\\logs\\state.log","timestamp":"2018-10-20T15:17:21.162Z"}
+error: logger is not defined {"timestamp":"2018-10-21T00:23:48.329Z"}
+error: Could not render error message {"timestamp":"2018-10-21T14:14:57.215Z"}
+error: Cannot read property 'padEnd' of undefined {"timestamp":"2018-10-21T14:14:57.216Z"}

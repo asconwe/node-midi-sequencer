@@ -3,20 +3,23 @@ const { createSelector } = require('reselect');
 const selectCurrentIndex = state => state.transport.currentIndex;
 const selectIsPlaying = state => state.transport.playing;
 const selectTempo = state => state.transport.tempo;
-
+const selectDidTick = state => state.transport.tick;
 const baseStep = 256;
 
-const msPerBaseStep = createSelector(
+const selectUsPerBaseStep = createSelector(
   selectTempo,
+
   (tempo) => {
-    const msPerBeat = 60 * 1000 / tempo;
+    const usPerBeat = 60 * 1000 * 1000 / tempo;
     const stepsPerBeat = baseStep / 4;
-    return msPerBeat / stepsPerBeat;
-  }
-)
+    return usPerBeat / stepsPerBeat;
+  },
+);
 
 module.exports = {
-  msPerBaseStep,
+  selectUsPerBaseStep,
   selectIsPlaying,
   selectCurrentIndex,
-}
+  selectDidTick,
+  selectTempo,
+};

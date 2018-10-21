@@ -2,7 +2,7 @@ const logger = require('./utils/logger');
 const store = require('./store');
 const { renderView } = require('./store/view/actionCreators');
 const errorView = require('./views/error');
-
+const attachStorePrinter = require('./utils/storePrinter');
 const render = require('./utils/render');
 const initMIDIAccess = require('./processes/init/MIDIAccess');
 const initPorts = require('./processes/init/ports');
@@ -15,9 +15,8 @@ const armTransportButton = require('./processes/observers/button-and-knobs/trans
 const armControlKnob = require('./processes/observers/button-and-knobs/controlKnob');
 const renderHome = require('./processes/observers/views/home');
 
-const { update: updateTransport } = require('./store/transport/actionCreators');
-
 async function init() {
+  attachStorePrinter();
   await initMIDIAccess();
   initPorts();
   await initUserControl();
@@ -27,6 +26,7 @@ async function init() {
   armRoutes();
   armTransport();
   armTransportButton();
+  store.dispatch({ type: 'INITIALIZED' });
 }
 
 const main = async () => {
@@ -37,9 +37,13 @@ const main = async () => {
 
     renderHome();
   } catch (error) {
-    store.dispatch(renderView(errorView(error)));
+    try {
+      store.dispatch(renderView(errorView(error)));
+    } catch (error) {
+      logger.error('Could not render error message');
+    }
     logger.error(error.message);
   }
 };
-logger.info('here');
+
 main();
