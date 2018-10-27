@@ -1,3 +1,3 @@
-const nLongString = (n, str) => str.padEnd(n);
+const nLongString = (n, str, start) => (start ? str.padStart(n) : str.padEnd(n));
 
 module.exports = nLongString;

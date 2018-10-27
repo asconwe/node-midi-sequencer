@@ -29,7 +29,7 @@ const knobReset = target => ({
 const setInterceptorWithVelocity = (target, interceptor) => ({
   type: constants[target.trim().toUpperCase()],
   knobAction: {
-    type: constants.SET_INTERCEPTOR,
+    type: constants.knob.SET_INTERCEPTOR,
     intercepted: {
       ...interceptor,
       withVelocity: true,
@@ -40,12 +40,22 @@ const setInterceptorWithVelocity = (target, interceptor) => ({
 const setInterceptor = (target, interceptor) => ({
   type: constants[target.trim().toUpperCase()],
   knobAction: {
-    type: constants.SET_INTERCEPTOR,
+    type: constants.knob.SET_INTERCEPTOR,
     intercepted: interceptor,
+  },
+});
+
+const clearInterceptor = target => ({
+  type: constants[target.trim().toUpperCase()],
+  knobAction: {
+    type: constants.knob.CLEAR_INTERCEPTOR,
   },
 });
 
 module.exports = {
   knobMove,
   knobReset,
+  setInterceptorWithVelocity,
+  setInterceptor,
+  clearInterceptor,
 };

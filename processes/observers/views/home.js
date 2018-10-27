@@ -6,10 +6,11 @@ const homeView = require('../../../views/dynamic/home');
 const selectHomeViewComponents = require('./selectHomeViewComponents');
 const { setMenuItems, setMenuTitle, saveMenuAsPrevious } = require('../../../store/menus/actionCreators');
 const renderTempoMenu = require('./tempo');
+const { clearInterceptor, setInterceptorWithVelocity } = require('../../../store/knobs/actionCreators');
+const { tempoUp, tempoDown } = require('../../../store/transport/actionCreators');
 
 const handleChange = (homeViewComponents) => {
   try {
-    logger.info('homeview components', homeViewComponents);
     store.dispatch(renderView(homeView(homeViewComponents)));
   } catch (error) {
     logger.error(error.message);
@@ -18,14 +19,23 @@ const handleChange = (homeViewComponents) => {
 };
 
 const populateDefaultHomeView = () => {
-  store.dispatch(setMenuItems([{
+  const { dispatch } = store;
+  const dispatchThunk = action => () => {
+    dispatch(action);
+  };
+  dispatch(setMenuItems([{
     name: 'set tempo',
     pressReleaseAction: () => {
-      store.dispatch(saveMenuAsPrevious());
+      dispatch(saveMenuAsPrevious());
       renderTempoMenu();
     },
+    pressAndHoldAction: dispatchThunk(setInterceptorWithVelocity('control', {
+      upAction: dispatchThunk(tempoUp()),
+      downAction: dispatchThunk(tempoDown()),
+    })),
+    pressAndHoldReleaseAction: dispatchThunk(clearInterceptor('control')),
   }]));
-  store.dispatch(setMenuTitle('home'));
+  dispatch(setMenuTitle('home'));
 };
 
 module.exports = (populateHomeView = populateDefaultHomeView) => {

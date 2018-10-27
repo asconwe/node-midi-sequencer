@@ -1,8 +1,15 @@
-const { sequencerModes, recordingModes } = require('./selectors');
+const constants = require('./constants');
+
+const { sequencerModes, recordingModes } = constants;
 
 const initialRouteState = {
-  armed: true,
-  recording: false,
+  // base unit is 1 beat
+  // length is base unit * (2 to the n power) * multiplier
+  n: 4,
+  multiplier: 1,
+  messages: {},
+  // good spot for history
+  armed: false,
   sequencerMode: sequencerModes.FREE,
   recordingMode: recordingModes.FREE.OVERWRITE,
   quantization: {
@@ -12,24 +19,21 @@ const initialRouteState = {
   length: 4,
   in: {},
   out: {},
-  sequence: []
-}
+};
 
-const constants = require('./constants');
-
-const routeIndexReducer = (state = initialRouteState, action) => {
+const routeIndexReducer = (state = initialRouteState, action = {}) => {
   switch (action.subType) {
     case constants.UPDATE:
       return {
         ...state,
-        ...payload,
+        ...action.payload,
       };
     case constants.QUANTIZE_PLAYBACK:
       return {
         ...state,
         quantization: {
           recording: state.quantization.recording,
-          playback: 1 / action.denominator
+          playback: 1 / action.denominator,
         },
       };
     case constants.QUANTIZE_RECORDING:
@@ -37,17 +41,15 @@ const routeIndexReducer = (state = initialRouteState, action) => {
         ...state,
         quantization: {
           playback: state.quantization.playback,
-          recording: 1 / action.denominator
+          recording: 1 / action.denominator,
         },
       };
-    case constants.UPDATE_SEQUENCE:
-      return {
-        ...state,
-        sequence: sequenceReducer(state.sequence, action)
-      };
     default:
-      return state;
+      return {
+        ...initialRouteState,
+        ...state,
+      };
   }
-}
+};
 
 module.exports = routeIndexReducer;

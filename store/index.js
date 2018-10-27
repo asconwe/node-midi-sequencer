@@ -14,6 +14,7 @@ const knobs = require('./knobs/reducer');
 const initialized = (state = false, action) => (action.type === 'INITIALIZED' ? true : state);
 
 const rootReducer = combineReducers({
+  initialized,
   routes,
   ports,
   MIDIAccess,
@@ -24,7 +25,6 @@ const rootReducer = combineReducers({
   menus,
   buttons,
   knobs,
-  initialized,
 });
 
 const store = createStore(rootReducer);

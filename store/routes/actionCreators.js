@@ -16,7 +16,7 @@ const replaceAllRoutes = routes => ({
  */
 const replaceOneRoute = (route, index) => ({
   type: constants.REPLACE_ONE,
-  routes,
+  route,
   index,
 });
 
@@ -29,19 +29,20 @@ const appendRoute = route => ({
   route,
 });
 
-/**
- * Create a UPDATE_INDEX action
- * @param {{ index: number, payload: object }} indexAndPayload The index and a key value pair to update at index
- * @returns {{ type: string, index: number, payload: object }} A redux action
+/** @description Create a ROUTE_ACTION action
+ * @param {number} index The route
+ * @param {*} routeAction A sub action to be applied to route specified at index
+ * @returns {{ type: string, index: number, routeAction }} A redux action
  */
-const updateIndex = ({ index, payload }) => ({
+const routeAction = (index, routeAction) => ({
   type: constants.UPDATE_INDEX,
   index,
-  payload,
+  routeAction,
 });
 
 module.exports = {
   replaceAllRoutes,
   replaceOneRoute,
   appendRoute,
+  routeAction,
 };

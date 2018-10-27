@@ -33,6 +33,6 @@ const down = {
 
 module.exports = () => {
   const back = createBackAction();
-  store.dispatch(setMenuItems([up, down, back]));
+  store.dispatch(setMenuItems([back, down, up]));
   store.dispatch(setMenuTitle('set tempo'));
 };

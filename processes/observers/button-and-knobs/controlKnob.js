@@ -27,7 +27,7 @@ const handleKnobStateChange = (knobState) => {
   if (knobState.movement) {
     if (knobState.movement > 0) {
       if (knobState.intercepted) {
-        if (knobState.intercepted.withVelocity && movement > 3) {
+        if (knobState.intercepted.withVelocity && knobState.movement > 3) {
           for (let i = 0; i < movement; i++) knobState.intercepted.upAction();
           return;
         }
@@ -37,11 +37,11 @@ const handleKnobStateChange = (knobState) => {
     }
     if (knobState.movement < 0) {
       if (knobState.intercepted) {
-        if (knobState.intercepted.withVelocity && movement > 3) {
-          for (let i = 0; i > movement; i--) knobState.intercepted.upAction();
+        if (knobState.intercepted.withVelocity && knobState.movement > 3) {
+          for (let i = 0; i > movement; i--) knobState.intercepted.downAction();
           return;
         }
-        return knobState.intercepted.upAction();
+        return knobState.intercepted.downAction();
       }
       return previous();
     }

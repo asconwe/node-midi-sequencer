@@ -13,7 +13,6 @@ const initialState = {
 const knobReducer = (state = initialKnobState, knobAction) => {
   switch (knobAction.type) {
     case constants.knob.MOVE:
-      logger.info(knobAction.movement);
       return {
         ...state,
         movement: knobAction.movement,
@@ -22,6 +21,16 @@ const knobReducer = (state = initialKnobState, knobAction) => {
       return {
         ...state,
         movement: 0,
+      };
+    case constants.knob.SET_INTERCEPTOR:
+      return {
+        ...state,
+        intercepted: knobAction.intercepted,
+      };
+    case constants.knob.CLEAR_INTERCEPTOR:
+      return {
+        ...state,
+        intercepted: false,
       };
     default:
       return state;

@@ -3,6 +3,7 @@ const logger = require('./logger');
 const store = require('../store');
 const observeStore = require('../store/observeStore');
 const { selectView } = require('../store/view/selectors');
+const { throttle } = require('lodash');
 const errorView = require('../views/error');
 
 const out = process.stdout;
@@ -19,13 +20,15 @@ const render = (view) => {
   return process.stdout.write(`${view}\n`);
 };
 
+const throttleRender = throttle(render, 100);
+
 module.exports = () => {
   observeStore(
     store,
     selectView,
     (view) => {
       if (view) {
-        render(view);
+        throttleRender(view);
       }
     },
   );

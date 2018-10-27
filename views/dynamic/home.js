@@ -4,13 +4,17 @@ const homeView = ({
   transportState,
   recordingState,
   tempo,
+  time,
+  tracks,
 }) => `
 ${menuTitle}
 ${menu}
 ------------------------------------------------------------
-|| ${transportState} || ${tempo}
+|| ${transportState} || ${tempo} || ${time}
 || ${recordingState}
-
+------------------------------------------------------------
+TRACKS:
+${tracks}
 `;
 
 module.exports = homeView;
