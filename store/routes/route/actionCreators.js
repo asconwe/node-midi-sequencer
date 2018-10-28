@@ -1,39 +1,33 @@
 const constants = require('./constants');
 
 const incrementMultiplier = () => ({
-  trackAction: {
-    type: constants.track.INCREMENT_MULTIPLIER,
-  },
+  type: constants.INCREMENT_MULTIPLIER,
 });
 
 const incrementN = () => ({
-  trackAction: {
-    type: constants.track.INCREMENT_N,
-  },
+  type: constants.INCREMENT_N,
 });
 
 const decrementMultiplier = () => ({
-  trackAction: {
-    type: constants.DECREMENT_MULTIPLIER,
-  },
+  type: constants.DECREMENT_MULTIPLIER,
 });
 
 const decrementN = () => ({
-  trackAction: {
-    type: constants.DECREMENT_N,
-  },
+  type: constants.DECREMENT_N,
 });
 
 const arm = () => ({
-  trackAction: {
-    type: constants.track.ARM,
-  },
+  type: constants.ARM,
 });
 
 const disarm = () => ({
-  trackAction: {
-    type: constants.track.ARM,
-  },
+  type: constants.DISARM,
+});
+
+const addMessage = (message, step) => ({
+  type: constants.ADD_MESSAGE,
+  message,
+  step,
 });
 
 module.exports = {
@@ -43,4 +37,5 @@ module.exports = {
   decrementN,
   arm,
   disarm,
+  addMessage,
 };

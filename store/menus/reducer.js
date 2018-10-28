@@ -20,11 +20,25 @@ module.exports = (state = initialState, action) => {
         ...state,
         currentIndex: ((state.currentIndex - 1) + (state.menuItems.length)) % (state.menuItems.length),
       };
+    case constants.SET_INDEX:
+      return {
+        ...state,
+        currentIndex: action.index,
+      };
     case constants.SET_MENU_ITEMS:
       return {
         ...state,
         menuItems: action.menuItems,
-        currentIndex: 0,
+        currentIndex: action.index,
+      };
+    case constants.UPDATE_MENU_ITEM:
+      return {
+        ...state,
+        menuItems: [
+          ...state.menuItems.slice(0, action.menuItemIndex),
+          action.menuItem,
+          ...state.menuItems.slice(action.menuItemIndex + 1),
+        ],
       };
     case constants.SAVE_MENU_AS_PREVIOUS:
       return {

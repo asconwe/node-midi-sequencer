@@ -14,7 +14,6 @@ const out = process.stdout;
  */
 const render = (view) => {
   if (!view) return render(errorView(new Error('no view provided')));
-  logger.info('rendering view');
   readline.cursorTo(out, 0, 0);
   readline.clearScreenDown(out);
   return process.stdout.write(`${view}\n`);

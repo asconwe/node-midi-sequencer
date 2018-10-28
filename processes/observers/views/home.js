@@ -6,8 +6,10 @@ const homeView = require('../../../views/dynamic/home');
 const selectHomeViewComponents = require('./selectHomeViewComponents');
 const { setMenuItems, setMenuTitle, saveMenuAsPrevious } = require('../../../store/menus/actionCreators');
 const renderTempoMenu = require('./tempo');
+const renderTrackMenu = require('./track');
 const { clearInterceptor, setInterceptorWithVelocity } = require('../../../store/knobs/actionCreators');
 const { tempoUp, tempoDown } = require('../../../store/transport/actionCreators');
+const { selectAllTracks } = require('../../../store/routes/selectors');
 
 const handleChange = (homeViewComponents) => {
   try {
@@ -19,22 +21,33 @@ const handleChange = (homeViewComponents) => {
 };
 
 const populateDefaultHomeView = () => {
-  const { dispatch } = store;
+  const { dispatch, getState } = store;
   const dispatchThunk = action => () => {
     dispatch(action);
   };
-  dispatch(setMenuItems([{
-    name: 'set tempo',
-    pressReleaseAction: () => {
-      dispatch(saveMenuAsPrevious());
-      renderTempoMenu();
+  const state = getState();
+  const tracks = selectAllTracks(state);
+  dispatch(setMenuItems([
+    {
+      name: 'set tempo',
+      pressReleaseAction: () => {
+        dispatch(saveMenuAsPrevious());
+        renderTempoMenu();
+      },
+      pressAndHoldAction: dispatchThunk(setInterceptorWithVelocity('control', {
+        upAction: dispatchThunk(tempoUp()),
+        downAction: dispatchThunk(tempoDown()),
+      })),
+      pressAndHoldReleaseAction: dispatchThunk(clearInterceptor('control')),
     },
-    pressAndHoldAction: dispatchThunk(setInterceptorWithVelocity('control', {
-      upAction: dispatchThunk(tempoUp()),
-      downAction: dispatchThunk(tempoDown()),
+    ...tracks.map((track, index) => ({
+      name: `track ${index}`,
+      pressReleaseAction: () => {
+        dispatch(saveMenuAsPrevious());
+        renderTrackMenu(track, index);
+      },
     })),
-    pressAndHoldReleaseAction: dispatchThunk(clearInterceptor('control')),
-  }]));
+  ]));
   dispatch(setMenuTitle('home'));
 };
 

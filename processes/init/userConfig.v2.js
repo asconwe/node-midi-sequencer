@@ -116,6 +116,7 @@ const makeRoute = async () => {
       id: outputPort,
       channel: outputChannel,
     },
+    outputPort: state.ports.outputs.get(outputPort),
   }));
   const makeAnotherRoute = await chooseMakeAnother();
   if (makeAnotherRoute) {

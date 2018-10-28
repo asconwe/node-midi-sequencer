@@ -3,7 +3,6 @@ const logger = require('../../utils/logger');
 const nLongString = require('../../utils/nLongString');
 
 const tempoStateView = (time, stepsPerBeat) => {
-  logger.info(`===== TIME ======== \n >> STEP: ${time}, STEPS PER BEAT ${stepsPerBeat}`);
   const beatDecimal = (time / stepsPerBeat).toFixed(2);
   const percentageRemainder = beatDecimal.toString().split('.').pop();
   const cumulativeBeat = Math.trunc(beatDecimal);

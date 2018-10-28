@@ -1,4 +1,5 @@
 const constants = require('./constants');
+const getIfPresent = require('../../../utils/getIfPresent');
 
 const { sequencerModes, recordingModes } = constants;
 
@@ -13,8 +14,8 @@ const initialRouteState = {
   sequencerMode: sequencerModes.FREE,
   recordingMode: recordingModes.FREE.OVERWRITE,
   quantization: {
-    recording: 1 / 256,
-    playing: 1 / 256,
+    recording: 1, // 1 step
+    playing: 1, // 1 step
   },
   length: 4,
   in: {},
@@ -22,7 +23,7 @@ const initialRouteState = {
 };
 
 const routeIndexReducer = (state = initialRouteState, action = {}) => {
-  switch (action.subType) {
+  switch (action.type) {
     case constants.UPDATE:
       return {
         ...state,
@@ -42,6 +43,47 @@ const routeIndexReducer = (state = initialRouteState, action = {}) => {
         quantization: {
           playback: state.quantization.playback,
           recording: 1 / action.denominator,
+        },
+      };
+    case constants.ARM:
+      return {
+        ...state,
+        armed: true,
+      };
+    case constants.DISARM:
+      return {
+        ...state,
+        armed: false,
+      };
+    case constants.INCREMENT_MULTIPLIER:
+      return {
+        ...state,
+        multiplier: state.multiplier + 1,
+      };
+    case constants.INCREMENT_N:
+      return {
+        ...state,
+        n: state.n + 1,
+      };
+    case constants.DECREMENT_MULTIPLIER:
+      return {
+        ...state,
+        multiplier: state.multiplier > 1 ? state.multiplier - 1 : state.multiplier,
+      };
+    case constants.DECREMENT_N:
+      return {
+        ...state,
+        n: state.n > 1 ? state.n - 1 : state.n,
+      };
+    case constants.ADD_MESSAGE:
+      return {
+        ...state,
+        messages: {
+          ...state.messages,
+          [action.step]: getIfPresent(
+            () => state.messages[action.step].concat(action.message),
+            [action.message],
+          ),
         },
       };
     default:

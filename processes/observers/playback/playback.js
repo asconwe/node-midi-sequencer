@@ -2,13 +2,30 @@ const { createSelector } = require('reselect');
 const logger = require('../../../utils/logger');
 const store = require('../../../store');
 const observeStore = require('../../../store/observeStore');
-const { selectTransportPosition } = require('../../../store/transport/selectors');
-const { selectSequenceLength } = require('../../../store/recording/selectors');
+const { selectCurrentIndex } = require('../../../store/transport/selectors');
+const { selectAllTracks } = require('../../../store/routes/selectors');
+const sendMIDIOut = require('../../../utils/sendMIDIOut');
 
-const selectPlaybackPosition =  module.exports = () => observeStore(
-    store,
-    selectTransportPosition,
-    (selectPlaybackPosition) => {
-
-    },
-  );
+module.exports = () => observeStore(
+  store,
+  state => ({
+    currentStep: selectCurrentIndex(state),
+    tracks: selectAllTracks(state),
+  }),
+  ({ currentStep, tracks }) => {
+    tracks.forEach((route, index) => {
+      logger.info(`current step: ${currentStep}`);
+      const { n, multiplier } = route;
+      logger.info(`n: ${n}, multiplier: ${multiplier}`);
+      const timelineLength = Math.pow(2, n) * multiplier * 64;
+      logger.info(`timeline length: ${timelineLength}`);
+      const trackStep = currentStep % timelineLength;
+      logger.info(trackStep);
+      if (route.messages[trackStep]) {
+        route.messages[trackStep].forEach((message) => {
+          sendMIDIOut(message, route);
+        });
+      }
+    });
+  },
+);

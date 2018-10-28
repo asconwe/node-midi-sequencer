@@ -2,7 +2,8 @@ const store = require('../../../store/');
 const { selectPreviousMenu } = require('../../../store/menus/selectors');
 const { setMenuItems, setMenuTitle } = require('../../../store/menus/actionCreators');
 
-module.exports = () => {
+module.exports = (func) => {
+  if (func) func();
   const state = store.getState();
   const previousMenu = selectPreviousMenu(state);
   const backAction = () => {

@@ -10,16 +10,20 @@ const reducer = (state = initialState, action) => {
 
     case constants.REPLACE_ONE:
       return [
-        ...state.routes.slice(0, action.index),
+        ...state.slice(0, action.index),
         routeReducer(action.route),
-        ...action.routes.slice(action.index + 1),
+        ...state.slice(action.index + 1),
       ];
 
     case constants.APPEND:
       return state.concat(routeReducer(action.route));
 
-    case constants.UPDATE_INDEX:
-      return routeReducer(state[action.index], action);
+    case constants.ROUTE_ACTION:
+      return [
+        ...state.slice(0, action.index),
+        routeReducer(state[action.index], action.routeAction),
+        ...state.slice(action.index + 1),
+      ];
 
     default:
       return state;

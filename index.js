@@ -14,6 +14,7 @@ const armControlButton = require('./processes/observers/button-and-knobs/control
 const armTransportButton = require('./processes/observers/button-and-knobs/transportButton');
 const armControlKnob = require('./processes/observers/button-and-knobs/controlKnob');
 const renderHome = require('./processes/observers/views/home');
+const observePlayback = require('./processes/observers/playback/playback');
 
 async function init() {
   attachStorePrinter();
@@ -36,6 +37,7 @@ const main = async () => {
     logger.info('init complete.');
 
     renderHome();
+    observePlayback();
   } catch (error) {
     try {
       store.dispatch(renderView(errorView(error)));

@@ -34,10 +34,10 @@ const appendRoute = route => ({
  * @param {*} routeAction A sub action to be applied to route specified at index
  * @returns {{ type: string, index: number, routeAction }} A redux action
  */
-const routeAction = (index, routeAction) => ({
-  type: constants.UPDATE_INDEX,
+const routeAction = (index, action) => ({
+  type: constants.ROUTE_ACTION,
   index,
-  routeAction,
+  routeAction: action,
 });
 
 module.exports = {

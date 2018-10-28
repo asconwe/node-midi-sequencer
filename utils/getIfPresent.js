@@ -6,11 +6,11 @@
  * @param {function} func A function returning some deeply nested property
  * @returns {*} The deeply nested property or null.
  */
-const getIfPresent = (func) => {
+const getIfPresent = (func, failureReturnValue) => {
   try {
     return func();
   } catch (error) {
-    return null;
+    return failureReturnValue || null;
   }
 };
 

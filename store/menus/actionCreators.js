@@ -7,9 +7,19 @@ module.exports = {
   previousIndex: () => ({
     type: constants.PREVIOUS_INDEX,
   }),
-  setMenuItems: menuItems => ({
+  setIndex: index => ({
+    type: constants.SET_INDEX,
+    index,
+  }),
+  setMenuItems: (menuItems, index = 0) => ({
     type: constants.SET_MENU_ITEMS,
     menuItems,
+    index,
+  }),
+  updateMenuItem: (menuItem, menuItemIndex) => ({
+    type: constants.UPDATE_MENU_ITEM,
+    menuItem,
+    menuItemIndex,
   }),
   saveMenuAsPrevious: () => ({
     type: constants.SAVE_MENU_AS_PREVIOUS,
