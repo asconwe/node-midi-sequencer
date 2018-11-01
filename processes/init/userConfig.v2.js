@@ -13,7 +13,7 @@ const chooseInputPort = async state => new Promise((resolve, reject) => {
     const { inputs } = selectPorts(state);
     const menuItems = Array.from(inputs).map(([id, port]) => ({
       pressReleaseAction: () => {
-        resolve(id);
+        resolve({ id, name: port.name });
       },
       name: port.name,
     }));
@@ -48,7 +48,7 @@ const chooseOutputPort = async state => new Promise((resolve, reject) => {
     const { outputs } = selectPorts(state);
     const menuItems = Array.from(outputs).map(([id, port]) => ({
       pressReleaseAction: () => {
-        resolve(id);
+        resolve({ id, name: port.name });
       },
       name: port.name,
     }));
@@ -109,14 +109,16 @@ const makeRoute = async () => {
   const outputChannel = await chooseOutputChannel();
   store.dispatch(appendRoute({
     in: {
-      id: inputPort,
+      id: inputPort.id,
+      name: inputPort.name,
       channel: inputChannel,
     },
     out: {
-      id: outputPort,
+      id: outputPort.id,
+      name: outputPort.name,
       channel: outputChannel,
     },
-    outputPort: state.ports.outputs.get(outputPort),
+    outputPort: state.ports.outputs.get(outputPort.id),
   }));
   const makeAnotherRoute = await chooseMakeAnother();
   if (makeAnotherRoute) {

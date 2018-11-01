@@ -1,3 +1,4 @@
+const logger = require('../utils/logger');
 const sendMIDIOut = require('../utils/sendMIDIOut');
 const store = require('../store');
 const { routeAction } = require('../store/routes/actionCreators');
@@ -8,21 +9,25 @@ const attachListeners = require('./attachListeners');
 let pendingNotes = {};
 
 const sendSequencer = (parsedEvent, index, state) => {
+  logger.info(`${JSON.stringify(state.routes[index], null, 2)}`);
   const route = state.routes[index];
-  const currentStep = state.transport.currentIndex % (Math.pow(2, route.n) * route.multiplier * 64);
-  const q = route.quantization.recording;
-  const quantizedStep = currentStep % q > q / 2
-    ? currentStep + (q - (currentStep % q))
-    : currentStep - (currentStep % q);
-
   if (route.armed && state.transport.playing) {
+    const currentStep = state.transport.currentIndex % (Math.pow(2, route.n) * route.multiplier * 64);
+    const q = route.quantization.recording;
+    const quantizedStep = currentStep % q > q / 2
+      ? currentStep + (q - (currentStep % q))
+      : currentStep - (currentStep % q);
+
     if (parsedEvent.messageType === 'noteon') {
+      logger.info('attempting to save');
       pendingNotes[`${index}-${parsedEvent.channel}-${parsedEvent.key}`] = {
         step: quantizedStep,
         trueStep: currentStep,
         event: parsedEvent,
       };
+      logger.info(pendingNotes);
     } else if (parsedEvent.messageType === 'noteoff') {
+      logger.info(JSON.stringify(pendingNotes));
       const previousNoteOn = pendingNotes[`${index}-${parsedEvent.channel}-${parsedEvent.key}`];
       if (previousNoteOn) {
         store.dispatch(routeAction(index, addMessage(previousNoteOn.event, previousNoteOn.step)));
@@ -35,12 +40,14 @@ const sendSequencer = (parsedEvent, index, state) => {
     } else {
       store.dispatch(routeAction(index, addMessage(parsedEvent, currentStep)));
     }
-  } else if (parsedEvent.messageType === 'noteoff') {
+  } else if (!state.transport.playing && parsedEvent.messageType === 'noteoff') {
     pendingNotes = {};
+  } else if (parsedEvent.messageType === 'noteoff') {
+    pendingNotes[`${index}-${parsedEvent.channel}-${parsedEvent.key}`] = null;
   }
 };
 
-const createListener = (route, outputPort, index) => {
+const createListener = (route, index) => {
   const listener = (parsedEvent) => {
     const state = store.getState();
     if (parsedEvent.channel === route.in.channel) {
@@ -53,10 +60,9 @@ const createListener = (route, outputPort, index) => {
 
 const createListeners = () => {
   const state = store.getState();
-  const { routes = [], ports } = state;
+  const { routes = [] } = state;
   routes.forEach((route, index) => {
-    const outputPort = ports.outputs.get(route.out.id);
-    createListener(route, outputPort, index);
+    createListener(route, index);
   });
 };
 

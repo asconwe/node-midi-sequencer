@@ -16,6 +16,14 @@ const decrementN = () => ({
   type: constants.DECREMENT_N,
 });
 
+const doubleRecordingQuantization = () => ({
+  type: constants.DOUBLE_RECORDING_QUANTIZATION,
+});
+
+const halveRecordingQuantization = () => ({
+  type: constants.HALVE_RECORDING_QUANTIZATION,
+});
+
 const arm = () => ({
   type: constants.ARM,
 });
@@ -30,6 +38,11 @@ const addMessage = (message, step) => ({
   step,
 });
 
+const updateRoute = update => ({
+  type: constants.UPDATE,
+  update,
+});
+
 module.exports = {
   incrementMultiplier,
   incrementN,
@@ -38,4 +51,7 @@ module.exports = {
   arm,
   disarm,
   addMessage,
+  halveRecordingQuantization,
+  doubleRecordingQuantization,
+  updateRoute,
 };

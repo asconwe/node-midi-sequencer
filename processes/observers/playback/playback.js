@@ -14,13 +14,9 @@ module.exports = () => observeStore(
   }),
   ({ currentStep, tracks }) => {
     tracks.forEach((route, index) => {
-      logger.info(`current step: ${currentStep}`);
       const { n, multiplier } = route;
-      logger.info(`n: ${n}, multiplier: ${multiplier}`);
       const timelineLength = Math.pow(2, n) * multiplier * 64;
-      logger.info(`timeline length: ${timelineLength}`);
       const trackStep = currentStep % timelineLength;
-      logger.info(trackStep);
       if (route.messages[trackStep]) {
         route.messages[trackStep].forEach((message) => {
           sendMIDIOut(message, route);

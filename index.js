@@ -7,6 +7,8 @@ const render = require('./utils/render');
 const initMIDIAccess = require('./processes/init/MIDIAccess');
 const initPorts = require('./processes/init/ports');
 const initUserConfig = require('./processes/init/userConfig.v2');
+const initConfigReload = require('./processes/init/reloadConfig');
+const reinitPortsByName = require('./processes/init/reinitPortsByName');
 const initUserControl = require('./processes/init/userControl');
 const armRoutes = require('./processes/armRoutes');
 const armTransport = require('./processes/armTransport');
@@ -23,7 +25,12 @@ async function init() {
   await initUserControl();
   armControlButton();
   armControlKnob();
-  await initUserConfig();
+  const reloaded = await initConfigReload();
+  if (reloaded) {
+    reinitPortsByName();
+  } else {
+    await initUserConfig();
+  }
   armRoutes();
   armTransport();
   armTransportButton();

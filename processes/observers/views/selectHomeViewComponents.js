@@ -19,11 +19,10 @@ module.exports = createSelector(
   selectMenuTitle,
   buildView(horizontalMenu, selectMenu),
   buildView(transportStateView, selectIsPlaying),
-  () => 'Recording: not implemented',
   buildView(tempoStateView, selectTempo),
   buildView(currentTimeStateView, selectCurrentIndex, selectBaseStepsPerBeat),
   buildView(tracksView, selectAllTracks, selectCurrentIndex, selectBaseStepsPerBeat),
-  (menuTitle, menu, transportState, recordingState, tempo, time, tracks) => ({
-    menu, menuTitle, transportState, recordingState, tempo, time, tracks,
+  (menuTitle, menu, transportState, tempo, time, tracks) => ({
+    menu, menuTitle, transportState, tempo, time, tracks,
   }),
 );

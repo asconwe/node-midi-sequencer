@@ -5,7 +5,7 @@ const { setMenuItems, setMenuTitle, updateMenuItem } = require('../../../store/m
 const createBackAction = require('./restorePreviousMenu');
 const { routeAction } = require('../../../store/routes/actionCreators');
 const {
-  arm, disarm, incrementMultiplier, incrementN, decrementMultiplier, decrementN,
+  arm, disarm, incrementMultiplier, incrementN, decrementMultiplier, decrementN, doubleRecordingQuantization, halveRecordingQuantization,
 } = require('../../../store/routes/route/actionCreators.js');
 
 let holdInterval;
@@ -47,8 +47,17 @@ const setMultiplier = index => ({
   pressAndHoldReleaseAction: dispatchThunk(clearInterceptor('control')),
 });
 
+const setRecordingQuantization = index => ({
+  name: 'set recording quantization',
+  pressAndHoldAction: dispatchThunk(setInterceptor('control', {
+    upAction: dispatchThunk(routeAction(index, doubleRecordingQuantization())),
+    downAction: dispatchThunk(routeAction(index, halveRecordingQuantization())),
+  })),
+  pressAndHoldReleaseAction: dispatchThunk(clearInterceptor('control')),
+});
+
 module.exports = (track, index) => {
   const back = createBackAction();
-  store.dispatch(setMenuItems([back, toggleArm(index, track.armed, back), setN(index), setMultiplier(index)]));
+  store.dispatch(setMenuItems([back, toggleArm(index, track.armed, back), setN(index), setMultiplier(index), setRecordingQuantization(index)]));
   store.dispatch(setMenuTitle(`track ${index}`));
 };

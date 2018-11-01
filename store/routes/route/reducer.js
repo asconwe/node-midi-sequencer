@@ -20,6 +20,7 @@ const initialRouteState = {
   length: 4,
   in: {},
   out: {},
+  outputPort: {},
 };
 
 const routeIndexReducer = (state = initialRouteState, action = {}) => {
@@ -27,7 +28,7 @@ const routeIndexReducer = (state = initialRouteState, action = {}) => {
     case constants.UPDATE:
       return {
         ...state,
-        ...action.payload,
+        ...action.update,
       };
     case constants.QUANTIZE_PLAYBACK:
       return {
@@ -43,6 +44,26 @@ const routeIndexReducer = (state = initialRouteState, action = {}) => {
         quantization: {
           playback: state.quantization.playback,
           recording: 1 / action.denominator,
+        },
+      };
+    case constants.DOUBLE_RECORDING_QUANTIZATION:
+      return {
+        ...state,
+        quantization: {
+          ...state.quantization,
+          recording: state.quantization.recording < 256
+            ? state.quantization.recording * 2
+            : state.quantization.recording,
+        },
+      };
+    case constants.HALVE_RECORDING_QUANTIZATION:
+      return {
+        ...state,
+        quantization: {
+          ...state.quantization,
+          recording: state.quantization.recording > 1
+            ? state.quantization.recording / 2
+            : state.quantization.recording,
         },
       };
     case constants.ARM:

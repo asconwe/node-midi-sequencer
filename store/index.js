@@ -10,6 +10,7 @@ const menus = require('./menus/reducer');
 const view = require('./view/reducer');
 const buttons = require('./buttons/reducer');
 const knobs = require('./knobs/reducer');
+const { reloadReducer } = require('./reload');
 
 const initialized = (state = false, action) => (action.type === 'INITIALIZED' ? true : state);
 
@@ -27,6 +28,6 @@ const rootReducer = combineReducers({
   knobs,
 });
 
-const store = createStore(rootReducer);
+const store = createStore(reloadReducer(rootReducer, {}));
 
 module.exports = store;
