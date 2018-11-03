@@ -1,10 +1,11 @@
 const logger = require('../../utils/logger');
 
 const store = require('../../store');
-const oldStateJSON = require('../../logs/state.json');
 const { setMenuItems, setMenuTitle } = require('../../store/menus/actionCreators');
 const { renderDerivedMenu } = require('../../store/view/actionCreators');
 const { reloadAction: reload } = require('../../store/reload');
+const getIfPresent = require('../../utils/getIfPresent');
+const oldStateJSON = getIfPresent(() => require('../../logs/state.json'));
 
 const queryIfReload = async () => new Promise((resolve, reject) => {
   try {
