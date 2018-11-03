@@ -107,6 +107,16 @@ const routeIndexReducer = (state = initialRouteState, action = {}) => {
           ),
         },
       };
+    case constants.CLEAR_TIMELINE:
+      return {
+        ...state,
+        messages: {},
+      };
+    case constants.REPLACE_TIMELINE:
+      return {
+        ...state,
+        messages: action.messages,
+      };
     default:
       return {
         ...initialRouteState,

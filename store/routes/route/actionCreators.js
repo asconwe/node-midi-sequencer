@@ -38,6 +38,15 @@ const addMessage = (message, step) => ({
   step,
 });
 
+const clearTimeline = () => ({
+  type: constants.CLEAR_TIMELINE,
+});
+
+const replaceTimeline = messages => ({
+  type: constants.REPLACE_TIMELINE,
+  messages,
+});
+
 const updateRoute = update => ({
   type: constants.UPDATE,
   update,
@@ -54,4 +63,6 @@ module.exports = {
   halveRecordingQuantization,
   doubleRecordingQuantization,
   updateRoute,
+  clearTimeline,
+  replaceTimeline,
 };

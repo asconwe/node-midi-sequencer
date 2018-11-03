@@ -1,4 +1,3 @@
-const logger = require('../utils/logger');
 const sendMIDIOut = require('../utils/sendMIDIOut');
 const store = require('../store');
 const { routeAction } = require('../store/routes/actionCreators');
@@ -9,7 +8,6 @@ const attachListeners = require('./attachListeners');
 let pendingNotes = {};
 
 const sendSequencer = (parsedEvent, index, state) => {
-  logger.info(`${JSON.stringify(state.routes[index], null, 2)}`);
   const route = state.routes[index];
   if (route.armed && state.transport.playing) {
     const currentStep = state.transport.currentIndex % (Math.pow(2, route.n) * route.multiplier * 64);
@@ -19,15 +17,12 @@ const sendSequencer = (parsedEvent, index, state) => {
       : currentStep - (currentStep % q);
 
     if (parsedEvent.messageType === 'noteon') {
-      logger.info('attempting to save');
       pendingNotes[`${index}-${parsedEvent.channel}-${parsedEvent.key}`] = {
         step: quantizedStep,
         trueStep: currentStep,
         event: parsedEvent,
       };
-      logger.info(pendingNotes);
     } else if (parsedEvent.messageType === 'noteoff') {
-      logger.info(JSON.stringify(pendingNotes));
       const previousNoteOn = pendingNotes[`${index}-${parsedEvent.channel}-${parsedEvent.key}`];
       if (previousNoteOn) {
         store.dispatch(routeAction(index, addMessage(previousNoteOn.event, previousNoteOn.step)));
