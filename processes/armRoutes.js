@@ -10,7 +10,7 @@ let pendingNotes = {};
 const sendSequencer = (parsedEvent, index, state) => {
   const route = state.routes[index];
   if (route.armed && state.transport.playing) {
-    const currentStep = state.transport.currentIndex % (Math.pow(2, route.n) * route.multiplier * 64);
+    const currentStep = state.transport.currentIndex % (Math.pow(2, route.n) * route.multiplier * 16);
     const q = route.quantization.recording;
     const quantizedStep = currentStep % q > q / 2
       ? currentStep + (q - (currentStep % q))
