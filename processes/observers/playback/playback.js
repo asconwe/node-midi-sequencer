@@ -15,7 +15,7 @@ module.exports = () => observeStore(
   ({ currentStep, tracks }) => {
     tracks.forEach((route, index) => {
       const { n, multiplier } = route;
-      const timelineLength = Math.pow(2, n) * multiplier * 64;
+      const timelineLength = Math.pow(2, n) * multiplier * 16;
       const trackStep = currentStep % timelineLength;
       if (route.messages[trackStep]) {
         route.messages[trackStep].forEach((message) => {
