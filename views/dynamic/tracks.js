@@ -10,7 +10,7 @@ const trackStateView = (track, index, currentStep, baseStepsPerBeat) => {
   const m = Math.trunc(timelineLength / 4);
   const b = timelineLength % 4;
 
-  const recQString = colors.green(`1/${256 / quantization.recording}`);
+  const recQString = colors.green(`1/${64 / quantization.recording}`);
 
   const timelineIllustration = [];
   for (let i = 0; i < timelineLength; i++) {

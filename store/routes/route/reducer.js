@@ -51,7 +51,7 @@ const routeIndexReducer = (state = initialRouteState, action = {}) => {
         ...state,
         quantization: {
           ...state.quantization,
-          recording: state.quantization.recording < 256
+          recording: state.quantization.recording < 64
             ? state.quantization.recording * 2
             : state.quantization.recording,
         },

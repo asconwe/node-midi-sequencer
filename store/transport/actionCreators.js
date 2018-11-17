@@ -9,7 +9,7 @@ const getCurrentIndex = () => {
 
 const advanceTransportToNext = (noteLength) => {
   const currentIndex = getCurrentIndex();
-  const calculatedLength = 256 * noteLength;
+  const calculatedLength = 64 * noteLength;
   const diff = calculatedLength - (currentIndex % calculatedLength);
   const newCurrentIndex = currentIndex + diff;
   return ({
@@ -20,7 +20,7 @@ const advanceTransportToNext = (noteLength) => {
 
 const retreatTransportToPrevious = (noteLength) => {
   const currentIndex = getCurrentIndex();
-  const calculatedLength = 256 * noteLength;
+  const calculatedLength = 64 * noteLength;
   const diff = (currentIndex % calculatedLength);
   const newCurrentIndex = currentIndex - diff;
   return ({

@@ -5,7 +5,7 @@ const selectIsPlaying = state => state.transport.playing;
 const selectTempo = state => state.transport.tempo;
 const selectDidTick = state => state.transport.tick;
 
-const baseStep = 256;
+const baseStep = 64;
 
 const selectBaseStepsPerBeat = () => baseStep / 4;
 
