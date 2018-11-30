@@ -12,7 +12,7 @@ const { handleKnobEvent, handleButtonEvent } = require('../handleSequencerContro
 const attachListeners = require('../attachListeners');
 
 const store = require('../../store');
-const observeStore = require('../../store/observeStore');
+const observeStore = require('../../utils/observeStore');
 const { renderView } = require('../../store/view/actionCreators');
 const { allInputs } = require('../../store/ports/selectors');
 const { selectControls } = require('../../store/userControl/selectors');
@@ -77,28 +77,6 @@ module.exports = () => new Promise(((resolve) => {
     });
   };
 
-  const setRecordButton = (inputs, controlKnob, controlButton, transportButton) => {
-    store.dispatch(renderView((SET_RECORD_BUTTON_VIEW)));
-    inputs.forEach((port) => {
-      port.onmidimessage = (event) => {
-        const parsedEvent = MIDIMessage(event);
-        if (
-          (parsedEvent.channel !== controlKnob.channel || parsedEvent.controllerNumber !== controlKnob.controllerNumber)
-          && (parsedEvent.channel !== controlButton.channel || parsedEvent.controllerNumber !== controlButton.controllerNumber)
-          && (parsedEvent.channel !== transportButton.channel || parsedEvent.controllerNumber !== transportButton.controllerNumber)
-        ) {
-          const recordButton = {
-            channel: parsedEvent.channel,
-            controllerNumber: parsedEvent.controllerNumber,
-            id: parsedEvent._event.currentTarget.id,
-          };
-          logger.info('Record button set');
-          store.dispatch(update({ recordButton }));
-        }
-      };
-    });
-  };
-
   const clearMIDIListeners = (inputs) => {
     inputs.forEach((port) => {
       port.onmidimessage = () => null;
@@ -123,14 +101,11 @@ module.exports = () => new Promise(((resolve) => {
           return setControlButton(inputs, controlKnob);
         } if (!transportButton) {
           return setTransportButton(inputs, controlKnob, controlButton);
-        } if (!recordButton) {
-          return setRecordButton(inputs, controlKnob, controlButton, transportButton);
         }
         clearMIDIListeners(inputs);
         store.dispatch(addMIDIListener({ id: controlKnob.id, listener: handleKnobEvent('control')(controlKnob), type: 'control-knob' }));
         store.dispatch(addMIDIListener({ id: controlButton.id, listener: handleButtonEvent('control')(controlButton), type: 'control-button' }));
         store.dispatch(addMIDIListener({ id: transportButton.id, listener: handleButtonEvent('transport')(transportButton), type: 'transport-button' }));
-        store.dispatch(addMIDIListener({ id: recordButton.id, listener: handleButtonEvent('record')(recordButton), type: 'record-button' }));
         attachListeners();
         unsubscribe();
         return resolve();

@@ -1,6 +1,6 @@
 const logger = require('../../../utils/logger');
 const store = require('../../../store');
-const observeStore = require('../../../store/observeStore');
+const observeStore = require('../../../utils/observeStore');
 const { selectTransportButtonState } = require('../../../store/buttons/selectors');
 const { toggleTransport } = require('../../../store/transport/actionCreators');
 const handleButtonStateChange = require('./common/handleButtonStateChange');

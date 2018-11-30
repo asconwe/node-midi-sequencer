@@ -1,7 +1,7 @@
 const readline = require('readline');
 const logger = require('./logger');
 const store = require('../store');
-const observeStore = require('../store/observeStore');
+const observeStore = require('./observeStore');
 const { selectView } = require('../store/view/selectors');
 const { throttle } = require('lodash');
 const errorView = require('../views/error');

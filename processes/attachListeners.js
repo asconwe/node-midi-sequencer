@@ -12,24 +12,29 @@ const attachListeners = () => {
   const { listeners, ports } = state;
   const { controlKnob, controlButton } = selectControls(state);
   ports.inputs.forEach((input) => {
-    // Maybe: check listener type, here! :)
-
-    input.onmidimessage = (event) => {
-      if (listeners[input.id] && listeners[input.id].length > 0) {
+    // If this input has any listeners
+    if (listeners[input.id] && listeners[input.id].length > 0) {
+      input.onmidimessage = (event) => {
         const parsedEvent = MIDIMessage(event);
-        // If is sequencer control knob or button, call first listener only
+        if (
+          (parsedEvent._event.currentTarget.id === controlButton.id
+            && parsedEvent.controllerNumber == controlButton.controllerNumber)
+        ) {
+          logger.info('first');
+          return listeners[controlButton.id][1](parsedEvent);
+        }
         if (
           (parsedEvent._event.currentTarget.id === controlKnob.id
-            || parsedEvent._event.currentTarget.id === controlButton.id)
-          && (parsedEvent.controllerNumber == controlKnob.controllerNumber
-            || parsedEvent.controllerNumber == controlButton.controllerNumber)
+            && parsedEvent.controllerNumber == controlKnob.controllerNumber)
         ) {
-          if (controlKnob.id === controlButton.id) listeners[input.id][1](parsedEvent);
-          return listeners[input.id][0](parsedEvent);
+          logger.info('second');
+          if (controlKnob.id === controlButton.id) return listeners[controlKnob.id][0](parsedEvent);
+          logger.info('third');
+          return listeners[controlKnob.id][1](parsedEvent);
         }
         return callCombinedListeners(listeners[input.id], parsedEvent);
-      }
-    };
+      };
+    }
   });
 };
 

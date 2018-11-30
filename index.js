@@ -25,6 +25,7 @@ async function init() {
   await initUserControl();
   armControlButton();
   armControlKnob();
+  logger.info('armed the things');
   const reloaded = await initConfigReload();
   if (reloaded) {
     reinitPortsByName();

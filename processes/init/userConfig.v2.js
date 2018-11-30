@@ -4,6 +4,7 @@ const { renderDerivedMenu } = require('../../store/view/actionCreators');
 const { selectPorts } = require('../../store/ports/selectors');
 const { setMenuItems, setMenuTitle } = require('../../store/menus/actionCreators');
 const { appendRoute } = require('../../store/routes/actionCreators');
+const initRouteProcess = require('./initRoute');
 
 const channels = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16];
 
@@ -100,7 +101,7 @@ const chooseMakeAnother = async () => new Promise((resolve, reject) => {
 });
 
 
-const makeRoute = async () => {
+const makeRoute = async (index = 0) => {
   logger.info('user config');
   const state = store.getState();
   const inputPort = await chooseInputPort(state);
@@ -118,11 +119,12 @@ const makeRoute = async () => {
       name: outputPort.name,
       channel: outputChannel,
     },
+    process: initRouteProcess(index),
     outputPort: state.ports.outputs.get(outputPort.id),
   }));
   const makeAnotherRoute = await chooseMakeAnother();
   if (makeAnotherRoute) {
-    return makeRoute();
+    return makeRoute(index + 1);
   }
   return null;
 };

@@ -1,33 +1,37 @@
-const { combineReducers, createStore } = require('redux');
+try {
+  const { combineReducers, createStore } = require('redux');
 
-const ports = require('./ports/reducer');
-const routes = require('./routes/reducer');
-const MIDIAccess = require('./MIDI-access/reducer');
-const listeners = require('./listeners/reducer');
-const transport = require('./transport/reducer');
-const userControl = require('./userControl/reducer');
-const menus = require('./menus/reducer');
-const view = require('./view/reducer');
-const buttons = require('./buttons/reducer');
-const knobs = require('./knobs/reducer');
-const { reloadReducer } = require('./reload');
+  const ports = require('./ports/reducer');
+  const routes = require('./routes/reducer');
+  const MIDIAccess = require('./MIDI-access/reducer');
+  const listeners = require('./listeners/reducer');
+  const transport = require('./transport/reducer');
+  const userControl = require('./userControl/reducer');
+  const menus = require('./menus/reducer');
+  const view = require('./view/reducer');
+  const buttons = require('./buttons/reducer');
+  const knobs = require('./knobs/reducer');
+  const { reloadReducer } = require('./reload');
 
-const initialized = (state = false, action) => (action.type === 'INITIALIZED' ? true : state);
+  const initialized = (state = false, action) => (action.type === 'INITIALIZED' ? true : state);
 
-const rootReducer = combineReducers({
-  initialized,
-  routes,
-  ports,
-  MIDIAccess,
-  listeners,
-  transport,
-  userControl,
-  view,
-  menus,
-  buttons,
-  knobs,
-});
+  const rootReducer = combineReducers({
+    initialized,
+    routes,
+    ports,
+    MIDIAccess,
+    listeners,
+    transport,
+    userControl,
+    view,
+    menus,
+    buttons,
+    knobs,
+  });
 
-const store = createStore(reloadReducer(rootReducer, {}));
+  const store = createStore(reloadReducer(rootReducer, {}));
 
-module.exports = store;
+  module.exports = store;
+} catch (error) {
+  throw new Error('HAPPENED HERE!');
+}

@@ -1,6 +1,7 @@
 const store = require('../../store');
 const { routeAction } = require('../../store/routes/actionCreators');
 const { updateRoute } = require('../../store/routes/route/actionCreators');
+const initRouteProcess = require('./initRoute');
 
 const reinitPortsByName = () => {
   const state = store.getState();
@@ -31,6 +32,7 @@ const reinitPortsByName = () => {
         id: newOutId,
       },
       outputPort: newOutputPort,
+      process: initRouteProcess(),
     };
     store.dispatch(routeAction(index, updateRoute(updatedRoute)));
   });

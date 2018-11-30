@@ -1,5 +1,5 @@
 const store = require('../../../store');
-const observeStore = require('../../../store/observeStore');
+const observeStore = require('../../../utils/observeStore');
 const { selectControlButtonState } = require('../../../store/buttons/selectors');
 const handleButtonStateChange = require('./common/handleButtonStateChange');
 const {

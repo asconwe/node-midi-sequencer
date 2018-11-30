@@ -1,6 +1,7 @@
+const logger = require('../../../utils/logger');
 const { throttle } = require('lodash');
 const store = require('../../../store');
-const observeStore = require('../../../store/observeStore');
+const observeStore = require('../../../utils/observeStore');
 const { selectControlKnobState } = require('../../../store/knobs/selectors');
 const { nextIndex, previousIndex } = require('../../../store/menus/actionCreators');
 const { renderDerivedMenu } = require('../../../store/view/actionCreators');
