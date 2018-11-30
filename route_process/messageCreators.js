@@ -30,6 +30,12 @@ const setMidiMessage = (midiMessage, step) => ({
   step,
 });
 
+const doAction = (action, ...args) => ({
+  type: constants.toRouteProcess.DO,
+  action,
+  args,
+});
+
 module.exports = {
   toMainProcess: {
     sendMidiMessage,
@@ -40,5 +46,6 @@ module.exports = {
     setMidiMessage,
     dispatch,
     getState,
+    doAction,
   },
 };

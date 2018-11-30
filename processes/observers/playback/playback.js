@@ -10,11 +10,10 @@ const { toRouteProcess } = require('../../../route_process/messageCreators');
 
 module.exports = () => observeStore(
   store,
-  state => ({
-    currentStep: selectCurrentIndex(state),
-    tracks: selectAllTracks(state),
-  }),
-  ({ currentStep, tracks }) => {
+  selectCurrentIndex,
+  (currentStep) => {
+    const state = store.getState();
+    const tracks = selectAllTracks(state);
     tracks.forEach((route, index) => {
       // const { n, multiplier } = route;
       // const timelineLength = Math.pow(2, n) * multiplier * 16;

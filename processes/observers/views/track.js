@@ -4,6 +4,9 @@ const { setInterceptor, clearInterceptor } = require('../../../store/knobs/actio
 const { setMenuItems, setMenuTitle, updateMenuItem } = require('../../../store/menus/actionCreators');
 const createBackAction = require('./restorePreviousMenu');
 const { routeAction } = require('../../../store/routes/actionCreators');
+const routeProcessAction = require('../../../store/routes/route/routeProcessActionCreator');
+const { toRouteProcess } = require('../../../route_process/messageCreators');
+const { selectAllTracks } = require('../../../store/routes/selectors');
 const {
   arm,
   disarm,
@@ -15,7 +18,7 @@ const {
   halveRecordingQuantization,
   clearTimeline,
 } = require('../../../store/routes/route/actionCreators.js');
-const { incrementNWithCopy, incrementMultiplierWithCopy } = require('../../../store/routes/route/long-actions/incrementWithCopy');
+const { incrementNWithCopy, incrementMultiplierWithCopy } = require('../../../route_process/store/compoundActions');
 
 let holdInterval;
 
@@ -32,21 +35,35 @@ const startHoldIntervalThunk = func => () => {
 
 const setLengthSubmenu = (index) => {
   const back = createBackAction();
+  const state = store.getState();
+  const route = selectAllTracks(state)[index];
   store.dispatch(setMenuItems([
     back,
     {
       name: 'set N',
       pressAndHoldAction: dispatchThunk(setInterceptor('control', {
-        upAction: () => incrementNWithCopy(index),
-        downAction: dispatchThunk(routeAction(index, decrementN())),
+        upAction: () => {
+          route.process.send(toRouteProcess.doAction('incrementNWithCopy', index));
+          store.dispatch(routeAction(index, incrementN()));
+        },
+        downAction: () => {
+          store.dispatch(routeAction(index, decrementN()));
+          routeProcessAction(index, decrementN());
+        },
       })),
       pressAndHoldReleaseAction: dispatchThunk(clearInterceptor('control')),
     },
     {
       name: 'set multiplier',
       pressAndHoldAction: dispatchThunk(setInterceptor('control', {
-        upAction: () => incrementMultiplierWithCopy(index),
-        downAction: dispatchThunk(routeAction(index, decrementMultiplier())),
+        upAction: () => {
+          route.process.send(toRouteProcess.doAction('incrementMultiplierWithCopy', index));
+          store.dispatch(routeAction(index, incrementMultiplier()));
+        },
+        downAction: () => {
+          store.dispatch(routeAction(index, decrementMultiplier()));
+          routeProcessAction(index, decrementMultiplier());
+        },
       })),
       pressAndHoldReleaseAction: dispatchThunk(clearInterceptor('control')),
     },
@@ -66,8 +83,14 @@ const setN = index => ({
   name: 'set N',
   pressReleaseAction: () => setLengthSubmenu(index),
   pressAndHoldAction: dispatchThunk(setInterceptor('control', {
-    upAction: dispatchThunk(routeAction(index, incrementN())),
-    downAction: dispatchThunk(routeAction(index, decrementN())),
+    upAction: () => {
+      store.dispatch(routeAction(index, incrementN()));
+      routeProcessAction(index, incrementN());
+    },
+    downAction: () => {
+      store.dispatch(routeAction(index, decrementN()));
+      routeProcessAction(index, decrementN());
+    },
   })),
   pressAndHoldReleaseAction: dispatchThunk(clearInterceptor('control')),
 });
@@ -76,8 +99,14 @@ const setMultiplier = index => ({
   name: 'set multiplier',
   pressReleaseAction: () => setLengthSubmenu(index),
   pressAndHoldAction: dispatchThunk(setInterceptor('control', {
-    upAction: dispatchThunk(routeAction(index, incrementMultiplier())),
-    downAction: dispatchThunk(routeAction(index, decrementMultiplier())),
+    upAction: () => {
+      store.dispatch(routeAction(index, incrementMultiplier()));
+      routeProcessAction(index, incrementMultiplier());
+    },
+    downAction: () => {
+      store.dispatch(routeAction(index, decrementMultiplier()));
+      routeProcessAction(index, decrementMultiplier());
+    },
   })),
   pressAndHoldReleaseAction: dispatchThunk(clearInterceptor('control')),
 });
@@ -85,15 +114,21 @@ const setMultiplier = index => ({
 const setRecordingQuantization = index => ({
   name: 'set recording quantization',
   pressAndHoldAction: dispatchThunk(setInterceptor('control', {
-    upAction: dispatchThunk(routeAction(index, doubleRecordingQuantization())),
-    downAction: dispatchThunk(routeAction(index, halveRecordingQuantization())),
+    upAction: () => {
+      store.dispatch(routeAction(index, doubleRecordingQuantization()));
+      routeProcessAction(index, doubleRecordingQuantization());
+    },
+    downAction: () => {
+      store.dispatch(routeAction(index, halveRecordingQuantization()));
+      routeProcessAction(index, halveRecordingQuantization());
+    },
   })),
   pressAndHoldReleaseAction: dispatchThunk(clearInterceptor('control')),
 });
 
 const clear = index => ({
   name: 'clear track',
-  pressReleaseAction: dispatchThunk(routeAction(index, clearTimeline())),
+  pressReleaseAction: () => routeProcessAction(index, clearTimeline()),
 });
 
 module.exports = (track, index) => {

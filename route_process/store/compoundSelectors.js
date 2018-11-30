@@ -4,7 +4,8 @@ const { selectMessageIndexes } = require('./messages/selectors');
 
 const selectNewTrackTimelineData = (state, index, { newN, newMultiplier }) => {
   const baseStepsPerBeat = selectBaseStepsPerBeat(state);
-  const { n, multiplier } = state.routes[index];
+  const { n, multiplier } = state.length;
+  const currentTimeline = state.messages.messages;
   const newTimelineLength = baseStepsPerBeat * (2 ** (newN || n)) * (newMultiplier || multiplier);
   const currentTimelineLength = selectLength(state, index);
   const product = newTimelineLength / currentTimelineLength;
@@ -24,6 +25,6 @@ const selectNewTrackTimelineData = (state, index, { newN, newMultiplier }) => {
   }, {});
 };
 
-module.exporst = {
+module.exports = {
   selectNewTrackTimelineData,
 };

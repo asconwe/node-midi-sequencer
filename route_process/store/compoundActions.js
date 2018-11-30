@@ -1,11 +1,12 @@
-const logger = require('../../../../utils/logger');
-const store = require('../index');
+const logger = require('../../utils/logger');
+const store = require('../store');
 const { selectN, selectMultiplier } = require('./length/selectors');
 const { selectNewTrackTimelineData } = require('./compoundSelectors');
 const { incrementN, incrementMultiplier } = require('./length/actionCreators');
 const { replaceTimeline } = require('./messages/actionCreators');
 
 const changeLengthWithCopy = (index, { isN, newValue }) => {
+  logger.info('change length with copy');
   const state = store.getState();
   const n = selectN(state);
   const multiplier = selectMultiplier(state);

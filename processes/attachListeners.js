@@ -20,16 +20,13 @@ const attachListeners = () => {
           (parsedEvent._event.currentTarget.id === controlButton.id
             && parsedEvent.controllerNumber == controlButton.controllerNumber)
         ) {
-          logger.info('first');
           return listeners[controlButton.id][1](parsedEvent);
         }
         if (
           (parsedEvent._event.currentTarget.id === controlKnob.id
             && parsedEvent.controllerNumber == controlKnob.controllerNumber)
         ) {
-          logger.info('second');
           if (controlKnob.id === controlButton.id) return listeners[controlKnob.id][0](parsedEvent);
-          logger.info('third');
           return listeners[controlKnob.id][1](parsedEvent);
         }
         return callCombinedListeners(listeners[input.id], parsedEvent);

@@ -9,6 +9,7 @@ try {
   const { toMainProcess } = require('./messageCreators');
   const { addMessage } = require('./store/messages/actionCreators');
   const handleMidiMessage = require('./handleMidiMessage');
+  const compoundActions = require('./store/compoundActions');
 
   logger.info('route-process');
 
@@ -31,7 +32,7 @@ try {
     store.dispatch(action);
   };
 
-  process.on('message', (message) => {
+  const handleCompoundDispatch = process.on('message', (message) => {
     logger.info('message');
     switch (message.type) {
       case constants.toRouteProcess.SET_MIDI_MESSAGE:
@@ -42,6 +43,11 @@ try {
         break;
       case constants.toRouteProcess.DISPATCH:
         handleDispatch(message.action);
+        break;
+      case constants.toRouteProcess.DO:
+        logger.info('constants.toRouteProcess.DO');
+        logger.info(`action ${message.action}`);
+        compoundActions[message.action](...message.args);
         break;
       case constants.toRouteProcess.GET_STATE:
         handleGetState();

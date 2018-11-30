@@ -1,4 +1,5 @@
 const store = require('../../index');
+const logger = require('../../../utils/logger');
 const { toRouteProcess } = require('../../../route_process/messageCreators');
 const { selectTrack } = require('./selectors');
 
