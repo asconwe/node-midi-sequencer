@@ -14,15 +14,7 @@ module.exports = () => observeStore(
   (currentStep) => {
     const state = store.getState();
     const tracks = selectAllTracks(state);
-    tracks.forEach((route, index) => {
-      // const { n, multiplier } = route;
-      // const timelineLength = Math.pow(2, n) * multiplier * 16;
-      // const trackStep = currentStep % timelineLength;
-      // if (route.messages[trackStep]) {
-      //   route.messages[trackStep].forEach((message) => {
-      //     sendMIDIOut(message, route);
-      //   });
-      // }
+    tracks.forEach((route) => {
       route.process.send(toRouteProcess.getMidiMessages(currentStep));
     });
   },

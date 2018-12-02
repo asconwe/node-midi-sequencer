@@ -1,4 +1,4 @@
-
+const logger = require('../utils/logger');
 const store = require('./store');
 const { selectRecordingQuantization } = require('./store/quantization/selectors');
 const { selectPendingNote } = require('./store/pendingNotes/selectors');
@@ -9,8 +9,8 @@ const { addPendingNote, clearPendingNote } = require('./store/pendingNotes/actio
 const handleMidiMessage = (parsedEvent, position) => {
   const state = store.getState();
   const length = selectLength(state);
-  const currentStep = [position % length];
-  const q = selectRecordingQuantization(state);
+  const currentStep = position % length;
+  const q = selectRecordingQuantization(state, 10);
   const quantizedStep = currentStep % q > q / 2
     ? currentStep + (q - (currentStep % q))
     : currentStep - (currentStep % q);
@@ -25,9 +25,8 @@ const handleMidiMessage = (parsedEvent, position) => {
     const previousNoteOn = selectPendingNote(state, parsedEvent.key);
     if (previousNoteOn) {
       store.dispatch(addMessage(previousNoteOn.event, previousNoteOn.step));
-      const offStep = quantizedStep <= previousNoteOn.step
-        ? quantizedStep + q
-        : quantizedStep;
+      const qDiff = previousNoteOn.step - previousNoteOn.trueStep;
+      const offStep = parseInt(currentStep) + parseInt(qDiff);
       store.dispatch(addMessage(parsedEvent, offStep));
       store.dispatch(clearPendingNote(parsedEvent.key));
     }

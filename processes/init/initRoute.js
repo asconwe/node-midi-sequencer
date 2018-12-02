@@ -9,7 +9,6 @@ const initRoute = (index) => {
   const routeProcess = fork('./route_process');
   // add listeners here! :)
   routeProcess.on('message', (data) => {
-    logger.info('FROM ROUTE PROCESS');
     if (data.type === 'error') {
       logger.info(data.message);
       logger.info(data.stack);
@@ -23,7 +22,6 @@ const initRoute = (index) => {
       const route = selectAllTracks(state)[index];
       sendMIDIOut(data.midiMessage, route);
     }
-    logger.info(`type: ${data.type}`);
   });
   return routeProcess;
 };

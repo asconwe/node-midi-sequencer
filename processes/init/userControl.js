@@ -29,7 +29,6 @@ module.exports = () => new Promise(((resolve) => {
           controllerNumber: parsedEvent.controllerNumber,
           id: parsedEvent._event.currentTarget.id,
         };
-        logger.info('Control knob set');
         store.dispatch(update({ controlKnob }));
       };
     });
@@ -49,7 +48,6 @@ module.exports = () => new Promise(((resolve) => {
             controllerNumber: parsedEvent.controllerNumber,
             id: parsedEvent._event.currentTarget.id,
           };
-          logger.info('Control button set');
           store.dispatch(update({ controlButton }));
         }
       };
@@ -70,7 +68,6 @@ module.exports = () => new Promise(((resolve) => {
             controllerNumber: parsedEvent.controllerNumber,
             id: parsedEvent._event.currentTarget.id,
           };
-          logger.info('Transport button set');
           store.dispatch(update({ transportButton }));
         }
       };

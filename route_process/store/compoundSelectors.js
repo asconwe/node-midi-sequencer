@@ -13,8 +13,8 @@ const selectNewTrackTimelineData = (state, index, { newN, newMultiplier }) => {
   return timelineIndexes.reduce((acc, messageIndex) => {
     const parsedMessageIndex = parseInt(messageIndex, 10);
     const newMessages = {};
-    for (let i = 0; i < product; i++) {
-      if (parsedMessageIndex + (currentTimelineLength * i) < newTimelineLength) {
+    for (let i = 0; i <= product; i++) {
+      if (parsedMessageIndex + (currentTimelineLength * i) <= newTimelineLength) {
         newMessages[parsedMessageIndex + (currentTimelineLength * i)] = currentTimeline[parsedMessageIndex];
       }
     }

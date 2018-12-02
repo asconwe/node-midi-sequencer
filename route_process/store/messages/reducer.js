@@ -6,7 +6,7 @@ const initialState = {
   // good spot for history
 };
 
-const routeIndexReducer = (state = initialState, action = {}) => {
+const messagesReducer = (state = initialState, action = {}) => {
   switch (action.type) {
     case constants.ADD_MESSAGE:
       return {
@@ -36,4 +36,4 @@ const routeIndexReducer = (state = initialState, action = {}) => {
   }
 };
 
-module.exports = routeIndexReducer;
+module.exports = messagesReducer;

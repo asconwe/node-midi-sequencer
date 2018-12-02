@@ -1,18 +1,12 @@
 const logger = require('../utils/logger');
+const store = require('./store');
+const { selectMessagesForPlayback } = require('./store/messages/selectors');
+const constants = require('./messageConstants');
+const { toMainProcess } = require('./messageCreators');
+const handleMidiMessage = require('./handleMidiMessage');
+const compoundActions = require('./store/compoundActions');
 
 try {
-  logger.info('here');
-  const store = require('./store');
-  logger.info('now');
-  const { selectMessagesForPlayback } = require('./store/messages/selectors');
-  const constants = require('./messageConstants');
-  const { toMainProcess } = require('./messageCreators');
-  const { addMessage } = require('./store/messages/actionCreators');
-  const handleMidiMessage = require('./handleMidiMessage');
-  const compoundActions = require('./store/compoundActions');
-
-  logger.info('route-process');
-
   const handleGetMidiMessages = (position) => {
     const state = store.getState();
     const midiMessages = selectMessagesForPlayback(state, position);
@@ -32,8 +26,7 @@ try {
     store.dispatch(action);
   };
 
-  const handleCompoundDispatch = process.on('message', (message) => {
-    logger.info('message');
+  process.on('message', (message) => {
     switch (message.type) {
       case constants.toRouteProcess.SET_MIDI_MESSAGE:
         handleMidiMessage(message.midiMessage, message.step);
@@ -45,8 +38,6 @@ try {
         handleDispatch(message.action);
         break;
       case constants.toRouteProcess.DO:
-        logger.info('constants.toRouteProcess.DO');
-        logger.info(`action ${message.action}`);
         compoundActions[message.action](...message.args);
         break;
       case constants.toRouteProcess.GET_STATE:

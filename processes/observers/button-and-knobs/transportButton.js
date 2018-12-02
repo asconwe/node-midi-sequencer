@@ -3,10 +3,14 @@ const store = require('../../../store');
 const observeStore = require('../../../utils/observeStore');
 const { selectTransportButtonState } = require('../../../store/buttons/selectors');
 const { toggleTransport } = require('../../../store/transport/actionCreators');
+const panic = require('../../../utils/panic');
 const handleButtonStateChange = require('./common/handleButtonStateChange');
+const { selectAllTracks } = require('../../../store/routes/selectors');
 
 const onPress = () => {
-  // no-op for now
+  const state = store.getState();
+  const routes = selectAllTracks(state);
+  routes.forEach(route => panic(route));
   store.dispatch(toggleTransport());
 };
 

@@ -9,7 +9,6 @@ let holdInterval;
 const stopHoldInterval = () => clearInterval(holdInterval);
 
 const startHoldIntervalThunk = func => () => {
-  logger.info('================ START HOLD INTERVAL');
   stopHoldInterval();
   holdInterval = setInterval(func, 50);
 };

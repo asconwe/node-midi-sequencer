@@ -25,12 +25,10 @@ module.exports = {
         // Button down event
         if (event.controllerValue === 127) {
           store.dispatch(buttonDown(target));
-          logger.info(`${target} button down event`);
           clearTimeout(buttonTimeout);
           buttonTimeout = setTimeout(() => {
             clearTimeout(buttonTimeout);
             store.dispatch(buttonPressAndHold(target));
-            logger.info(`${target} press and hold`);
           }, pressAndHoldDuration);
           return;
         }
@@ -38,7 +36,6 @@ module.exports = {
         clearTimeout(buttonTimeout);
         store.dispatch(buttonUp(target));
         store.dispatch(buttonPressAndHoldRelease(target));
-        logger.info(`${target} button up event`);
       }
     };
   },

@@ -6,7 +6,6 @@ const { incrementN, incrementMultiplier } = require('./length/actionCreators');
 const { replaceTimeline } = require('./messages/actionCreators');
 
 const changeLengthWithCopy = (index, { isN, newValue }) => {
-  logger.info('change length with copy');
   const state = store.getState();
   const n = selectN(state);
   const multiplier = selectMultiplier(state);

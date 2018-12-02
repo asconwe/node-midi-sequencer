@@ -26,7 +26,6 @@ const queryIfReload = async () => new Promise((resolve, reject) => {
 });
 
 const reloadConfig = async () => {
-  logger.info('relaod config');
   const doReload = await queryIfReload();
   if (doReload) {
     const oldState = oldStateJSON;

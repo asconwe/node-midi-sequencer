@@ -7,6 +7,7 @@ const { routeAction } = require('../../../store/routes/actionCreators');
 const routeProcessAction = require('../../../store/routes/route/routeProcessActionCreator');
 const { toRouteProcess } = require('../../../route_process/messageCreators');
 const { selectAllTracks } = require('../../../store/routes/selectors');
+const panic = require('../../../utils/panic');
 const {
   arm,
   disarm,
@@ -18,19 +19,9 @@ const {
   halveRecordingQuantization,
   clearTimeline,
 } = require('../../../store/routes/route/actionCreators.js');
-const { incrementNWithCopy, incrementMultiplierWithCopy } = require('../../../route_process/store/compoundActions');
-
-let holdInterval;
-
-const stopHoldInterval = () => clearInterval(holdInterval);
 
 const dispatchThunk = action => () => {
   store.dispatch(action);
-};
-
-const startHoldIntervalThunk = func => () => {
-  stopHoldInterval();
-  holdInterval = setInterval(func, 50);
 };
 
 const setLengthSubmenu = (index) => {
@@ -126,9 +117,12 @@ const setRecordingQuantization = index => ({
   pressAndHoldReleaseAction: dispatchThunk(clearInterceptor('control')),
 });
 
-const clear = index => ({
+const clear = (track, index) => ({
   name: 'clear track',
-  pressReleaseAction: () => routeProcessAction(index, clearTimeline()),
+  pressReleaseAction: () => {
+    routeProcessAction(index, clearTimeline());
+    panic(track);
+  },
 });
 
 module.exports = (track, index) => {
@@ -139,7 +133,7 @@ module.exports = (track, index) => {
     setN(index),
     setMultiplier(index),
     setRecordingQuantization(index),
-    clear(index),
+    clear(track, index),
   ]));
   store.dispatch(setMenuTitle(`track ${index}`));
 };
