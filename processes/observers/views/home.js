@@ -44,7 +44,7 @@ const populateDefaultHomeView = () => {
       name: `track ${index}`,
       pressReleaseAction: () => {
         dispatch(saveMenuAsPrevious());
-        renderTrackMenu(track, index);
+        renderTrackMenu(index);
       },
     })),
   ]));

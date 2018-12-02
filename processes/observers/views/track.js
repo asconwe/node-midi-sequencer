@@ -1,7 +1,9 @@
 const logger = require('../../../utils/logger');
 const store = require('../../../store');
 const { setInterceptor, clearInterceptor } = require('../../../store/knobs/actionCreators');
-const { setMenuItems, setMenuTitle, updateMenuItem } = require('../../../store/menus/actionCreators');
+const {
+  setMenuItems, setMenuTitle, updateMenuItem, saveMenuAsPrevious,
+} = require('../../../store/menus/actionCreators');
 const createBackAction = require('./restorePreviousMenu');
 const { routeAction } = require('../../../store/routes/actionCreators');
 const routeProcessAction = require('../../../store/routes/route/routeProcessActionCreator');
@@ -25,6 +27,7 @@ const dispatchThunk = action => () => {
 };
 
 const setLengthSubmenu = (index) => {
+  store.dispatch(saveMenuAsPrevious());
   const back = createBackAction();
   const state = store.getState();
   const route = selectAllTracks(state)[index];
@@ -125,8 +128,11 @@ const clear = (track, index) => ({
   },
 });
 
-module.exports = (track, index) => {
+module.exports = (index) => {
+  const state = store.getState();
+  const track = selectAllTracks(state)[index];
   const back = createBackAction();
+  logger.info(`track armed: ${track.armed}`);
   store.dispatch(setMenuItems([
     back,
     toggleArm(index, track.armed),

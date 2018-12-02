@@ -14,8 +14,9 @@ module.exports = {
       const movement = event.controllerValue - 64;
       store.dispatch(knobMove(target, movement));
       store.dispatch(knobReset(target));
+      const reason = { interjection: 'is control knob' };
+      throw reason; // prevents calling of next listener
     }
-    return null;
   },
 
   handleButtonEvent: target => (button) => {
@@ -36,6 +37,8 @@ module.exports = {
         clearTimeout(buttonTimeout);
         store.dispatch(buttonUp(target));
         store.dispatch(buttonPressAndHoldRelease(target));
+        const reason = { interjection: 'is control button' };
+        throw reason; // prevents calling of next listener
       }
     };
   },

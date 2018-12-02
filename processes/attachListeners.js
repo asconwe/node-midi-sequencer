@@ -4,7 +4,15 @@ const store = require('../store');
 const { selectControls } = require('../store/userControl/selectors');
 
 const callCombinedListeners = (listeners, parsedEvent) => {
-  listeners.forEach(listener => listener(parsedEvent));
+  try {
+    listeners.forEach(listener => listener(parsedEvent));
+  } catch (thrown) {
+    // if it is not an interjection, it is an error.
+    if (!thrown.interjection) {
+      logger.info('caught');
+      throw thrown;
+    }
+  }
 };
 
 const attachListeners = () => {
@@ -16,19 +24,6 @@ const attachListeners = () => {
     if (listeners[input.id] && listeners[input.id].length > 0) {
       input.onmidimessage = (event) => {
         const parsedEvent = MIDIMessage(event);
-        if (
-          (parsedEvent._event.currentTarget.id === controlButton.id
-            && parsedEvent.controllerNumber == controlButton.controllerNumber)
-        ) {
-          return listeners[controlButton.id][1](parsedEvent);
-        }
-        if (
-          (parsedEvent._event.currentTarget.id === controlKnob.id
-            && parsedEvent.controllerNumber == controlKnob.controllerNumber)
-        ) {
-          if (controlKnob.id === controlButton.id) return listeners[controlKnob.id][0](parsedEvent);
-          return listeners[controlKnob.id][1](parsedEvent);
-        }
         return callCombinedListeners(listeners[input.id], parsedEvent);
       };
     }
